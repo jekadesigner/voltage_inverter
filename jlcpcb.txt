@@ -1,0 +1,35 @@
+Base Material:                    FR4
+Layers:                           <определяется автоматически>
+Dimensions:                       <определяется автоматически>
+PCB Qty:                  (!)     <количество плат>
+Different Design:                 1
+Delivery Format:                  Single PCB
+PCB Thickness:            (!)     1.0
+PCB Color:                (!)     Black
+Silkscreen:                       White
+Surface Finish:                   HASL (with lead)
+Outer Copper Weight:              1 oz
+Gold Fingers:                     No
+Confirm Production file:          No
+Flying Probe Test:                Fully Test
+Castellated Holes:                No
+Remove Order Number:              No
+
+ADVANCED OPTIONS
+
+4-Wire Kelvin Test:               No
+Paper between PCBs:               No
+Appearance Quality:               IPC Class 2 Standard
+
+STENCIL
+
+Framework:                        No
+Step Stencil:                     No
+Dimensions:                       <оставить без изменений>
+Customized size:          (!)     Yes (120x120)
+Stencil Side:             (!)     TOP
+Stencil Qty:                      <определяется автоматически>
+Polishing Process:                Sanding
+Fiducials:                        No Fiducial
+Confirm Production file:          No
+Engrave Text                      No
