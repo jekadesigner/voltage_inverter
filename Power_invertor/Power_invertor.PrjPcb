@@ -58,6 +58,23 @@ GenerateClassCluster=0
 DocumentUniqueId=FSXMRDBX
 
 [Document2]
+DocumentPath=LIBs\Passive_components\CAP_3.3uF_630V.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LFUGKWIA
+
+[Document3]
 DocumentPath=..\..\..\..\Downloads\altium-library-main\altium-library-main\symbols\ADS1115.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -73,6 +90,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PAEPDQLE
+
+[Document4]
+DocumentPath=LIBs\Passive_components\CAP_3.3uF_630V.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FFHBUSIR
 
 [Configuration1]
 Name=Sources
