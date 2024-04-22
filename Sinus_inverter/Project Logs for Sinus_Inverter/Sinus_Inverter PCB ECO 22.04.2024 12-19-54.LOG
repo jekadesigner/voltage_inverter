@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=R14 Old Footprint=RES-1206 New Footprint=RES-0805
+Change Component Footprint: Designator=R19 Old Footprint=RES-1206 New Footprint=RES-0805
+Change Component Footprint: Designator=R22 Old Footprint=RES-1206 New Footprint=RES-0805
+Added Room: Name=Sinus_Inverter

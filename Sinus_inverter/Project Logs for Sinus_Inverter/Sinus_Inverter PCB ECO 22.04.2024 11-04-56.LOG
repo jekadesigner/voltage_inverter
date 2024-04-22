@@ -1,0 +1,12 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C14
+Change Component Designator: OldDesignator=L? NewDesignator=L2
+Change Component Designator: OldDesignator=VD? NewDesignator=VD5
+Change Component Designator: OldDesignator=VD? NewDesignator=VD6
+Change Component Designator: OldDesignator=VD? NewDesignator=VD7
+Change Component Designator: OldDesignator=VD? NewDesignator=VD8
+Add Component: Footprint Not Found Conn_MEIGAN_MG136HT
+Add Class Member: Failed to add class member : Component J10 MG_136_HT
+Added Member To Class: ClassName=Sinus_Inverter Member=Component VD5 SMBJ15A
+Added Member To Class: ClassName=Sinus_Inverter Member=Component VD7 SMBJ15A
+Added Member To Class: ClassName=Sinus_Inverter Member=Component VD8 SMBJ15A
+Added Room: Name=Sinus_Inverter
