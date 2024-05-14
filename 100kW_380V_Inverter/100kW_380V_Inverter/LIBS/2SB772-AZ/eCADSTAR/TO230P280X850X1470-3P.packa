@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "2SB772-AZ"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-03-05-08:10:30)
+    (mountForm default
+        (footprintRef "TO230P280X850X1470-3P")
+        (spec "System")
+    )
+)

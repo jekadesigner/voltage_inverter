@@ -1,0 +1,10 @@
+chipizdry@gmail.com
+bS1210831500
+C:\Users\Администратор\Downloads\Библиотеки Altium\LIB_293D106X9050E2TE3\293D106X9050E2TE3\Altium
+C:\Users\Администратор\Documents\AltiumLL\SamacSys.SchLib
+C:\Users\Администратор\Documents\AltiumLL\SamacSys.PcbLib
+0
+
+80
+True
+True

@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=293D106X9050E2TE3
+PartCategory=Capacitor Polarised
+PackageCategory=Capacitor Moulded Polarised
+PinCount=2
+Version=2.1
+Released=2016-06-23 15:19:32
+Downloaded=2022-06-20 16:45:12
+3D=Y

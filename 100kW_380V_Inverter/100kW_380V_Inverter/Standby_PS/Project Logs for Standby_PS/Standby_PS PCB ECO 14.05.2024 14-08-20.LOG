@@ -1,0 +1,104 @@
+Removed Pin From Net: NetName=NetC21_1 Pin=C21-1
+Removed Pin From Net: NetName=GND_1 Pin=C21-2
+Removed Pin From Net: NetName=NetC25_1 Pin=C25-1
+Removed Pin From Net: NetName=GND_1 Pin=C25-2
+Removed Pin From Net: NetName=NetC22_1 Pin=R21-1
+Removed Pin From Net: NetName=NetC23_1 Pin=R22-1
+Removed Pin From Net: NetName=NetC22_1 Pin=R22-2
+Removed Pin From Net: NetName=NetR33_2 Pin=VD13-1
+Removed Pin From Net: NetName=NetC?_1 Pin=VD13-2
+Change Component Footprint: Designator=C21 Old Footprint=FP-C0805C-DN-IPC_A New Footprint=CAP-0805
+Change Component Footprint: Designator=C25 Old Footprint=FP-C0805C-DN-IPC_A New Footprint=CAP-0805
+Change Component Footprint: Designator=R21 Old Footprint=RES_SMD_1210_IPC_A New Footprint=R-2512
+Change Component Footprint: Designator=R22 Old Footprint=RES_SMD_1210_IPC_A New Footprint=R-2512
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Component Comment : Designator=C21 Old Comment=50V 1uF New Comment=0.1uF
+Change Component Comment : Designator=C25 Old Comment=50V 1uF New Comment=0.1uF
+Change Component Comment : Designator=VD12 Old Comment=DIODE New Comment=
+Change Component Comment : Designator=R21 Old Comment=RES_1210 New Comment=*
+Change Component Comment : Designator=R22 Old Comment=RES_1210 New Comment=*
+Change Component Designator: OldDesignator= NewDesignator=K1
+Change Component Designator: OldDesignator=C? NewDesignator=C44
+Change Component Designator: OldDesignator=R? NewDesignator=R41
+Change Managed Component Library Link : Designator=C21 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=B9488122-88ED-4EC5-84F7-203174F09D93 New ItemGUID= Old RevisionGUID=3073E26B-F5D9-41D4-961E-5BC2B966745A New RevisionGUID=
+Change Managed Component Library Link : Designator=C25 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=B9488122-88ED-4EC5-84F7-203174F09D93 New ItemGUID= Old RevisionGUID=3073E26B-F5D9-41D4-961E-5BC2B966745A New RevisionGUID=
+Change component parameters: Designator = "C21" ("C21"); Footprint = "FP-C0805C-DN-IPC_A"; UniqueID = "\WNBLFHSU" ("\WNBLFHSU")
+Change component parameters: Designator = "C25" ("C25"); Footprint = "FP-C0805C-DN-IPC_A"; UniqueID = "\HDMXITXO" ("\HDMXITXO")
+Change component parameters: Designator = "R21" ("R21"); Footprint = "RES_SMD_1210_IPC_A"; UniqueID = "\HNCZYYBU" ("\HNCZYYBU")
+Change component parameters (AddParameter): Name = "ComponentDescription"; Value = "Резистор SMD, R-2512, *Ом, 5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentType"; Value = "Резистор SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "R-2512"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R22" ("R22"); Footprint = "RES_SMD_1210_IPC_A"; UniqueID = "\FUSBPJUO" ("\FUSBPJUO")
+Change component parameters (AddParameter): Name = "ComponentDescription"; Value = "Резистор SMD, R-2512, *Ом, 5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentType"; Value = "Резистор SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "R-2512"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "VD12" ("VD12"); Footprint = "SOD-123"; UniqueID = "\WPLQJFYO" ("\WPLQJFYO")
+Change component parameters (AddParameter): Name = "Brand"; Value = "DiodesIncorporated"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet URL"; Value = "http://www.farnell.com/datasheets/1915529.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "Rev. 24-2, 10/2013"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Factory Pack Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "1.25mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "If - Forward Current"; Value = "0.15A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ir - Reverse Current"; Value = "1uA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "2.85mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "DiodesIncorporated"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://www.diodes.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Surge Current"; Value = "2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Maximum Operating Temperature"; Value = "+150C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Minimum Operating Temperature"; Value = "-65C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Style"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature Range"; Value = "-65Cto+150C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "SOD-123"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Reference"; Value = "SOD123-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package URL"; Value = "http://www.diodes.com/datasheets/ds18004.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Peak Reverse Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Product"; Value = "SwitchingDiodes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Product Category"; Value = "Diodes-GeneralPurpose,Power,Switching"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Recovery Time"; Value = "4ns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "1N4148"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "SwitchingDiode"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Unit Weight"; Value = "0.000353oz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vf - Forward Voltage"; Value = "1.25V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "1.7mm"; VariantName = "[No Variations]"
+Added Component: Designator=R42(R-2512)
+Add component (AddParameter): Name = "ComponentDescription"; Value = "Резистор SMD, R-2512, *Ом, 5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentType"; Value = "Резистор SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "R-2512"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R43(R-2512)
+Add component (AddParameter): Name = "ComponentDescription"; Value = "Резистор SMD, R-2512, *Ом, 5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentType"; Value = "Резистор SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "R-2512"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R44(RES-0805)
+Add Component: Footprint Not Found DIOD-SOD123-2_V
+Added Pin To Net: NetName=GND_1 Pin=C21-1
+Added Pin To Net: NetName=NetC21_1 Pin=C21-2
+Added Pin To Net: NetName=GND_1 Pin=C25-1
+Added Pin To Net: NetName=NetC25_1 Pin=C25-2
+Added Pin To Net: NetName=NetC22_1 Pin=R22-1
+Added Pin To Net: NetName=NetC22_1 Pin=R42-2
+Added Pin To Net: NetName=NetC23_1 Pin=R43-1
+Added Pin To Net: NetName=GND_1 Pin=R44-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R44-2
+Add Pin To Net: Unknown Pin: Pin VD6-1
+Add Pin To Net: Unknown Pin: Pin VD6-2
+Change Net Name : Old Net Name=NetC21_1 New Net Name=NetC21_2
+Change Net Name : Old Net Name=NetC25_1 New Net Name=NetC25_2
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC44_1
+Change Net Name : Old Net Name=NetC?_2 New Net Name=NetC44_2
+Added Pin To Net: NetName=NetR21_1 Pin=R21-1
+Added Pin To Net: NetName=NetR21_1 Pin=R22-2
+Added Net: Name=NetR21_1
+Added Pin To Net: NetName=NetR42_1 Pin=R42-1
+Added Pin To Net: NetName=NetR42_1 Pin=R43-2
+Added Net: Name=NetR42_1

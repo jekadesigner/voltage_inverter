@@ -1,0 +1,148 @@
+# Created by Ultra Librarian Gold 8.3.307 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "RC1210N_PAN")
+Pad (Name "1") (Location -55.1180191, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 43.30702972, 98.42500305) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 55.1180191, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 43.30702972, 98.42500305) (Shape Rectangular) (Layer Top)
+EndPad
+Line (Width 6) (Start -86.77149963, -59.21250153) (End -86.77149963, 59.21250153) (Layer Mechanical15) 
+Line (Width 6) (Start -86.77149963, 59.21250153) (End 86.77149963, 59.21250153) (Layer Mechanical15) 
+Line (Width 6) (Start 86.77149963, 59.21250153) (End 86.77149963, -59.21250153) (Layer Mechanical15) 
+Line (Width 6) (Start 86.77149963, -59.21250153) (End -86.77149963, -59.21250153) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-86.77149963, -59.21250153)
+Point (-86.77149963, 59.21250153)
+Point (86.77149963, 59.21250153)
+Point (86.77149963, -59.21250153)
+EndPolygon
+Polygon (PointCount 4) (Layer Mechanical5) 
+Point (-91.77149963, -64.21250153)
+Point (-91.77149963, 64.21250153)
+Point (91.77149963, 64.21250153)
+Point (91.77149963, -64.21250153)
+EndPolygon
+Line (Width 6) (Start -21.35624219, -54.21250153) (End 21.35624219, -54.21250153) (Layer TopOverlay) 
+Line (Width 6) (Start 21.35624219, 54.21250153) (End -21.35624219, 54.21250153) (Layer TopOverlay) 
+Line (Width 1) (Start -33.46450043, -49.21250153) (End -33.46450043, 49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start -33.46450043, 49.21250153) (End -62.99200058, 49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start -62.99200058, 49.21250153) (End -62.99200058, -49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start -62.99200058, -49.21250153) (End -33.46450043, -49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start 33.46450043, 49.21250153) (End 33.46450043, -49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start 33.46450043, -49.21250153) (End 62.99200058, -49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start 62.99200058, -49.21250153) (End 62.99200058, 49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start 62.99200058, 49.21250153) (End 33.46450043, 49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start -62.99200058, -49.21250153) (End 62.99200058, -49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start 62.99200058, -49.21250153) (End 62.99200058, 49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start 62.99200058, 49.21250153) (End -62.99200058, 49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start -62.99200058, 49.21250153) (End -62.99200058, -49.21250153) (Layer Mechanical13) 
+Step (Name RC1210N_PAN.step)
+EndFootprint
+
+Footprint (Name "RC1210N_PAN-M")
+Pad (Name "1") (Location -59.05501938, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 51.18104172, 100.39350128) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 59.05501938, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 51.18104172, 100.39350128) (Shape Rectangular) (Layer Top)
+EndPad
+Line (Width 6) (Start -104.64550018, -70.19674683) (End -104.64550018, 70.19674683) (Layer Mechanical15) 
+Line (Width 6) (Start -104.64550018, 70.19674683) (End 104.64550018, 70.19674683) (Layer Mechanical15) 
+Line (Width 6) (Start 104.64550018, 70.19674683) (End 104.64550018, -70.19674683) (Layer Mechanical15) 
+Line (Width 6) (Start 104.64550018, -70.19674683) (End -104.64550018, -70.19674683) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-104.64550018, -70.19674683)
+Point (-104.64550018, 70.19674683)
+Point (104.64550018, 70.19674683)
+Point (104.64550018, -70.19674683)
+EndPolygon
+Polygon (PointCount 4) (Layer Mechanical5) 
+Point (-99.64550018, -65.19674683)
+Point (-99.64550018, 65.19674683)
+Point (99.64550018, 65.19674683)
+Point (99.64550018, -65.19674683)
+EndPolygon
+Line (Width 6) (Start -20.995186, -54.21250153) (End 20.995186, -54.21250153) (Layer TopOverlay) 
+Line (Width 6) (Start 20.995186, 54.21250153) (End -20.995186, 54.21250153) (Layer TopOverlay) 
+Line (Width 1) (Start -33.46450043, -49.21250153) (End -33.46450043, 49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start -33.46450043, 49.21250153) (End -62.99200058, 49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start -62.99200058, 49.21250153) (End -62.99200058, -49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start -62.99200058, -49.21250153) (End -33.46450043, -49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start 33.46450043, 49.21250153) (End 33.46450043, -49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start 33.46450043, -49.21250153) (End 62.99200058, -49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start 62.99200058, -49.21250153) (End 62.99200058, 49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start 62.99200058, 49.21250153) (End 33.46450043, 49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start -62.99200058, -49.21250153) (End 62.99200058, -49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start 62.99200058, -49.21250153) (End 62.99200058, 49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start 62.99200058, 49.21250153) (End -62.99200058, 49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start -62.99200058, 49.21250153) (End -62.99200058, -49.21250153) (Layer Mechanical13) 
+Step (Name RC1210N_PAN.step)
+EndFootprint
+
+Footprint (Name "RC1210N_PAN-L")
+Pad (Name "1") (Location -51.1810112, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 35.4330101, 96.45649719) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 51.1810112, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 35.4330101, 96.45649719) (Shape Rectangular) (Layer Top)
+EndPad
+Line (Width 6) (Start -72.89749908, -52.2282486) (End -72.89749908, 52.2282486) (Layer Mechanical15) 
+Line (Width 6) (Start -72.89749908, 52.2282486) (End 72.89749908, 52.2282486) (Layer Mechanical15) 
+Line (Width 6) (Start 72.89749908, 52.2282486) (End 72.89749908, -52.2282486) (Layer Mechanical15) 
+Line (Width 6) (Start 72.89749908, -52.2282486) (End -72.89749908, -52.2282486) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-72.89749908, -52.2282486)
+Point (-72.89749908, 52.2282486)
+Point (72.89749908, 52.2282486)
+Point (72.89749908, -52.2282486)
+EndPolygon
+Polygon (PointCount 4) (Layer Mechanical5) 
+Point (-83.89749908, -63.2282486)
+Point (-83.89749908, 63.2282486)
+Point (83.89749908, 63.2282486)
+Point (83.89749908, -63.2282486)
+EndPolygon
+Line (Width 6) (Start -21.81123507, -54.21250153) (End 21.81123507, -54.21250153) (Layer TopOverlay) 
+Line (Width 6) (Start 21.81123507, 54.21250153) (End -21.81123507, 54.21250153) (Layer TopOverlay) 
+Line (Width 1) (Start -33.46450043, -49.21250153) (End -33.46450043, 49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start -33.46450043, 49.21250153) (End -62.99200058, 49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start -62.99200058, 49.21250153) (End -62.99200058, -49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start -62.99200058, -49.21250153) (End -33.46450043, -49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start 33.46450043, 49.21250153) (End 33.46450043, -49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start 33.46450043, -49.21250153) (End 62.99200058, -49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start 62.99200058, -49.21250153) (End 62.99200058, 49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start 62.99200058, 49.21250153) (End 33.46450043, 49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start -62.99200058, -49.21250153) (End 62.99200058, -49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start 62.99200058, -49.21250153) (End 62.99200058, 49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start 62.99200058, 49.21250153) (End -62.99200058, 49.21250153) (Layer Mechanical13) 
+Line (Width 1) (Start -62.99200058, 49.21250153) (End -62.99200058, -49.21250153) (Layer Mechanical13) 
+Step (Name RC1210N_PAN.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "ERJ-14YJ242U") (PartCount 1) (DesPrefix "R?")
+Pin (Location 100, 0) (Rotation 180) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "2") (Name Visible "2") (PinSwap 1) (PartSwap 0) (PinSeq 2) (Part 1)
+Pin (Location 400, 0) (Rotation 0) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "1") (Name Hidden "1") (PinSwap 1) (PartSwap 0) (PinSeq 1) (Part 1)
+Line (Width 8) (Start 125, 50) (End 175, -50) (Part 1)
+Line (Width 8) (Start 175, -50) (End 225, 50) (Part 1)
+Line (Width 8) (Start 225, 50) (End 275, -50) (Part 1)
+Line (Width 8) (Start 275, -50) (End 325, 50) (Part 1)
+Line (Width 8) (Start 325, 50) (End 375, -50) (Part 1)
+Line (Width 8) (Start 100, 0) (End 125, 50) (Part 1)
+Line (Width 8) (Start 375, -50) (End 400, 0) (Part 1)
+Parameter (Name "Copyright") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Copyright (C) 2022 Ultra Librarian. All rights reserved.") (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Panasonic") (Part 1)
+Parameter (Name "Manufacturer_Part_Number") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "ERJ-14YJ242U") (Part 1)
+Parameter (Name "RefDes") (Location 225, 150) (Height 137) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Parameter (Name "Type") (Location 250, -275) (Height 137) (Rotation 0) (Justification Center) (Value "DEV") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Comment (Value "ERJ-14YJ242U") (Part 1)
+Footprint (Name "RC1210N_PAN")
+EndComponent
+EndComponents

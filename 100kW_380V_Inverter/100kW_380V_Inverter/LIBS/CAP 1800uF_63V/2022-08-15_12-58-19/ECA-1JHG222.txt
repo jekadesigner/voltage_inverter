@@ -1,0 +1,71 @@
+# Created by Ultra Librarian Gold 8.3.307 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "PCAP_18x355_PAN")
+Pad (Name "1") (Location 0, 0) (HoleSize 42) (Surface False) (Rotation 0) (ExpandMask 0)
+PadShape (Size 60, 60) (Shape Rectangular) (Layer Top)
+PadShape (Size 60, 60) (Shape Rectangular) (Layer Bottom)
+PadShape (Size 60, 60) (Shape Rectangular) (Layer MidLayer)
+EndPad
+Pad (Name "2") (Location 296, 0) (HoleSize 42) (Surface False) (Rotation 180) (ExpandMask 0)
+PadShape (Size 60, 60) (Shape Rounded) (Layer Top)
+PadShape (Size 60, 60) (Shape Rounded) (Layer Bottom)
+PadShape (Size 60, 60) (Shape Rounded) (Layer MidLayer)
+EndPad
+Line (Width 1) (Start -2.0881958, 364.5) (End 298.0881958, 364.5) (Layer Mechanical15) 
+Line (Width 1) (Start 298.0881958, 364.5) (End 512.5, 150.0881958) (Layer Mechanical15) 
+Line (Width 1) (Start 512.5, 150.0881958) (End 512.5, -150.0881958) (Layer Mechanical15) 
+Line (Width 1) (Start 512.5, -150.0881958) (End 298.0881958, -364.5) (Layer Mechanical15) 
+Line (Width 1) (Start 298.0881958, -364.5) (End -2.0881958, -364.5) (Layer Mechanical15) 
+Line (Width 1) (Start -2.0881958, -364.5) (End -216.5, -150.0881958) (Layer Mechanical15) 
+Line (Width 1) (Start -216.5, -150.0881958) (End -216.5, 150.0881958) (Layer Mechanical15) 
+Line (Width 1) (Start -216.5, 150.0881958) (End -2.0881958, 364.5) (Layer Mechanical15) 
+Polygon (PointCount 8) (Layer Mechanical15) 
+Point (-2.0881958, 364.5)
+Point (298.0881958, 364.5)
+Point (512.5, 150.0881958)
+Point (512.5, -150.0881958)
+Point (298.0881958, -364.5)
+Point (-2.0881958, -364.5)
+Point (-216.5, -150.0881958)
+Point (-216.5, 150.0881958)
+EndPolygon
+Polygon (PointCount 4) (Layer Mechanical5) 
+Point (-331.5, -479.5)
+Point (-331.5, 479.5)
+Point (627.5, 479.5)
+Point (627.5, -479.5)
+EndPolygon
+Line (Width 6) (Start -266.5, 0) (End -216.5, 0) (Layer TopOverlay) 
+Line (Width 6) (Start -241.5, 25) (End -241.5, -25) (Layer TopOverlay) 
+Arc (Width 6) (Radius 359.5) (Location 148, 0) (StartAngle 0) (EndAngle 360) (Layer TopOverlay) 
+Line (Width 1) (Start -266.5, 0) (End -216.5, 0) (Layer Mechanical13) 
+Line (Width 1) (Start -241.5, 25) (End -241.5, -25) (Layer Mechanical13) 
+Arc (Width 0) (Radius 354.5) (Location 148, 0) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Step (Name PCAP_18x355_PAN.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "ECA-1JHG222") (PartCount 1) (DesPrefix "C?")
+Pin (Location 200, 0) (Rotation 0) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "2") (Name Hidden "2") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Pin (Location 100, 0) (Rotation 180) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "1") (Name Hidden "1") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Line (Width 8) (Start 87, 25) (End 87, 75) (Part 1)
+Line (Width 8) (Start 162, 0) (End 200, 0) (Part 1)
+Line (Width 8) (Start 137, -75) (End 137, 75) (Part 1)
+Line (Width 8) (Start 62, 50) (End 112, 50) (Part 1)
+Line (Width 8) (Start 100, 0) (End 137, 0) (Part 1)
+Arc (Width 10) (Radius 125) (Location 287, 0) (StartAngle 143) (EndAngle 217) (Part 1)
+Parameter (Name "Copyright") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Copyright (C) 2022 Ultra Librarian. All rights reserved.") (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Panasonic") (Part 1)
+Parameter (Name "Manufacturer_Part_Number") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "ECA-1JHG222") (Part 1)
+Parameter (Name "RefDes") (Location 150, 150) (Height 137) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Parameter (Name "Type") (Location 150, -300) (Height 137) (Rotation 0) (Justification Center) (Value "DEV") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Comment (Value "ECA-1JHG222") (Part 1)
+Footprint (Name "PCAP_18x355_PAN")
+EndComponent
+EndComponents

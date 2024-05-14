@@ -1,0 +1,9 @@
+Manufacturer=Renesas Electronics
+PartNumber=2SB772-AZ
+PartCategory=Transistor BJT PNP
+PackageCategory=Transistor Outline, Vertical
+PinCount=3
+Version=1.1
+Released=2021-03-05 08:10:30
+Downloaded=2022-09-30 08:34:49
+3D=Y

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "BC847B_215"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "SOT95P230X110-3N")
+        (spec "System")
+    )
+)

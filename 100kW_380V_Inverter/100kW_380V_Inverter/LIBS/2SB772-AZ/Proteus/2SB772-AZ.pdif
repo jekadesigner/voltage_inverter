@@ -1,0 +1,148 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "2SB772-AZ"
+   (description "Renesas Electronics 2SB772-AZ PNP Bipolar Transistor, 3 A, 30 V, 3-Pin MP-5")
+   (family "TRX")
+   (package "TO230P280X850X1470-3P")
+   (attribute "Datasheet Link" "https://docs.rs-online.com/7cfa/0900766b811ae1f4.pdf")
+   (attribute "Geometry.Height" "2.8mm")
+   (attribute "Manufacturer_Name" "Renesas Electronics")
+   (attribute "Manufacturer_Part_Number" "2SB772-AZ")
+   (attribute "Mouser Part Number" "N/A")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Renesas-Electronics/2SB772-AZ?qs=pUKx8fyJudC3Nl1y55BjMA%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (attribute "Mouser Testing Part Number" "")
+   (attribute "Mouser Testing Price/Stock" "")
+   (gate
+    (symbol "2SB772-AZ")
+    (pin "B" 3 PS)
+    (pin "E" 1 PS)
+    (pin "C" 2 PS)
+   )
+  )
+  (symbol "2SB772-AZ"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (circle (pt 400 150) (pt 300 -150))
+   )
+   (graphic
+    (stroke 20)
+    (path (pt 300 100) (pt 300 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 50) (pt 400 150))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 -50) (pt 400 -150))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 -150) (pt 400 -200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 150) (pt 400 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 380 -110) (pt 360 -130) (pt 340 -90) (pt 380 -110))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 400 -300) (rot 90) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 400 300) (rot 90) (mir X) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TO230P280X850X1470-3P"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.2 1.765)
+      (pt 6.8 1.765)
+      (pt 6.8 -1.535)
+      (pt -2.2 -1.535)
+      (pt -2.2 1.765))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.95 1.515)
+      (pt 6.55 1.515)
+      (pt 6.55 -1.285)
+      (pt -1.95 -1.285)
+      (pt -1.95 1.515))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.95 0.365)
+      (pt -0.8 1.515))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 6.55 -1.285)
+      (pt 6.55 1.515)
+      (pt -1.95 1.515)
+      (pt -1.95 0))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 2.3 0) (padstack 0))
+   (leg 3 (pt 4.6 0) (padstack 0))
+   (padstack 0
+    (hole 1.28)
+    (plated true)
+    (pad (layer TCOP) (round 1.92))
+    (pad (layer INNER) (round 1.92))
+    (pad (layer BCOP) (round 1.92))
+   )
+   (padstack 1
+    (hole 1.28)
+    (plated true)
+    (pad (layer TCOP) (square 1.92))
+    (pad (layer INNER) (round 1.92))
+    (pad (layer BCOP) (square 1.92))
+   )
+   (model "2SB772-AZ.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

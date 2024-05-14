@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BC847B_215'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nexperia", "BC847B,215" (!) = "", "SOT95P230X110-3N", "SOT23 (3-Pin)", "771-BC847B-T/R", "https://www.mouser.co.uk/ProductDetail/Nexperia/BC847B215?qs=me8TqzrmIYXXIdUoxWnHgw%3D%3D", "BC847B,215", "https://www.arrow.com/en/products/bc847b215/nexperia?region=nac", "BC847 series - 45 V, 100 mA NPN general-purpose transistors", "http://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf", "1.1 mm"
+END_PART
+
+END.

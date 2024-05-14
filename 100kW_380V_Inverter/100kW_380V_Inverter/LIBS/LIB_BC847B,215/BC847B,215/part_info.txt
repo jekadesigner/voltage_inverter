@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=BC847B,215
+PartCategory=Transistor BJT NPN
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=2.1
+Released=2017-04-27 19:04:24
+Downloaded=2022-06-15 14:51:35
+3D=Y

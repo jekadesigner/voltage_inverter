@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=EEEFK1J100L
+PartCategory=Capacitor Polarised
+PackageCategory=Other
+PinCount=2
+Version=4.4
+Released=2021-09-30 12:47:35
+Downloaded=2022-07-29 12:37:33
+3D=Y

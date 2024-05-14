@@ -1,0 +1,18 @@
+.BC847B_215 :1 ;BC847 series - 45 V, 100 mA NPN general-purpose transistors
+SOT95P230X110-3N
+*STM Q
+*NGS
+*PLB 1="B" 2="E" 3="C"
+*MXP 3
+*DFN BC847B_215
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (BC847B,215)
+~!Mouser Part Number (771-BC847B-T/R)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nexperia/BC847B215?qs=me8TqzrmIYXXIdUoxWnHgw%3D%3D)
+~!Arrow Part Number (BC847B,215)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/bc847b215/nexperia?region=nac)
+~!Link Datasheet (http://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf)
+~!Height (1.1mm)
+~!3D_Model (BC847B,215)
+BC847B_215
+1.1!U 2.1!U 3.1!U 

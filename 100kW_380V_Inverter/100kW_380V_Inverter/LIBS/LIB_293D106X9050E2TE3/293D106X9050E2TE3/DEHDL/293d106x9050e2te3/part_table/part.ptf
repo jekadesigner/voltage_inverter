@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '293D106X9050E2TE3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "293D106X9050E2TE3" (!) = "", "CAPPM7343X430N", "Capacitor Moulded Polarised", "74-293D106X9050E2TE3", "https://www.mouser.com/Search/Refine.aspx?Keyword=74-293D106X9050E2TE3", "293D106X9050E2TE3", "https://www.arrow.com/en/products/293d106x9050e2te3/vishay", "Solid Tantalum Surface Mount Chip Capacitors TANTAMOUNT(TM), Molded Case, Standard Industrial Grade", "http://www.vishay.com/doc?40002", "4.3 mm"
+END_PART
+
+END.
