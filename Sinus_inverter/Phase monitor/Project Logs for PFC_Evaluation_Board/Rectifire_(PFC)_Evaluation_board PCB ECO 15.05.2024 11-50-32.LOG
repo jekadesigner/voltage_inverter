@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=NetD1_2 Pin=J5-1
+Removed Pin From Net: NetName=NetD1_2 Pin=J6-1
+Removed Pin From Net: NetName=NetD2_2 Pin=J8-1
+Removed Pin From Net: NetName=NetD2_2 Pin=J9-1
+Removed Pin From Net: NetName=NetD3_2 Pin=J10-1
+Removed Pin From Net: NetName=NetD3_2 Pin=J11-1
+Removed Member From Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=J5
+Removed Member From Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=J6
+Removed Member From Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=J8
+Removed Member From Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=J9
+Removed Member From Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=J10
+Removed Member From Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=J11
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found FP-DO-201AD-MFG
+Change Footprint: Footprint Not Found FP-DO-201AD-MFG
+Change Footprint: Footprint Not Found FP-DO-201AD-MFG
+Add Component: Footprint Not Found MDS100
+Add Pin To Net: Unknown Pin: Pin U1-1
+Add Pin To Net: Unknown Pin: Pin U1-2
+Add Pin To Net: Unknown Pin: Pin U1-3
+Add Class Member: Failed to add class member : Component U1 MDS100

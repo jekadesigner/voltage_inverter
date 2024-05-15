@@ -1,0 +1,123 @@
+Removed Pin From Net: NetName=NetD1_2 Pin=R11-2
+Removed Pin From Net: NetName=NetC9_2 Pin=R16-1
+Removed Pin From Net: NetName=NetD2_2 Pin=R24-2
+Removed Pin From Net: NetName=NetC16_2 Pin=R29-1
+Removed Pin From Net: NetName=NetD3_2 Pin=R37-2
+Removed Pin From Net: NetName=NetC23_2 Pin=R42-1
+Removed Member From Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=R11
+Removed Member From Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=R13
+Removed Member From Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=R16
+Removed Member From Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=R24
+Removed Member From Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=R26
+Removed Member From Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=R29
+Removed Member From Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=R37
+Removed Member From Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=R39
+Removed Member From Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=R42
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found FP-DO-201AD-MFG
+Change Footprint: Footprint Not Found FP-DO-201AD-MFG
+Change Footprint: Footprint Not Found FP-DO-201AD-MFG
+Change Component Comment : Designator=R14 Old Comment=4.7K New Comment=1K
+Change Component Comment : Designator=R27 Old Comment=4.7K New Comment=1K
+Change Component Comment : Designator=R40 Old Comment=4.7K New Comment=1K
+Change Component Comment : Designator=R18 Old Comment=10K 1% New Comment=1K 1%
+Change Component Comment : Designator=R31 Old Comment=10K 1% New Comment=1K 1%
+Change Component Comment : Designator=R44 Old Comment=10K 1% New Comment=1K 1%
+Added Component: Designator=R1(R-2512)
+Add component (AddParameter): Name = "ComponentDescription"; Value = "Резистор SMD, R-2512, *Ом, 5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentType"; Value = "Резистор SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "R-2512"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R2(R-2512)
+Add component (AddParameter): Name = "ComponentDescription"; Value = "Резистор SMD, R-2512, *Ом, 5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentType"; Value = "Резистор SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "R-2512"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R3(R-2512)
+Add component (AddParameter): Name = "ComponentDescription"; Value = "Резистор SMD, R-2512, *Ом, 5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentType"; Value = "Резистор SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "R-2512"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R4(R-2512)
+Add component (AddParameter): Name = "ComponentDescription"; Value = "Резистор SMD, R-2512, *Ом, 5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentType"; Value = "Резистор SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "R-2512"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R5(R-2512)
+Add component (AddParameter): Name = "ComponentDescription"; Value = "Резистор SMD, R-2512, *Ом, 5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentType"; Value = "Резистор SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "R-2512"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R6(R-2512)
+Add component (AddParameter): Name = "ComponentDescription"; Value = "Резистор SMD, R-2512, *Ом, 5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentType"; Value = "Резистор SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "R-2512"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R7(R-2512)
+Add component (AddParameter): Name = "ComponentDescription"; Value = "Резистор SMD, R-2512, *Ом, 5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentType"; Value = "Резистор SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "R-2512"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R8(R-2512)
+Add component (AddParameter): Name = "ComponentDescription"; Value = "Резистор SMD, R-2512, *Ом, 5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentType"; Value = "Резистор SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "R-2512"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R9(R-2512)
+Add component (AddParameter): Name = "ComponentDescription"; Value = "Резистор SMD, R-2512, *Ом, 5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentType"; Value = "Резистор SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "R-2512"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD1_2 Pin=R1-2
+Added Pin To Net: NetName=NetC9_2 Pin=R3-1
+Added Pin To Net: NetName=NetD2_2 Pin=R4-2
+Added Pin To Net: NetName=NetC16_2 Pin=R6-1
+Added Pin To Net: NetName=NetD3_2 Pin=R7-2
+Added Pin To Net: NetName=NetC23_2 Pin=R9-1
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=R2-2
+Added Net: Name=NetR1_1
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=R3-2
+Added Net: Name=NetR2_1
+Added Pin To Net: NetName=NetR4_1 Pin=R4-1
+Added Pin To Net: NetName=NetR4_1 Pin=R5-2
+Added Net: Name=NetR4_1
+Added Pin To Net: NetName=NetR5_1 Pin=R5-1
+Added Pin To Net: NetName=NetR5_1 Pin=R6-2
+Added Net: Name=NetR5_1
+Added Pin To Net: NetName=NetR7_1 Pin=R7-1
+Added Pin To Net: NetName=NetR7_1 Pin=R8-2
+Added Net: Name=NetR7_1
+Added Pin To Net: NetName=NetR8_1 Pin=R8-1
+Added Pin To Net: NetName=NetR8_1 Pin=R9-2
+Added Net: Name=NetR8_1
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component R1 330K
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component R2 330K
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component R3 330K
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component R4 330K
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component R5 330K
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component R6 330K
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component R7 330K
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component R8 330K
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component R9 330K

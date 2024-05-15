@@ -1,0 +1,56 @@
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found FP-DO-201AD-MFG
+Change Footprint: Footprint Not Found FP-DO-201AD-MFG
+Change Footprint: Footprint Not Found FP-DO-201AD-MFG
+Added Component: Designator=U1(MDS100)
+Add component (AddParameter): Name = "Bandwidth"; Value = "1MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "SOIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Common Mode Rejection Ratio"; Value = "65dB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dual Supply Voltage"; Value = "9V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gain Bandwidth Product"; Value = "1MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Halogen Free"; Value = "Halogen Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Bias Current"; Value = "250nA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Offset Voltage (Vos)"; Value = "7mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Dual Supply Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "70°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = "32V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Dual Supply Voltage"; Value = "1.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "0°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = "3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Nominal Supply Current"; Value = "1.2mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Amplifiers"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Channels"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Circuits"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Elements"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Current"; Value = "1.5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Current"; Value = "40mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Current per Channel"; Value = "40mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "2500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Supply Rejection Ratio (PSRR)"; Value = "65dB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Slew Rate"; Value = "0.6V/µs"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Gain"; Value = "100dB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "4mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD1_2 Pin=U1-1
+Added Pin To Net: NetName=NetD2_2 Pin=U1-2
+Added Pin To Net: NetName=NetD3_2 Pin=U1-3
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component U1
