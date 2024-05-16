@@ -1,3 +1,0 @@
-Added Pin To Net: NetName=NetR12_1 Pin=VT2-G
-Added Pin To Net: NetName=GND Pin=VT2-S
-Added Member To Class: ClassName=Sinus_Inverter Member=Component VT2 IRFR3205

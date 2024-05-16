@@ -1,0 +1,69 @@
+Added Component: Designator=TP1(Test_Point)
+Added Component: Designator=TP2(Test_Point)
+Added Component: Designator=TP3(Test_Point)
+Added Component: Designator=TP4(Test_Point)
+Added Component: Designator=TP5(Test_Point)
+Added Component: Designator=TP6(Test_Point)
+Added Component: Designator=TP7(Test_Point)
+Added Component: Designator=TP8(Test_Point)
+Added Component: Designator=TP9(Test_Point)
+Added Component: Designator=TP10(Test_Point)
+Added Component: Designator=TP11(Test_Point)
+Added Component: Designator=TP12(Test_Point)
+Added Component: Designator=TP13(Test_Point)
+Added Component: Designator=TP14(Test_Point)
+Added Component: Designator=TP15(Test_Point)
+Added Component: Designator=TP16(Test_Point)
+Added Component: Designator=TP17(Test_Point)
+Added Component: Designator=TP18(Test_Point)
+Added Component: Designator=TP19(Test_Point)
+Added Component: Designator=TP20(Test_Point)
+Added Component: Designator=TP21(Test_Point)
+Added Component: Designator=TP22(Test_Point)
+Added Component: Designator=TP23(Test_Point)
+Added Pin To Net: NetName=NetC13_2 Pin=TP1-1
+Added Pin To Net: NetName=+5 Pin=TP2-1
+Added Pin To Net: NetName=NetC9_2 Pin=TP3-1
+Added Pin To Net: NetName=NetC12_2 Pin=TP4-1
+Added Pin To Net: NetName=NetC11_2 Pin=TP5-1
+Added Pin To Net: NetName=NetC10_2 Pin=TP6-1
+Added Pin To Net: NetName=NetC7_1 Pin=TP7-1
+Added Pin To Net: NetName=NetC7_1 Pin=TP8-1
+Added Pin To Net: NetName=NetC20_2 Pin=TP9-1
+Added Pin To Net: NetName=+5 Pin=TP10-1
+Added Pin To Net: NetName=NetC16_2 Pin=TP11-1
+Added Pin To Net: NetName=NetC19_2 Pin=TP12-1
+Added Pin To Net: NetName=NetC18_2 Pin=TP13-1
+Added Pin To Net: NetName=NetC17_2 Pin=TP14-1
+Added Pin To Net: NetName=NetC7_1 Pin=TP15-1
+Added Pin To Net: NetName=NetC7_1 Pin=TP16-1
+Added Pin To Net: NetName=NetC27_2 Pin=TP17-1
+Added Pin To Net: NetName=NetC23_2 Pin=TP18-1
+Added Pin To Net: NetName=NetC26_2 Pin=TP19-1
+Added Pin To Net: NetName=NetC25_2 Pin=TP20-1
+Added Pin To Net: NetName=NetC24_2 Pin=TP21-1
+Added Pin To Net: NetName=NetC7_1 Pin=TP22-1
+Added Pin To Net: NetName=NetC7_1 Pin=TP23-1
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP1 Test_Point_PCB
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP2 Test_Point_PCB
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP3 Test_Point_PCB
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP4 Test_Point_PCB
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP5 Test_Point_PCB
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP6 Test_Point_PCB
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP7 Test_Point_PCB
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP8 Test_Point_PCB
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP9 Test_Point_PCB
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP10 Test_Point_PCB
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP11 Test_Point_PCB
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP12 Test_Point_PCB
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP13 Test_Point_PCB
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP14 Test_Point_PCB
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP15 Test_Point_PCB
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP16 Test_Point_PCB
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP17 Test_Point_PCB
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP18
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP19
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP20 Test_Point_PCB
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP21 Test_Point_PCB
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP22 Test_Point_PCB
+Added Member To Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=Component TP23 Test_Point_PCB

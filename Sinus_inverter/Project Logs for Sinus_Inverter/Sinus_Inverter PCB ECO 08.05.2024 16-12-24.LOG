@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=NetC9_1 Pin=J1-1
-Removed Pin From Net: NetName=NetD2_2 Pin=J1-2
-Removed Pin From Net: NetName=PE Pin=Radiator_1-1
-Removed Pin From Net: NetName=PE Pin=Radiator_1-1
-Removed Pin From Net: NetName=PE Pin=Radiator_1-1
-Added Pin To Net: NetName=NetD2_2 Pin=J1-1
-Added Pin To Net: NetName=NetC9_1 Pin=J1-2
-Added Room: Name=Sinus_Inverter

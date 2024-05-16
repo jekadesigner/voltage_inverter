@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=NetC7_1 Pin=TP8-1
+Removed Pin From Net: NetName=NetC7_1 Pin=TP16-1
+Removed Pin From Net: NetName=NetC7_1 Pin=TP22-1
+Removed Pin From Net: NetName=NetC7_1 Pin=TP23-1
+Removed Member From Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=TP8
+Removed Member From Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=TP16
+Removed Member From Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=TP22
+Removed Member From Class: ClassName=Rectifire_(PFC)_Evaluation_Board Member=TP23

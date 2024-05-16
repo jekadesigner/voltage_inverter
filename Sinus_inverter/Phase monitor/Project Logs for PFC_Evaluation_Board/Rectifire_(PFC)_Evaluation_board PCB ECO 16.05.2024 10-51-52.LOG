@@ -1,0 +1,18 @@
+Change Component Footprint: Designator=R1 Old Footprint=R-2512 New Footprint=RES-1206
+Change Component Footprint: Designator=R2 Old Footprint=R-2512 New Footprint=RES-1206
+Change Component Footprint: Designator=R3 Old Footprint=R-2512 New Footprint=RES-1206
+Change Component Footprint: Designator=R4 Old Footprint=R-2512 New Footprint=RES-1206
+Change Component Footprint: Designator=R5 Old Footprint=R-2512 New Footprint=RES-1206
+Change Component Footprint: Designator=R6 Old Footprint=R-2512 New Footprint=RES-1206
+Change Component Footprint: Designator=R7 Old Footprint=R-2512 New Footprint=RES-1206
+Change Component Footprint: Designator=R8 Old Footprint=R-2512 New Footprint=RES-1206
+Change Component Footprint: Designator=R9 Old Footprint=R-2512 New Footprint=RES-1206
+Change component parameters: Designator = "R1" ("R1"); Footprint = "R-2512"; UniqueID = "\LMESMJGG" ("\LMESMJGG")
+Change component parameters: Designator = "R2" ("R2"); Footprint = "R-2512"; UniqueID = "\HPMWVVRT" ("\HPMWVVRT")
+Change component parameters: Designator = "R3" ("R3"); Footprint = "R-2512"; UniqueID = "\JTEFAJEG" ("\JTEFAJEG")
+Change component parameters: Designator = "R4" ("R4"); Footprint = "R-2512"; UniqueID = "\JOVODIQS" ("\JOVODIQS")
+Change component parameters: Designator = "R5" ("R5"); Footprint = "R-2512"; UniqueID = "\UTSAMFXN" ("\UTSAMFXN")
+Change component parameters: Designator = "R6" ("R6"); Footprint = "R-2512"; UniqueID = "\UIRTLGWI" ("\UIRTLGWI")
+Change component parameters: Designator = "R7" ("R7"); Footprint = "R-2512"; UniqueID = "\PAOIVSBT" ("\PAOIVSBT")
+Change component parameters: Designator = "R8" ("R8"); Footprint = "R-2512"; UniqueID = "\SMTWZXFB" ("\SMTWZXFB")
+Change component parameters: Designator = "R9" ("R9"); Footprint = "R-2512"; UniqueID = "\YRDCLBOK" ("\YRDCLBOK")
