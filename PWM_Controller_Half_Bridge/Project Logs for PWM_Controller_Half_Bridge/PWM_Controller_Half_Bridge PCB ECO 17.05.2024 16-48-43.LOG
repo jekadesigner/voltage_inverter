@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=NetC40_1 Pin=C40-1
+Removed Pin From Net: NetName=GND Pin=C40-2
+Add Component: Footprint Not Found FP-FKF-MFG
+Add Pin To Net: Unknown Pin: Pin C1-1
+Add Pin To Net: Unknown Pin: Pin C1-2
+Change Net Name : Old Net Name=NetC40_1 New Net Name=NetC1_2
