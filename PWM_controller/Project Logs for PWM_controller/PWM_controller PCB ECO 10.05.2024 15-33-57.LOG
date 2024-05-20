@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=NetP2_12 Pin=TP23-1
+Removed Member From Class: ClassName=PWM_controller Member=TP23
+Added Room: Name=PWM_controller

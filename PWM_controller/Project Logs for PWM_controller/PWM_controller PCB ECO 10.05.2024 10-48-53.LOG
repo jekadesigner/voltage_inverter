@@ -1,0 +1,19 @@
+Change Component Comment : Designator=C13 Old Comment=0.1nF New Comment=100nF
+Change Component Comment : Designator=C14 Old Comment=0.1nF New Comment=100nF
+Change Component Comment : Designator=R2 Old Comment=2K New Comment=1K
+Change Component Comment : Designator=R3 Old Comment=82K New Comment=2K
+Change Component Comment : Designator=R9 Old Comment=82K New Comment=5K
+Add Component: Footprint Not Found CAPC1210(3225)100_M
+Add Component: Footprint Not Found CAPC1210(3225)100_M
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin C4-2
+Added Pin To Net: NetName=NetC5_1 Pin=P2-9
+Added Pin To Net: NetName=NetC5_2 Pin=P2-10
+Change Net Name : Old Net Name=NetR1_2 New Net Name=NetC4_1
+Change Net Name : Old Net Name=NetR28_2 New Net Name=NetC3_1
+Change Class Name : Old Net Name=Sheet2 New Net Name=PWM_controller
+Add Class Member: Failed to add class member : Component C3 100nF
+Add Class Member: Failed to add class member : Component C4 100nF
+Added Room: Name=PWM_controller

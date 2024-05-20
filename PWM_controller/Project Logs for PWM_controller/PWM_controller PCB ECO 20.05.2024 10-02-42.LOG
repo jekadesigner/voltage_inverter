@@ -1,0 +1,43 @@
+Removed Pin From Net: NetName=NetC11_1 Pin=R17-2
+Removed Pin From Net: NetName=GND Pin=R19-1
+Removed Pin From Net: NetName=GND Pin=R19-2
+Removed Pin From Net: NetName=NetC11_1 Pin=R19-3
+Removed Pin From Net: NetName=NetC12_1 Pin=R22-2
+Removed Pin From Net: NetName=GND Pin=R24-1
+Removed Pin From Net: NetName=GND Pin=R24-2
+Removed Pin From Net: NetName=NetC12_1 Pin=R24-3
+Removed Pin From Net: NetName=NetC11_1 Pin=TP1-1
+Removed Pin From Net: NetName=NetC12_1 Pin=TP19-1
+Change Component Footprint: Designator=R19 Old Footprint=FP-3296W-MFG New Footprint=RES_Adj_3296W_Bourns
+Change Component Footprint: Designator=R24 Old Footprint=FP-3296W-MFG New Footprint=RES_Adj_3296W_Bourns
+Change Component Designator: OldDesignator=TP? NewDesignator=TP28
+Change Managed Component Library Link : Designator=R19 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=70DDFBD9-8B04-4622-B937-A245966F6690 New ItemGUID= Old RevisionGUID=4C1FA464-C127-43E1-8029-794C72C79A6E New RevisionGUID=
+Change Managed Component Library Link : Designator=R24 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=70DDFBD9-8B04-4622-B937-A245966F6690 New ItemGUID= Old RevisionGUID=4C1FA464-C127-43E1-8029-794C72C79A6E New RevisionGUID=
+Change component parameters: Designator = "R19" ("R19"); Footprint = "FP-3296W-MFG"; UniqueID = "\SRVURCXP" ("\SRVURCXP")
+Change component parameters: Designator = "R24" ("R24"); Footprint = "FP-3296W-MFG"; UniqueID = "\AJIJGTOH" ("\AJIJGTOH")
+Added Component: Designator=C19(CAP-0805)
+Added Component: Designator=C20(CAP-0805)
+Added Component: Designator=TP27(Test_Point)
+Added Component: Designator=TP29(Test_Point)
+Added Pin To Net: NetName=GND Pin=C19-1
+Added Pin To Net: NetName=GND Pin=C20-1
+Added Pin To Net: NetName=NetC11_1 Pin=R19-2
+Added Pin To Net: NetName=GND Pin=R19-3
+Added Pin To Net: NetName=NetC12_1 Pin=R24-2
+Added Pin To Net: NetName=GND Pin=R24-3
+Added Pin To Net: NetName=NetC11_1 Pin=TP27-1
+Added Pin To Net: NetName=NetC12_1 Pin=TP29-1
+Added Pin To Net: NetName=NetC19_2 Pin=C19-2
+Added Pin To Net: NetName=NetC19_2 Pin=R17-2
+Added Pin To Net: NetName=NetC19_2 Pin=R19-1
+Added Pin To Net: NetName=NetC19_2 Pin=TP1-1
+Added Net: Name=NetC19_2
+Added Pin To Net: NetName=NetC20_2 Pin=C20-2
+Added Pin To Net: NetName=NetC20_2 Pin=R22-2
+Added Pin To Net: NetName=NetC20_2 Pin=R24-1
+Added Pin To Net: NetName=NetC20_2 Pin=TP19-1
+Added Net: Name=NetC20_2
+Added Member To Class: ClassName=PWM_controller Member=Component C19 0.1uF
+Added Member To Class: ClassName=PWM_controller Member=Component C20 0.1uF
+Added Member To Class: ClassName=PWM_controller Member=Component TP27 Test_Point_PCB
+Added Member To Class: ClassName=PWM_controller Member=Component TP29 Test_Point_PCB

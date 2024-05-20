@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=GND Pin=C6-1
+Removed Pin From Net: NetName=NetC5_2 Pin=C6-2
+Change Component Footprint: Designator=C6 Old Footprint=CAPC1210(3225)100_M New Footprint=CAP-TAN-D
+Change Component Comment : Designator=C6 Old Comment=CAP 220nF 50V 1210(3225) New Comment=CAP-POLAR
+Change Component Comment : Designator=VD1 Old Comment=ZENER New Comment=18V
+Change Component Comment : Designator=VD2 Old Comment=ZENER New Comment=18V
+Change Managed Component Library Link : Designator=C6 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=FEC13C2F-F256-4D51-AD65-77CB8D71BFBE New ItemGUID= Old RevisionGUID=16CE62D8-F1A1-4304-BDCE-653434FAB396 New RevisionGUID=
+Change component parameters: Designator = "C6" ("C6"); Footprint = "CAPC1210(3225)100_M"; UniqueID = "\PMOTUFHI" ("\PMOTUFHI")
+Added Component: Designator=C18(CAP-0805)
+Added Pin To Net: NetName=NetC5_2 Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C18-1
+Added Pin To Net: NetName=NetC5_2 Pin=C18-2
+Added Member To Class: ClassName=PWM_controller Member=Component C18 CAP-NON-POLAR

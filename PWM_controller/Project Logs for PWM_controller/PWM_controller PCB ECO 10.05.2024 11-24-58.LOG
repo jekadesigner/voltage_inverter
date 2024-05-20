@@ -1,0 +1,11 @@
+Added Component: Designator=C?(FP-C0805C-DN-MFG)
+Added Component: Designator=C?(FP-C0805C-DN-MFG)
+Add Pin To Net: Unknown Pin: Pin C?-1
+Add Pin To Net: Unknown Pin: Pin C?-1
+Add Pin To Net: Unknown Pin: Pin C?-2
+Add Pin To Net: Unknown Pin: Pin C?-2
+Change Net Name : Old Net Name=NetC3_1 New Net Name=NetC?_2
+Change Net Name : Old Net Name=NetC4_1 New Net Name=NetC?_1
+Add Class Member: Failed to add class member : Component C? 100nF
+Add Class Member: Failed to add class member : Component C? 100nF
+Added Room: Name=PWM_controller
