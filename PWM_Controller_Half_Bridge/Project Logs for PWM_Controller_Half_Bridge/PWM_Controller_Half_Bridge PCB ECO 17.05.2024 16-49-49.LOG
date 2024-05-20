@@ -1,6 +1,0 @@
-Add Component: Footprint Not Found SIZE_EEE
-Added Component: Designator=TP8(Test_Point)
-Add Pin To Net: Unknown Pin: Pin C1-1
-Add Pin To Net: Unknown Pin: Pin C1-2
-Added Pin To Net: NetName=NetD2_2 Pin=TP8-1
-Change Net Name : Old Net Name=NetC1_2 New Net Name=NetC1_1

@@ -1,3 +1,0 @@
-Added Component: Designator=TP?(Test_Point)
-Added Pin To Net: NetName=NetP2_12 Pin=TP?-1
-Added Member To Class: ClassName=PWM_controller Member=Component TP? Test_Point_PCB

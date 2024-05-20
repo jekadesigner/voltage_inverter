@@ -1,0 +1,9 @@
+Change Component Comment : Designator=R33 Old Comment=2K New Comment=200K
+Change Component Comment : Designator=R34 Old Comment=2K New Comment=200K
+Added Pin To Net: NetName=NetC13_1 Pin=R33-1
+Added Pin To Net: NetName=NetC13_2 Pin=R33-2
+Added Pin To Net: NetName=NetC13_2 Pin=R34-1
+Added Pin To Net: NetName=NetC14_2 Pin=R34-2
+Added Member To Class: ClassName=PWM_controller Member=Component R33 200K
+Added Member To Class: ClassName=PWM_controller Member=Component R34 200K
+Added Room: Name=PWM_controller
