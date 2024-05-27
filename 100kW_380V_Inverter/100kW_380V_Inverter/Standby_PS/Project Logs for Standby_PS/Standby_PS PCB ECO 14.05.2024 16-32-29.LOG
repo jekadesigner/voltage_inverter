@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=NetC3_2 Pin=K2-1
-Removed Pin From Net: NetName=NetC30_2 Pin=K2-8
-Change Footprint: Footprint Not Found DIOD-SOD123-2_V
-Change Component Comment : Designator=K1 Old Comment=F1CA005V New Comment=
-Add Component: Footprint Not Found DIOD-SOD123-2_V
-Added Pin To Net: NetName=NetC3_2 Pin=K1-1
-Added Pin To Net: NetName=NetC30_2 Pin=K1-8
-Add Pin To Net: Unknown Pin: Pin VD6-1
-Add Pin To Net: Unknown Pin: Pin VD6-2

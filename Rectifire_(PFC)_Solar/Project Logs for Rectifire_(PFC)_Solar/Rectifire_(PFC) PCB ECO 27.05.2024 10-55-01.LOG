@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=+5 Pin=P3-1
+Removed Pin From Net: NetName=+5 Pin=R76-2
+Removed Pin From Net: NetName=+5 Pin=R77-2
+Added Pin To Net: NetName=+3V3_MCU Pin=P3-1
+Added Pin To Net: NetName=+3V3_MCU Pin=R76-2
+Added Pin To Net: NetName=+3V3_MCU Pin=R77-2
