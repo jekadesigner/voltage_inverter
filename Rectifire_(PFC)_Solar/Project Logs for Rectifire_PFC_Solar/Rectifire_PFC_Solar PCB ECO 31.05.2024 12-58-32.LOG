@@ -1,0 +1,327 @@
+Removed Pin From Net: NetName=GND_III Pin=C16-1
+Removed Pin From Net: NetName=GND_III Pin=C17-1
+Removed Pin From Net: NetName=+5 Pin=C18-1
+Removed Pin From Net: NetName=GND_III Pin=C18-2
+Removed Pin From Net: NetName=GND_III Pin=C19-1
+Removed Pin From Net: NetName=GND_III Pin=C22-2
+Removed Pin From Net: NetName=GND_III Pin=C23-1
+Removed Pin From Net: NetName=GND_III Pin=C24-2
+Removed Pin From Net: NetName=GND_III Pin=C25-1
+Removed Pin From Net: NetName=+5 Pin=C25-2
+Removed Pin From Net: NetName=GND_III Pin=C30-1
+Removed Pin From Net: NetName=GND_III Pin=C32-1
+Removed Pin From Net: NetName=GND_III Pin=C36-1
+Removed Pin From Net: NetName=+5 Pin=C36-2
+Removed Pin From Net: NetName=GND_III Pin=C37-1
+Removed Pin From Net: NetName=GND_III Pin=C38-2
+Removed Pin From Net: NetName=GND_III Pin=C39-2
+Removed Pin From Net: NetName=GND_III Pin=C40-1
+Removed Pin From Net: NetName=GND Pin=C45-1
+Removed Pin From Net: NetName=GND Pin=C46-2
+Removed Pin From Net: NetName=GND_III Pin=C49-1
+Removed Pin From Net: NetName=GND_III Pin=C50-1
+Removed Pin From Net: NetName=GND_III Pin=C51-1
+Removed Pin From Net: NetName=GND_III Pin=C52-1
+Removed Pin From Net: NetName=GND_III Pin=C53-1
+Removed Pin From Net: NetName=GND_III Pin=C54-2
+Removed Pin From Net: NetName=GND_III Pin=C55-2
+Removed Pin From Net: NetName=GND_III Pin=C56-2
+Removed Pin From Net: NetName=GND_III Pin=C57-1
+Removed Pin From Net: NetName=GND_III Pin=C58-1
+Removed Pin From Net: NetName=GND_III Pin=C59-1
+Removed Pin From Net: NetName=GND_III Pin=C60-1
+Removed Pin From Net: NetName=GND_III Pin=C61-1
+Removed Pin From Net: NetName=GND_III Pin=C62-1
+Removed Pin From Net: NetName=GND_III Pin=C63-1
+Removed Pin From Net: NetName=GND_III Pin=C64-1
+Removed Pin From Net: NetName=GND_III Pin=D5-2
+Removed Pin From Net: NetName=GND_III Pin=D6-2
+Removed Pin From Net: NetName=GND_III Pin=D7-2
+Removed Pin From Net: NetName=GND_III Pin=D8-2
+Removed Pin From Net: NetName=GND_III Pin=D9-2
+Removed Pin From Net: NetName=GND_III Pin=D10-2
+Removed Pin From Net: NetName=GND_III Pin=D11-2
+Removed Pin From Net: NetName=GND_III Pin=D12-2
+Removed Pin From Net: NetName=GND_III Pin=D13-2
+Removed Pin From Net: NetName=GND_III Pin=J5-6
+Removed Pin From Net: NetName=GND_III Pin=J10-1
+Removed Pin From Net: NetName=GND_III Pin=J10-2
+Removed Pin From Net: NetName=GND_III Pin=J10-7
+Removed Pin From Net: NetName=+5 Pin=J10-12
+Removed Pin From Net: NetName=GND_III Pin=J10-13
+Removed Pin From Net: NetName=NetC10_2 Pin=J10-14
+Removed Pin From Net: NetName=NetC9_2 Pin=J10-15
+Removed Pin From Net: NetName=+5 Pin=J10-16
+Removed Pin From Net: NetName=GND_III Pin=J11-1
+Removed Pin From Net: NetName=+5 Pin=J11-2
+Removed Pin From Net: NetName=GND_III Pin=P1-1
+Removed Pin From Net: NetName=GND_III Pin=P2-1
+Removed Pin From Net: NetName=+5 Pin=P3-1
+Removed Pin From Net: NetName=GND_III Pin=P3-4
+Removed Pin From Net: NetName=+5 Pin=P4-1
+Removed Pin From Net: NetName=GND_III Pin=P4-5
+Removed Pin From Net: NetName=GND_III Pin=P5-1
+Removed Pin From Net: NetName=+5 Pin=P6-1
+Removed Pin From Net: NetName=GND_III Pin=P6-5
+Removed Pin From Net: NetName=GND_III Pin=P7-1
+Removed Pin From Net: NetName=GND_III Pin=P7-2
+Removed Pin From Net: NetName=GND_III Pin=P7-7
+Removed Pin From Net: NetName=+5 Pin=P7-12
+Removed Pin From Net: NetName=GND_III Pin=P7-13
+Removed Pin From Net: NetName=NetC10_2 Pin=P7-14
+Removed Pin From Net: NetName=NetC9_2 Pin=P7-15
+Removed Pin From Net: NetName=+5 Pin=P7-16
+Removed Pin From Net: NetName=GND_III Pin=R27-2
+Removed Pin From Net: NetName=GND_III Pin=R28-2
+Removed Pin From Net: NetName=GND_III Pin=R41-1
+Removed Pin From Net: NetName=+5 Pin=R43-2
+Removed Pin From Net: NetName=+5 Pin=R44-2
+Removed Pin From Net: NetName=GND_III Pin=R50-1
+Removed Pin From Net: NetName=GND_III Pin=R51-1
+Removed Pin From Net: NetName=GND_III Pin=R59-1
+Removed Pin From Net: NetName=NetC10_2 Pin=R60-1
+Removed Pin From Net: NetName=+5 Pin=R62-2
+Removed Pin From Net: NetName=+5 Pin=R63-2
+Removed Pin From Net: NetName=+5 Pin=R64-2
+Removed Pin From Net: NetName=+5 Pin=R65-2
+Removed Pin From Net: NetName=NetC9_2 Pin=R68-1
+Removed Pin From Net: NetName=+5 Pin=R70-1
+Removed Pin From Net: NetName=GND_III Pin=R71-1
+Removed Pin From Net: NetName=GND_III Pin=R72-1
+Removed Pin From Net: NetName=GND_III Pin=R73-1
+Removed Pin From Net: NetName=GND_III Pin=R74-1
+Removed Pin From Net: NetName=GND_III Pin=R75-1
+Removed Pin From Net: NetName=+5 Pin=R76-2
+Removed Pin From Net: NetName=+5 Pin=R77-2
+Removed Pin From Net: NetName=GND_III Pin=T1-2
+Removed Pin From Net: NetName=GND_III Pin=T2-2
+Removed Pin From Net: NetName=GND_III Pin=U5-1
+Removed Pin From Net: NetName=+5 Pin=U5-3
+Removed Pin From Net: NetName=GND_III Pin=U7-2
+Removed Pin From Net: NetName=GND_III Pin=U8-2
+Removed Pin From Net: NetName=GND_III Pin=U9-1
+Removed Pin From Net: NetName=+5 Pin=U9-3
+Removed Pin From Net: NetName=GND_III Pin=U12-1
+Removed Pin From Net: NetName=GND_III Pin=U14-2
+Removed Pin From Net: NetName=GND_III Pin=U14-8
+Removed Pin From Net: NetName=GND_III Pin=U15-8
+Removed Pin From Net: NetName=GND_III Pin=U15-23
+Removed Pin From Net: NetName=GND_III Pin=U15-35
+Removed Pin From Net: NetName=GND_III Pin=U15-47
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C16
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C17
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C18
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C19
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C20
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C21
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C22
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C23
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C24
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C25
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C26
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C27
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C30
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C32
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C34
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C35
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C36
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C37
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C38
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C39
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C40
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C42
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C45
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C46
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C49
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C50
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C51
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C52
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C53
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C54
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C55
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C56
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C57
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C58
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C59
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C60
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C61
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C62
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C63
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=C64
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=D5
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=D6
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=D7
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=D8
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=D9
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=D10
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=D11
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=D12
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=D13
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=D14
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=J7
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=J10
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=J11
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=L2
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=L3
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=L4
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=P1
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=P2
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=P3
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=P4
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=P5
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=P6
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=P7
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R21
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R22
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R23
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R24
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R25
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R26
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R27
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R28
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R29
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R30
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R31
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R32
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R33
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R34
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R35
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R36
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R37
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R38
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R39
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R40
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R41
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R42
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R43
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R44
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R45
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R46
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R47
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R48
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R49
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R50
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R51
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R52
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R53
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R54
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R55
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R56
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R57
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R58
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R59
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R60
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R61
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R62
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R63
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R64
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R65
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R66
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R67
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R68
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R69
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R70
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R71
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R72
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R73
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R74
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R75
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R76
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=R77
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=T1
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=T2
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=TP17
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=TP18
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=TP19
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=TP20
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=TP21
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=TP22
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=TP23
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=TP24
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=TP25
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=U5
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=U7
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=U8
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=U9
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=U12
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=U13
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=U14
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=U15
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=Y1
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=ZD1
+Removed Member From Class: ClassName=Rectifire_(PFC) Member=ZD2
+Change Component Footprint: Designator=J5 Old Footprint=Sullins_SWR25X-NRTC-S06-ST-BA_MFG New Footprint=61301611821
+Change Component Comment : Designator=J5 Old Comment=SWR25X-NRTC-S06-ST-BA New Comment=61301611821
+Change component parameters: Designator = "J5" ("J5"); Footprint = "Sullins_SWR25X-NRTC-S06-ST-BA_MFG"; UniqueID = "\SVVPOTBH" ("\SVVPOTBH")
+Change component parameters (AddParameter): Name = "Category"; Value = "Board-to-Board Connectors"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/61301611821?ad"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/61301611821?ad"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "20m?"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Socket Header"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "61301611821"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Match Code"; Value = "WR-PHD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature Max"; Value = "125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature Min"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tray"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Withstanding Voltage"; Value = "500V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Working Voltage"; Value = "250V"; VariantName = "[No Variations]"
+Added Component: Designator=DA1(BOARD_PFC)
+Added Pin To Net: NetName=+5 Pin=DA1-1
+Added Pin To Net: NetName=NetC9_2 Pin=DA1-2
+Added Pin To Net: NetName=NetC10_2 Pin=DA1-3
+Added Pin To Net: NetName=GND_III Pin=DA1-4
+Added Pin To Net: NetName=+5 Pin=DA1-5
+Added Pin To Net: NetName=GND_III Pin=DA1-10
+Added Pin To Net: NetName=GND_III Pin=DA1-15
+Added Pin To Net: NetName=GND_III Pin=DA1-16
+Added Pin To Net: NetName=+5 Pin=J5-1
+Added Pin To Net: NetName=NetC9_2 Pin=J5-2
+Added Pin To Net: NetName=NetC10_2 Pin=J5-3
+Added Pin To Net: NetName=GND_III Pin=J5-4
+Added Pin To Net: NetName=+5 Pin=J5-5
+Added Pin To Net: NetName=GND_III Pin=J5-10
+Added Pin To Net: NetName=GND_III Pin=J5-15
+Added Pin To Net: NetName=GND_III Pin=J5-16
+Added Pin To Net: NetName=NetDA1_6 Pin=DA1-6
+Added Pin To Net: NetName=NetDA1_6 Pin=J5-6
+Added Pin To Net: NetName=NetDA1_6 Pin=U11-6
+Added Net: Name=NetDA1_6
+Added Pin To Net: NetName=NetDA1_7 Pin=DA1-7
+Added Pin To Net: NetName=NetDA1_7 Pin=J5-7
+Added Pin To Net: NetName=NetDA1_7 Pin=U11-7
+Added Net: Name=NetDA1_7
+Added Pin To Net: NetName=NetDA1_8 Pin=DA1-8
+Added Pin To Net: NetName=NetDA1_8 Pin=J5-8
+Added Pin To Net: NetName=NetDA1_8 Pin=U6-6
+Added Net: Name=NetDA1_8
+Added Pin To Net: NetName=NetDA1_9 Pin=DA1-9
+Added Pin To Net: NetName=NetDA1_9 Pin=J5-9
+Added Pin To Net: NetName=NetDA1_9 Pin=U6-7
+Added Net: Name=NetDA1_9
+Added Pin To Net: NetName=NetDA1_11 Pin=DA1-11
+Added Pin To Net: NetName=NetDA1_11 Pin=J5-11
+Added Pin To Net: NetName=NetDA1_11 Pin=U3-2
+Added Net: Name=NetDA1_11
+Added Pin To Net: NetName=NetDA1_12 Pin=DA1-12
+Added Pin To Net: NetName=NetDA1_12 Pin=J5-12
+Added Pin To Net: NetName=NetDA1_12 Pin=U3-3
+Added Net: Name=NetDA1_12
+Added Pin To Net: NetName=NetDA1_13 Pin=DA1-13
+Added Pin To Net: NetName=NetDA1_13 Pin=J5-13
+Added Pin To Net: NetName=NetDA1_13 Pin=U4-2
+Added Net: Name=NetDA1_13
+Added Pin To Net: NetName=NetDA1_14 Pin=DA1-14
+Added Pin To Net: NetName=NetDA1_14 Pin=J5-14
+Added Pin To Net: NetName=NetDA1_14 Pin=U4-3
+Added Net: Name=NetDA1_14
+Change Class Name : Old Net Name=Rectifire_(PFC) New Net Name=Rectifire_PFC_Solar
+Added Member To Class: ClassName=Rectifire_PFC_Solar Member=Component DA1 BOARD_PFC
