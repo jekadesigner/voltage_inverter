@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=NetC37_1 Pin=C37-1
+Removed Pin From Net: NetName=NetC7_2 Pin=C37-2
+Add Component: Footprint Not Found CAP-V
+Add Pin To Net: Unknown Pin: Pin C14-1
+Add Pin To Net: Unknown Pin: Pin C14-2
+Change Net Name : Old Net Name=NetC37_1 New Net Name=NetC14_1

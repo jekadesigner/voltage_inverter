@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=NetC7_2 Pin=C7-2
+Removed Pin From Net: NetName=NetC7_2 Pin=C9-1
+Removed Pin From Net: NetName=NetC11_1 Pin=C11-1
+Removed Pin From Net: NetName=NetC7_2 Pin=C11-2
+Removed Pin From Net: NetName=NetC11_1 Pin=C13-1
+Removed Pin From Net: NetName=NetC7_2 Pin=C13-2
+Removed Pin From Net: NetName=NetB1_7 Pin=C23-1
+Removed Pin From Net: NetName=NetB1_7 Pin=R43-1
+Removed Pin From Net: NetName=NetC11_1 Pin=T1-3
+Removed Pin From Net: NetName=NetC11_1 Pin=T1-3
+Removed Pin From Net: NetName=NetD5_1 Pin=T1-11
+Removed Pin From Net: NetName=NetD5_1 Pin=T1-11
+Add Component: Footprint Not Found CAP_3.3uF_630V
+Add Component: Footprint Not Found CAP_3.3uF_630V
+Added Pin To Net: NetName=NetC11_1 Pin=C7-2
+Added Pin To Net: NetName=NetC11_1 Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C23-1
+Add Pin To Net: Unknown Pin: Pin C?-1
+Add Pin To Net: Unknown Pin: Pin C?-1
+Add Pin To Net: Unknown Pin: Pin C?-2
+Add Pin To Net: Unknown Pin: Pin C?-2
+Added Pin To Net: NetName=GND Pin=R43-1
+Added Pin To Net: NetName=NetC7_2 Pin=T1-3
+Added Pin To Net: NetName=NetC7_2 Pin=T1-3
+Added Pin To Net: NetName=NetD5_1 Pin=T1-10
+Added Pin To Net: NetName=NetD5_1 Pin=T1-10
+Change Net Name : Old Net Name=NetC7_2 New Net Name=NetC?_1
+Change Net Name : Old Net Name=NetC11_1 New Net Name=NetC7_2
