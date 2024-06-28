@@ -1,0 +1,20 @@
+Add Component: Footprint Not Found CAP_POL_36X60
+Add Component: Footprint Not Found CAP_POL_36X60
+Added Component: Designator=R27(RES-2512)
+Added Component: Designator=R28(RES-2512)
+Add Pin To Net: Unknown Pin: Pin C16-1
+Add Pin To Net: Unknown Pin: Pin C17-2
+Added Pin To Net: NetName=NetC11_2 Pin=R27-2
+Added Pin To Net: NetName=NetC11_2 Pin=R27-2
+Added Pin To Net: NetName=GND Pin=R28-1
+Added Pin To Net: NetName=GND Pin=R28-1
+Added Net: Name=NetC16_2
+Added Pin To Net: NetName=NetR27_1 Pin=R27-1
+Added Pin To Net: NetName=NetR27_1 Pin=R27-1
+Added Pin To Net: NetName=NetR27_1 Pin=R28-2
+Added Pin To Net: NetName=NetR27_1 Pin=R28-2
+Added Net: Name=NetR27_1
+Add Class Member: Failed to add class member : Component C16 CAP-POLAR
+Add Class Member: Failed to add class member : Component C17 CAP-POLAR
+Added Member To Class: ClassName=Rectifire_PFC_Solar Member=Component R27 1M
+Added Member To Class: ClassName=Rectifire_PFC_Solar Member=Component R28 1M

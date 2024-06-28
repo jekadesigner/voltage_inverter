@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=NetC11_2 Pin=C16-1
+Added Pin To Net: NetName=NetC16_2 Pin=C16-2
+Added Member To Class: ClassName=Rectifire_PFC_Solar Member=Component C16 CAP-POLAR
