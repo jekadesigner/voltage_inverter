@@ -1,0 +1,10 @@
+Added Component: Designator=DD1(TO-252)
+Added Component: Designator=DD2(TO-252)
+Added Pin To Net: NetName=NetC3_1 Pin=DD1-1
+Added Pin To Net: NetName=NetC2_2 Pin=DD1-2
+Added Pin To Net: NetName=NetC2_1 Pin=DD1-3
+Added Pin To Net: NetName=NetC23_1 Pin=DD2-1
+Added Pin To Net: NetName=NetC4_2 Pin=DD2-2
+Added Pin To Net: NetName=NetC4_1 Pin=DD2-3
+Added Member To Class: ClassName=DC-DC_Bridge Member=Component DD1 LM7818
+Added Member To Class: ClassName=DC-DC_Bridge Member=Component DD2 LM7818
