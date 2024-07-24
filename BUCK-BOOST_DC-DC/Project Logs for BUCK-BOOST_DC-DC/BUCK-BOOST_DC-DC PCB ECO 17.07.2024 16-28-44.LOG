@@ -1,0 +1,145 @@
+Removed Pin From Net: NetName=GND_II Pin=C47-2
+Removed Pin From Net: NetName=GND_II Pin=C48-1
+Removed Pin From Net: NetName=GND_II Pin=J8-1
+Removed Pin From Net: NetName=GND_II Pin=L1-1
+Removed Pin From Net: NetName=+18_2 Pin=U3-8
+Removed Pin From Net: NetName=+18_1 Pin=U4-8
+Removed Pin From Net: NetName=NetC2_1 Pin=VD1-1
+Removed Pin From Net: NetName=GND_II Pin=VD2-1
+Removed Pin From Net: NetName=GND Pin=VD2-3
+Removed Pin From Net: NetName=NetC2_1 Pin=VD3-1
+Removed Pin From Net: NetName=GND_II Pin=VD4-1
+Removed Pin From Net: NetName=GND Pin=VD4-3
+Removed Member From Class: ClassName=Rectifire_PFC_Solar Member=L1
+Removed Member From Class: ClassName=Rectifire_PFC_Solar Member=Radiator_1
+Removed Member From Class: ClassName=Rectifire_PFC_Solar Member=Radiator_2
+Removed Member From Class: ClassName=Rectifire_PFC_Solar Member=VD1
+Removed Member From Class: ClassName=Rectifire_PFC_Solar Member=VD2
+Removed Member From Class: ClassName=Rectifire_PFC_Solar Member=VD3
+Removed Member From Class: ClassName=Rectifire_PFC_Solar Member=VD4
+Added Component: Designator=C?(CAP-TAN-D)
+Added Component: Designator=D?(DO-214AA)
+Added Component: Designator=D?(DO-214AA)
+Added Component: Designator=D?(DO-214AA)
+Added Component: Designator=D?(DO-214AA)
+Add Component: Footprint Not Found 30A_10uH
+Added Component: Designator=R?(RES-0805)
+Add Component: Footprint Not Found RES_SMD_1210_IPC_A
+Added Component: Designator=R?(RES-0805)
+Add Component: Footprint Not Found RES_SMD_1210_IPC_A
+Added Component: Designator=R?(RES-0805)
+Add Component: Footprint Not Found RES_SMD_1210_IPC_A
+Add Component: Footprint Not Found RES_SMD_1210_IPC_A
+Added Component: Designator=R?(RES-0805)
+Added Component: Designator=TP?(Test_Point)
+Added Component: Designator=TP?(Test_Point)
+Added Component: Designator=TP?(Test_Point)
+Added Component: Designator=TP?(Test_Point)
+Add Component: Footprint Not Found DC-DC_Bridge
+Add Component: Footprint Not Found HCPL-3120
+Add Component: Footprint Not Found HCPL-3120
+Add Component: Footprint Not Found DC-DC_Bridge
+Added Component: Designator=VD?(TO-247-2)
+Added Component: Designator=VD?(DO-214AA)
+Added Component: Designator=VD?(DO-214AA)
+Added Component: Designator=VD?(TO-247-2)
+Add Component: Footprint Not Found TO-264-3
+Add Component: Footprint Not Found TO-264-3
+Add Component: Footprint Not Found TO-264-3
+Add Component: Footprint Not Found TO-264-3
+Added Pin To Net: NetName=NetC31_2 Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Add Pin To Net: Unknown Pin: Pin L?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND_II Pin=TP3-1
+Add Pin To Net: Unknown Pin: Pin U?-3
+Add Pin To Net: Unknown Pin: Pin U?-3
+Add Pin To Net: Unknown Pin: Pin U?-4
+Add Pin To Net: Unknown Pin: Pin U?-4
+Add Pin To Net: Unknown Pin: Pin U?-5
+Add Pin To Net: Unknown Pin: Pin U?-10
+Add Pin To Net: Unknown Pin: Pin U?-10
+Add Pin To Net: Unknown Pin: Pin U?-11
+Add Pin To Net: Unknown Pin: Pin U?-11
+Add Pin To Net: Unknown Pin: Pin U?-15
+Add Pin To Net: Unknown Pin: Pin U?-16
+Added Pin To Net: NetName=GND Pin=VD?-1
+Added Pin To Net: NetName=NetC2_1 Pin=VD?-1
+Added Pin To Net: NetName=NetR2_2 Pin=VD?-1
+Added Pin To Net: NetName=GND_II Pin=VD?-3
+Added Pin To Net: NetName=GND_II Pin=VT3-2
+Added Pin To Net: NetName=GND_II Pin=VT4-2
+Add Pin To Net: Unknown Pin: Pin VT?-2
+Add Pin To Net: Unknown Pin: Pin VT?-2
+Add Pin To Net: Unknown Pin: Pin VT?-3
+Add Pin To Net: Unknown Pin: Pin VT?-3
+Change Net Name : Old Net Name=GND_II New Net Name=GND_-18V_1
+Added Net: Name=+12
+Added Pin To Net: NetName=+18V_2 Pin=U4-8
+Added Net: Name=+18V_2
+Added Net: Name=+18V_3
+Added Net: Name=+18V_4
+Added Pin To Net: NetName=GND_-18V_4 Pin=R?-1
+Added Pin To Net: NetName=GND_-18V_4 Pin=R?-1
+Added Pin To Net: NetName=GND_-18V_4 Pin=VD?-1
+Added Pin To Net: NetName=GND_-18V_4 Pin=VD?-3
+Added Net: Name=GND_-18V_4
+Added Pin To Net: NetName=GND_II Pin=C47-2
+Added Pin To Net: NetName=GND_II Pin=C48-1
+Added Pin To Net: NetName=GND_II Pin=J8-1
+Added Net: Name=GND_II
+Added Pin To Net: NetName=NetD?_1 Pin=D?-1
+Added Pin To Net: NetName=NetD?_1 Pin=D?-1
+Added Pin To Net: NetName=NetD?_1 Pin=R?-2
+Added Pin To Net: NetName=NetD?_1 Pin=TP?-1
+Added Pin To Net: NetName=NetD?_1 Pin=VD?-2
+Added Net: Name=NetD?_1
+Add Net: Net with name "NetD?_1" already exists
+Added Pin To Net: NetName=NetD?_2 Pin=D?-2
+Added Pin To Net: NetName=NetD?_2 Pin=R?-2
+Added Pin To Net: NetName=NetD?_2 Pin=R?-2
+Added Net: Name=NetD?_2
+Add Net: Net with name "NetD?_2" already exists
+Add Net: Net with name "NetD?_2" already exists
+Add Net: Net with name "NetD?_2" already exists
+Added Pin To Net: NetName=NetU3_8 Pin=U3-8
+Added Net: Name=NetU3_8
+Added Net: Name=NetU?_1
+Added Net: Name=NetU?_2
+Add Net: Net with name "NetU?_2" already exists
+Added Net: Name=NetU?_3
+Add Net: Net with name "NetU?_3" already exists
+Added Net: Name=NetU?_17
+Add Net: Net with name "NetU?_17" already exists
+Change Class Name : Old Net Name=Rectifire_PFC_Solar New Net Name=BUCK-BOOST_DC-DC
+Added Member To Class: ClassName=BUCK-BOOST_DC-DC Member=Component C? 47uF_16V
+Added Member To Class: ClassName=BUCK-BOOST_DC-DC Member=Component D? US1G
+Added Member To Class: ClassName=BUCK-BOOST_DC-DC Member=Component D? US1G
+Added Member To Class: ClassName=BUCK-BOOST_DC-DC Member=Component D? US1G
+Added Member To Class: ClassName=BUCK-BOOST_DC-DC Member=Component D? US1G
+Add Class Member: Failed to add class member : Component L? Coil
+Added Member To Class: ClassName=BUCK-BOOST_DC-DC Member=Component R? 4.7K
+Added Member To Class: ClassName=BUCK-BOOST_DC-DC Member=Component R? 10E
+Added Member To Class: ClassName=BUCK-BOOST_DC-DC Member=Component R? 4.7K
+Added Member To Class: ClassName=BUCK-BOOST_DC-DC Member=Component R? 10E
+Added Member To Class: ClassName=BUCK-BOOST_DC-DC Member=Component R? 4.7K
+Added Member To Class: ClassName=BUCK-BOOST_DC-DC Member=Component R? 10E
+Added Member To Class: ClassName=BUCK-BOOST_DC-DC Member=Component R? 10E
+Added Member To Class: ClassName=BUCK-BOOST_DC-DC Member=Component R? 4.7K
+Added Member To Class: ClassName=BUCK-BOOST_DC-DC Member=Component TP? Test_Point_PCB
+Added Member To Class: ClassName=BUCK-BOOST_DC-DC Member=Component TP? Test_Point_PCB
+Added Member To Class: ClassName=BUCK-BOOST_DC-DC Member=Component TP? Test_Point_PCB
+Added Member To Class: ClassName=BUCK-BOOST_DC-DC Member=Component TP? Test_Point_PCB
+Add Class Member: Failed to add class member : Component U? DC-DC
+Add Class Member: Failed to add class member : Component U? HCPL-3120
+Add Class Member: Failed to add class member : Component U? HCPL-3120
+Add Class Member: Failed to add class member : Component U? DC-DC
+Added Member To Class: ClassName=BUCK-BOOST_DC-DC Member=Component VD? MUR4060
+Added Member To Class: ClassName=BUCK-BOOST_DC-DC Member=Component VD? Suppressor
+Added Member To Class: ClassName=BUCK-BOOST_DC-DC Member=Component VD? Suppressor
+Added Member To Class: ClassName=BUCK-BOOST_DC-DC Member=Component VD? MUR4060
+Add Class Member: Failed to add class member : Component VT? IGBT 60N120T
+Add Class Member: Failed to add class member : Component VT? IGBT 60N120T
+Add Class Member: Failed to add class member : Component VT? IGBT 60N120T
+Add Class Member: Failed to add class member : Component VT? IGBT 60N120T
