@@ -1,0 +1,474 @@
+*************************************************************
+FileName = PWM_Controller_Half_Bridge_IR2110.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top Layer
+      File : PWM_Controller_Half_Bridge_IR2110_Copper_Signal_Top.gbr
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : PWM_Controller_Half_Bridge_IR2110_Copper_Signal_Bot.gbr
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : PWM_Controller_Half_Bridge_IR2110_Pads_Bot.gbr
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D19
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : PWM_Controller_Half_Bridge_IR2110_Pads_Top.gbr
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : PWM_Controller_Half_Bridge_IR2110_Paste_Bot.gbr
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : PWM_Controller_Half_Bridge_IR2110_Legend_Bot.gbr
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : PWM_Controller_Half_Bridge_IR2110_Soldermask_Bot.gbr
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D23
+    D27
+    D29
+    D32
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : PWM_Controller_Half_Bridge_IR2110_Legend_Top.gbr
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D33
+    D35
+    D36
+    D52
+    D53
+    D54
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : PWM_Controller_Half_Bridge_IR2110_Paste_Top.gbr
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : PWM_Controller_Half_Bridge_IR2110_Soldermask_Top.gbr
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D41
+    D47
+    D48
+    D49
+    D50
+    D51
+    D55
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : PWM_Controller_Half_Bridge_IR2110_Keep-out.gbr
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D36
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : PWM_Controller_Half_Bridge_IR2110_Bottom_Assembly.gbr
+
+    Adding Layer      : Bottom Assembly
+
+
+Used DCodes :
+    D35
+    D56
+    D57
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : PWM_Controller_Half_Bridge_IR2110_Bottom_3D_Body.gbr
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+    D35
+    D56
+    D58
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Center
+      File : PWM_Controller_Half_Bridge_IR2110_Bottom_Component_Center.gbr
+
+    Adding Layer      : Bottom Component Center
+
+
+Used DCodes :
+    D56
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : PWM_Controller_Half_Bridge_IR2110_Top_3D_Body.gbr
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D35
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : PWM_Controller_Half_Bridge_IR2110_Top_Assembly.gbr
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D35
+    D56
+*************************************************************
+
+*************************************************************
+Generating : Top Component Center
+      File : PWM_Controller_Half_Bridge_IR2110_Top_Component_Center.gbr
+
+    Adding Layer      : Top Component Center
+
+
+Used DCodes :
+    D56
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 15
+      File : PWM_Controller_Half_Bridge_IR2110_Mechanical_15.gbr
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D35
+    D56
+    D59
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : PWM_Controller_Half_Bridge_IR2110_Mechanical_13.gbr
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D56
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : PWM_Controller_Half_Bridge_IR2110_Bottom_Courtyard.gbr
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+    D35
+    D59
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : PWM_Controller_Half_Bridge_IR2110_Top_Courtyard.gbr
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D35
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Outline
+      File : PWM_Controller_Half_Bridge_IR2110_Bottom_Component_Outline.gbr
+
+    Adding Layer      : Bottom Component Outline
+
+
+Used DCodes :
+    D56
+*************************************************************
+
+*************************************************************
+Generating : Bottom Designator
+      File : PWM_Controller_Half_Bridge_IR2110_Bottom_Designator.gbr
+
+    Adding Layer      : Bottom Designator
+
+
+Used DCodes :
+    D58
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : PWM_Controller_Half_Bridge_IR2110_Bottom_Assembly_1.gbr
+
+    Adding Layer      : Bottom Assembly
+
+
+Used DCodes :
+    D35
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : PWM_Controller_Half_Bridge_IR2110_Bottom_3D_Body_1.gbr
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+    D35
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 20
+      File : PWM_Controller_Half_Bridge_IR2110_Mechanical_20.gbr
+
+    Adding Layer      : Mechanical 20
+
+
+Used DCodes :
+    D59
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : PWM_Controller_Half_Bridge_IR2110_Profile.gbr
+
+
+Used DCodes :
+    D60
+*************************************************************
+
+*************************************************************
+Generating : Non-plated through-hole drill file
+      File : PWM_Controller_Half_Bridge_IR2110_NPTH_Drill.gbr
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Plated through-hole drill file
+      File : PWM_Controller_Half_Bridge_IR2110_PTH_Drill.gbr
+
+
+Used DCodes :
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : PWM_Controller_Half_Bridge_IR2110_Drawing_1.gbr
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D67
+    D69
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : PWM_Controller_Half_Bridge_IR2110_Drillmap_1.gbr
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D69
+*************************************************************
+

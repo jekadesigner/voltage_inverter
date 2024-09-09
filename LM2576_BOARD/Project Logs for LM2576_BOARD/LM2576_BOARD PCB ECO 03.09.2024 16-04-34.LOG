@@ -1,0 +1,111 @@
+Removed Pin From Net: NetName=E_H Pin=C1-1
+Removed Pin From Net: NetName=NetC1_2 Pin=C1-2
+Removed Pin From Net: NetName=NetC2_1 Pin=C2-1
+Removed Pin From Net: NetName=NetC1_2 Pin=D1-1
+Removed Pin From Net: NetName=NetC2_1 Pin=D2-1
+Removed Pin From Net: NetName=E_H Pin=EH-1
+Removed Pin From Net: NetName=NetC2_2 Pin=EL-1
+Removed Pin From Net: NetName=E_H Pin=R1-1
+Removed Pin From Net: NetName=NetC2_2 Pin=R2-1
+Removed Pin From Net: NetName=NetC2_1 Pin=R3-2
+Removed Pin From Net: NetName=NetC1_2 Pin=R4-2
+Removed Pin From Net: NetName=NetD1_2 Pin=R5-1
+Removed Pin From Net: NetName=E_H Pin=R5-2
+Removed Pin From Net: NetName=NetC2_2 Pin=R6-2
+Removed Pin From Net: NetName=E_H Pin=VD2-1
+Removed Pin From Net: NetName=NetC2_2 Pin=VD3-1
+Removed Pin From Net: NetName=NetC1_2 Pin=X1-1
+Removed Pin From Net: NetName=E_H Pin=X1-2
+Removed Pin From Net: NetName=NetC2_2 Pin=X2-1
+Removed Pin From Net: NetName=NetC2_1 Pin=X2-2
+Change Footprint: Footprint Not Found SIZE_EEE
+Change Component Footprint: Designator=VD1 Old Footprint=DO-214AA New Footprint=DO-214AB
+Change Footprint: Footprint Not Found LED_RED
+Change Component Comment : Designator=VD1 Old Comment=5.0V New Comment=DIODE
+Change Component Comment : Designator=C1 Old Comment=330 New Comment=CAP-POLAR
+Change Component Comment : Designator=D1 Old Comment=LED New Comment=151031YS06000
+Add Component: Footprint Not Found SIZE_EEE
+Add Component: Footprint Not Found SIZE_EEE
+Added Component: Designator=C5(CAP-0805)
+Add Component: Footprint Not Found TO-263-5
+Added Component: Designator=L1(WE-PD2_7850)
+Add component (AddParameter): Name = "Case/Size Code"; Value = "7850"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Unshielded Power Inductors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/744775147?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/744775147?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance"; Value = "0.134?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance Max"; Value = "0.18?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "4.95mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance"; Value = "47µH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "744775147"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Match Code"; Value = "WE-PD2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "1.17A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Saturation Current"; Value = "1.24A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Self Resonant Frequency"; Value = "12MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "7mm"; VariantName = "[No Variations]"
+Added Component: Designator=P1(61301211021)
+Add component (AddParameter): Name = "Category"; Value = "Board-to-Board Connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/61301211021?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/61301211021?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20m?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Pin Header"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "61301211021"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Match Code"; Value = "WR-PHD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Angled"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bag"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Withstanding Voltage"; Value = "500V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "250V"; VariantName = "[No Variations]"
+Added Component: Designator=TP1(Test_Point)
+Added Component: Designator=TP2(Test_Point)
+Added Pin To Net: NetName=NetC2_2 Pin=C1-1
+Added Pin To Net: NetName=NetD1_2 Pin=C1-2
+Added Pin To Net: NetName=NetD1_2 Pin=C2-1
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin C4-2
+Added Pin To Net: NetName=NetD1_2 Pin=C5-1
+Added Pin To Net: NetName=E_H Pin=C5-2
+Added Pin To Net: NetName=NetC2_1 Pin=D1-1
+Add Pin To Net: Unknown Pin: Pin DA1-1
+Add Pin To Net: Unknown Pin: Pin DA1-2
+Add Pin To Net: Unknown Pin: Pin DA1-3
+Add Pin To Net: Unknown Pin: Pin DA1-4
+Add Pin To Net: Unknown Pin: Pin DA1-5
+Added Pin To Net: NetName=NetC1_2 Pin=L1-1
+Added Pin To Net: NetName=E_H Pin=L1-2
+Added Pin To Net: NetName=NetC2_2 Pin=P1-1
+Added Pin To Net: NetName=NetC2_2 Pin=P1-2
+Added Pin To Net: NetName=NetC2_2 Pin=P1-3
+Added Pin To Net: NetName=E_H Pin=P1-10
+Added Pin To Net: NetName=E_H Pin=P1-11
+Added Pin To Net: NetName=E_H Pin=P1-12
+Added Pin To Net: NetName=NetC2_1 Pin=R1-1
+Added Pin To Net: NetName=E_H Pin=R1-2
+Added Pin To Net: NetName=NetC2_2 Pin=TP1-1
+Added Pin To Net: NetName=E_H Pin=TP2-1
+Added Pin To Net: NetName=NetC1_2 Pin=VD1-1
+Added Pin To Net: NetName=NetD1_2 Pin=VD1-2
+Change Net Name : Old Net Name=E_H New Net Name=OUT
+Change Net Name : Old Net Name=NetC1_2 New Net Name=NetDA1_2
+Change Net Name : Old Net Name=NetC2_1 New Net Name=NetD1_1
+Change Net Name : Old Net Name=NetC2_2 New Net Name=IN
+Change Net Name : Old Net Name=NetD1_2 New Net Name=GND

@@ -1,0 +1,6 @@
+Change Footprint: Footprint Not Found SIZE_EEE
+Change Footprint: Footprint Not Found LED_RED
+Added Pin To Net: NetName=OUT Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=OUT Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2

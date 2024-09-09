@@ -1,0 +1,3 @@
+Change Footprint: Footprint Not Found LED_RED
+Added Pin To Net: NetName=IN Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2

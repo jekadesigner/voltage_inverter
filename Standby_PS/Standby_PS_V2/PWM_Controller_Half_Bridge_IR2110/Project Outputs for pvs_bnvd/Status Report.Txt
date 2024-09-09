@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [PWM_Controller_Half_Bridge_IR2110.PrjPCB]
+   Generated File[PWM_Controller_Half_Bridge_IR2110.TXT]
+   Generated File[PWM_Controller_Half_Bridge_IR2110.LDP]
+   Generated File[PWM_Controller_Half_Bridge_IR2110.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 14:50:53 On 19.08.2024

@@ -1,0 +1,7 @@
+DRC Rules Export File for PCB: C:\Users\chipi\Documents\GitHub\Inverters-in-development\100kW_380V_Inverter\Standby_PS\PWM_Controller_Half_Bridge_IR2110\PWM_Controller_Half_Bridge_IR2110.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=7.87
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_Via|Scope=Board|Minimum=4.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=1
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=0.39

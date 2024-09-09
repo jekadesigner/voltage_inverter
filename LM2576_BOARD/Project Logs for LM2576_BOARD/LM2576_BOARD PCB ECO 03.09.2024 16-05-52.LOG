@@ -1,0 +1,15 @@
+Change Footprint: Footprint Not Found SIZE_EEE
+Change Footprint: Footprint Not Found LED_RED
+Add Component: Footprint Not Found SIZE_EEE
+Add Component: Footprint Not Found SIZE_EEE
+Added Component: Designator=DA1(TO-263-5)
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin C4-2
+Added Pin To Net: NetName=IN Pin=DA1-1
+Added Pin To Net: NetName=NetDA1_2 Pin=DA1-2
+Added Pin To Net: NetName=GND Pin=DA1-3
+Added Pin To Net: NetName=GND Pin=DA1-3
+Added Pin To Net: NetName=OUT Pin=DA1-4
+Added Pin To Net: NetName=GND Pin=DA1-5
