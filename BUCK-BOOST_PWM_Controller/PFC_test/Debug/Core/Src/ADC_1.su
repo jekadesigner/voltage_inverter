@@ -1,0 +1,3 @@
+../Core/Src/ADC_1.c:36:6:Configure_ADC_Channel	40	static
+../Core/Src/ADC_1.c:49:10:Read_ADC_Value	24	static
+../Core/Src/ADC_1.c:71:6:Read_ADC_Values	24	static

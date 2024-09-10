@@ -1,0 +1,2 @@
+../Core/Src/Registers_handler.c:15:6:Registers_handler	32	static
+../Core/Src/Registers_handler.c:70:6:Modbus_parsing	56	static

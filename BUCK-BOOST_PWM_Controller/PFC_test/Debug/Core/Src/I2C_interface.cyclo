@@ -1,0 +1,3 @@
+../Core/Src/I2C_interface.c:15:6:IND_WritePin	3
+../Core/Src/I2C_interface.c:31:6:ReadButtons	1
+../Core/Src/I2C_interface.c:37:6:Get_Buttons_States	2

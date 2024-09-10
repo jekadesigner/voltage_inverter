@@ -1,0 +1,4 @@
+../Core/Src/Adc_lib.c:10:6:ADC1_Init	4	static
+../Core/Src/Adc_lib.c:54:6:ADC2_Init	4	static
+../Core/Src/Adc_lib.c:94:6:ADC1_StartConversion	24	static
+../Core/Src/Adc_lib.c:123:6:ADC2_StartConversion	24	static

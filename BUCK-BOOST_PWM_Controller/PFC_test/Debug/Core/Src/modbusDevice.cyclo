@@ -1,0 +1,3 @@
+../Core/Src/modbusDevice.c:12:10:calcCRC16ModBus	4
+../Core/Src/modbusDevice.c:43:6:extractBinaryReceivedData	3
+../Core/Src/modbusDevice.c:55:14:sendModBusRequest	2

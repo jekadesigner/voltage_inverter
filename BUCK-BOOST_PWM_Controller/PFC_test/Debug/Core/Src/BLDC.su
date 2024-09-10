@@ -1,0 +1,11 @@
+../Core/Src/BLDC.c:9:9:SWITCH	24	static
+../Core/Src/BLDC.c:19:6:Phaze_A_ON	8	static
+../Core/Src/BLDC.c:20:6:Phaze_A_OFF	8	static
+../Core/Src/BLDC.c:21:6:Phaze_A_ZZ	8	static
+../Core/Src/BLDC.c:23:6:Phaze_B_ON	8	static
+../Core/Src/BLDC.c:24:6:Phaze_B_OFF	8	static
+../Core/Src/BLDC.c:25:6:Phaze_B_ZZ	8	static
+../Core/Src/BLDC.c:27:6:Phaze_C_ON	8	static
+../Core/Src/BLDC.c:28:6:Phaze_C_OFF	8	static
+../Core/Src/BLDC.c:29:6:Phaze_C_ZZ	8	static
+../Core/Src/BLDC.c:32:6:BLDC_MotorCommutation	16	static

@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=NetC24_1 Pin=TP14-1
+Removed Pin From Net: NetName=+5VDC Pin=TP16-1
+Removed Pin From Net: NetName=+5V_ISO Pin=TP18-1
+Removed Pin From Net: NetName=+3V3 Pin=TP19-1
+Removed Pin From Net: NetName=NetR22_1 Pin=TP20-1
+Removed Pin From Net: NetName=NetR29_2 Pin=TP23-1
+Removed Pin From Net: NetName=NetR23_1 Pin=TP25-1
+Removed Pin From Net: NetName=GND_2 Pin=TP27-1
+Removed Member From Class: ClassName=BUCK-BOOST_PWM_Controller Member=TP14
+Removed Member From Class: ClassName=BUCK-BOOST_PWM_Controller Member=TP16
+Removed Member From Class: ClassName=BUCK-BOOST_PWM_Controller Member=TP18
+Removed Member From Class: ClassName=BUCK-BOOST_PWM_Controller Member=TP19
+Removed Member From Class: ClassName=BUCK-BOOST_PWM_Controller Member=TP20
+Removed Member From Class: ClassName=BUCK-BOOST_PWM_Controller Member=TP23
+Removed Member From Class: ClassName=BUCK-BOOST_PWM_Controller Member=TP25
+Removed Member From Class: ClassName=BUCK-BOOST_PWM_Controller Member=TP27
