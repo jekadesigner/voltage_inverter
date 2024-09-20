@@ -1,0 +1,77 @@
+Removed Pin From Net: NetName=NetP1_6 Pin=P1-6
+Change Footprint: Footprint Not Found FP-PC817XNNIP0F-MFG
+Change Component Designator: OldDesignator=C1 NewDesignator=C?
+Change Component Designator: OldDesignator=C2 NewDesignator=C?
+Change Component Designator: OldDesignator=C3 NewDesignator=C?
+Change Component Designator: OldDesignator=C4 NewDesignator=C?
+Change Component Designator: OldDesignator=C5 NewDesignator=C?
+Change Component Designator: OldDesignator=C6 NewDesignator=C?
+Change Component Designator: OldDesignator=C8 NewDesignator=C?
+Change Component Designator: OldDesignator=C9 NewDesignator=C?
+Change Component Designator: OldDesignator=C10 NewDesignator=C?
+Change Component Designator: OldDesignator=C11 NewDesignator=C?
+Change Component Designator: OldDesignator=C13 NewDesignator=C?
+Change Component Designator: OldDesignator=C14 NewDesignator=C?
+Change Component Designator: OldDesignator=D1 NewDesignator=D?
+Change Component Designator: OldDesignator=L1 NewDesignator=L?
+Change Component Designator: OldDesignator=P1 NewDesignator=P?
+Change Component Designator: OldDesignator=Q1 NewDesignator=Q?
+Change Component Designator: OldDesignator=R1 NewDesignator=R?
+Change Component Designator: OldDesignator=R2 NewDesignator=R?
+Change Component Designator: OldDesignator=R3 NewDesignator=R?
+Change Component Designator: OldDesignator=R4 NewDesignator=R?
+Change Component Designator: OldDesignator=R5 NewDesignator=R?
+Change Component Designator: OldDesignator=R6 NewDesignator=R?
+Change Component Designator: OldDesignator=R7 NewDesignator=R?
+Change Component Designator: OldDesignator=R8 NewDesignator=R?
+Change Component Designator: OldDesignator=R9 NewDesignator=R?
+Change Component Designator: OldDesignator=R10 NewDesignator=R?
+Change Component Designator: OldDesignator=R11 NewDesignator=R?
+Change Component Designator: OldDesignator=R12 NewDesignator=R?
+Change Component Designator: OldDesignator=R13 NewDesignator=R?
+Change Component Designator: OldDesignator=R14 NewDesignator=R?
+Change Component Designator: OldDesignator=R15 NewDesignator=R?
+Change Component Designator: OldDesignator=TP1 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP2 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP3 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP4 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP5 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP6 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP7 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP8 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP9 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP10 NewDesignator=TP?
+Change Component Designator: OldDesignator=TP11 NewDesignator=TP?
+Change Component Designator: OldDesignator=U1 NewDesignator=U?
+Add Component: Footprint Not Found CAP_SMD_Size_E
+Add Component: Footprint Not Found CAP_SMD_Size_E
+Added Pin To Net: NetName=+12 Pin=C?-1
+Added Pin To Net: NetName=NetC7_1 Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=NetP1_11 Pin=P?-6
+Added Pin To Net: NetName=NetP1_13 Pin=P?-8
+Added Pin To Net: NetName=NetP1_6 Pin=P?-9
+Added Pin To Net: NetName=NetP1_7 Pin=P?-12
+Added Pin To Net: NetName=NetP1_6 Pin=P?-14
+Added Pin To Net: NetName=NetP1_6 Pin=R?-1
+Added Pin To Net: NetName=NetP1_7 Pin=R?-1
+Added Pin To Net: NetName=NetP1_7 Pin=U?-8
+Added Pin To Net: NetName=NetP1_6 Pin=U?-11
+Change Net Name : Old Net Name=NetC1_1 New Net Name=NetC?_1
+Change Net Name : Old Net Name=NetC1_2 New Net Name=NetC?_1
+Change Net Name : Old Net Name=NetC3_2 New Net Name=NetC?_2
+Change Net Name : Old Net Name=NetC4_2 New Net Name=NetC?_2
+Change Net Name : Old Net Name=NetC5_2 New Net Name=NetC?_2
+Change Net Name : Old Net Name=NetC6_1 New Net Name=NetC?_1
+Change Net Name : Old Net Name=NetC7_1 New Net Name=NetC?_1
+Change Net Name : Old Net Name=NetC13_2 New Net Name=NetC?_2
+Change Net Name : Old Net Name=NetD1_2 New Net Name=NetD?_2
+Change Net Name : Old Net Name=NetP1_2 New Net Name=NetP?_2
+Change Net Name : Old Net Name=NetP1_3 New Net Name=NetP?_3
+Change Net Name : Old Net Name=NetP1_6 New Net Name=NetP?_9
+Change Net Name : Old Net Name=NetP1_7 New Net Name=NetP?_7
+Change Net Name : Old Net Name=NetP1_11 New Net Name=NetP?_6
+Change Net Name : Old Net Name=NetP1_13 New Net Name=NetP?_8
+Change Net Name : Old Net Name=NetP1_15 New Net Name=NetP?_15
+Change Net Name : Old Net Name=NetP1_16 New Net Name=NetP?_16
+Change Net Name : Old Net Name=NetR15_1 New Net Name=NetR?_1

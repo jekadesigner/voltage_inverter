@@ -1,0 +1,8 @@
+Change Footprint: Footprint Not Found CAP_SMD_Size_E
+Change Footprint: Footprint Not Found FP-PC817XNNIP0F-MFG
+Change Component Designator: OldDesignator=C12 NewDesignator=C2
+Add Component: Footprint Not Found CAP_SMD_Size_E
+Added Pin To Net: NetName=NetC7_1 Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Add Pin To Net: Unknown Pin: Pin C12-1
+Add Pin To Net: Unknown Pin: Pin C12-2
