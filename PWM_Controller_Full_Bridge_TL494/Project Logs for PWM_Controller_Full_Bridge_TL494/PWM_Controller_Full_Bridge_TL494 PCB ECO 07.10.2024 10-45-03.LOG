@@ -1,0 +1,764 @@
+Added Component: Designator=C3(CAP-0805)
+Added Component: Designator=C4(CAP-TAN-D)
+Added Component: Designator=C6(CAP-0805)
+Added Component: Designator=C8(CAP-0805)
+Added Component: Designator=C10(CAP-0805)
+Added Component: Designator=C12(CAP-0805)
+Added Component: Designator=C14(CAP_SMD_Size_E)
+Added Component: Designator=C16(CAP-0805)
+Added Component: Designator=C18(CAP-0805)
+Added Component: Designator=C19(CAP_SMD_Size_E)
+Added Component: Designator=C21(CAP-0805)
+Added Component: Designator=C22(CAP-0805)
+Added Component: Designator=C24(CAP_SMD_Size_E)
+Added Component: Designator=C25(CAP-TAN-D)
+Added Component: Designator=C27(CAP-0805)
+Added Component: Designator=C29(CAP-TAN-D)
+Added Component: Designator=C30(CAP-0805)
+Added Component: Designator=C31(CAP_SMD_Size_E)
+Added Component: Designator=C32(CAP-0805)
+Added Component: Designator=C33(CAP_SMD_Size_E)
+Added Component: Designator=C34(CAP-0805)
+Added Component: Designator=C35(CAP_SMD_Size_E)
+Added Component: Designator=C36(CAP-0805)
+Added Component: Designator=C37(FP-C0805C-DN-MFG)
+Add component (AddParameter): Name = "Automotive"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.22 ?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Cap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L1"; Value = "Passive Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L2"; Value = "Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Class L3"; Value = "Ceramic Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Description"; Value = "CAP CER 0.22UF 50V X7R 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.88mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ipc Land Pattern Name"; Value = "CAPC200125X78"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "C0805C224K5RACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Description"; Value = "CAP CER 0.22UF 50V X7R 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Octopart"; Value = "https://octopart.com/c0805c224k5ractu-kemet-144670"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "C0805C-DN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55°C to +125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Characteristic"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "30ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range High"; Value = "+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range Low"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.22 ?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50 V"; VariantName = "[No Variations]"
+Added Component: Designator=C38(CAP-0805)
+Added Component: Designator=D1(DIOD-SOD123-2_V)
+Add component (AddParameter): Name = "Brand"; Value = "DiodesIncorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.farnell.com/datasheets/1915529.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 24-2, 10/2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Factory Pack Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "If - Forward Current"; Value = "0.15A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ir - Reverse Current"; Value = "1uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2.85mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "DiodesIncorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.diodes.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Maximum Operating Temperature"; Value = "+150C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Operating Temperature"; Value = "-65C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Style"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Range"; Value = "-65Cto+150C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "SOD-123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "SOD123-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package URL"; Value = "http://www.diodes.com/datasheets/ds18004.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product"; Value = "SwitchingDiodes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "Diodes-GeneralPurpose,Power,Switching"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Recovery Time"; Value = "4ns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "1N4148"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "SwitchingDiode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unit Weight"; Value = "0.000353oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vf - Forward Voltage"; Value = "1.25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.7mm"; VariantName = "[No Variations]"
+Added Component: Designator=D2(DIOD-SOD123-2_V)
+Add component (AddParameter): Name = "Brand"; Value = "DiodesIncorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.farnell.com/datasheets/1915529.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 24-2, 10/2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Factory Pack Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "If - Forward Current"; Value = "0.15A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ir - Reverse Current"; Value = "1uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2.85mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "DiodesIncorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.diodes.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Maximum Operating Temperature"; Value = "+150C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Operating Temperature"; Value = "-65C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Style"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Range"; Value = "-65Cto+150C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "SOD-123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "SOD123-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package URL"; Value = "http://www.diodes.com/datasheets/ds18004.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product"; Value = "SwitchingDiodes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "Diodes-GeneralPurpose,Power,Switching"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Recovery Time"; Value = "4ns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "1N4148"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "SwitchingDiode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unit Weight"; Value = "0.000353oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vf - Forward Voltage"; Value = "1.25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.7mm"; VariantName = "[No Variations]"
+Added Component: Designator=D3(DIOD-SOD123-2_V)
+Add component (AddParameter): Name = "Brand"; Value = "DiodesIncorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.farnell.com/datasheets/1915529.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 24-2, 10/2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Factory Pack Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "If - Forward Current"; Value = "0.15A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ir - Reverse Current"; Value = "1uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2.85mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "DiodesIncorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.diodes.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Maximum Operating Temperature"; Value = "+150C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Operating Temperature"; Value = "-65C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Style"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Range"; Value = "-65Cto+150C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "SOD-123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "SOD123-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package URL"; Value = "http://www.diodes.com/datasheets/ds18004.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product"; Value = "SwitchingDiodes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "Diodes-GeneralPurpose,Power,Switching"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Recovery Time"; Value = "4ns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "1N4148"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "SwitchingDiode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unit Weight"; Value = "0.000353oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vf - Forward Voltage"; Value = "1.25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.7mm"; VariantName = "[No Variations]"
+Added Component: Designator=D4(DIOD-SOD123-2_V)
+Add component (AddParameter): Name = "Brand"; Value = "DiodesIncorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.farnell.com/datasheets/1915529.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 24-2, 10/2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Factory Pack Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "If - Forward Current"; Value = "0.15A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ir - Reverse Current"; Value = "1uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2.85mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "DiodesIncorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.diodes.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Maximum Operating Temperature"; Value = "+150C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Operating Temperature"; Value = "-65C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Style"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Range"; Value = "-65Cto+150C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "SOD-123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "SOD123-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package URL"; Value = "http://www.diodes.com/datasheets/ds18004.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product"; Value = "SwitchingDiodes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "Diodes-GeneralPurpose,Power,Switching"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Recovery Time"; Value = "4ns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "1N4148"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "SwitchingDiode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unit Weight"; Value = "0.000353oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vf - Forward Voltage"; Value = "1.25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.7mm"; VariantName = "[No Variations]"
+Added Component: Designator=D5(LED_RED)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://katalog.we-online.de/led/datasheet/151031YS06000.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Geometry.Height"; Value = "5.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "151031YS06000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "710-151031YS06000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/151031YS06000?qs=LlUlMxKIyB3xSYYW%252BcuBiQ%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D6(LED_RED)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://katalog.we-online.de/led/datasheet/151031YS06000.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Geometry.Height"; Value = "5.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "151031YS06000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "710-151031YS06000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/151031YS06000?qs=LlUlMxKIyB3xSYYW%252BcuBiQ%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D7(DIOD-SOD123-2_V)
+Add component (AddParameter): Name = "Brand"; Value = "DiodesIncorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.farnell.com/datasheets/1915529.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 24-2, 10/2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Factory Pack Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "If - Forward Current"; Value = "0.15A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ir - Reverse Current"; Value = "1uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2.85mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "DiodesIncorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.diodes.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Maximum Operating Temperature"; Value = "+150C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Operating Temperature"; Value = "-65C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Style"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Range"; Value = "-65Cto+150C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "SOD-123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "SOD123-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package URL"; Value = "http://www.diodes.com/datasheets/ds18004.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product"; Value = "SwitchingDiodes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "Diodes-GeneralPurpose,Power,Switching"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Recovery Time"; Value = "4ns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "1N4148"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "SwitchingDiode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unit Weight"; Value = "0.000353oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vf - Forward Voltage"; Value = "1.25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.7mm"; VariantName = "[No Variations]"
+Added Component: Designator=D8(DIOD-SOD123-2_V)
+Add component (AddParameter): Name = "Brand"; Value = "DiodesIncorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.farnell.com/datasheets/1915529.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 24-2, 10/2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Factory Pack Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "If - Forward Current"; Value = "0.15A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ir - Reverse Current"; Value = "1uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2.85mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "DiodesIncorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.diodes.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Surge Current"; Value = "2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Maximum Operating Temperature"; Value = "+150C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Operating Temperature"; Value = "-65C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Style"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Range"; Value = "-65Cto+150C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "SOD-123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "SOD123-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package URL"; Value = "http://www.diodes.com/datasheets/ds18004.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Reverse Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product"; Value = "SwitchingDiodes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "Diodes-GeneralPurpose,Power,Switching"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Recovery Time"; Value = "4ns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "1N4148"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "SwitchingDiode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unit Weight"; Value = "0.000353oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vf - Forward Voltage"; Value = "1.25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.7mm"; VariantName = "[No Variations]"
+Added Component: Designator=D10(LED_RED)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://katalog.we-online.de/led/datasheet/151031YS06000.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Geometry.Height"; Value = "5.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "151031YS06000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "710-151031YS06000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/151031YS06000?qs=LlUlMxKIyB3xSYYW%252BcuBiQ%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D11(LED_BLUE)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://katalog.we-online.de/led/datasheet/151031YS06000.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Geometry.Height"; Value = "5.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "151031YS06000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "710-151031YS06000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/151031YS06000?qs=LlUlMxKIyB3xSYYW%252BcuBiQ%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J1(B6B-XH-TW)
+Added Component: Designator=J2(B2B-XH-A)
+Added Component: Designator=J3(Sullins_SWR25X-NRTC-S06-ST-BA_MFG)
+Added Component: Designator=J4(691101710003)
+Add component (AddParameter): Name = "Application"; Value = "Pressure Clamp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Terminal Blocks"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/691101710003?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/691101710003?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "691101710003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Match Code"; Value = "WR-TBL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modularity"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Horizontal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PCB/Cable/Panel"; Value = "PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "16A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "250V"; VariantName = "[No Variations]"
+Added Component: Designator=JE1(JE)
+Added Component: Designator=L2(WE-PD2_7850)
+Add component (AddParameter): Name = "Case/Size Code"; Value = "7850"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Unshielded Power Inductors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/74477530?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/74477530?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance"; Value = "2.78?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance Max"; Value = "3.3?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "4.95mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance"; Value = "1000µH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "74477530"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Match Code"; Value = "WE-PD2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "0.3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Saturation Current"; Value = "0.3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Self Resonant Frequency"; Value = "2.4MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "7mm"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found NR4030
+Add Component: Footprint Not Found NR4030
+Added Component: Designator=P1(62000411622)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/catalog/datasheet/62000411622.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-25 to +85degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bag"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "62000411622"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published Date"; Value = "January 2020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Withstanding Voltage"; Value = "800VAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "125VAC"; VariantName = "[No Variations]"
+Added Component: Designator=R1(RES-0805)
+Added Component: Designator=R3(RES-0805)
+Added Component: Designator=R6(RES-0805)
+Added Component: Designator=R7(RES-0805)
+Added Component: Designator=R10(RES-0805)
+Added Component: Designator=R11(RES-0805)
+Added Component: Designator=R12(RES-0805)
+Added Component: Designator=R13(RES-0805)
+Added Component: Designator=R16(RES-0805)
+Added Component: Designator=R17(RES-0805)
+Added Component: Designator=R18(RES-0805)
+Added Component: Designator=R19(RES-0805)
+Added Component: Designator=R20(RES-0805)
+Added Component: Designator=R21(RES-0805)
+Added Component: Designator=R23(RES-0805)
+Added Component: Designator=R24(RES-0805)
+Added Component: Designator=R25(RES-0805)
+Added Component: Designator=R27(RES-0805)
+Added Component: Designator=R28(RES-0805)
+Added Component: Designator=R29(RES-0805)
+Added Component: Designator=R31(RES-0805)
+Added Component: Designator=R32(RES-0805)
+Added Component: Designator=R33(RES-0805)
+Added Component: Designator=R36(RES-0805)
+Added Component: Designator=R37(RES-0805)
+Added Component: Designator=R41(RES-0805)
+Added Component: Designator=R42(RES-0805)
+Added Component: Designator=R43(RES-0805)
+Added Component: Designator=R44(RES-0805)
+Added Component: Designator=R45(RES-0805)
+Added Component: Designator=R46(RES-0805)
+Added Component: Designator=R47(RES-0805)
+Added Component: Designator=R48(RES-0805)
+Added Component: Designator=R49(RES-0805)
+Added Component: Designator=R50(RES-0805)
+Added Component: Designator=R51(RES-0805)
+Added Component: Designator=R52(RES-0805)
+Added Component: Designator=R53(RES-0805)
+Added Component: Designator=R54(RES-0805)
+Added Component: Designator=R55(RES-0805)
+Added Component: Designator=R56(RES-0805)
+Added Component: Designator=TP2(Test_Point)
+Added Component: Designator=TP4(Test_Point)
+Added Component: Designator=TP8(Test_Point)
+Added Component: Designator=TP9(Test_Point)
+Added Component: Designator=TP11(Pin_Test_Point(Pink))
+Added Component: Designator=TP13(Test_Point)
+Added Component: Designator=TP15(Test_Point)
+Added Component: Designator=TP17(Test_Point)
+Added Component: Designator=TP18(Test_Point)
+Added Component: Designator=TP19(Test_Point)
+Added Component: Designator=TP20(Test_Point)
+Added Component: Designator=TP22(Test_Point)
+Added Component: Designator=TP23(Pin_Test_Point(Orange))
+Added Component: Designator=TP24(Test_Point)
+Added Component: Designator=TP25(Test_Point)
+Added Component: Designator=TP26(Test_Point)
+Added Component: Designator=TP27(Test_Point)
+Added Component: Designator=TP28(Test_Point)
+Added Component: Designator=TP29(Test_Point)
+Added Component: Designator=TP30(Test_Point)
+Added Component: Designator=TP31(Test_Point)
+Added Component: Designator=TP32(Test_Point)
+Added Component: Designator=TP33(Test_Point)
+Added Component: Designator=TP34(Test_Point)
+Added Component: Designator=TP35(Test_Point)
+Added Component: Designator=TP36(Test_Point)
+Added Component: Designator=TP37(Test_Point)
+Added Component: Designator=TP38(Test_Point)
+Added Component: Designator=TP39(Test_Point)
+Added Component: Designator=TP40(Test_Point)
+Added Component: Designator=TP41(Test_Point)
+Added Component: Designator=TP42(Test_Point)
+Added Component: Designator=U1(FP-TSSOP20-YA-IPC_A)
+Added Component: Designator=U3(SOIC-16-M)
+Added Component: Designator=U4(D0008A_N)
+Add component (AddParameter): Name = "Code_IPC"; Value = "SOIC127P600-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-012-AA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEITA"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=LP2951-N&fileType=pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CompType"; Value = "LDO IC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "High-Reliability"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "SOIC Narrow, 4.9 x 3.9 x 1.45mm, 8 Lead, 1.27mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "D0008A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageTopMarking"; Value = "NSZXTT*2951A*CM33DD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PinCount"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerWise"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "N"; VariantName = "[No Variations]"
+Added Component: Designator=U5(SOT-223)
+Added Component: Designator=U6(B0505S-1W)
+Added Component: Designator=U7(ADI-RW-16_M)
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-013-AA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.analog.com/en/index.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.analog.com/static/imported-files/data_sheets/ADuM1400_1401_1402.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.analog.com/static/imported-files/packages/PKG_PDF/SOIC_WIDE%20%28RW%29/RW_16.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "URL Link1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "Product URL:http://www.analog.com/en/interface-isolation/digital-isolators/adum1401/products/product.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5Description"; Value = "URL Link2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5URL"; Value = "Reference Circuit:http://www.analog.com/en/interface-isolation/digital-isolators/adum1401/products/product.html#product-recommendations"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. H"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Data Rate"; Value = "10Mbps"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temp (degreesC)"; Value = "125"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "16-Pin Standard Small Outline Package, Body 10.3 x 7.5 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RW-16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "032707-B, 03/2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "ADUM1401BRWZ"; VariantName = "[No Variations]"
+Added Component: Designator=U8(SOIC-8-MFG)
+Added Component: Designator=VD1(SMF3.3A)
+Added Component: Designator=VD2(SMF3.3A)
+Added Component: Designator=ZD1(DO-214AA)
+Added Component: Designator=ZD2(DO-214AA)
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Pin To Net: NetName=NetC1_2 Pin=C3-2
+Added Pin To Net: NetName=NetC1_2 Pin=C4-1
+Added Pin To Net: NetName=NetC3_1 Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=NetC6_2 Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=NetC8_2 Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=NetC10_2 Pin=C10-2
+Added Pin To Net: NetName=NetC11_1 Pin=C12-1
+Added Pin To Net: NetName=NetC8_2 Pin=C12-2
+Added Pin To Net: NetName=NetC14_1 Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Pin To Net: NetName=NetC11_1 Pin=C16-1
+Added Pin To Net: NetName=NetC6_2 Pin=C16-2
+Added Pin To Net: NetName=GND Pin=C18-1
+Added Pin To Net: NetName=NetC14_1 Pin=C18-2
+Added Pin To Net: NetName=NetC14_1 Pin=C19-1
+Added Pin To Net: NetName=GND Pin=C19-2
+Added Pin To Net: NetName=GND Pin=C21-1
+Added Pin To Net: NetName=NetC14_1 Pin=C21-2
+Added Pin To Net: NetName=GND Pin=C22-1
+Added Pin To Net: NetName=NetC1_2 Pin=C22-2
+Added Pin To Net: NetName=NetC24_1 Pin=C24-1
+Added Pin To Net: NetName=GND Pin=C24-2
+Added Pin To Net: NetName=NetC1_2 Pin=C25-1
+Added Pin To Net: NetName=GND Pin=C25-2
+Added Pin To Net: NetName=GND Pin=C27-1
+Added Pin To Net: NetName=NetC24_1 Pin=C27-2
+Added Pin To Net: NetName=NetC29_1 Pin=C29-1
+Added Pin To Net: NetName=GND Pin=C29-2
+Added Pin To Net: NetName=GND Pin=C30-1
+Added Pin To Net: NetName=NetC29_1 Pin=C30-2
+Added Pin To Net: NetName=+3v3 Pin=C31-1
+Added Pin To Net: NetName=GND Pin=C31-2
+Added Pin To Net: NetName=GND Pin=C32-1
+Added Pin To Net: NetName=NetC14_1 Pin=C32-2
+Added Pin To Net: NetName=NetC33_1 Pin=C33-1
+Added Pin To Net: NetName=GND Pin=C33-2
+Added Pin To Net: NetName=GND Pin=C34-1
+Added Pin To Net: NetName=NetC33_1 Pin=C34-2
+Added Pin To Net: NetName=+5V Pin=C35-1
+Added Pin To Net: NetName=GND Pin=C35-2
+Added Pin To Net: NetName=GND Pin=C36-1
+Added Pin To Net: NetName=+5V Pin=C36-2
+Added Pin To Net: NetName=+5V_ISO Pin=C37-1
+Added Pin To Net: NetName=GND_2 Pin=C37-2
+Added Pin To Net: NetName=GND Pin=C38-1
+Added Pin To Net: NetName=+3v3 Pin=C38-2
+Added Pin To Net: NetName=NetC1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetC3_1 Pin=D2-1
+Added Pin To Net: NetName=NetD1_2 Pin=D2-2
+Added Pin To Net: NetName=NetD3_1 Pin=D3-1
+Added Pin To Net: NetName=NetD3_2 Pin=D3-2
+Added Pin To Net: NetName=NetD4_1 Pin=D4-1
+Added Pin To Net: NetName=NetD3_2 Pin=D4-2
+Added Pin To Net: NetName=NetD5_1 Pin=D5-1
+Added Pin To Net: NetName=NetD5_2 Pin=D5-2
+Added Pin To Net: NetName=NetD6_1 Pin=D6-1
+Added Pin To Net: NetName=NetD6_2 Pin=D6-2
+Added Pin To Net: NetName=NetD7_1 Pin=D7-1
+Added Pin To Net: NetName=NetD7_2 Pin=D7-2
+Added Pin To Net: NetName=NetD8_1 Pin=D8-1
+Added Pin To Net: NetName=NetD7_2 Pin=D8-2
+Added Pin To Net: NetName=NetD10_1 Pin=D10-1
+Added Pin To Net: NetName=NetD10_2 Pin=D10-2
+Added Pin To Net: NetName=NetD11_1 Pin=D11-1
+Added Pin To Net: NetName=GND Pin=D11-2
+Added Pin To Net: NetName=+3v3 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_2 Pin=J1-2
+Added Pin To Net: NetName=NetJ1_3 Pin=J1-3
+Added Pin To Net: NetName=NetJ1_4 Pin=J1-4
+Added Pin To Net: NetName=NetJ1_5 Pin=J1-5
+Added Pin To Net: NetName=GND Pin=J1-6
+Added Pin To Net: NetName=GND Pin=J2-1
+Added Pin To Net: NetName=NetD5_2 Pin=J2-2
+Added Pin To Net: NetName=+3v3 Pin=J3-1
+Added Pin To Net: NetName=NetJ3_2 Pin=J3-2
+Added Pin To Net: NetName=NetJ3_3 Pin=J3-3
+Added Pin To Net: NetName=NetJ3_4 Pin=J3-4
+Added Pin To Net: NetName=NetJ3_5 Pin=J3-5
+Added Pin To Net: NetName=GND Pin=J3-6
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-1
+Added Pin To Net: NetName=GND_2 Pin=J4-2
+Added Pin To Net: NetName=NetJ4_3 Pin=J4-3
+Added Pin To Net: NetName=NetJE1_1 Pin=JE1-1
+Added Pin To Net: NetName=GND Pin=JE1-2
+Added Pin To Net: NetName=NetC14_1 Pin=L2-1
+Added Pin To Net: NetName=NetC24_1 Pin=L2-2
+Add Pin To Net: Unknown Pin: Pin L3-1
+Add Pin To Net: Unknown Pin: Pin L3-2
+Add Pin To Net: Unknown Pin: Pin L4-1
+Add Pin To Net: Unknown Pin: Pin L4-2
+Added Pin To Net: NetName=+5V Pin=P1-1
+Added Pin To Net: NetName=NetP1_2 Pin=P1-2
+Added Pin To Net: NetName=NetP1_3 Pin=P1-3
+Added Pin To Net: NetName=GND Pin=P1-4
+Added Pin To Net: NetName=+3v3 Pin=R1-1
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=NetC3_1 Pin=R3-1
+Added Pin To Net: NetName=GND Pin=R3-2
+Added Pin To Net: NetName=NetC1_2 Pin=R6-1
+Added Pin To Net: NetName=NetC6_2 Pin=R6-2
+Added Pin To Net: NetName=NetC6_2 Pin=R7-1
+Added Pin To Net: NetName=GND Pin=R7-2
+Added Pin To Net: NetName=NetC1_2 Pin=R10-1
+Added Pin To Net: NetName=NetC8_2 Pin=R10-2
+Added Pin To Net: NetName=NetC8_2 Pin=R11-1
+Added Pin To Net: NetName=GND Pin=R11-2
+Added Pin To Net: NetName=NetJ3_3 Pin=R12-1
+Added Pin To Net: NetName=GND Pin=R12-2
+Added Pin To Net: NetName=NetR13_1 Pin=R13-1
+Added Pin To Net: NetName=+3v3 Pin=R13-2
+Added Pin To Net: NetName=NetR16_1 Pin=R16-1
+Added Pin To Net: NetName=+3v3 Pin=R16-2
+Added Pin To Net: NetName=NetD4_1 Pin=R17-1
+Added Pin To Net: NetName=NetC10_2 Pin=R17-2
+Added Pin To Net: NetName=NetC10_2 Pin=R18-1
+Added Pin To Net: NetName=GND Pin=R18-2
+Added Pin To Net: NetName=NetD5_1 Pin=R19-1
+Added Pin To Net: NetName=+3v3 Pin=R19-2
+Added Pin To Net: NetName=NetR13_1 Pin=R20-1
+Added Pin To Net: NetName=NetP1_2 Pin=R20-2
+Added Pin To Net: NetName=NetR16_1 Pin=R21-1
+Added Pin To Net: NetName=NetP1_3 Pin=R21-2
+Added Pin To Net: NetName=NetD6_2 Pin=R23-1
+Added Pin To Net: NetName=GND Pin=R23-2
+Added Pin To Net: NetName=+3v3 Pin=R24-1
+Added Pin To Net: NetName=NetD5_2 Pin=R24-2
+Added Pin To Net: NetName=NetC8_2 Pin=R25-1
+Added Pin To Net: NetName=NetC11_1 Pin=R25-2
+Added Pin To Net: NetName=NetC6_2 Pin=R27-1
+Added Pin To Net: NetName=NetC11_1 Pin=R27-2
+Added Pin To Net: NetName=NetR28_1 Pin=R28-1
+Added Pin To Net: NetName=GND Pin=R28-2
+Added Pin To Net: NetName=NetR28_1 Pin=R29-1
+Added Pin To Net: NetName=GND Pin=R29-2
+Added Pin To Net: NetName=NetR31_1 Pin=R31-1
+Added Pin To Net: NetName=GND Pin=R31-2
+Added Pin To Net: NetName=NetP2_8 Pin=R32-1
+Added Pin To Net: NetName=+12 Pin=R32-2
+Added Pin To Net: NetName=NetP2_9 Pin=R33-1
+Added Pin To Net: NetName=NetP2_8 Pin=R33-2
+Added Pin To Net: NetName=NetP2_6 Pin=R36-1
+Added Pin To Net: NetName=+12 Pin=R36-2
+Added Pin To Net: NetName=NetJ1_5 Pin=R37-1
+Added Pin To Net: NetName=NetP2_6 Pin=R37-2
+Added Pin To Net: NetName=GND Pin=R41-1
+Added Pin To Net: NetName=NetD10_2 Pin=R41-2
+Added Pin To Net: NetName=NetJ3_5 Pin=R42-1
+Added Pin To Net: NetName=+3v3 Pin=R42-2
+Added Pin To Net: NetName=NetD11_1 Pin=R43-1
+Added Pin To Net: NetName=NetR43_2 Pin=R43-2
+Added Pin To Net: NetName=NetJ3_4 Pin=R44-1
+Added Pin To Net: NetName=+3v3 Pin=R44-2
+Added Pin To Net: NetName=GND Pin=R45-1
+Added Pin To Net: NetName=NetR43_2 Pin=R45-2
+Added Pin To Net: NetName=NetR46_1 Pin=R46-1
+Added Pin To Net: NetName=NetR46_2 Pin=R46-2
+Added Pin To Net: NetName=NetR47_1 Pin=R47-1
+Added Pin To Net: NetName=NetR47_2 Pin=R47-2
+Added Pin To Net: NetName=NetR47_1 Pin=R48-1
+Added Pin To Net: NetName=+5V_ISO Pin=R48-2
+Added Pin To Net: NetName=GND_2 Pin=R49-1
+Added Pin To Net: NetName=NetR49_2 Pin=R49-2
+Added Pin To Net: NetName=NetR46_1 Pin=R50-1
+Added Pin To Net: NetName=+5V_ISO Pin=R50-2
+Added Pin To Net: NetName=NetJ4_3 Pin=R51-1
+Added Pin To Net: NetName=+5V_ISO Pin=R51-2
+Added Pin To Net: NetName=GND_2 Pin=R52-1
+Added Pin To Net: NetName=NetJ4_1 Pin=R52-2
+Added Pin To Net: NetName=NetR53_1 Pin=R53-1
+Added Pin To Net: NetName=NetC1_1 Pin=R53-2
+Added Pin To Net: NetName=GND Pin=R54-1
+Added Pin To Net: NetName=NetR53_1 Pin=R54-2
+Added Pin To Net: NetName=NetR55_1 Pin=R55-1
+Added Pin To Net: NetName=NetC3_1 Pin=R55-2
+Added Pin To Net: NetName=GND Pin=R56-1
+Added Pin To Net: NetName=NetR55_1 Pin=R56-2
+Added Pin To Net: NetName=NetC3_1 Pin=TP2-1
+Added Pin To Net: NetName=NetC6_2 Pin=TP4-1
+Added Pin To Net: NetName=NetC8_2 Pin=TP8-1
+Added Pin To Net: NetName=NetD5_2 Pin=TP9-1
+Added Pin To Net: NetName=GND Pin=TP11-1
+Added Pin To Net: NetName=NetC10_2 Pin=TP13-1
+Added Pin To Net: NetName=NetC11_1 Pin=TP15-1
+Added Pin To Net: NetName=NetC14_1 Pin=TP17-1
+Added Pin To Net: NetName=NetC14_1 Pin=TP18-1
+Added Pin To Net: NetName=NetC24_1 Pin=TP19-1
+Added Pin To Net: NetName=NetC29_1 Pin=TP20-1
+Added Pin To Net: NetName=NetR31_1 Pin=TP22-1
+Added Pin To Net: NetName=GND Pin=TP23-1
+Added Pin To Net: NetName=NetJ3_5 Pin=TP24-1
+Added Pin To Net: NetName=+3v3 Pin=TP25-1
+Added Pin To Net: NetName=NetR43_2 Pin=TP26-1
+Added Pin To Net: NetName=NetJ3_4 Pin=TP27-1
+Added Pin To Net: NetName=+5V Pin=TP28-1
+Added Pin To Net: NetName=NetR46_1 Pin=TP29-1
+Added Pin To Net: NetName=NetR47_1 Pin=TP30-1
+Added Pin To Net: NetName=+5V_ISO Pin=TP31-1
+Added Pin To Net: NetName=NetR49_2 Pin=TP32-1
+Added Pin To Net: NetName=GND_2 Pin=TP33-1
+Added Pin To Net: NetName=+3v3 Pin=TP34-1
+Added Pin To Net: NetName=NetR28_1 Pin=TP35-1
+Added Pin To Net: NetName=NetR28_1 Pin=TP36-1
+Added Pin To Net: NetName=NetR53_1 Pin=TP37-1
+Added Pin To Net: NetName=NetP2_9 Pin=TP38-1
+Added Pin To Net: NetName=NetJ1_4 Pin=TP39-1
+Added Pin To Net: NetName=NetR55_1 Pin=TP40-1
+Added Pin To Net: NetName=NetJ1_5 Pin=TP41-1
+Added Pin To Net: NetName=NetJ1_3 Pin=TP42-1
+Added Pin To Net: NetName=NetJ3_5 Pin=U1-1
+Added Pin To Net: NetName=NetR43_2 Pin=U1-2
+Added Pin To Net: NetName=NetD6_1 Pin=U1-3
+Added Pin To Net: NetName=+3v3 Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U1-5
+Added Pin To Net: NetName=NetR1_2 Pin=U1-6
+Added Pin To Net: NetName=NetD5_2 Pin=U1-7
+Added Pin To Net: NetName=NetJ1_2 Pin=U1-8
+Added Pin To Net: NetName=NetJ1_3 Pin=U1-9
+Added Pin To Net: NetName=NetJ1_4 Pin=U1-10
+Added Pin To Net: NetName=NetJ1_5 Pin=U1-11
+Added Pin To Net: NetName=NetR53_1 Pin=U1-12
+Added Pin To Net: NetName=NetU1_13 Pin=U1-13
+Added Pin To Net: NetName=NetR55_1 Pin=U1-14
+Added Pin To Net: NetName=NetR28_1 Pin=U1-15
+Added Pin To Net: NetName=NetR16_1 Pin=U1-16
+Added Pin To Net: NetName=NetR13_1 Pin=U1-17
+Added Pin To Net: NetName=NetJ3_2 Pin=U1-18
+Added Pin To Net: NetName=NetJ3_3 Pin=U1-19
+Added Pin To Net: NetName=NetJ3_4 Pin=U1-20
+Added Pin To Net: NetName=NetC10_2 Pin=U3-1
+Added Pin To Net: NetName=NetC8_2 Pin=U3-2
+Added Pin To Net: NetName=NetC11_1 Pin=U3-3
+Added Pin To Net: NetName=NetC3_1 Pin=U3-4
+Added Pin To Net: NetName=NetR28_1 Pin=U3-5
+Added Pin To Net: NetName=NetR31_1 Pin=U3-6
+Added Pin To Net: NetName=GND Pin=U3-7
+Added Pin To Net: NetName=NetJ1_3 Pin=U3-8
+Added Pin To Net: NetName=GND Pin=U3-9
+Added Pin To Net: NetName=GND Pin=U3-10
+Added Pin To Net: NetName=NetJ1_4 Pin=U3-11
+Added Pin To Net: NetName=NetC14_1 Pin=U3-12
+Added Pin To Net: NetName=NetC1_2 Pin=U3-13
+Added Pin To Net: NetName=NetC1_2 Pin=U3-14
+Added Pin To Net: NetName=NetC6_2 Pin=U3-15
+Added Pin To Net: NetName=NetD8_1 Pin=U3-16
+Added Pin To Net: NetName=NetC29_1 Pin=U4-1
+Added Pin To Net: NetName=NetC29_1 Pin=U4-2
+Added Pin To Net: NetName=NetJE1_1 Pin=U4-3
+Added Pin To Net: NetName=GND Pin=U4-4
+Added Pin To Net: NetName=NetU4_6 Pin=U4-6
+Added Pin To Net: NetName=NetU4_6 Pin=U4-7
+Added Pin To Net: NetName=NetC24_1 Pin=U4-8
+Added Pin To Net: NetName=GND Pin=U5-1
+Added Pin To Net: NetName=NetC33_1 Pin=U5-2
+Added Pin To Net: NetName=NetC33_1 Pin=U5-2
+Added Pin To Net: NetName=NetC14_1 Pin=U5-3
+Added Pin To Net: NetName=GND Pin=U6-1
+Added Pin To Net: NetName=+5V Pin=U6-2
+Added Pin To Net: NetName=GND_2 Pin=U6-3
+Added Pin To Net: NetName=+5V_ISO Pin=U6-4
+Added Pin To Net: NetName=+3v3 Pin=U7-1
+Added Pin To Net: NetName=GND Pin=U7-2
+Added Pin To Net: NetName=NetJ3_4 Pin=U7-4
+Added Pin To Net: NetName=NetR43_2 Pin=U7-5
+Added Pin To Net: NetName=NetJ3_5 Pin=U7-6
+Added Pin To Net: NetName=+3v3 Pin=U7-7
+Added Pin To Net: NetName=GND Pin=U7-8
+Added Pin To Net: NetName=GND_2 Pin=U7-9
+Added Pin To Net: NetName=+5V_ISO Pin=U7-10
+Added Pin To Net: NetName=NetR47_2 Pin=U7-11
+Added Pin To Net: NetName=NetR49_2 Pin=U7-12
+Added Pin To Net: NetName=NetR46_2 Pin=U7-13
+Added Pin To Net: NetName=GND_2 Pin=U7-15
+Added Pin To Net: NetName=+5V_ISO Pin=U7-16
+Added Pin To Net: NetName=NetR47_1 Pin=U8-1
+Added Pin To Net: NetName=NetR49_2 Pin=U8-2
+Added Pin To Net: NetName=NetR49_2 Pin=U8-3
+Added Pin To Net: NetName=NetR46_1 Pin=U8-4
+Added Pin To Net: NetName=GND_2 Pin=U8-5
+Added Pin To Net: NetName=NetJ4_3 Pin=U8-6
+Added Pin To Net: NetName=NetJ4_1 Pin=U8-7
+Added Pin To Net: NetName=+5V_ISO Pin=U8-8
+Added Pin To Net: NetName=GND Pin=VD1-1
+Added Pin To Net: NetName=NetR13_1 Pin=VD1-2
+Added Pin To Net: NetName=GND Pin=VD2-1
+Added Pin To Net: NetName=NetR16_1 Pin=VD2-2
+Added Pin To Net: NetName=GND_2 Pin=ZD1-1
+Added Pin To Net: NetName=NetJ4_3 Pin=ZD1-2
+Added Pin To Net: NetName=GND_2 Pin=ZD2-1
+Added Pin To Net: NetName=NetJ4_1 Pin=ZD2-2
