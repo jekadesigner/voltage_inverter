@@ -1,0 +1,4 @@
+Added Component: Designator=TP4(Test_Point)
+Added Pin To Net: NetName=GND Pin=TP4-1
+Added Member To Class: ClassName=User_Interface Member=Component TP4 Test_Point_PCB
+Added Room: Name=User_Interface

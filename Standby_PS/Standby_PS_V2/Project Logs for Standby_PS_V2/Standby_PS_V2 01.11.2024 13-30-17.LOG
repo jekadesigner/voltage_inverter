@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=GND_1 Pin=Q1-1
+Removed Pin From Net: NetName=NetQ1_2 Pin=Q1-2
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found FP-RAD-TH-D_16_0_5-L_25_2-MFG
+Change Footprint: Footprint Not Found FP-RAD-TH-D_16_0_5-L_25_2-MFG
+Change Footprint: Footprint Not Found FP-RAD-TH-D_16_0_5-L_25_2-MFG
+Change Footprint: Footprint Not Found FP-RAD-TH-D_16_0_5-L_25_2-MFG
+Change Footprint: Footprint Not Found FP-RAD-TH-D_16_0_5-L_25_2-MFG
+Change Component Comment : Designator=R1 Old Comment=1K New Comment=12K
+Change Component Description : Designator=R1 Old Description=1K New Description=12K
+Added Pin To Net: NetName=NetQ1_2 Pin=Q1-1
+Added Pin To Net: NetName=GND_1 Pin=Q1-2
+Change Net Name : Old Net Name=NetQ1_2 New Net Name=NetQ1_1

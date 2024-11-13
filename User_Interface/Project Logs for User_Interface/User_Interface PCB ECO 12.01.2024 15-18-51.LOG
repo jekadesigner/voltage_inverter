@@ -1,0 +1,2 @@
+Change Component DesignItemId : Designator=VT1 Old DesignItemId=MOSFET-P-CH New DesignItemId=
+Change Component Library : Designator=VT1 Old Library=BSS84.IntLib New Library=DO214.IntLib

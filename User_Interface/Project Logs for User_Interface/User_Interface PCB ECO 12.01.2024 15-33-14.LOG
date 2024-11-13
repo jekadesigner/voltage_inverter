@@ -1,0 +1,6 @@
+Added Component: Designator=VT2(SOT23-3)
+Added Pin To Net: NetName=NetC13_1 Pin=VT2-1
+Added Pin To Net: NetName=NetR23_2 Pin=VT2-2
+Added Pin To Net: NetName=+5V Pin=VT2-3
+Added Member To Class: ClassName=User_Interface Member=Component VT2 BC847-BEC
+Added Room: Name=User_Interface

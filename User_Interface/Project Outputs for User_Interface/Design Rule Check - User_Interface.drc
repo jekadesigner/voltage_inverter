@@ -1,0 +1,94 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc
+Date     : 08.11.2024
+Time     : 13:46:41
+
+WARNING: Unplated multi-layer pad(s) detected
+   Pad TP4-1(66.525mm,94.75mm) on Multi-Layer on Net GND
+   Pad LCD1-0(22mm,81.082mm) on Multi-Layer on Net GND
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Unplated Pad LCD1-0(22mm,81.082mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad LCD1-1(13.027mm,83.114mm) on Multi-Layer And Pad LCD1-0(22mm,81.082mm) on Multi-Layer [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad LCD1-0(4.5mm,32.5mm) on Multi-Layer And Pad SW3-A2(15.75mm,19.75mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad LCD1-0(4.5mm,87.5mm) on Multi-Layer And Pad LCD1-1(13.027mm,83.114mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad SW4-A1(85.25mm,19.75mm) on Multi-Layer And Pad LCD1-0(97.5mm,32.5mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-4(82.875mm,78.585mm) on Multi-Layer And Pad LCD1-0(97.5mm,87.5mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Via (23.55mm,95.5mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (36.15mm,95.625mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (45.225mm,92.125mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (55.15mm,95.2mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (67.925mm,76.925mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (76.65mm,95.15mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (76.95mm,69.8mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (85.25mm,92.825mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+Rule Violations :14
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=5mm) (Preferred=0.5mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+   Violation between Hole Size Constraint: (5mm > 2.54mm) Pad LCD1-0(22mm,81.082mm) on Multi-Layer Actual Hole Size = 5mm
+   Violation between Hole Size Constraint: (2.794mm > 2.54mm) Pad LCD1-0(4.5mm,32.5mm) on Multi-Layer Actual Hole Size = 2.794mm
+   Violation between Hole Size Constraint: (2.921mm > 2.54mm) Pad LCD1-0(4.5mm,87.5mm) on Multi-Layer Actual Hole Size = 2.921mm
+   Violation between Hole Size Constraint: (2.794mm > 2.54mm) Pad LCD1-0(97.5mm,32.5mm) on Multi-Layer Actual Hole Size = 2.794mm
+   Violation between Hole Size Constraint: (2.794mm > 2.54mm) Pad LCD1-0(97.5mm,87.5mm) on Multi-Layer Actual Hole Size = 2.794mm
+Rule Violations :5
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad C17-2(71.251mm,47.725mm) on Top Layer And Via (72.6mm,47.8mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.25mm < 0.254mm) Between Pad R1-2(50.6mm,27.375mm) on Top Layer And Via (50.55mm,28.5mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.25mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.134mm < 0.254mm) Between Pad R16-1(55.375mm,52.501mm) on Top Layer And Via (54.087mm,52.538mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.134mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.196mm < 0.254mm) Between Pad R17-1(58.125mm,52.501mm) on Top Layer And Via (59.475mm,52.425mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.196mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.222mm < 0.254mm) Between Pad R31-1(18.1mm,47.025mm) on Top Layer And Via (19.325mm,47.05mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.222mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.121mm < 0.254mm) Between Pad R32-1(18.101mm,44.3mm) on Top Layer And Via (19.225mm,44.25mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.121mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.071mm < 0.254mm) Between Pad R34-1(15.849mm,56.775mm) on Top Layer And Via (14.775mm,56.775mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.071mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.15mm < 0.254mm) Between Pad R6-2(69.975mm,23.25mm) on Top Layer And Via (71mm,23.25mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.15mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.15mm < 0.254mm) Between Pad R8-2(72.025mm,23.3mm) on Top Layer And Via (71mm,23.25mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.15mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.15mm < 0.254mm) Between Pad U2-4(30.6mm,80.635mm) on Top Layer And Via (28.85mm,80.575mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.15mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.175mm < 0.254mm) Between Pad U3-4(66.6mm,55.04mm) on Top Layer And Via (67.9mm,55.05mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.175mm]
+Rule Violations :11
+
+Processing Rule : Silk To Solder Mask (Clearance=0.05mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.05mm) Between Pad LCD1-0(4.5mm,32.5mm) on Multi-Layer And Track (1.47mm,29.393mm)(1.47mm,90.607mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.05mm) Between Pad LCD1-0(4.5mm,87.5mm) on Multi-Layer And Track (1.47mm,29.393mm)(1.47mm,90.607mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.05mm) Between Pad LCD1-0(4.5mm,87.5mm) on Multi-Layer And Track (1.47mm,90.607mm)(100.657mm,90.607mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.05mm) Between Pad LCD1-1(13.027mm,83.114mm) on Multi-Layer And Track (11.757mm,81.971mm)(11.757mm,84.511mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.05mm) Between Pad LCD1-1(13.027mm,83.114mm) on Multi-Layer And Track (14.297mm,81.971mm)(14.297mm,84.511mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.05mm) Between Pad LCD1-2(13.027mm,80.828mm) on Multi-Layer And Track (11.757mm,79.431mm)(11.757mm,81.971mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.05mm) Between Pad LCD1-2(13.027mm,80.828mm) on Multi-Layer And Track (14.297mm,79.431mm)(14.297mm,81.971mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.05mm) Between Pad LCD1-3(13.027mm,78.161mm) on Multi-Layer And Track (11.757mm,76.891mm)(11.757mm,79.431mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.05mm) Between Pad LCD1-3(13.027mm,78.161mm) on Multi-Layer And Track (14.297mm,76.891mm)(14.297mm,79.431mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.05mm) Between Pad LCD1-4(13.027mm,75.748mm) on Multi-Layer And Track (11.757mm,74.351mm)(11.757mm,76.891mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.05mm) Between Pad LCD1-4(13.027mm,75.748mm) on Multi-Layer And Track (14.297mm,74.351mm)(14.297mm,76.891mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+Rule Violations :11
+
+Processing Rule : Silk to Silk (Clearance=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+   Violation between Height Constraint: SIP Component LCD1-2004_I2C (51mm,60mm) on Top Layer Actual Height = 34.2mm
+Rule Violations :1
+
+
+Violations Detected : 42
+Waived Violations : 0
+Time Elapsed        : 00:00:01

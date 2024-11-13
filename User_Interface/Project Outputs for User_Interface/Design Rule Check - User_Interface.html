@@ -1,0 +1,484 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD21\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">08.11.2024</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">13:46:41</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc" class="file"><acronym title="C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc">C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">2</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">42</td></tr>
+</table>
+</td>
+</table><a name="IDGPHTI5KBWOEBOV2PSYD1XEGV33ISLAPPASW0EM10FAKWR1GO1KP"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYPQ4ZICL1QM0HOTZIWRZ1GB3KCGEOKYWVTVU1XESK3NK4NHFHBKJ">Unplated multi-layer pad(s) detected</a></td>
+<td class="column2">2</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">2</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDY0PBRIAMNOZHBV3IU53DOH2KLBIIUTDFGGDK32JUPUP5INO4LKYM">Clearance Constraint (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZUV4EXVSM4R2J0KUIMSD3TYIQJK3QKL1AZ1ZAUBPD1JTW5QXAFLG">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDCVF3OYASA42ANGIKHLB5AAGEMK0OLF2C41VZCFNBKYZGNPH5JD5J">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">14</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDNTQDOHND003VIR4QVBFV2WYMKI3HVLZFGUPQYBNP2YQLGSNTNPCK">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1QCSDPYARVO0O0ECGSORPBOADD2R2YPXFZQDOHC0LPXELBCSOICC">Width Constraint (Min=0.254mm) (Max=5mm) (Preferred=0.5mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUVY4DXLFFK0YKPLKPICIT1K3OBHC2NKM0IXJUHCPID3MVSSNA5XB">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHKSTANY1WLLHHVCRKPLJQGWRPHZOV0UJZKDVJCK3V5OA0DDOYDUJ">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</a></td>
+<td class="column2">5</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVHPVCXBJQMOPBIPBZWTPV3YZEHRB5TJATI2MVKL11S5P5NF4QHD">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDVWX3404A1AJZNSUODXNAFSORWPQKO12CSIFOI3HVC3W1I3Q2EYHP">Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">11</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDATFIOTB5EVASDNFAOIB11W1NNC4KKHUQCP1TL5H5VBQM1H5VL13P">Silk To Solder Mask (Clearance=0.05mm) (IsPad),(All)</a></td>
+<td class="column2">11</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID5USES0BBQH13MPQ2SKOYEAATHIJ4YEUZ3S14NACQ3IJ23T5NUGIK">Silk to Silk (Clearance=0.1mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMCFWIRUTW1AXDKPGJWZJJN3ODOLD3YSUPGFODFKOICX33M5M0D1">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDK1HUZZ3KF24IC53055BCPU2I5E0RVI3IRMIQNDEMH5ZKYUR2V2CJ">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">42</td>
+</tr>
+</table><br><a name="IDJNLJ5RC0W2FVHS1F3I3IAGMSWCIIZHCRG3GBDKNRUO2QTA5BBATL"><h2>Warnings</h2></a><a name="IDYPQ4ZICL1QM0HOTZIWRZ1GB3KCGEOKYWVTVU1XESK3NK4NHFHBKJ"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="warning">Unplated multi-layer pad(s) detected</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11000.094mil|Location2.X=11098.094mil|Location1.Y=4126.315mil|Location2.Y=4224.315mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11000.094mil|Location2.X=11098.094mil|Location1.Y=4126.315mil|Location2.Y=4224.315mil|Absolute=True">Pad TP4-1(66.525mm,94.75mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8492.165mil|Location2.X=12378.583mil|Location1.Y=608.325mil|Location2.Y=4224.315mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8492.165mil|Location2.X=12378.583mil|Location1.Y=608.325mil|Location2.Y=4224.315mil|Absolute=True">Net GND</acronym></a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9197.717mil|Location2.X=9394.567mil|Location1.Y=3538.78mil|Location2.Y=3735.63mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9197.717mil|Location2.X=9394.567mil|Location1.Y=3538.78mil|Location2.Y=3735.63mil|Absolute=True">Pad LCD1-0(22mm,81.082mm) on Multi-Layer</acronym></a> on <a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8492.165mil|Location2.X=12378.583mil|Location1.Y=608.325mil|Location2.Y=4224.315mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8492.165mil|Location2.X=12378.583mil|Location1.Y=608.325mil|Location2.Y=4224.315mil|Absolute=True">Net GND</acronym></a></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDCVF3OYASA42ANGIKHLB5AAGEMK0OLF2C41VZCFNBKYZGNPH5JD5J"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9182.717mil|Location2.X=9409.567mil|Location1.Y=3523.78mil|Location2.Y=3750.63mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9182.717mil|Location2.X=9409.567mil|Location1.Y=3523.78mil|Location2.Y=3750.63mil|Absolute=True">Un-Routed Net Constraint: Unplated Pad LCD1-0(22mm,81.082mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8892.874mil|Location2.X=9394.567mil|Location1.Y=3538.78mil|Location2.Y=3752.205mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8892.874mil|Location2.X=9394.567mil|Location1.Y=3538.78mil|Location2.Y=3752.205mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad LCD1-1(13.027mm,83.114mm) on Multi-Layer And Pad LCD1-0(22mm,81.082mm) on Multi-Layer [Unplated] </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8497.165mil|Location2.X=9079.606mil|Location1.Y=1193.032mil|Location2.Y=1834.527mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8497.165mil|Location2.X=9079.606mil|Location1.Y=1193.032mil|Location2.Y=1834.527mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad LCD1-0(4.5mm,32.5mm) on Multi-Layer And Pad SW3-A2(15.75mm,19.75mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8492.165mil|Location2.X=8992.874mil|Location1.Y=3682.205mil|Location2.Y=4004.882mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8492.165mil|Location2.X=8992.874mil|Location1.Y=3682.205mil|Location2.Y=4004.882mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad LCD1-0(4.5mm,87.5mm) on Multi-Layer And Pad LCD1-1(13.027mm,83.114mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11756.772mil|Location2.X=12378.583mil|Location1.Y=1193.032mil|Location2.Y=1834.527mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11756.772mil|Location2.X=12378.583mil|Location1.Y=1193.032mil|Location2.Y=1834.527mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad SW4-A1(85.25mm,19.75mm) on Multi-Layer And Pad LCD1-0(97.5mm,32.5mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11663.268mil|Location2.X=12378.583mil|Location1.Y=3509.37mil|Location2.Y=3999.882mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11663.268mil|Location2.X=12378.583mil|Location1.Y=3509.37mil|Location2.Y=3999.882mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-4(82.875mm,78.585mm) on Multi-Layer And Pad LCD1-0(97.5mm,87.5mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9341.417mil|Location2.X=9372.913mil|Location1.Y=4189.095mil|Location2.Y=4220.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9341.417mil|Location2.X=9372.913mil|Location1.Y=4189.095mil|Location2.Y=4220.591mil|Absolute=True">Un-Routed Net Constraint: Via (23.55mm,95.5mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9837.48mil|Location2.X=9868.976mil|Location1.Y=4194.016mil|Location2.Y=4225.512mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9837.48mil|Location2.X=9868.976mil|Location1.Y=4194.016mil|Location2.Y=4225.512mil|Absolute=True">Un-Routed Net Constraint: Via (36.15mm,95.625mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10194.764mil|Location2.X=10226.26mil|Location1.Y=4056.22mil|Location2.Y=4087.716mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10194.764mil|Location2.X=10226.26mil|Location1.Y=4056.22mil|Location2.Y=4087.716mil|Absolute=True">Un-Routed Net Constraint: Via (45.225mm,92.125mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10585.512mil|Location2.X=10617.008mil|Location1.Y=4177.283mil|Location2.Y=4208.779mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10585.512mil|Location2.X=10617.008mil|Location1.Y=4177.283mil|Location2.Y=4208.779mil|Absolute=True">Un-Routed Net Constraint: Via (55.15mm,95.2mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11088.465mil|Location2.X=11119.961mil|Location1.Y=3457.795mil|Location2.Y=3489.291mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11088.465mil|Location2.X=11119.961mil|Location1.Y=3457.795mil|Location2.Y=3489.291mil|Absolute=True">Un-Routed Net Constraint: Via (67.925mm,76.925mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11431.969mil|Location2.X=11463.465mil|Location1.Y=4175.315mil|Location2.Y=4206.811mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11431.969mil|Location2.X=11463.465mil|Location1.Y=4175.315mil|Location2.Y=4206.811mil|Absolute=True">Un-Routed Net Constraint: Via (76.65mm,95.15mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11443.78mil|Location2.X=11475.276mil|Location1.Y=3177.284mil|Location2.Y=3208.78mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11443.78mil|Location2.X=11475.276mil|Location1.Y=3177.284mil|Location2.Y=3208.78mil|Absolute=True">Un-Routed Net Constraint: Via (76.95mm,69.8mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11770.551mil|Location2.X=11802.047mil|Location1.Y=4083.78mil|Location2.Y=4115.276mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11770.551mil|Location2.X=11802.047mil|Location1.Y=4083.78mil|Location2.Y=4115.276mil|Absolute=True">Un-Routed Net Constraint: Via (85.25mm,92.825mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDHKSTANY1WLLHHVCRKPLJQGWRPHZOV0UJZKDVJCK3V5OA0DDOYDUJ"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9197.092mil|Location2.X=9395.192mil|Location1.Y=3538.155mil|Location2.Y=3736.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9197.092mil|Location2.X=9395.192mil|Location1.Y=3538.155mil|Location2.Y=3736.255mil|Absolute=True">Hole Size Constraint: (5mm &gt; 2.54mm) Pad LCD1-0(22mm,81.082mm) on Multi-Layer Actual Hole Size = 5mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8551.54mil|Location2.X=8662.79mil|Location1.Y=1668.902mil|Location2.Y=1780.152mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8551.54mil|Location2.X=8662.79mil|Location1.Y=1668.902mil|Location2.Y=1780.152mil|Absolute=True">Hole Size Constraint: (2.794mm &gt; 2.54mm) Pad LCD1-0(4.5mm,32.5mm) on Multi-Layer Actual Hole Size = 2.794mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8549.04mil|Location2.X=8665.29mil|Location1.Y=3831.757mil|Location2.Y=3948.007mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8549.04mil|Location2.X=8665.29mil|Location1.Y=3831.757mil|Location2.Y=3948.007mil|Absolute=True">Hole Size Constraint: (2.921mm &gt; 2.54mm) Pad LCD1-0(4.5mm,87.5mm) on Multi-Layer Actual Hole Size = 2.921mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12212.958mil|Location2.X=12324.208mil|Location1.Y=1668.902mil|Location2.Y=1780.152mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12212.958mil|Location2.X=12324.208mil|Location1.Y=1668.902mil|Location2.Y=1780.152mil|Absolute=True">Hole Size Constraint: (2.794mm &gt; 2.54mm) Pad LCD1-0(97.5mm,32.5mm) on Multi-Layer Actual Hole Size = 2.794mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12212.958mil|Location2.X=12324.208mil|Location1.Y=3834.257mil|Location2.Y=3945.507mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12212.958mil|Location2.X=12324.208mil|Location1.Y=3834.257mil|Location2.Y=3945.507mil|Absolute=True">Hole Size Constraint: (2.794mm &gt; 2.54mm) Pad LCD1-0(97.5mm,87.5mm) on Multi-Layer Actual Hole Size = 2.794mm</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDVWX3404A1AJZNSUODXNAFSORWPQKO12CSIFOI3HVC3W1I3Q2EYHP"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11263.019mil|Location2.X=11274.269mil|Location1.Y=2321.265mil|Location2.Y=2332.515mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11263.019mil|Location2.X=11274.269mil|Location1.Y=2321.265mil|Location2.Y=2332.515mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.197mm &lt; 0.254mm) Between Pad C17-2(71.251mm,47.725mm) on Top Layer And Via (72.6mm,47.8mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.197mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10414.532mil|Location2.X=10425.782mil|Location1.Y=1540.753mil|Location2.Y=1552.003mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10414.532mil|Location2.X=10425.782mil|Location1.Y=1540.753mil|Location2.Y=1552.003mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.25mm &lt; 0.254mm) Between Pad R1-2(50.6mm,27.375mm) on Top Layer And Via (50.55mm,28.5mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.25mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10572.169mil|Location2.X=10583.419mil|Location1.Y=2507.797mil|Location2.Y=2519.047mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10572.169mil|Location2.X=10583.419mil|Location1.Y=2507.797mil|Location2.Y=2519.047mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.134mm &lt; 0.254mm) Between Pad R16-1(55.375mm,52.501mm) on Top Layer And Via (54.087mm,52.538mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.134mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10746.306mil|Location2.X=10757.556mil|Location1.Y=2503.351mil|Location2.Y=2514.601mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10746.306mil|Location2.X=10757.556mil|Location1.Y=2503.351mil|Location2.Y=2514.601mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.196mm &lt; 0.254mm) Between Pad R17-1(58.125mm,52.501mm) on Top Layer And Via (59.475mm,52.425mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.196mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9165.089mil|Location2.X=9176.339mil|Location1.Y=2291.737mil|Location2.Y=2302.987mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9165.089mil|Location2.X=9176.339mil|Location1.Y=2291.737mil|Location2.Y=2302.987mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.222mm &lt; 0.254mm) Between Pad R31-1(18.1mm,47.025mm) on Top Layer And Via (19.325mm,47.05mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.222mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9163.137mil|Location2.X=9174.387mil|Location1.Y=2181.501mil|Location2.Y=2192.751mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9163.137mil|Location2.X=9174.387mil|Location1.Y=2181.501mil|Location2.Y=2192.751mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.121mm &lt; 0.254mm) Between Pad R32-1(18.101mm,44.3mm) on Top Layer And Via (19.225mm,44.25mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.121mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9023.211mil|Location2.X=9034.461mil|Location1.Y=2674.611mil|Location2.Y=2685.861mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9023.211mil|Location2.X=9034.461mil|Location1.Y=2674.611mil|Location2.Y=2685.861mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.071mm &lt; 0.254mm) Between Pad R34-1(15.849mm,56.775mm) on Top Layer And Via (14.775mm,56.775mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.071mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11200.95mil|Location2.X=11212.2mil|Location1.Y=1354.729mil|Location2.Y=1365.979mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11200.95mil|Location2.X=11212.2mil|Location1.Y=1354.729mil|Location2.Y=1365.979mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.15mm &lt; 0.254mm) Between Pad R6-2(69.975mm,23.25mm) on Top Layer And Via (71mm,23.25mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11238.351mil|Location2.X=11249.601mil|Location1.Y=1354.729mil|Location2.Y=1365.979mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11238.351mil|Location2.X=11249.601mil|Location1.Y=1354.729mil|Location2.Y=1365.979mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.15mm &lt; 0.254mm) Between Pad R8-2(72.025mm,23.3mm) on Top Layer And Via (71mm,23.25mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9578.903mil|Location2.X=9590.153mil|Location1.Y=3611.619mil|Location2.Y=3622.869mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9578.903mil|Location2.X=9590.153mil|Location1.Y=3611.619mil|Location2.Y=3622.869mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.15mm &lt; 0.254mm) Between Pad U2-4(30.6mm,80.635mm) on Top Layer And Via (28.85mm,80.575mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11078.41mil|Location2.X=11089.66mil|Location1.Y=2606.478mil|Location2.Y=2617.728mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11078.41mil|Location2.X=11089.66mil|Location1.Y=2606.478mil|Location2.Y=2617.728mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.175mm &lt; 0.254mm) Between Pad U3-4(66.6mm,55.04mm) on Top Layer And Via (67.9mm,55.05mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.175mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDATFIOTB5EVASDNFAOIB11W1NNC4KKHUQCP1TL5H5VBQM1H5VL13P"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.05mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8486.718mil|Location2.X=8489.03mil|Location1.Y=1723.371mil|Location2.Y=1725.684mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8486.718mil|Location2.X=8489.03mil|Location1.Y=1723.371mil|Location2.Y=1725.684mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.05mm) Between Pad LCD1-0(4.5mm,32.5mm) on Multi-Layer And Track (1.47mm,29.393mm)(1.47mm,90.607mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8486.718mil|Location2.X=8489.03mil|Location1.Y=3888.726mil|Location2.Y=3891.038mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8486.718mil|Location2.X=8489.03mil|Location1.Y=3888.726mil|Location2.Y=3891.038mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.05mm) Between Pad LCD1-0(4.5mm,87.5mm) on Multi-Layer And Track (1.47mm,29.393mm)(1.47mm,90.607mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8606.009mil|Location2.X=8608.321mil|Location1.Y=4011.049mil|Location2.Y=4013.361mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8606.009mil|Location2.X=8608.321mil|Location1.Y=4011.049mil|Location2.Y=4013.361mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.05mm) Between Pad LCD1-0(4.5mm,87.5mm) on Multi-Layer And Track (1.47mm,90.607mm)(100.657mm,90.607mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8891.718mil|Location2.X=8894.03mil|Location1.Y=3716.049mil|Location2.Y=3718.361mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8891.718mil|Location2.X=8894.03mil|Location1.Y=3716.049mil|Location2.Y=3718.361mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.05mm) Between Pad LCD1-1(13.027mm,83.114mm) on Multi-Layer And Track (11.757mm,81.971mm)(11.757mm,84.511mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8991.718mil|Location2.X=8994.03mil|Location1.Y=3716.049mil|Location2.Y=3718.361mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8991.718mil|Location2.X=8994.03mil|Location1.Y=3716.049mil|Location2.Y=3718.361mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.05mm) Between Pad LCD1-1(13.027mm,83.114mm) on Multi-Layer And Track (14.297mm,81.971mm)(14.297mm,84.511mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8891.718mil|Location2.X=8894.03mil|Location1.Y=3626.049mil|Location2.Y=3628.361mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8891.718mil|Location2.X=8894.03mil|Location1.Y=3626.049mil|Location2.Y=3628.361mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.05mm) Between Pad LCD1-2(13.027mm,80.828mm) on Multi-Layer And Track (11.757mm,79.431mm)(11.757mm,81.971mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8991.718mil|Location2.X=8994.03mil|Location1.Y=3626.049mil|Location2.Y=3628.361mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8991.718mil|Location2.X=8994.03mil|Location1.Y=3626.049mil|Location2.Y=3628.361mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.05mm) Between Pad LCD1-2(13.027mm,80.828mm) on Multi-Layer And Track (14.297mm,79.431mm)(14.297mm,81.971mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8891.718mil|Location2.X=8894.03mil|Location1.Y=3521.049mil|Location2.Y=3523.361mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8891.718mil|Location2.X=8894.03mil|Location1.Y=3521.049mil|Location2.Y=3523.361mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.05mm) Between Pad LCD1-3(13.027mm,78.161mm) on Multi-Layer And Track (11.757mm,76.891mm)(11.757mm,79.431mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8991.718mil|Location2.X=8994.03mil|Location1.Y=3521.049mil|Location2.Y=3523.361mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8991.718mil|Location2.X=8994.03mil|Location1.Y=3521.049mil|Location2.Y=3523.361mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.05mm) Between Pad LCD1-3(13.027mm,78.161mm) on Multi-Layer And Track (14.297mm,76.891mm)(14.297mm,79.431mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8891.718mil|Location2.X=8894.03mil|Location1.Y=3426.049mil|Location2.Y=3428.361mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8891.718mil|Location2.X=8894.03mil|Location1.Y=3426.049mil|Location2.Y=3428.361mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.05mm) Between Pad LCD1-4(13.027mm,75.748mm) on Multi-Layer And Track (11.757mm,74.351mm)(11.757mm,76.891mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8991.718mil|Location2.X=8994.03mil|Location1.Y=3426.049mil|Location2.Y=3428.361mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8991.718mil|Location2.X=8994.03mil|Location1.Y=3426.049mil|Location2.Y=3428.361mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.05mm) Between Pad LCD1-4(13.027mm,75.748mm) on Multi-Layer And Track (14.297mm,74.351mm)(14.297mm,76.891mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDK1HUZZ3KF24IC53055BCPU2I5E0RVI3IRMIQNDEMH5ZKYUR2V2CJ"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10436.874mil|Location2.X=10438.874mil|Location1.Y=2806.205mil|Location2.Y=2808.205mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10436.874mil|Location2.X=10438.874mil|Location1.Y=2806.205mil|Location2.Y=2808.205mil|Absolute=True">Height Constraint: SIP Component LCD1-2004_I2C (51mm,60mm) on Top Layer Actual Height = 34.2mm</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

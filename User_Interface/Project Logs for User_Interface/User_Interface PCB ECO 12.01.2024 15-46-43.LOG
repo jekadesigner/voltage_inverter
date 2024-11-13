@@ -1,0 +1,23 @@
+Added Component: Designator=J1(Jumper_2.54)
+Added Component: Designator=J2(Jumper_2.54)
+Added Component: Designator=J3(Jumper_2.54)
+Added Component: Designator=J4(Jumper_2.54)
+Added Component: Designator=J5(Jumper_2.54)
+Added Component: Designator=J6(Jumper_2.54)
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=NetJ1_2 Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J2-1
+Added Pin To Net: NetName=NetJ2_2 Pin=J2-2
+Added Pin To Net: NetName=GND Pin=J3-1
+Added Pin To Net: NetName=NetJ3_2 Pin=J3-2
+Added Pin To Net: NetName=GND Pin=J4-1
+Added Pin To Net: NetName=NetJ4_2 Pin=J4-2
+Added Pin To Net: NetName=GND Pin=J5-1
+Added Pin To Net: NetName=NetJ5_2 Pin=J5-2
+Added Pin To Net: NetName=NetJ6_2 Pin=J6-2
+Added Member To Class: ClassName=User_Interface Member=Component J1 Jumper 1x2.54
+Added Member To Class: ClassName=User_Interface Member=Component J2 Jumper 1x2.54
+Added Member To Class: ClassName=User_Interface Member=Component J3 Jumper 1x2.54
+Added Member To Class: ClassName=User_Interface Member=Component J4 Jumper 1x2.54
+Added Member To Class: ClassName=User_Interface Member=Component J5 Jumper 1x2.54
+Added Member To Class: ClassName=User_Interface Member=Component J6 Jumper 1x2.54

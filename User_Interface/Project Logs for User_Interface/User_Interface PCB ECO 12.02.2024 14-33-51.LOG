@@ -1,0 +1,12 @@
+Added Component: Designator=LCD1(LCD2004_I2C)
+Added Pin To Net: NetName=GND Pin=LCD1-0
+Added Pin To Net: NetName=GND Pin=LCD1-0
+Added Pin To Net: NetName=GND Pin=LCD1-0
+Added Pin To Net: NetName=GND Pin=LCD1-0
+Added Pin To Net: NetName=GND Pin=LCD1-0
+Added Pin To Net: NetName=GND Pin=LCD1-1
+Added Pin To Net: NetName=NetC10_2 Pin=LCD1-2
+Added Pin To Net: NetName=NetLCD1_3 Pin=LCD1-3
+Added Pin To Net: NetName=NetLCD1_4 Pin=LCD1-4
+Added Member To Class: ClassName=User_Interface Member=Component LCD1 2004_I2C
+Added Room: Name=User_Interface
