@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=+5V_1 Pin=L2-2
+Change Footprint: Cannot match pads with new footprint in component :L2 Footprint:WE-PD2_1054
+Change Footprint: Cannot match pads with new footprint in component :L3 Footprint:WE-PD2_1054
+Added Pin To Net: NetName=+5V_1 Pin=L2-1
+Added Pin To Net: NetName=NetC30_2 Pin=L2-2
+Added Member To Class: ClassName=U_I_Meter_TOP Member=Component L2 744776227
