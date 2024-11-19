@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=NetD2_1 Pin=L2-1
+Added Pin To Net: NetName=+5V_1 Pin=L2-2
+Added Pin To Net: NetName=+5V_1 Pin=L3-1
+Added Pin To Net: NetName=NetC30_2 Pin=L3-2
+Added Member To Class: ClassName=U_I_Meter_TOP Member=Component L2 Coil
+Added Member To Class: ClassName=U_I_Meter_TOP Member=Component L3 Coil

@@ -1,0 +1,4 @@
+Added Component: Designator=X?(CONN-PLS-5-2.54mm)
+Added Pin To Net: NetName=NetC17_2 Pin=X?-1
+Added Pin To Net: NetName=NetC17_1 Pin=X?-2
+Added Member To Class: ClassName=U_I_Meter_DC Member=Component X? CONN-5-PIN

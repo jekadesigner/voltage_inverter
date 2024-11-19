@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=+5V_1 Pin=L2-1
+Removed Pin From Net: NetName=NetC30_2 Pin=L2-2
+Removed Pin From Net: NetName=NetD2_1 Pin=L3-1
+Removed Pin From Net: NetName=+5V_1 Pin=L3-2
+Change Footprint: Footprint Not Found Coil_4.5x4.5_mm
+Change Footprint: Footprint Not Found Coil_4.5x4.5_mm
+Change Component Comment : Designator=L2 Old Comment=744776227 New Comment=Coil
+Change Component Comment : Designator=L3 Old Comment=744776227 New Comment=Coil
+Change Managed Component Library Link : Designator=L2 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=20B15B5F-BEAB-4CF7-8A0B-6DEBA0504057 New ItemGUID= Old RevisionGUID=24911B03-6D1B-4363-B4B7-CEAF5F29FEE2 New RevisionGUID=
+Change Managed Component Library Link : Designator=L3 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=20B15B5F-BEAB-4CF7-8A0B-6DEBA0504057 New ItemGUID= Old RevisionGUID=24911B03-6D1B-4363-B4B7-CEAF5F29FEE2 New RevisionGUID=
+Change component parameters: Designator = "L2" ("L2"); Footprint = "WE-PD2_7850"; UniqueID = "\XRPZIAAK" ("\XRPZIAAK")
+Change component parameters: Designator = "L3" ("L3"); Footprint = "WE-PD2_7850"; UniqueID = "\RDRYLAQE" ("\RDRYLAQE")
+Added Pin To Net: NetName=NetD2_1 Pin=L2-1
+Added Pin To Net: NetName=+5V_1 Pin=L2-2
+Added Pin To Net: NetName=+5V_1 Pin=L3-1
+Added Pin To Net: NetName=NetC30_2 Pin=L3-2

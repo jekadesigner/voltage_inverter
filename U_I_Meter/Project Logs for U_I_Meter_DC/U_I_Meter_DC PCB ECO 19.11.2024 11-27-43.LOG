@@ -1,0 +1,42 @@
+Removed Pin From Net: NetName=GND_III Pin=C13-1
+Removed Pin From Net: NetName=+5 Pin=C13-2
+Removed Pin From Net: NetName=GND_III Pin=C18-1
+Removed Pin From Net: NetName=GND_III Pin=C19-1
+Removed Pin From Net: NetName=GND_III Pin=C20-1
+Removed Pin From Net: NetName=GND_III Pin=C21-1
+Removed Pin From Net: NetName=GND_III Pin=R16-2
+Removed Pin From Net: NetName=GND_III Pin=R17-2
+Removed Pin From Net: NetName=GND_III Pin=R20-1
+Removed Pin From Net: NetName=GND_III Pin=U5-2
+Removed Pin From Net: NetName=+5 Pin=U5-5
+Removed Member From Class: ClassName=U_I_Meter_DC Member=C13
+Removed Member From Class: ClassName=U_I_Meter_DC Member=C16
+Removed Member From Class: ClassName=U_I_Meter_DC Member=C17
+Removed Member From Class: ClassName=U_I_Meter_DC Member=C18
+Removed Member From Class: ClassName=U_I_Meter_DC Member=C19
+Removed Member From Class: ClassName=U_I_Meter_DC Member=C20
+Removed Member From Class: ClassName=U_I_Meter_DC Member=C21
+Removed Member From Class: ClassName=U_I_Meter_DC Member=C22
+Removed Member From Class: ClassName=U_I_Meter_DC Member=R11
+Removed Member From Class: ClassName=U_I_Meter_DC Member=R12
+Removed Member From Class: ClassName=U_I_Meter_DC Member=R13
+Removed Member From Class: ClassName=U_I_Meter_DC Member=R14
+Removed Member From Class: ClassName=U_I_Meter_DC Member=R15
+Removed Member From Class: ClassName=U_I_Meter_DC Member=R16
+Removed Member From Class: ClassName=U_I_Meter_DC Member=R17
+Removed Member From Class: ClassName=U_I_Meter_DC Member=R20
+Removed Member From Class: ClassName=U_I_Meter_DC Member=R21
+Removed Member From Class: ClassName=U_I_Meter_DC Member=TP9
+Removed Member From Class: ClassName=U_I_Meter_DC Member=TP10
+Removed Member From Class: ClassName=U_I_Meter_DC Member=TP11
+Removed Member From Class: ClassName=U_I_Meter_DC Member=TP12
+Removed Member From Class: ClassName=U_I_Meter_DC Member=TP13
+Removed Member From Class: ClassName=U_I_Meter_DC Member=TP14
+Removed Member From Class: ClassName=U_I_Meter_DC Member=U5
+Change Component Designator: OldDesignator=X? NewDesignator=X3
+Added Pin To Net: NetName=NetU1_6 Pin=U1-6
+Added Pin To Net: NetName=NetU1_6 Pin=X3-2
+Added Net: Name=NetU1_6
+Added Pin To Net: NetName=NetU1_7 Pin=U1-7
+Added Pin To Net: NetName=NetU1_7 Pin=X3-1
+Added Net: Name=NetU1_7

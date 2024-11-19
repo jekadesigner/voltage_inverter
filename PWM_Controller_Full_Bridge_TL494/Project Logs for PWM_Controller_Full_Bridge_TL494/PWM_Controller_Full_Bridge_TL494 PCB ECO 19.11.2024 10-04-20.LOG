@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=NetJ1_5 Pin=P2-7
+Removed Pin From Net: NetName=NetJ1_3 Pin=P2-12
+Removed Pin From Net: NetName=NetJ1_4 Pin=P2-14
+Removed Pin From Net: NetName=NetJ1_5 Pin=R37-1
+Removed Pin From Net: NetName=NetJ1_3 Pin=R39-1
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Added Pin To Net: NetName=NetP2_7 Pin=P2-7
+Added Pin To Net: NetName=NetP2_12 Pin=P2-12
+Added Pin To Net: NetName=NetP2_14 Pin=P2-14
+Added Pin To Net: NetName=NetP2_7 Pin=R37-1
+Added Pin To Net: NetName=NetP2_12 Pin=R39-1

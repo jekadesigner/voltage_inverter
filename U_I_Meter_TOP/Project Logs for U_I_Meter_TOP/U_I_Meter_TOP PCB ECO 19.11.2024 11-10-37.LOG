@@ -1,0 +1,4 @@
+Added Component: Designator=R28(RES-1206)
+Added Pin To Net: NetName=VCC Pin=R28-1
+Added Pin To Net: NetName=NetR28_2 Pin=R28-2
+Added Member To Class: ClassName=U_I_Meter_TOP Member=Component R28 0.33
