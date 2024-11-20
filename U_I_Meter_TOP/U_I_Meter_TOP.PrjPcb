@@ -83,6 +83,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EDDCSMXV
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for U_I_Meter_TOP\Design Rule Check - U_I_Meter_TOP.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
