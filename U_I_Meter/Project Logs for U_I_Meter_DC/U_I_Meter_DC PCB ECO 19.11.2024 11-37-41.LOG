@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=NetC14_2 Pin=X1-1
-Removed Pin From Net: NetName=+5 Pin=X1-2
-Removed Pin From Net: NetName=GND_III Pin=X1-3
-Removed Pin From Net: NetName=NetU1_7 Pin=X3-1
-Removed Pin From Net: NetName=NetU1_6 Pin=X3-2
-Removed Member From Class: ClassName=U_I_Meter_DC Member=X3
-Added Pin To Net: NetName=NetU1_7 Pin=X1-1
-Added Pin To Net: NetName=NetU1_6 Pin=X1-2
-Added Pin To Net: NetName=+5 Pin=X1-3
