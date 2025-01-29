@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=D1 Old Footprint=LED_BLUE New Footprint=LED_3mm_BLUE
+Change Component Footprint: Designator=D13 Old Footprint=LED_BLUE New Footprint=LED_3mm_BLUE
+Change Component Footprint: Designator=D3 Old Footprint=LED_GREEN New Footprint=LED_3mm_GREEN
+Change Component Footprint: Designator=D4 Old Footprint=LED_RED New Footprint=LED_3mm_RED

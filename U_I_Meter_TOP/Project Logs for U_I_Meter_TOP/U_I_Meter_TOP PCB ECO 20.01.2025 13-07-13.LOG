@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=+3V3_MCU Pin=TP2-1
+Removed Member From Class: ClassName=U_I_Meter_TOP Member=TP2
+Added Member To Class: ClassName=U_I_Meter_TOP Member=Component R25 820
