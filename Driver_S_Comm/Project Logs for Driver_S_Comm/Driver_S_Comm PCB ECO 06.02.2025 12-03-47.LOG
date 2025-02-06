@@ -1,0 +1,100 @@
+Change Footprint: Footprint Not Found INF-SOT23_N
+Change Footprint: Footprint Not Found INF-SOT23_N
+Change Footprint: Footprint Not Found INF-SOT23_N
+Change Footprint: Footprint Not Found INF-SOT23_N
+Added Component: Designator=TP4(Test_Point)
+Added Component: Designator=TP12(Test_Point)
+Added Component: Designator=TP15(Test_Point)
+Added Component: Designator=TP17(Test_Point)
+Added Component: Designator=TP18(Test_Point)
+Added Component: Designator=TP19(Test_Point)
+Added Component: Designator=TP27(Test_Point)
+Added Component: Designator=TP31(Test_Point)
+Added Component: Designator=TP37(Test_Point)
+Added Component: Designator=TP38(Test_Point)
+Added Component: Designator=TP40(Test_Point)
+Added Component: Designator=TP41(Test_Point)
+Added Component: Designator=TP42(Test_Point)
+Added Component: Designator=TP43(Test_Point)
+Added Component: Designator=TP46(Test_Point)
+Added Component: Designator=TP47(Test_Point)
+Added Component: Designator=TP48(Test_Point)
+Added Component: Designator=TP50(Test_Point)
+Added Component: Designator=TP53(Test_Point)
+Added Component: Designator=TP54(Test_Point)
+Added Component: Designator=TP57(Test_Point)
+Added Component: Designator=TP58(Test_Point)
+Added Component: Designator=TP59(Test_Point)
+Added Component: Designator=TP60(Test_Point)
+Added Component: Designator=TP61(Test_Point)
+Added Component: Designator=TP64(Test_Point)
+Added Component: Designator=TP65(Test_Point)
+Added Component: Designator=TP66(Test_Point)
+Added Component: Designator=TP71(Test_Point)
+Added Component: Designator=TP72(Test_Point)
+Added Component: Designator=TP73(Test_Point)
+Added Component: Designator=TP74(Test_Point)
+Added Pin To Net: NetName=NetR15_2 Pin=TP4-1
+Added Pin To Net: NetName=NetR16_2 Pin=TP12-1
+Added Pin To Net: NetName=NetR17_2 Pin=TP15-1
+Added Pin To Net: NetName=NetR18_2 Pin=TP17-1
+Added Pin To Net: NetName=NetR19_2 Pin=TP18-1
+Added Pin To Net: NetName=NetR20_2 Pin=TP19-1
+Added Pin To Net: NetName=NetR21_2 Pin=TP27-1
+Added Pin To Net: NetName=NetR31_2 Pin=TP31-1
+Added Pin To Net: NetName=NetR33_2 Pin=TP37-1
+Added Pin To Net: NetName=NetR34_2 Pin=TP38-1
+Added Pin To Net: NetName=NetR35_2 Pin=TP40-1
+Added Pin To Net: NetName=NetR37_2 Pin=TP41-1
+Added Pin To Net: NetName=NetR42_2 Pin=TP42-1
+Added Pin To Net: NetName=NetR43_2 Pin=TP43-1
+Added Pin To Net: NetName=NetR44_2 Pin=TP46-1
+Added Pin To Net: NetName=NetR45_2 Pin=TP47-1
+Added Pin To Net: NetName=NetR46_2 Pin=TP48-1
+Added Pin To Net: NetName=NetR47_2 Pin=TP50-1
+Added Pin To Net: NetName=NetR48_2 Pin=TP53-1
+Added Pin To Net: NetName=NetR66_2 Pin=TP54-1
+Added Pin To Net: NetName=NetR67_2 Pin=TP57-1
+Added Pin To Net: NetName=NetR68_2 Pin=TP58-1
+Added Pin To Net: NetName=NetR69_2 Pin=TP59-1
+Added Pin To Net: NetName=NetR70_2 Pin=TP60-1
+Added Pin To Net: NetName=NetR71_2 Pin=TP61-1
+Added Pin To Net: NetName=NetR78_2 Pin=TP64-1
+Added Pin To Net: NetName=NetR79_2 Pin=TP65-1
+Added Pin To Net: NetName=NetR80_2 Pin=TP66-1
+Added Pin To Net: NetName=NetR85_2 Pin=TP71-1
+Added Pin To Net: NetName=NetR89_2 Pin=TP72-1
+Added Pin To Net: NetName=NetR90_2 Pin=TP73-1
+Added Pin To Net: NetName=NetR97_2 Pin=TP74-1
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP4 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP12 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP15 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP17 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP18 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP19 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP27 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP31 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP37 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP38 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP40 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP41 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP42 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP43 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP46 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP47 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP48 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP50 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP53 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP54 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP57 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP58 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP59 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP60 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP61 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP64 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP65 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP66 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP71 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP72 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP73 Test_Point_PCB
+Added Member To Class: ClassName=Driver_S_Comm Member=Component TP74 Test_Point_PCB
