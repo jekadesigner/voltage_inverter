@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\Driver_S_Comm\Driver_S_Comm.PcbDoc
-Date     : 10.02.2025
-Time     : 15:21:26
+Date     : 04.03.2025
+Time     : 13:25:48
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (InNetClass('All Nets')),(InNetClass('HV'))
 Rule Violations :0

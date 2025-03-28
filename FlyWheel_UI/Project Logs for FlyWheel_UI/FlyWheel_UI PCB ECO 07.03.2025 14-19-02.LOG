@@ -1,0 +1,4 @@
+Added Component: Designator=R25(RES-0805)
+Added Pin To Net: NetName=NetR24_2 Pin=R25-1
+Added Pin To Net: NetName=NetR23_2 Pin=R25-2
+Added Member To Class: ClassName=FlyWheel_UI Member=Component R25 10K
