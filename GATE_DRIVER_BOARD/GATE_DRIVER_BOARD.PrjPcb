@@ -122,6 +122,10 @@ DocumentPath=Project Outputs for DC-DC_Bridge\Design Rule Check - DC-DC_Bridge.h
 DItemRevisionGUID=
 
 [GeneratedDocument2]
+DocumentPath=Project Outputs for GATE_DRIVER_BOARD\Design Rule Check - GATE_DRIVER_BOARD.html
+DItemRevisionGUID=
+
+[GeneratedDocument3]
 DocumentPath=Project Outputs for PWM_controller\Design Rule Check - PWM_controller.html
 DItemRevisionGUID=
 
