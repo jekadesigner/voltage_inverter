@@ -1,4 +1,0 @@
-Change Footprint: Footprint Not Found SIZE_EEE
-Change Footprint: Footprint Not Found LED_RED
-Added Component: Designator=TP3(Test_Point)
-Added Pin To Net: NetName=GND Pin=TP3-1
