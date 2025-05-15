@@ -1,0 +1,49 @@
+Change Footprint: Footprint Not Found 691701530002B
+Change Footprint: Footprint Not Found INF-SOT23_N
+Added Component: Designator=C19(CAP-0805)
+Added Component: Designator=C22(CAP-0805)
+Added Component: Designator=R3(RES-2512)
+Added Component: Designator=R7(RES-2512)
+Added Component: Designator=R8(RES-2512)
+Added Component: Designator=R11(RES-2512)
+Added Component: Designator=R12(RES-2512)
+Added Component: Designator=R13(RES-2512)
+Added Component: Designator=TP11(Test_Point)
+Added Component: Designator=TP12(Test_Point)
+Added Component: Designator=TP13(Test_Point)
+Added Component: Designator=TP14(Test_Point)
+Add Component: Footprint Not Found DO-017AA
+Added Pin To Net: NetName=NetC19_1 Pin=C19-1
+Added Pin To Net: NetName=GND Pin=C19-2
+Added Pin To Net: NetName=GND Pin=C22-1
+Added Pin To Net: NetName=NetC2_1 Pin=C22-2
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetQ1_3 Pin=R3-2
+Added Pin To Net: NetName=NetQ1_3 Pin=R3-2
+Added Pin To Net: NetName=NetC3_1 Pin=R7-1
+Added Pin To Net: NetName=NetC3_1 Pin=R7-1
+Added Pin To Net: NetName=NetC2_1 Pin=R7-2
+Added Pin To Net: NetName=NetC2_1 Pin=R7-2
+Added Pin To Net: NetName=NetC3_1 Pin=R8-1
+Added Pin To Net: NetName=NetC3_1 Pin=R8-1
+Added Pin To Net: NetName=NetC2_1 Pin=R8-2
+Added Pin To Net: NetName=NetC2_1 Pin=R8-2
+Added Pin To Net: NetName=NetR11_1 Pin=R11-1
+Added Pin To Net: NetName=NetR11_1 Pin=R11-1
+Added Pin To Net: NetName=+950V Pin=R11-2
+Added Pin To Net: NetName=+950V Pin=R11-2
+Added Pin To Net: NetName=NetR12_1 Pin=R12-1
+Added Pin To Net: NetName=NetR12_1 Pin=R12-1
+Added Pin To Net: NetName=NetR11_1 Pin=R12-2
+Added Pin To Net: NetName=NetR11_1 Pin=R12-2
+Added Pin To Net: NetName=NetC2_1 Pin=R13-1
+Added Pin To Net: NetName=NetC2_1 Pin=R13-1
+Added Pin To Net: NetName=NetR12_1 Pin=R13-2
+Added Pin To Net: NetName=NetR12_1 Pin=R13-2
+Added Pin To Net: NetName=NetC19_1 Pin=TP11-1
+Added Pin To Net: NetName=NetR2_1 Pin=TP12-1
+Added Pin To Net: NetName=NetC2_1 Pin=TP13-1
+Added Pin To Net: NetName=NetC2_1 Pin=TP14-1
+Add Pin To Net: Unknown Pin: Pin VD2-1
+Add Pin To Net: Unknown Pin: Pin VD2-2

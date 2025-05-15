@@ -1,0 +1,10 @@
+Change Footprint: Footprint Not Found 691701530002B
+Change Footprint: Footprint Not Found INF-SOT23_N
+Change Footprint: Footprint Not Found TO-126(bend2)
+Change Component Comment : Designator=VT1 Old Comment=BD140(pnp) New Comment=BD139(npn)
+Add Component: Footprint Not Found DO-017AA
+Add Pin To Net: Unknown Pin: Pin VD2-1
+Add Pin To Net: Unknown Pin: Pin VD2-2
+Added Pin To Net: NetName=NetC19_1 Pin=VT1-1
+Added Pin To Net: NetName=NetR2_1 Pin=VT1-2
+Added Pin To Net: NetName=NetR2_2 Pin=VT1-3

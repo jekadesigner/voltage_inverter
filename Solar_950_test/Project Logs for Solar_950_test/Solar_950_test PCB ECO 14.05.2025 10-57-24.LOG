@@ -1,0 +1,141 @@
+Added Component: Designator=C19(CAP-0805)
+Added Component: Designator=C22(CAP-0805)
+Added Component: Designator=C?(CAPPOL-12x25)
+Add Component: Footprint Not Found CAP_SMD_Size_E
+Added Component: Designator=C?(CAP-0805)
+Add Component: Footprint Not Found CAPPOL_35x60
+Added Component: Designator=D?(DIOD-SOD123-2_V)
+Added Component: Designator=D?(FP-SB-V-3906_04-031_4-MFG)
+Add Component: Footprint Not Found 691701530002B
+Add Component: Footprint Not Found 691701530002B
+Add Component: Footprint Not Found INF-SOT23_N
+Added Component: Designator=R11(RES-2512)
+Added Component: Designator=R12(RES-2512)
+Added Component: Designator=R13(RES-2512)
+Added Component: Designator=R?(RES-0805)
+Added Component: Designator=R?(RES-2512)
+Added Component: Designator=R?(RES-2512)
+Added Component: Designator=R?(RES-0805)
+Added Component: Designator=R?(RES-0805)
+Added Component: Designator=R?(RES-0805)
+Added Component: Designator=R?(RES-0805)
+Added Component: Designator=R?(RES-2512)
+Added Component: Designator=R?(RES-2512)
+Added Component: Designator=R?(RES-2512)
+Added Component: Designator=R?(RES-0805)
+Added Component: Designator=R?(RES-0805)
+Added Component: Designator=R?(RES-2W)
+Added Component: Designator=TP11(Test_Point)
+Added Component: Designator=TP12(Test_Point)
+Added Component: Designator=TP13(Test_Point)
+Added Component: Designator=TP14(Test_Point)
+Added Component: Designator=TP?(Test_Point)
+Added Component: Designator=TP?(Test_Point)
+Added Component: Designator=TP?(Test_Point)
+Added Component: Designator=TP?(Test_Point)
+Added Component: Designator=TP?(Test_Point)
+Add Component: Footprint Not Found Pin_Test_Point(Pink)
+Add Component: Footprint Not Found SO8-150
+Added Component: Designator=U?(TL431_SOT-23-3(A))
+Add Component: Footprint Not Found DO-017AA
+Added Component: Designator=VD?(US1G_SMA)
+Add Component: Footprint Not Found TO-126(bend2)
+Add Component: Footprint Not Found TO-126
+Added Pin To Net: NetName=GND Pin=C19-2
+Added Pin To Net: NetName=GND Pin=C22-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=D?-2
+Add Pin To Net: Unknown Pin: Pin P?-1
+Add Pin To Net: Unknown Pin: Pin P?-1
+Add Pin To Net: Unknown Pin: Pin Q?-1
+Add Pin To Net: Unknown Pin: Pin Q?-2
+Add Pin To Net: Unknown Pin: Pin Q?-3
+Added Pin To Net: NetName=NetDA1_2 Pin=R11-1
+Added Pin To Net: NetName=NetDA1_2 Pin=R11-1
+Added Pin To Net: NetName=NetDA1_1 Pin=R12-1
+Added Pin To Net: NetName=NetDA1_1 Pin=R12-1
+Added Pin To Net: NetName=NetDA1_2 Pin=R12-2
+Added Pin To Net: NetName=NetDA1_2 Pin=R12-2
+Added Pin To Net: NetName=NetDA1_1 Pin=R13-2
+Added Pin To Net: NetName=NetDA1_1 Pin=R13-2
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=NetD1_1 Pin=R?-1
+Added Pin To Net: NetName=NetD1_1 Pin=R?-1
+Added Pin To Net: NetName=NetD1_2 Pin=R?-1
+Added Pin To Net: NetName=NetD2_2 Pin=R?-1
+Added Pin To Net: NetName=NetD2_2 Pin=R?-1
+Added Pin To Net: NetName=VCC Pin=R?-1
+Added Pin To Net: NetName=+5 Pin=R?-2
+Added Pin To Net: NetName=+5 Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=NetD1_2 Pin=R?-2
+Added Pin To Net: NetName=NetD2_2 Pin=R?-2
+Added Pin To Net: NetName=OUT Pin=R?-2
+Added Pin To Net: NetName=OUT Pin=R?-2
+Added Pin To Net: NetName=VCC Pin=R?-2
+Added Pin To Net: NetName=NetD1_1 Pin=TP12-1
+Added Pin To Net: NetName=GND Pin=TP?-1
+Added Pin To Net: NetName=NetD1_2 Pin=TP?-1
+Added Pin To Net: NetName=VCC Pin=TP?-1
+Added Pin To Net: NetName=NetD1_2 Pin=U?-1
+Added Pin To Net: NetName=GND Pin=U?-3
+Add Pin To Net: Unknown Pin: Pin U?-4
+Added Pin To Net: NetName=+5 Pin=VD?-1
+Added Pin To Net: NetName=GND Pin=VD?-2
+Add Pin To Net: Unknown Pin: Pin VT?-2
+Add Pin To Net: Unknown Pin: Pin VT?-2
+Add Pin To Net: Unknown Pin: Pin VT?-3
+Add Pin To Net: Unknown Pin: Pin VT?-3
+Change Net Name : Old Net Name=+5 New Net Name=NetR?_2
+Change Net Name : Old Net Name=NetD1_1 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetD1_2 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetD2_2 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetDA1_1 New Net Name=NetR12_1
+Change Net Name : Old Net Name=NetDA1_2 New Net Name=NetR11_1
+Change Net Name : Old Net Name=OUT New Net Name=NetQ?_3
+Change Net Name : Old Net Name=VCC New Net Name=NetQ?_1
+Added Pin To Net: NetName=+950V Pin=R11-2
+Added Pin To Net: NetName=+950V Pin=R11-2
+Added Net: Name=+950V
+Added Pin To Net: NetName=NetC19_1 Pin=C19-1
+Added Pin To Net: NetName=NetC19_1 Pin=R?-2
+Added Pin To Net: NetName=NetC19_1 Pin=TP11-1
+Added Pin To Net: NetName=NetC19_1 Pin=VD?-1
+Added Net: Name=NetC19_1
+Added Pin To Net: NetName=NetC22_2 Pin=C22-2
+Added Pin To Net: NetName=NetC22_2 Pin=C?-1
+Added Pin To Net: NetName=NetC22_2 Pin=R13-1
+Added Pin To Net: NetName=NetC22_2 Pin=R13-1
+Added Pin To Net: NetName=NetC22_2 Pin=R?-1
+Added Pin To Net: NetName=NetC22_2 Pin=R?-2
+Added Pin To Net: NetName=NetC22_2 Pin=R?-2
+Added Pin To Net: NetName=NetC22_2 Pin=R?-2
+Added Pin To Net: NetName=NetC22_2 Pin=R?-2
+Added Pin To Net: NetName=NetC22_2 Pin=R?-2
+Added Pin To Net: NetName=NetC22_2 Pin=R?-2
+Added Pin To Net: NetName=NetC22_2 Pin=R?-2
+Added Pin To Net: NetName=NetC22_2 Pin=TP13-1
+Added Pin To Net: NetName=NetC22_2 Pin=TP14-1
+Added Net: Name=NetC22_2
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=VD?-2
+Added Net: Name=NetC?_1
+Add Net: Net with name "NetC?_1" already exists
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=R?-1
+Added Pin To Net: NetName=NetC?_2 Pin=TP?-1
+Added Pin To Net: NetName=NetC?_2 Pin=U?-1
+Added Pin To Net: NetName=NetC?_2 Pin=U?-2
+Added Net: Name=NetC?_2
+Added Pin To Net: NetName=NetD?_1 Pin=D?-1
+Added Pin To Net: NetName=NetD?_1 Pin=R?-1
+Added Pin To Net: NetName=NetD?_1 Pin=R?-2
+Added Pin To Net: NetName=NetD?_1 Pin=TP?-1
+Added Pin To Net: NetName=NetD?_1 Pin=U?-3
+Added Net: Name=NetD?_1
+Added Pin To Net: NetName=NetD?_2 Pin=D?-2
+Added Pin To Net: NetName=NetD?_2 Pin=R?-1
+Added Net: Name=NetD?_2

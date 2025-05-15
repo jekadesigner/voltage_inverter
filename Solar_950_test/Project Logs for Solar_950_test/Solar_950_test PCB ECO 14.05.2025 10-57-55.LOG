@@ -1,0 +1,44 @@
+Removed Pin From Net: NetName=NetQ1_3 Pin=R2-1
+Removed Pin From Net: NetName=NetQ1_3 Pin=R2-1
+Removed Pin From Net: NetName=NetQ1_3 Pin=TP12-1
+Add Component: Footprint Not Found CAPPOL_35x60
+Add Component: Footprint Not Found CAP_SMD_Size_E
+Added Component: Designator=D1(FP-SB-V-3906_04-031_4-MFG)
+Add Component: Footprint Not Found 691701530002B
+Add Component: Footprint Not Found 691701530002B
+Add Component: Footprint Not Found INF-SOT23_N
+Add Component: Footprint Not Found Pin_Test_Point(Pink)
+Add Component: Footprint Not Found SO8-150
+Add Component: Footprint Not Found DO-017AA
+Add Component: Footprint Not Found TO-126(bend2)
+Add Component: Footprint Not Found TO-126
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin D1-1
+Add Pin To Net: Unknown Pin: Pin D1-2
+Add Pin To Net: Unknown Pin: Pin P1-1
+Add Pin To Net: Unknown Pin: Pin P1-2
+Add Pin To Net: Unknown Pin: Pin P2-1
+Add Pin To Net: Unknown Pin: Pin P2-2
+Add Pin To Net: Unknown Pin: Pin Q1-1
+Add Pin To Net: Unknown Pin: Pin Q1-2
+Add Pin To Net: Unknown Pin: Pin Q1-3
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Add Pin To Net: Unknown Pin: Pin TP1-1
+Added Pin To Net: NetName=NetR2_1 Pin=TP12-1
+Add Pin To Net: Unknown Pin: Pin U1-1
+Add Pin To Net: Unknown Pin: Pin U1-2
+Add Pin To Net: Unknown Pin: Pin U1-3
+Add Pin To Net: Unknown Pin: Pin U1-4
+Add Pin To Net: Unknown Pin: Pin U1-8
+Add Pin To Net: Unknown Pin: Pin VD2-1
+Add Pin To Net: Unknown Pin: Pin VD2-2
+Add Pin To Net: Unknown Pin: Pin VT1-1
+Add Pin To Net: Unknown Pin: Pin VT1-2
+Add Pin To Net: Unknown Pin: Pin VT1-3
+Add Pin To Net: Unknown Pin: Pin VT2-1
+Add Pin To Net: Unknown Pin: Pin VT2-2
+Add Pin To Net: Unknown Pin: Pin VT2-3
