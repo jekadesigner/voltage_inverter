@@ -67,7 +67,7 @@ GenerateClassCluster=0
 DocumentUniqueId=VHHSMSQT
 
 [Document2]
-DocumentPath=V2.SchDoc
+DocumentPath=Inverter_540VDC_V2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -82,23 +82,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YQEDCYZF
-
-[Document3]
-DocumentPath=Inverter_540VDC_V2.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=FSXMRDBX
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Inverter_540VDC\Design Rule Check - Inverter_540VDC.html

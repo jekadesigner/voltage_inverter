@@ -1,0 +1,10 @@
+Added Component: Designator=DA1(4-SMD)
+Added Pin To Net: NetName=-12V Pin=DA1-1
+Added Pin To Net: NetName=NetC31_2 Pin=DA1-2
+Added Pin To Net: NetName=NetDA1_3 Pin=DA1-3
+Added Pin To Net: NetName=NetDA1_3 Pin=R40-1
+Added Net: Name=NetDA1_3
+Added Pin To Net: NetName=NetDA1_4 Pin=DA1-4
+Added Pin To Net: NetName=NetDA1_4 Pin=TP6-1
+Added Net: Name=NetDA1_4
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component DA1 PC817
