@@ -1,1 +1,2 @@
-Record=TopLevelDocument|FileName=Inverter_540VDC.SchDoc|SheetNumber=1
+Record=TopLevelDocument|FileName=Inverter_540VDC_V2.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=Inverter_540VDC_V2.SchDoc|FileName=V2.SchDoc|SheetNumber=1
