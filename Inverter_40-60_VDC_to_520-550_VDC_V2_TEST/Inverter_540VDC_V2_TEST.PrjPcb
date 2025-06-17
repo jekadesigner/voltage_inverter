@@ -87,6 +87,10 @@ DocumentUniqueId=YQEDCYZF
 DocumentPath=Project Outputs for Inverter_540VDC\Design Rule Check - Inverter_540VDC.html
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Inverter_540VDC_V2_TEST\Design Rule Check - Inverter_540VDC_V2_TEST.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
