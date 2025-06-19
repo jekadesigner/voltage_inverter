@@ -1,7 +1,0 @@
-Added Component: Designator=DD1(OLED_128x64_SSD_1306)
-Add Component: Footprint Not Found CONN-PLS-5-2.54_2
-Add Pin To Net: Unknown Pin: Pin X?-1
-Add Pin To Net: Unknown Pin: Pin X?-5
-Added Net: Name=EN
-Added Member To Class: ClassName=U_I_Meter_WIFI Member=Component DD1 OLED_SSD_1306
-Add Class Member: Failed to add class member : Component X? CONN-5-PIN

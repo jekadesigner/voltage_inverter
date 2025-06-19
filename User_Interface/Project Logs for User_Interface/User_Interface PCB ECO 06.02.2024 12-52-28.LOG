@@ -1,7 +1,0 @@
-Added Component: Designator=U4(FP-B0505S-1WR3-MFG)
-Added Pin To Net: NetName=GND_ISO Pin=U4-1
-Added Pin To Net: NetName=+5V_ISO Pin=U4-2
-Added Pin To Net: NetName=GND Pin=U4-3
-Added Pin To Net: NetName=+5V Pin=U4-4
-Added Member To Class: ClassName=User_Interface Member=Component U4 B0505S-1WR3
-Added Room: Name=User_Interface

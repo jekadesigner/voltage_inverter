@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=+5V Pin=P1-1
-Removed Pin From Net: NetName=+5V_ISO Pin=P2-1
-Added Component: Designator=D9(FP-6_560-5005_01-4-MFG)
-Added Component: Designator=D10(FP-6_560-5005_01-4-MFG)
-Added Pin To Net: NetName=NetD9_2 Pin=P1-1
-Added Net: Name=NetD9_2
-Added Pin To Net: NetName=NetD10_2 Pin=P2-1
-Added Net: Name=NetD10_2
-Added Room: Name=User_Interface

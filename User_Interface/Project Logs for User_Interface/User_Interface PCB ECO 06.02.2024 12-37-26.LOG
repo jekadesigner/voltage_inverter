@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=+5V Pin=U4-3
-Removed Pin From Net: NetName=GND Pin=U4-4
-Added Pin To Net: NetName=GND Pin=U4-3
-Added Pin To Net: NetName=+5V Pin=U4-4
-Added Room: Name=User_Interface

@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=NetC1_1 Pin=Q1-3
-Removed Pin From Net: NetName=NetC1_2 Pin=Q1-4
-Change Footprint: Footprint Not Found CAP_SMD_Size_E
-Change Footprint: Footprint Not Found CAP_SMD_Size_E
-Added Pin To Net: NetName=NetC1_2 Pin=P1-15
-Added Pin To Net: NetName=NetC1_1 Pin=P1-16

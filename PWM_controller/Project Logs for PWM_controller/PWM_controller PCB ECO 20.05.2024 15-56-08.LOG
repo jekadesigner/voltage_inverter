@@ -1,9 +1,0 @@
-Added Component: Designator=R33(FP-CRCW0805-e3-MFG)
-Added Component: Designator=R34(FP-CRCW0805-e3-MFG)
-Add Pin To Net: Unknown Pin: Pin R33-1
-Add Pin To Net: Unknown Pin: Pin R33-2
-Add Pin To Net: Unknown Pin: Pin R34-1
-Add Pin To Net: Unknown Pin: Pin R34-2
-Add Class Member: Failed to add class member : Component R33 200K
-Add Class Member: Failed to add class member : Component R34 200K
-Added Room: Name=PWM_controller
