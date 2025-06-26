@@ -1,0 +1,33 @@
+Add Component: Footprint Not Found 691701530002B
+Added Component: Designator=Q1(DMT15H017LPS)
+Added Component: Designator=Q2(DMT15H017LPS)
+Add Pin To Net: Unknown Pin: Pin P?-1
+Add Pin To Net: Unknown Pin: Pin P?-2
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=NetC16_1 Pin=Q1-2
+Added Pin To Net: NetName=NetC16_1 Pin=Q1-2
+Added Pin To Net: NetName=NetC16_1 Pin=Q1-2
+Added Pin To Net: NetName=NetC16_1 Pin=Q1-2
+Added Pin To Net: NetName=NetC16_1 Pin=Q1-2
+Added Pin To Net: NetName=NetC16_1 Pin=Q1-2
+Added Pin To Net: NetName=NetC16_1 Pin=Q1-2
+Added Pin To Net: NetName=GND_1 Pin=Q1-3
+Added Pin To Net: NetName=GND_1 Pin=Q1-3
+Added Pin To Net: NetName=GND_1 Pin=Q1-3
+Added Pin To Net: NetName=NetQ1_1 Pin=Q2-1
+Added Pin To Net: NetName=NetC16_1 Pin=Q2-2
+Added Pin To Net: NetName=NetC16_1 Pin=Q2-2
+Added Pin To Net: NetName=NetC16_1 Pin=Q2-2
+Added Pin To Net: NetName=NetC16_1 Pin=Q2-2
+Added Pin To Net: NetName=NetC16_1 Pin=Q2-2
+Added Pin To Net: NetName=NetC16_1 Pin=Q2-2
+Added Pin To Net: NetName=NetC16_1 Pin=Q2-2
+Added Pin To Net: NetName=GND_1 Pin=Q2-3
+Added Pin To Net: NetName=GND_1 Pin=Q2-3
+Added Pin To Net: NetName=GND_1 Pin=Q2-3
+Added Pin To Net: NetName=NetC1_1 Pin=T1-1
+Added Pin To Net: NetName=NetD3_2 Pin=T1-2
+Added Pin To Net: NetName=NetD2_2 Pin=T1-3
+Added Pin To Net: NetName=GND Pin=T1-4
+Added Pin To Net: NetName=NetC18_2 Pin=T1-5
+Added Pin To Net: NetName=NetC16_2 Pin=T1-8
