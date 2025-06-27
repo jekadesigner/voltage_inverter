@@ -1,6 +1,0 @@
-Change Component Designator: OldDesignator=J? NewDesignator=J1
-Change Component Designator: OldDesignator=J? NewDesignator=J2
-Added Pin To Net: NetName=NetC26_1 Pin=P1-1
-Added Pin To Net: NetName=NetC24_1 Pin=P1-2
-Change Net Name : Old Net Name=NetJ?_1 New Net Name=NetJ1_1
-Change Net Name : Old Net Name=NetJ?_1 New Net Name=NetJ2_1
