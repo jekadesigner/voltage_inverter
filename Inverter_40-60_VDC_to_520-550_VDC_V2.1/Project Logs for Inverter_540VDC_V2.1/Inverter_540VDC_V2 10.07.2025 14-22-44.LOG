@@ -1,0 +1,98 @@
+Change Footprint: Footprint Not Found FP-TSSOP20-YA-IPC_A
+Change Footprint: Footprint Not Found SOT23-5
+Change Footprint: Footprint Not Found SOT23-5
+Change Footprint: Footprint Not Found SOT23-5
+Change Footprint: Footprint Not Found SOT23-5
+Change Component Comment : Designator=U7 Old Comment=STM32F303CCT6 New Comment=STM32G030F6P6
+Change component parameters: Designator = "U7" ("U7"); Footprint = "LQFP48-7x7mm"; UniqueID = "\ZHJWQICH" ("\ZHJWQICH")
+Add Component: Footprint Not Found CAP-TAN-D
+Add Component: Footprint Not Found CAP-TAN-D
+Add Component: Footprint Not Found CAP-TAN-D
+Add Component: Footprint Not Found CAP-TAN-D
+Add Component: Footprint Not Found CAP-TAN-D
+Add Component: Footprint Not Found CAP-TAN-D
+Add Component: Footprint Not Found SIZE_EEE
+Add Component: Footprint Not Found FP-403AE-MFG
+Add Component: Footprint Not Found Coil_4.5x4.5_mm
+Add Component: Footprint Not Found Coil_4.5x4.5_mm
+Add Component: Footprint Not Found 3296W
+Add Component: Footprint Not Found 3296W
+Add Component: Footprint Not Found Pin_Test_Point(Orange)
+Add Component: Footprint Not Found Pin_Test_Point(Pink)
+Add Pin To Net: Unknown Pin: Pin C21-1
+Add Pin To Net: Unknown Pin: Pin C21-2
+Add Pin To Net: Unknown Pin: Pin C24-1
+Add Pin To Net: Unknown Pin: Pin C24-2
+Add Pin To Net: Unknown Pin: Pin C26-1
+Add Pin To Net: Unknown Pin: Pin C26-2
+Add Pin To Net: Unknown Pin: Pin C27-1
+Add Pin To Net: Unknown Pin: Pin C27-2
+Add Pin To Net: Unknown Pin: Pin C28-1
+Add Pin To Net: Unknown Pin: Pin C28-2
+Add Pin To Net: Unknown Pin: Pin C30-1
+Add Pin To Net: Unknown Pin: Pin C30-2
+Add Pin To Net: Unknown Pin: Pin C54-1
+Add Pin To Net: Unknown Pin: Pin C54-2
+Add Pin To Net: Unknown Pin: Pin D1-1
+Add Pin To Net: Unknown Pin: Pin D1-2
+Add Pin To Net: Unknown Pin: Pin L4-1
+Add Pin To Net: Unknown Pin: Pin L4-2
+Add Pin To Net: Unknown Pin: Pin L5-1
+Add Pin To Net: Unknown Pin: Pin L5-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R2-3
+Add Pin To Net: Unknown Pin: Pin R23-1
+Add Pin To Net: Unknown Pin: Pin R23-2
+Add Pin To Net: Unknown Pin: Pin R23-3
+Add Pin To Net: Unknown Pin: Pin TP29-1
+Add Pin To Net: Unknown Pin: Pin TP40-1
+Added Pin To Net: NetName=+3V3 Pin=U6-1
+Added Pin To Net: NetName=GND_III Pin=U6-2
+Added Pin To Net: NetName=NetJ1_4 Pin=U6-4
+Added Pin To Net: NetName=NetR54_2 Pin=U6-5
+Added Pin To Net: NetName=NetJ1_5 Pin=U6-6
+Added Pin To Net: NetName=+3V3 Pin=U6-7
+Added Pin To Net: NetName=GND_III Pin=U6-8
+Added Pin To Net: NetName=GND_2 Pin=U6-9
+Added Pin To Net: NetName=+5V_ISO Pin=U6-10
+Added Pin To Net: NetName=NetR51_2 Pin=U6-11
+Added Pin To Net: NetName=NetR53_2 Pin=U6-12
+Added Pin To Net: NetName=NetR50_2 Pin=U6-13
+Added Pin To Net: NetName=GND_2 Pin=U6-15
+Added Pin To Net: NetName=+5V_ISO Pin=U6-16
+Added Pin To Net: NetName=NetJ1_5 Pin=U7-1
+Added Pin To Net: NetName=NetR54_2 Pin=U7-2
+Added Pin To Net: NetName=NetR65_1 Pin=U7-3
+Added Pin To Net: NetName=+3V3_MCU Pin=U7-4
+Added Pin To Net: NetName=GND_III Pin=U7-5
+Added Pin To Net: NetName=NetC34_2 Pin=U7-6
+Added Pin To Net: NetName=NetR64_1 Pin=U7-7
+Added Pin To Net: NetName=NetR74_1 Pin=U7-8
+Added Pin To Net: NetName=NetC52_2 Pin=U7-9
+Added Pin To Net: NetName=NetC50_2 Pin=U7-10
+Added Pin To Net: NetName=SD_1 Pin=U7-11
+Added Pin To Net: NetName=SD_2 Pin=U7-12
+Added Pin To Net: NetName=PWM_2 Pin=U7-13
+Added Pin To Net: NetName=PWM_SET_2 Pin=U7-14
+Added Pin To Net: NetName=PWM_1 Pin=U7-15
+Added Pin To Net: NetName=PWM_SET_1 Pin=U7-16
+Added Pin To Net: NetName=NetR59_1 Pin=U7-17
+Added Pin To Net: NetName=NetJ1_2 Pin=U7-18
+Added Pin To Net: NetName=NetJ1_3 Pin=U7-19
+Added Pin To Net: NetName=NetJ1_4 Pin=U7-20
+Add Class Member: Failed to add class member : Component C21 100uF_16V
+Add Class Member: Failed to add class member : Component C24 100uF_16V
+Add Class Member: Failed to add class member : Component C26 100uF_16V
+Add Class Member: Failed to add class member : Component C27 100uF_16V
+Add Class Member: Failed to add class member : Component C28 100uF_16V
+Add Class Member: Failed to add class member : Component C30 100uF_16V
+Add Class Member: Failed to add class member : Component C54 CAP-POLAR
+Add Class Member: Failed to add class member : Component D1 ES1G
+Add Class Member: Failed to add class member : Component L4 Coil
+Add Class Member: Failed to add class member : Component L5 Coil
+Add Class Member: Failed to add class member : Component R2 3296W
+Add Class Member: Failed to add class member : Component R23 3296W
+Add Class Member: Failed to add class member : Component TP29 Test_Point_PCB
+Add Class Member: Failed to add class member : Component TP40 Test_Point_PCB
+Added Member To Class: ClassName=Inverter_540VDC_V2.1 Member=Component U7 STM32G030F6P6

@@ -1,0 +1,46 @@
+Change Footprint: Footprint Not Found FP-TSSOP20-YA-IPC_A
+Change Footprint: Footprint Not Found SOT23-5
+Change Footprint: Footprint Not Found SOT23-5
+Change Footprint: Footprint Not Found SOT23-5
+Change Footprint: Footprint Not Found SOT23-5
+Change Footprint: Footprint Not Found Coil_4.5x4.5_mm
+Change Footprint: Footprint Not Found Coil_4.5x4.5_mm
+Change Footprint: Footprint Not Found Coil_4.5x4.5_mm
+Added Component: Designator=C21(CAP-TAN-C)
+Added Component: Designator=C24(CAP-TAN-C)
+Add Component: Footprint Not Found CAP-TAN-D
+Added Component: Designator=C27(CAP-TAN-C)
+Added Component: Designator=C28(CAP-TAN-C)
+Added Component: Designator=C30(CAP-TAN-C)
+Add Component: Footprint Not Found SIZE_EEE
+Add Component: Footprint Not Found Pin_Test_Point(Orange)
+Add Component: Footprint Not Found Pin_Test_Point(Pink)
+Added Pin To Net: NetName=+5V_1 Pin=C21-1
+Added Pin To Net: NetName=GND_III Pin=C21-2
+Added Pin To Net: NetName=+5 Pin=C24-1
+Added Pin To Net: NetName=GND_III Pin=C24-2
+Add Pin To Net: Unknown Pin: Pin C26-1
+Add Pin To Net: Unknown Pin: Pin C26-2
+Added Pin To Net: NetName=NetC24_1 Pin=C27-1
+Added Pin To Net: NetName=GND_III Pin=C27-2
+Added Pin To Net: NetName=GND_III Pin=C28-2
+Added Pin To Net: NetName=+24V Pin=C30-1
+Added Pin To Net: NetName=GND_III Pin=C30-2
+Add Pin To Net: Unknown Pin: Pin C54-1
+Add Pin To Net: Unknown Pin: Pin C54-2
+Add Pin To Net: Unknown Pin: Pin TP29-1
+Add Pin To Net: Unknown Pin: Pin TP40-1
+Change Net Name : Old Net Name=NetC24_1 New Net Name=NetC27_1
+Added Pin To Net: NetName=NetC28_1 Pin=C28-1
+Added Pin To Net: NetName=NetC28_1 Pin=JE1-2
+Added Pin To Net: NetName=NetC28_1 Pin=R52-1
+Added Net: Name=NetC28_1
+Added Member To Class: ClassName=Inverter_540VDC_V2.1 Member=Component C21 CAP-POLAR
+Added Member To Class: ClassName=Inverter_540VDC_V2.1 Member=Component C24 CAP-POLAR
+Add Class Member: Failed to add class member : Component C26 100uF_16V
+Added Member To Class: ClassName=Inverter_540VDC_V2.1 Member=Component C27 CAP-POLAR
+Added Member To Class: ClassName=Inverter_540VDC_V2.1 Member=Component C28 CAP-POLAR
+Added Member To Class: ClassName=Inverter_540VDC_V2.1 Member=Component C30 CAP-POLAR
+Add Class Member: Failed to add class member : Component C54 CAP-POLAR
+Add Class Member: Failed to add class member : Component TP29 Test_Point_PCB
+Add Class Member: Failed to add class member : Component TP40 Test_Point_PCB
