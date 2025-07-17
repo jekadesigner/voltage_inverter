@@ -1,0 +1,13 @@
+Change Footprint: Footprint Not Found SOT23-5
+Change Footprint: Footprint Not Found SOT23-5
+Change Footprint: Footprint Not Found SOT23-5
+Change Footprint: Footprint Not Found SOT23-5
+Added Component: Designator=R15(RES-0805)
+Added Component: Designator=R36(RES-0805)
+Added Pin To Net: NetName=NetC10_2 Pin=R15-1
+Added Pin To Net: NetName=SD_G_1 Pin=R15-2
+Added Pin To Net: NetName=NetC20_2 Pin=R36-1
+Added Pin To Net: NetName=SD_G_2 Pin=R36-2
+Added Member To Class: ClassName=Inverter_540VDC_V2.1 Member=Component R15 10K
+Added Member To Class: ClassName=Inverter_540VDC_V2.1 Member=Component R36 10K
+Added Member To Class: ClassName=Inverter_540VDC_V2.1 Member=Component R52 3.8K
