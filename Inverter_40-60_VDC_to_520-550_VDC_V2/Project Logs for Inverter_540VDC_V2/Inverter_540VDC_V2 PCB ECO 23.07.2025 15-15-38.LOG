@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=VCC_HV Pin=R40-2
+Change Footprint: Footprint Not Found RES_SMD_1210_IPC_B
+Change Footprint: Footprint Not Found RES_SMD_1210_IPC_B
+Change Footprint: Footprint Not Found SOT-23-5
+Change Footprint: Footprint Not Found SOT-23-5
+Change Footprint: Footprint Not Found Pin_Test_Point(Pink)
+Change Footprint: Footprint Not Found Pin_Test_Point(Pink)
+Added Pin To Net: NetName=VCC_HV_OUT Pin=R40-2
+Add Differential Pair: Number of nets in differential pair OUT1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair OUT2 is 1 instead of 2

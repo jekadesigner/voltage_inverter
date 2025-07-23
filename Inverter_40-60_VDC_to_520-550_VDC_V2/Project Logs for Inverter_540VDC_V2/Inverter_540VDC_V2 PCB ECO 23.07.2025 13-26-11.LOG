@@ -1,0 +1,40 @@
+Change Footprint: Footprint Not Found RES_SMD_1210_IPC_B
+Change Footprint: Footprint Not Found RES_SMD_1210_IPC_B
+Change Footprint: Footprint Not Found SOT-23-5
+Change Footprint: Footprint Not Found SOT-23-5
+Change Footprint: Footprint Not Found Pin_Test_Point(Pink)
+Change Footprint: Footprint Not Found Pin_Test_Point(Pink)
+Added Component: Designator=X5(CONN-PLS-4-2.54mm_1)
+Added Component: Designator=X6(CONN-PLS-4-2.54mm_1)
+Added Component: Designator=X7(XH2-)
+Added Component: Designator=X8(CONN-PLS-4-2.54mm_1)
+Added Component: Designator=X9(CONN-PLS-4-2.54mm_1)
+Added Component: Designator=X10(XH2-)
+Added Pin To Net: NetName=OUT_B1 Pin=X5-1
+Added Pin To Net: NetName=GND Pin=X5-2
+Added Pin To Net: NetName=GND Pin=X5-3
+Added Pin To Net: NetName=OUT_A1 Pin=X5-4
+Added Pin To Net: NetName=SD_1 Pin=X6-1
+Added Pin To Net: NetName=+5V Pin=X6-2
+Added Pin To Net: NetName=+24V Pin=X6-3
+Added Pin To Net: NetName=GND Pin=X6-4
+Added Pin To Net: NetName=+15V Pin=X7-1
+Added Pin To Net: NetName=BAT_GND Pin=X7-2
+Added Pin To Net: NetName=OUT_B2 Pin=X8-1
+Added Pin To Net: NetName=GND Pin=X8-2
+Added Pin To Net: NetName=GND Pin=X8-3
+Added Pin To Net: NetName=OUT_A2 Pin=X8-4
+Added Pin To Net: NetName=SD_2 Pin=X9-1
+Added Pin To Net: NetName=+5V Pin=X9-2
+Added Pin To Net: NetName=+24V Pin=X9-3
+Added Pin To Net: NetName=GND Pin=X9-4
+Added Pin To Net: NetName=+15V Pin=X10-1
+Added Pin To Net: NetName=BAT_GND Pin=X10-2
+Add Differential Pair: Number of nets in differential pair OUT1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair OUT2 is 1 instead of 2
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component X5 CONN-4-PIN
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component X6 CONN-4-PIN
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component X7 CONN-2-PIN
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component X8 CONN-4-PIN
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component X9 CONN-4-PIN
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component X10 CONN-2-PIN
