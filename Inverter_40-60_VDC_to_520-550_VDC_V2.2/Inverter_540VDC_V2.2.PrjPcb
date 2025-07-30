@@ -73,7 +73,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -89,6 +89,10 @@ DItemRevisionGUID=
 
 [GeneratedDocument2]
 DocumentPath=Project Outputs for Inverter_540VDC_V2.1\Design Rule Check - Inverter_540VDC_V2.html
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for Inverter_540VDC_V2.2\Design Rule Check - Inverter_540VDC_V2.html
 DItemRevisionGUID=
 
 [Configuration1]
