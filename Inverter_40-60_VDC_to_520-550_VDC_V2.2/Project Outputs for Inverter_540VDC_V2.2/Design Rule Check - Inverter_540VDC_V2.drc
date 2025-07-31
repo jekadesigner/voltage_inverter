@@ -1,0 +1,83 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\Inverter_40-60_VDC_to_520-550_VDC_V2.2\Inverter_540VDC_V2.2.PcbDoc
+Date     : 31.07.2025
+Time     : 12:51:39
+
+WARNING: Unplated multi-layer pad(s) detected
+   Pad TP8-1(185.646mm,33.454mm) on Multi-Layer on Net NetDD1_2
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Area Fill (0.325mm,0.275mm) (16.375mm,59.725mm) on Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Area Fill (0.325mm,0.275mm) (16.375mm,59.725mm) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Area Fill (193.6mm,0.25mm) (209.65mm,59.7mm) on Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Area Fill (193.6mm,0.25mm) (209.65mm,59.7mm) on Top Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (205mm,15mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (205mm,22.5mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (205mm,30mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (205mm,37.5mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (205mm,45mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (205mm,52.5mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (205mm,7.5mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (5mm,15mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (5mm,22.5mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (5mm,30mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (5mm,37.5mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (5mm,45mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (5mm,52.5mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (5mm,7.5mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+Rule Violations :18
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=7mm) (Preferred=2mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.2mm) (Conductor Width=0.3mm) (Air Gap=0.1mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Via (205mm,15mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Via (205mm,22.5mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Via (205mm,30mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Via (205mm,37.5mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Via (205mm,45mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Via (205mm,52.5mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Via (205mm,7.5mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Via (5mm,15mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Via (5mm,22.5mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Via (5mm,30mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Via (5mm,37.5mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Via (5mm,45mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Via (5mm,52.5mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Via (5mm,7.5mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm
+Rule Violations :14
+
+Processing Rule : Hole To Hole Clearance (Gap=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=150mm) (Prefered=50mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 32
+Waived Violations : 0
+Time Elapsed        : 00:00:01
