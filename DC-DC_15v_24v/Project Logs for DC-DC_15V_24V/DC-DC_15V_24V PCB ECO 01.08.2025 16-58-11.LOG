@@ -1,0 +1,69 @@
+Change Footprint: Footprint Not Found CAP-V
+Change Footprint: Footprint Not Found CAP-V
+Change Footprint: Footprint Not Found CAP-V
+Change Footprint: Footprint Not Found CAP-V
+Change Footprint: Footprint Not Found CAP_SMD_Size_G
+Change Footprint: Footprint Not Found CAP_SMD_Size_G
+Change Footprint: Footprint Not Found CAP_SMD_Size_G
+Change Footprint: Footprint Not Found CAP_SMD_Size_G
+Change Footprint: Footprint Not Found CAP_SMD_Size_G
+Change Footprint: Cannot match pads with new footprint in component :C13 Footprint:FP-C0805C-DN-MFG
+Change Footprint: Cannot match pads with new footprint in component :C16 Footprint:FP-C0805C-DN-MFG
+Change Footprint: Cannot match pads with new footprint in component :C18 Footprint:FP-C0805C-DN-MFG
+Change Footprint: Cannot match pads with new footprint in component :C19 Footprint:FP-C0805C-DN-MFG
+Change Footprint: Cannot match pads with new footprint in component :C34 Footprint:FP-C0805C-DN-MFG
+Change Footprint: Cannot match pads with new footprint in component :C36 Footprint:FP-C0805C-DN-MFG
+Change Footprint: Cannot match pads with new footprint in component :C38 Footprint:FP-C0805C-DN-MFG
+Change Footprint: Cannot match pads with new footprint in component :C39 Footprint:FP-C0805C-DN-MFG
+Change Footprint: Footprint Not Found CAP_SMD_Size_E
+Change Footprint: Footprint Not Found CAP_SMD_Size_E
+Change Footprint: Footprint Not Found CAP_SMD_Size_E
+Change Footprint: Footprint Not Found DO214-AB
+Change Footprint: Footprint Not Found DO214-AB
+Change Footprint: Footprint Not Found DO214-AB
+Change Footprint: Footprint Not Found FP-SS8050-G-MFG
+Change Footprint: Footprint Not Found FP-SS8050-G-MFG
+Change Footprint: Footprint Not Found FP-SS8050-G-MFG
+Change Footprint: Footprint Not Found FP-SS8050-G-MFG
+Change Footprint: Footprint Not Found DO-214AA
+Change Footprint: Footprint Not Found DO-214AA
+Change Footprint: Cannot match pads with new footprint in component :R5 Footprint:FP-CRCW0805-e3-MFG
+Change Footprint: Cannot match pads with new footprint in component :R7 Footprint:FP-CRCW0805-e3-MFG
+Change Footprint: Cannot match pads with new footprint in component :R9 Footprint:FP-CRCW0805-e3-MFG
+Change Footprint: Cannot match pads with new footprint in component :R13 Footprint:FP-CRCW0805-e3-MFG
+Change Footprint: Cannot match pads with new footprint in component :R14 Footprint:FP-CRCW0805-e3-MFG
+Change Footprint: Cannot match pads with new footprint in component :R15 Footprint:FP-CRCW0805-e3-MFG
+Change Footprint: Cannot match pads with new footprint in component :R16 Footprint:FP-CRCW0805-e3-MFG
+Change Footprint: Cannot match pads with new footprint in component :R17 Footprint:FP-CRCW0805-e3-MFG
+Change Footprint: Cannot match pads with new footprint in component :R18 Footprint:FP-CRCW0805-e3-MFG
+Change Footprint: Cannot match pads with new footprint in component :R29 Footprint:FP-CRCW0805-e3-MFG
+Change Footprint: Cannot match pads with new footprint in component :R30 Footprint:FP-CRCW0805-e3-MFG
+Change Footprint: Cannot match pads with new footprint in component :R32 Footprint:FP-CRCW0805-e3-MFG
+Change Footprint: Cannot match pads with new footprint in component :R38 Footprint:FP-CRCW0805-e3-MFG
+Change Footprint: Cannot match pads with new footprint in component :R39 Footprint:FP-CRCW0805-e3-MFG
+Change Footprint: Cannot match pads with new footprint in component :R41 Footprint:FP-CRCW0805-e3-MFG
+Change Footprint: Cannot match pads with new footprint in component :R42 Footprint:FP-CRCW0805-e3-MFG
+Change Footprint: Cannot match pads with new footprint in component :R43 Footprint:FP-CRCW0805-e3-MFG
+Change Footprint: Cannot match pads with new footprint in component :R44 Footprint:FP-CRCW0805-e3-MFG
+Add Component: Footprint Not Found D0016A_N
+Added Pin To Net: NetName=NetC16_2 Pin=U2-1
+Added Pin To Net: NetName=NetC16_2 Pin=U2-2
+Added Pin To Net: NetName=BAT_GND Pin=U2-3
+Add Pin To Net: Unknown Pin: Pin U3-1
+Add Pin To Net: Unknown Pin: Pin U3-2
+Add Pin To Net: Unknown Pin: Pin U3-3
+Add Pin To Net: Unknown Pin: Pin U3-4
+Add Pin To Net: Unknown Pin: Pin U3-5
+Add Pin To Net: Unknown Pin: Pin U3-6
+Add Pin To Net: Unknown Pin: Pin U3-7
+Add Pin To Net: Unknown Pin: Pin U3-8
+Add Pin To Net: Unknown Pin: Pin U3-9
+Add Pin To Net: Unknown Pin: Pin U3-10
+Add Pin To Net: Unknown Pin: Pin U3-11
+Add Pin To Net: Unknown Pin: Pin U3-12
+Add Pin To Net: Unknown Pin: Pin U3-13
+Add Pin To Net: Unknown Pin: Pin U3-14
+Add Pin To Net: Unknown Pin: Pin U3-15
+Add Pin To Net: Unknown Pin: Pin U3-16
+Added Member To Class: ClassName=DC-DC_15V_24V Member=Component U2 TL431
+Add Class Member: Failed to add class member : Component U3 TL494CDR
