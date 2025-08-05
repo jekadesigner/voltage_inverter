@@ -84,14 +84,18 @@ GenerateClassCluster=0
 DocumentUniqueId=YQEDCYZF
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Inverter_540VDC\Design Rule Check - Inverter_540VDC.html
+DocumentPath=Project Outputs for DC-DC_15V_24V\Design Rule Check - DC-DC_15V_24V.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Inverter_540VDC_V2.1\Design Rule Check - Inverter_540VDC_V2.html
+DocumentPath=Project Outputs for Inverter_540VDC\Design Rule Check - Inverter_540VDC.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
+DocumentPath=Project Outputs for Inverter_540VDC_V2.1\Design Rule Check - Inverter_540VDC_V2.html
+DItemRevisionGUID=
+
+[GeneratedDocument4]
 DocumentPath=Project Outputs for Inverter_540VDC_V2.2\Design Rule Check - Inverter_540VDC_V2.html
 DItemRevisionGUID=
 
