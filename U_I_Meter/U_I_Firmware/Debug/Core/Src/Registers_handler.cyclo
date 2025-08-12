@@ -1,0 +1,3 @@
+../Core/Src/Registers_handler.c:15:6:RestartModbusReception	2
+../Core/Src/Registers_handler.c:34:6:Registers_handler	12
+../Core/Src/Registers_handler.c:111:6:Modbus_parsing	1

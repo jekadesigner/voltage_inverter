@@ -1,0 +1,13 @@
+../Core/Src/main.c:470:13:MX_DMA_Init	1
+../Core/Src/main.c:424:13:MX_USART1_UART_Init	5
+../Core/Src/main.c:186:6:SystemClock_Config	3
+../Core/Src/main.c:537:6:HAL_UART_TxCpltCallback	1
+../Core/Src/main.c:552:6:HAL_UARTEx_RxEventCallback	2
+../Core/Src/main.c:581:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:602:7:Reset_USART1	3
+../Core/Src/main.c:590:6:Check_USART1_Timeout	2
+../Core/Src/main.c:656:8:calculate_ntc_temperature	1
+../Core/Src/main.c:118:5:main	13
+../Core/Src/main.c:679:7:MA_Update	4
+../Core/Src/main.c:568:6:HAL_ADC_ConvCpltCallback	2
+../Core/Src/main.c:702:6:Error_Handler	1

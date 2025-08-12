@@ -1,0 +1,170 @@
+Removed Pin From Net: NetName=GND Pin=C19-2
+Removed Pin From Net: NetName=GND Pin=C22-1
+Removed Pin From Net: NetName=NetC22_2 Pin=C22-2
+Removed Pin From Net: NetName=GND Pin=C?-1
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Removed Pin From Net: NetName=NetC22_2 Pin=K1-2
+Removed Pin From Net: NetName=NetK1_3 Pin=K1-3
+Removed Pin From Net: NetName=GND Pin=Q?-2
+Removed Pin From Net: NetName=NetQ?_3 Pin=Q?-3
+Removed Pin From Net: NetName=+950V Pin=R11-2
+Removed Pin From Net: NetName=+950V Pin=R11-2
+Removed Pin From Net: NetName=NetR11_1 Pin=R12-2
+Removed Pin From Net: NetName=NetR11_1 Pin=R12-2
+Removed Pin From Net: NetName=NetK1_3 Pin=R13-1
+Removed Pin From Net: NetName=NetK1_3 Pin=R13-1
+Removed Pin From Net: NetName=NetR12_1 Pin=R13-2
+Removed Pin From Net: NetName=NetR12_1 Pin=R13-2
+Removed Pin From Net: NetName=NetR19_1 Pin=R19-1
+Removed Pin From Net: NetName=NetR19_2 Pin=R19-2
+Removed Pin From Net: NetName=NetR20_1 Pin=R20-1
+Removed Pin From Net: NetName=NetR20_2 Pin=R20-2
+Removed Pin From Net: NetName=GND Pin=R?-1
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Removed Pin From Net: NetName=NetR25_2 Pin=T?-1
+Removed Pin From Net: NetName=NetR36_1 Pin=T?-2
+Removed Pin From Net: NetName=NetR20_1 Pin=T?-4
+Removed Pin From Net: NetName=NetR19_1 Pin=T?-5
+Removed Pin From Net: NetName=NetC19_1 Pin=TP11-1
+Removed Pin From Net: NetName=NetC22_2 Pin=TP13-1
+Removed Pin From Net: NetName=NetK1_3 Pin=TP14-1
+Removed Pin From Net: NetName=NetR20_1 Pin=TP16-1
+Removed Pin From Net: NetName=NetR19_1 Pin=TP17-1
+Remove Pin from Net: Failed to remove Pin
+Removed Pin From Net: NetName=GND Pin=U?-3
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Removed Pin From Net: NetName=NetR?_2 Pin=VD?-1
+Remove Pin from Net: Failed to remove Pin
+Remove Pin from Net: Failed to remove Pin
+Removed Pin From Net: NetName=NetC22_2 Pin=VT?-1
+Removed Pin From Net: NetName=NetQ?_3 Pin=VT?-3
+Remove Pin from Net: Failed to remove Pin
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Cannot match pads with new footprint in component :R11 Footprint:RES-0805
+Change Footprint: Cannot match pads with new footprint in component :R12 Footprint:RES-0805
+Change Component Comment : Designator=C19 Old Comment=1uF_50V New Comment=1uF 50V
+Change Component Comment : Designator=R11 Old Comment=3K New Comment=10
+Change Component Comment : Designator=R12 Old Comment=3K New Comment=10
+Change Component Designator: OldDesignator=C? NewDesignator=C20
+Change Component Designator: OldDesignator=C? NewDesignator=C21
+Change Component Designator: OldDesignator=C? NewDesignator=C22
+Change Component Designator: OldDesignator=C? NewDesignator=C30
+Change Component Designator: OldDesignator=C? NewDesignator=C38
+Change Component Designator: OldDesignator=C? NewDesignator=C39
+Change Component Designator: OldDesignator=D? NewDesignator=D11
+Change Component Designator: OldDesignator=D? NewDesignator=D12
+Change Component Designator: OldDesignator=D? NewDesignator=D16
+Change Component Designator: OldDesignator=D? NewDesignator=D17
+Change Component Designator: OldDesignator=D? NewDesignator=D18
+Change Component Designator: OldDesignator=L? NewDesignator=L1
+Change Component Designator: OldDesignator=L? NewDesignator=L2
+Change Component Designator: OldDesignator=L? NewDesignator=L6
+Change Component Designator: OldDesignator=L? NewDesignator=L7
+Change Component Designator: OldDesignator=L? NewDesignator=L8
+Change Component Designator: OldDesignator=P? NewDesignator=P3
+Change Component Designator: OldDesignator=P? NewDesignator=P4
+Change Component Designator: OldDesignator=Q? NewDesignator=Q1
+Change Component Designator: OldDesignator=R? NewDesignator=R10
+Change Component Designator: OldDesignator=R? NewDesignator=R13
+Change Component Designator: OldDesignator=R? NewDesignator=R19
+Change Component Designator: OldDesignator=R? NewDesignator=R20
+Change Component Designator: OldDesignator=R? NewDesignator=R28
+Change Component Designator: OldDesignator=R? NewDesignator=R37
+Change Component Designator: OldDesignator=T? NewDesignator=T2
+Change Component Designator: OldDesignator=T? NewDesignator=T3
+Change Component Designator: OldDesignator=TP? NewDesignator=TP11
+Change Component Designator: OldDesignator=TP? NewDesignator=TP12
+Change Component Designator: OldDesignator=TP? NewDesignator=TP13
+Change Component Designator: OldDesignator=TP? NewDesignator=TP14
+Change Component Designator: OldDesignator=TP? NewDesignator=TP33
+Change Component Designator: OldDesignator=TP? NewDesignator=TP34
+Change Component Designator: OldDesignator=TP? NewDesignator=TP35
+Change Component Designator: OldDesignator=TP? NewDesignator=TP36
+Change Component Designator: OldDesignator=U? NewDesignator=U4
+Change Component Designator: OldDesignator=VD? NewDesignator=VD1
+Added Component: Designator=R1(RES-2512)
+Add Component: Footprint Not Found PWM_SG3525
+Added Pin To Net: NetName=NetR?_2 Pin=C21-2
+Added Pin To Net: NetName=NetR20_1 Pin=D11-2
+Added Pin To Net: NetName=NetR20_1 Pin=D12-1
+Added Pin To Net: NetName=NetR19_1 Pin=D18-1
+Added Pin To Net: NetName=NetR19_1 Pin=L8-1
+Added Pin To Net: NetName=NetQ?_3 Pin=Q1-3
+Added Pin To Net: NetName=NetK1_3 Pin=Q1-4
+Added Pin To Net: NetName=NetC19_1 Pin=R1-2
+Added Pin To Net: NetName=NetC19_1 Pin=R1-2
+Added Pin To Net: NetName=NetR20_1 Pin=R10-2
+Added Pin To Net: NetName=NetR20_1 Pin=R10-2
+Added Pin To Net: NetName=NetR20_2 Pin=R11-2
+Added Pin To Net: NetName=NetR20_2 Pin=R11-2
+Added Pin To Net: NetName=NetR19_2 Pin=R12-2
+Added Pin To Net: NetName=NetR19_2 Pin=R12-2
+Added Pin To Net: NetName=NetR?_2 Pin=R13-2
+Added Pin To Net: NetName=NetR?_2 Pin=R19-1
+Added Pin To Net: NetName=NetR?_2 Pin=R20-1
+Added Pin To Net: NetName=NetR25_2 Pin=T2-1
+Added Pin To Net: NetName=NetR36_1 Pin=T2-2
+Added Pin To Net: NetName=NetR20_1 Pin=T2-4
+Added Pin To Net: NetName=NetC19_1 Pin=T3-1
+Added Pin To Net: NetName=NetD?_2 Pin=T3-2
+Added Pin To Net: NetName=NetR11_1 Pin=T3-4
+Added Pin To Net: NetName=NetR12_1 Pin=T3-5
+Added Pin To Net: NetName=NetR?_2 Pin=TP13-1
+Added Pin To Net: NetName=NetR11_1 Pin=TP16-1
+Added Pin To Net: NetName=NetR12_1 Pin=TP17-1
+Added Pin To Net: NetName=NetR19_1 Pin=TP34-1
+Add Pin To Net: Unknown Pin: Pin U3-2
+Add Pin To Net: Unknown Pin: Pin U3-3
+Add Pin To Net: Unknown Pin: Pin U3-4
+Add Pin To Net: Unknown Pin: Pin U3-5
+Add Pin To Net: Unknown Pin: Pin U3-6
+Add Pin To Net: Unknown Pin: Pin U3-7
+Add Pin To Net: Unknown Pin: Pin U3-8
+Add Pin To Net: Unknown Pin: Pin U3-9
+Add Pin To Net: Unknown Pin: Pin U3-10
+Add Pin To Net: Unknown Pin: Pin U3-11
+Add Pin To Net: Unknown Pin: Pin U3-12
+Added Pin To Net: NetName=NetR19_1 Pin=U4-2
+Added Pin To Net: NetName=GND Pin=VD1-1
+Change Net Name : Old Net Name=NetC22_2 New Net Name=NetU3_11
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC38_2
+Change Net Name : Old Net Name=NetC?_2 New Net Name=NetC22_2
+Change Net Name : Old Net Name=NetD?_1 New Net Name=NetD16_2
+Change Net Name : Old Net Name=NetD?_2 New Net Name=NetT3_2
+Change Net Name : Old Net Name=NetK1_3 New Net Name=NetQ1_4
+Change Net Name : Old Net Name=NetQ?_1 New Net Name=NetQ1_1
+Change Net Name : Old Net Name=NetQ?_3 New Net Name=NetQ1_3
+Change Net Name : Old Net Name=NetR19_1 New Net Name=NetD18_1
+Change Net Name : Old Net Name=NetR19_2 New Net Name=NetR12_2
+Change Net Name : Old Net Name=NetR20_1 New Net Name=NetD11_2
+Change Net Name : Old Net Name=NetR20_2 New Net Name=NetR11_2
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR28_1
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetC21_2
+Added Pin To Net: NetName=NetC19_2 Pin=C19-2
+Added Pin To Net: NetName=NetC19_2 Pin=R1-1
+Added Pin To Net: NetName=NetC19_2 Pin=R1-1
+Added Net: Name=NetC19_2
+Added Pin To Net: NetName=NetC20_2 Pin=C20-2
+Added Pin To Net: NetName=NetC20_2 Pin=D11-1
+Added Pin To Net: NetName=NetC20_2 Pin=D16-1
+Added Pin To Net: NetName=NetC20_2 Pin=R13-1
+Added Pin To Net: NetName=NetC20_2 Pin=TP12-1
+Added Net: Name=NetC20_2

@@ -1,0 +1,11 @@
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Footprint Not Found DIOD-SOD123-2_V
+Change Footprint: Cannot match pads with new footprint in component :R11 Footprint:RES-0805
+Change Footprint: Cannot match pads with new footprint in component :R12 Footprint:RES-0805
+Change Footprint: Footprint Not Found PWM_SG3525
+Added Pin To Net: NetName=NetD19_1 Pin=D19-1
+Added Pin To Net: NetName=NetC3_2 Pin=D19-2
+Added Pin To Net: NetName=NetC3_2 Pin=VD2-1
+Added Pin To Net: NetName=NetC3_1 Pin=VD2-2
