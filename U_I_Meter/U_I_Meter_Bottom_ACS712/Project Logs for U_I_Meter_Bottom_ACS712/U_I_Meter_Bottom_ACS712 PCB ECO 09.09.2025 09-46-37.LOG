@@ -1,0 +1,4 @@
+Change Footprint: Footprint Not Found SOT-23-5
+Add Component: Footprint Not Found U_I_Meter_TOP
+Add Class Member: Failed to add class member : Component BOARD1 U_I_Meter_TOP
+Added Member To Class: ClassName=U_I_Meter_Bottom_ACS712 Member=Component C4 100uF_16V
