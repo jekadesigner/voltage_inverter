@@ -1,0 +1,651 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD21\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">23.09.2025</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">15:23:13</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc" class="file"><acronym title="C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc">C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">105</td></tr>
+</table>
+</td>
+</table><a name="IDJOHME3JI4WOFJTGMLK200ODS5HGNCGQYCWYFCGCN42LOMF5Q15NG"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDX10L1LBEIQGAE2QTLNQ5KBU5KIQGBU21DUHY4RDFEPFLIXKOVAVI">Clearance Constraint (Gap=0.8mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQ0NSZWYFNIBAD45DC41A2UINGLERDKNK1XDTWEK0MONNQ1UVI1SJ">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDSHUIUW5XEYM5G3YC4FHNNXM5LPHK2L4NJSUL4KI41X5B4HD3LK2E">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDECDHM1SYSGBOEQAZL5M4VBRVCPDYYKFXQBJNL4ORSYVX2GHWJETG">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVAQGA4Z4TDZBDMHWTZJTHO14SJH5QA20RJP3ZKL2YVMHN3CM42LG">Width Constraint (Min=0.254mm) (Max=7mm) (Preferred=2mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZJOZRDZN4SANORDOFANYS5L23O24ABAY50PZXTNOKG3BOIL3JRRC">Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.5mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDN2L4IQNBSQHIEMPH5OKO21FXGOLKCJIJ3LGFFCKY2FP0JMQ2RNGL">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDG5GMJREULPKYFGWANDYCVWRCLKIRROZVDIQW05FPHXR2DDLIO3IP">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDH0RTRZY5RZZHBVSYEN0Y24OALKXNOGMPIDCLPWIBD23V1MHXHWBB">Minimum Solder Mask Sliver (Gap=0.15mm) (All),(All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAEYQ2DQPLPHJKJLLG5P5XOD0JGJXPRW2I3UFULDMGO4E20OMC5O">Silk To Solder Mask (Clearance=0.15mm) (IsPad),(All)</a></td>
+<td class="column2">97</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVGZOHDYP45ZSN5ZEMOMDBAW0TP1QZGM2BRT3QLC0FRGEDDGYMD1C">Silk to Silk (Clearance=0.15mm) (All),(All)</a></td>
+<td class="column2">7</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4VHL2L2BGN0WGN2YIWCHIRZTVJLZUSTAMCJ4JML2XDVQOQ5TQM2I">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDDIWGQWLVVLZ5C2ML3LFVKTZQ3BFO3U5QCVFW1RNK1ZOR54BFIZCC">Height Constraint (Min=0mm) (Max=150mm) (Prefered=50mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">105</td>
+</tr>
+</table><br><a name="IDH0RTRZY5RZZHBVSYEN0Y24OALKXNOGMPIDCLPWIBD23V1MHXHWBB"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Solder Mask Sliver (Gap=0.15mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27116.659mil|Location2.X=27123.814mil|Location1.Y=31309.186mil|Location2.Y=31316.341mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27116.659mil|Location2.X=27123.814mil|Location1.Y=31309.186mil|Location2.Y=31316.341mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.008mm &lt; 0.15mm) Between Pad R45-1(10.25mm,23.125mm) on Top Layer And Via (10.225mm,24.05mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.008mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDAEYQ2DQPLPHJKJLLG5P5XOD0JGJXPRW2I3UFULDMGO4E20OMC5O"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.15mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27513.565mil|Location2.X=27520.72mil|Location1.Y=31007.249mil|Location2.Y=31014.405mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27513.565mil|Location2.X=27520.72mil|Location1.Y=31007.249mil|Location2.Y=31014.405mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad C17-1(20.95mm,16.275mm) on Bottom Layer And Track (20.188mm,15.751mm)(20.188mm,18.799mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27563.509mil|Location2.X=27570.664mil|Location1.Y=31006.777mil|Location2.Y=31013.932mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27563.509mil|Location2.X=27570.664mil|Location1.Y=31006.777mil|Location2.Y=31013.932mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.024mm &lt; 0.15mm) Between Pad C17-1(20.95mm,16.275mm) on Bottom Layer And Track (20.188mm,15.751mm)(21.712mm,15.751mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.024mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27564.234mil|Location2.X=27571.389mil|Location1.Y=31007.249mil|Location2.Y=31014.405mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27564.234mil|Location2.X=27571.389mil|Location1.Y=31007.249mil|Location2.Y=31014.405mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad C17-1(20.95mm,16.275mm) on Bottom Layer And Track (21.712mm,15.751mm)(21.712mm,18.799mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27513.565mil|Location2.X=27520.72mil|Location1.Y=31085.989mil|Location2.Y=31093.145mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27513.565mil|Location2.X=27520.72mil|Location1.Y=31085.989mil|Location2.Y=31093.145mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad C17-2(20.95mm,18.275mm) on Bottom Layer And Track (20.188mm,15.751mm)(20.188mm,18.799mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27514.296mil|Location2.X=27521.452mil|Location1.Y=31117.958mil|Location2.Y=31125.113mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27514.296mil|Location2.X=27521.452mil|Location1.Y=31117.958mil|Location2.Y=31125.113mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.024mm &lt; 0.15mm) Between Pad C17-2(20.95mm,18.275mm) on Bottom Layer And Track (20.188mm,18.799mm)(21.712mm,18.799mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.024mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27564.234mil|Location2.X=27571.389mil|Location1.Y=31085.989mil|Location2.Y=31093.145mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27564.234mil|Location2.X=27571.389mil|Location1.Y=31085.989mil|Location2.Y=31093.145mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad C17-2(20.95mm,18.275mm) on Bottom Layer And Track (21.712mm,15.751mm)(21.712mm,18.799mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27108.532mil|Location2.X=27115.687mil|Location1.Y=30917.682mil|Location2.Y=30924.838mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27108.532mil|Location2.X=27115.687mil|Location1.Y=30917.682mil|Location2.Y=30924.838mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad C18-1(9.375mm,14mm) on Top Layer And Track (10.137mm,11.476mm)(10.137mm,14.524mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27057.862mil|Location2.X=27065.018mil|Location1.Y=30917.682mil|Location2.Y=30924.838mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27057.862mil|Location2.X=27065.018mil|Location1.Y=30917.682mil|Location2.Y=30924.838mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad C18-1(9.375mm,14mm) on Top Layer And Track (8.613mm,11.476mm)(8.613mm,14.524mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27058.594mil|Location2.X=27065.75mil|Location1.Y=30949.651mil|Location2.Y=30956.806mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27058.594mil|Location2.X=27065.75mil|Location1.Y=30949.651mil|Location2.Y=30956.806mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.024mm &lt; 0.15mm) Between Pad C18-1(9.375mm,14mm) on Top Layer And Track (8.613mm,14.524mm)(10.137mm,14.524mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.024mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27108.532mil|Location2.X=27115.687mil|Location1.Y=30838.942mil|Location2.Y=30846.097mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27108.532mil|Location2.X=27115.687mil|Location1.Y=30838.942mil|Location2.Y=30846.097mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad C18-2(9.375mm,12mm) on Top Layer And Track (10.137mm,11.476mm)(10.137mm,14.524mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27107.807mil|Location2.X=27114.962mil|Location1.Y=30838.469mil|Location2.Y=30845.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27107.807mil|Location2.X=27114.962mil|Location1.Y=30838.469mil|Location2.Y=30845.625mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.024mm &lt; 0.15mm) Between Pad C18-2(9.375mm,12mm) on Top Layer And Track (8.613mm,11.476mm)(10.137mm,11.476mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.024mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27057.862mil|Location2.X=27065.018mil|Location1.Y=30838.942mil|Location2.Y=30846.097mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27057.862mil|Location2.X=27065.018mil|Location1.Y=30838.942mil|Location2.Y=30846.097mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad C18-2(9.375mm,12mm) on Top Layer And Track (8.613mm,11.476mm)(8.613mm,14.524mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27717.571mil|Location2.X=27722.508mil|Location1.Y=31065.051mil|Location2.Y=31069.988mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27717.571mil|Location2.X=27722.508mil|Location1.Y=31065.051mil|Location2.Y=31069.988mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.15mm) Between Pad DA1-1(24.19mm,18.065mm) on Top Layer And Track (25.46mm,16.16mm)(25.46mm,27.59mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27717.571mil|Location2.X=27722.508mil|Location1.Y=31165.051mil|Location2.Y=31169.988mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27717.571mil|Location2.X=27722.508mil|Location1.Y=31165.051mil|Location2.Y=31169.988mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.15mm) Between Pad DA1-2(24.19mm,20.605mm) on Top Layer And Track (25.46mm,16.16mm)(25.46mm,27.59mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27717.571mil|Location2.X=27722.508mil|Location1.Y=31265.051mil|Location2.Y=31269.988mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27717.571mil|Location2.X=27722.508mil|Location1.Y=31265.051mil|Location2.Y=31269.988mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.15mm) Between Pad DA1-3(24.19mm,23.145mm) on Top Layer And Track (25.46mm,16.16mm)(25.46mm,27.59mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27717.571mil|Location2.X=27722.508mil|Location1.Y=31365.051mil|Location2.Y=31369.988mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27717.571mil|Location2.X=27722.508mil|Location1.Y=31365.051mil|Location2.Y=31369.988mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.15mm) Between Pad DA1-4(24.19mm,25.685mm) on Top Layer And Track (25.46mm,16.16mm)(25.46mm,27.59mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27167.571mil|Location2.X=27172.508mil|Location1.Y=31365.051mil|Location2.Y=31369.988mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27167.571mil|Location2.X=27172.508mil|Location1.Y=31365.051mil|Location2.Y=31369.988mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.15mm) Between Pad DA1-5(12.76mm,25.685mm) on Top Layer And Track (11.49mm,16.16mm)(11.49mm,27.59mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27167.571mil|Location2.X=27172.508mil|Location1.Y=31265.051mil|Location2.Y=31269.988mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27167.571mil|Location2.X=27172.508mil|Location1.Y=31265.051mil|Location2.Y=31269.988mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.15mm) Between Pad DA1-6(12.76mm,23.145mm) on Top Layer And Track (11.49mm,16.16mm)(11.49mm,27.59mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27167.571mil|Location2.X=27172.508mil|Location1.Y=31165.051mil|Location2.Y=31169.988mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27167.571mil|Location2.X=27172.508mil|Location1.Y=31165.051mil|Location2.Y=31169.988mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.15mm) Between Pad DA1-7(12.76mm,20.605mm) on Top Layer And Track (11.49mm,16.16mm)(11.49mm,27.59mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27167.571mil|Location2.X=27172.508mil|Location1.Y=31065.051mil|Location2.Y=31069.988mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27167.571mil|Location2.X=27172.508mil|Location1.Y=31065.051mil|Location2.Y=31069.988mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.15mm) Between Pad DA1-8(12.76mm,18.065mm) on Top Layer And Track (11.49mm,16.16mm)(11.49mm,27.59mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27716.165mil|Location2.X=27721.102mil|Location1.Y=31415.715mil|Location2.Y=31420.652mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27716.165mil|Location2.X=27721.102mil|Location1.Y=31415.715mil|Location2.Y=31420.652mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.15mm) Between Pad R2-1(24.775mm,25.85mm) on Bottom Layer And Text "VT1" (25.891mm,25.989mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27664.162mil|Location2.X=27671.317mil|Location1.Y=31384.218mil|Location2.Y=31391.373mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27664.162mil|Location2.X=27671.317mil|Location1.Y=31384.218mil|Location2.Y=31391.373mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R2-1(24.775mm,25.85mm) on Bottom Layer And Track (24.013mm,25.326mm)(24.013mm,28.374mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27714.106mil|Location2.X=27721.261mil|Location1.Y=31383.745mil|Location2.Y=31390.9mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27714.106mil|Location2.X=27721.261mil|Location1.Y=31383.745mil|Location2.Y=31390.9mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.024mm &lt; 0.15mm) Between Pad R2-1(24.775mm,25.85mm) on Bottom Layer And Track (24.013mm,25.326mm)(25.537mm,25.326mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.024mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27714.831mil|Location2.X=27721.986mil|Location1.Y=31384.218mil|Location2.Y=31391.373mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27714.831mil|Location2.X=27721.986mil|Location1.Y=31384.218mil|Location2.Y=31391.373mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R2-1(24.775mm,25.85mm) on Bottom Layer And Track (25.537mm,25.326mm)(25.537mm,28.374mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27664.162mil|Location2.X=27671.317mil|Location1.Y=31462.958mil|Location2.Y=31470.113mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27664.162mil|Location2.X=27671.317mil|Location1.Y=31462.958mil|Location2.Y=31470.113mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R2-2(24.775mm,27.85mm) on Bottom Layer And Track (24.013mm,25.326mm)(24.013mm,28.374mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27664.893mil|Location2.X=27672.049mil|Location1.Y=31494.926mil|Location2.Y=31502.082mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27664.893mil|Location2.X=27672.049mil|Location1.Y=31494.926mil|Location2.Y=31502.082mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.024mm &lt; 0.15mm) Between Pad R2-2(24.775mm,27.85mm) on Bottom Layer And Track (24.013mm,28.374mm)(25.537mm,28.374mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.024mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27714.831mil|Location2.X=27721.986mil|Location1.Y=31462.958mil|Location2.Y=31470.113mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27714.831mil|Location2.X=27721.986mil|Location1.Y=31462.958mil|Location2.Y=31470.113mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R2-2(24.775mm,27.85mm) on Bottom Layer And Track (25.537mm,25.326mm)(25.537mm,28.374mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27142.981mil|Location2.X=27150.136mil|Location1.Y=31276.934mil|Location2.Y=31284.09mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27142.981mil|Location2.X=27150.136mil|Location1.Y=31276.934mil|Location2.Y=31284.09mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R45-1(10.25mm,23.125mm) on Top Layer And Track (11.012mm,20.601mm)(11.012mm,23.649mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27092.311mil|Location2.X=27099.467mil|Location1.Y=31276.934mil|Location2.Y=31284.09mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27092.311mil|Location2.X=27099.467mil|Location1.Y=31276.934mil|Location2.Y=31284.09mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R45-1(10.25mm,23.125mm) on Top Layer And Track (9.488mm,20.601mm)(9.488mm,23.649mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27093.043mil|Location2.X=27100.198mil|Location1.Y=31308.903mil|Location2.Y=31316.058mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27093.043mil|Location2.X=27100.198mil|Location1.Y=31308.903mil|Location2.Y=31316.058mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.024mm &lt; 0.15mm) Between Pad R45-1(10.25mm,23.125mm) on Top Layer And Track (9.488mm,23.649mm)(11.012mm,23.649mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.024mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27142.981mil|Location2.X=27150.136mil|Location1.Y=31198.194mil|Location2.Y=31205.349mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27142.981mil|Location2.X=27150.136mil|Location1.Y=31198.194mil|Location2.Y=31205.349mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R45-2(10.25mm,21.125mm) on Top Layer And Track (11.012mm,20.601mm)(11.012mm,23.649mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27142.255mil|Location2.X=27149.411mil|Location1.Y=31197.721mil|Location2.Y=31204.877mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27142.255mil|Location2.X=27149.411mil|Location1.Y=31197.721mil|Location2.Y=31204.877mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.024mm &lt; 0.15mm) Between Pad R45-2(10.25mm,21.125mm) on Top Layer And Track (9.488mm,20.601mm)(11.012mm,20.601mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.024mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27092.311mil|Location2.X=27099.467mil|Location1.Y=31198.194mil|Location2.Y=31205.349mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27092.311mil|Location2.X=27099.467mil|Location1.Y=31198.194mil|Location2.Y=31205.349mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R45-2(10.25mm,21.125mm) on Top Layer And Track (9.488mm,20.601mm)(9.488mm,23.649mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27513.571mil|Location2.X=27520.727mil|Location1.Y=31218.863mil|Location2.Y=31226.019mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27513.571mil|Location2.X=27520.727mil|Location1.Y=31218.863mil|Location2.Y=31226.019mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R47-1(20.95mm,21.65mm) on Bottom Layer And Track (20.188mm,19.126mm)(20.188mm,22.174mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27514.296mil|Location2.X=27521.452mil|Location1.Y=31250.832mil|Location2.Y=31257.987mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27514.296mil|Location2.X=27521.452mil|Location1.Y=31250.832mil|Location2.Y=31257.987mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.024mm &lt; 0.15mm) Between Pad R47-1(20.95mm,21.65mm) on Bottom Layer And Track (20.188mm,22.174mm)(21.712mm,22.174mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.024mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27564.24mil|Location2.X=27571.396mil|Location1.Y=31218.863mil|Location2.Y=31226.019mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27564.24mil|Location2.X=27571.396mil|Location1.Y=31218.863mil|Location2.Y=31226.019mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R47-1(20.95mm,21.65mm) on Bottom Layer And Track (21.712mm,19.126mm)(21.712mm,22.174mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27513.571mil|Location2.X=27520.727mil|Location1.Y=31140.123mil|Location2.Y=31147.279mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27513.571mil|Location2.X=27520.727mil|Location1.Y=31140.123mil|Location2.Y=31147.279mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R47-2(20.95mm,19.65mm) on Bottom Layer And Track (20.188mm,19.126mm)(20.188mm,22.174mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27563.509mil|Location2.X=27570.664mil|Location1.Y=31139.651mil|Location2.Y=31146.806mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27563.509mil|Location2.X=27570.664mil|Location1.Y=31139.651mil|Location2.Y=31146.806mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.024mm &lt; 0.15mm) Between Pad R47-2(20.95mm,19.65mm) on Bottom Layer And Track (20.188mm,19.126mm)(21.712mm,19.126mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.024mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27564.24mil|Location2.X=27571.396mil|Location1.Y=31140.123mil|Location2.Y=31147.279mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27564.24mil|Location2.X=27571.396mil|Location1.Y=31140.123mil|Location2.Y=31147.279mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R47-2(20.95mm,19.65mm) on Bottom Layer And Track (21.712mm,19.126mm)(21.712mm,22.174mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27593.548mil|Location2.X=27600.704mil|Location1.Y=31171.613mil|Location2.Y=31178.768mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27593.548mil|Location2.X=27600.704mil|Location1.Y=31171.613mil|Location2.Y=31178.768mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.024mm &lt; 0.15mm) Between Pad R48-1(22.75mm,20.675mm) on Bottom Layer And Track (22.226mm,19.913mm)(22.226mm,21.437mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.024mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27625.517mil|Location2.X=27632.672mil|Location1.Y=31170.888mil|Location2.Y=31178.043mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27625.517mil|Location2.X=27632.672mil|Location1.Y=31170.888mil|Location2.Y=31178.043mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R48-1(22.75mm,20.675mm) on Bottom Layer And Track (22.226mm,19.913mm)(25.274mm,19.913mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27594.021mil|Location2.X=27601.176mil|Location1.Y=31221.557mil|Location2.Y=31228.712mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27594.021mil|Location2.X=27601.176mil|Location1.Y=31221.557mil|Location2.Y=31228.712mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R48-1(22.75mm,20.675mm) on Bottom Layer And Track (22.226mm,21.437mm)(25.274mm,21.437mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27704.257mil|Location2.X=27711.412mil|Location1.Y=31170.888mil|Location2.Y=31178.043mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27704.257mil|Location2.X=27711.412mil|Location1.Y=31170.888mil|Location2.Y=31178.043mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R48-2(24.75mm,20.675mm) on Bottom Layer And Track (22.226mm,19.913mm)(25.274mm,19.913mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27672.761mil|Location2.X=27679.916mil|Location1.Y=31221.557mil|Location2.Y=31228.712mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27672.761mil|Location2.X=27679.916mil|Location1.Y=31221.557mil|Location2.Y=31228.712mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R48-2(24.75mm,20.675mm) on Bottom Layer And Track (22.226mm,21.437mm)(25.274mm,21.437mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27704.729mil|Location2.X=27711.885mil|Location1.Y=31171.613mil|Location2.Y=31178.768mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27704.729mil|Location2.X=27711.885mil|Location1.Y=31171.613mil|Location2.Y=31178.768mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.024mm &lt; 0.15mm) Between Pad R48-2(24.75mm,20.675mm) on Bottom Layer And Track (25.274mm,19.913mm)(25.274mm,21.437mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.024mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27713.115mil|Location2.X=27720.271mil|Location1.Y=31005.54mil|Location2.Y=31012.695mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27713.115mil|Location2.X=27720.271mil|Location1.Y=31005.54mil|Location2.Y=31012.695mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R49-1(24.975mm,16.475mm) on Bottom Layer And Track (22.451mm,15.713mm)(25.499mm,15.713mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27681.619mil|Location2.X=27688.775mil|Location1.Y=31056.209mil|Location2.Y=31063.364mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27681.619mil|Location2.X=27688.775mil|Location1.Y=31056.209mil|Location2.Y=31063.364mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R49-1(24.975mm,16.475mm) on Bottom Layer And Track (22.451mm,17.237mm)(25.499mm,17.237mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27713.588mil|Location2.X=27720.743mil|Location1.Y=31006.271mil|Location2.Y=31013.427mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27713.588mil|Location2.X=27720.743mil|Location1.Y=31006.271mil|Location2.Y=31013.427mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.024mm &lt; 0.15mm) Between Pad R49-1(24.975mm,16.475mm) on Bottom Layer And Track (25.499mm,15.713mm)(25.499mm,17.237mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.024mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27602.407mil|Location2.X=27609.562mil|Location1.Y=31006.271mil|Location2.Y=31013.427mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27602.407mil|Location2.X=27609.562mil|Location1.Y=31006.271mil|Location2.Y=31013.427mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.024mm &lt; 0.15mm) Between Pad R49-2(22.975mm,16.475mm) on Bottom Layer And Track (22.451mm,15.713mm)(22.451mm,17.237mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.024mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27634.375mil|Location2.X=27641.53mil|Location1.Y=31005.54mil|Location2.Y=31012.695mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27634.375mil|Location2.X=27641.53mil|Location1.Y=31005.54mil|Location2.Y=31012.695mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R49-2(22.975mm,16.475mm) on Bottom Layer And Track (22.451mm,15.713mm)(25.499mm,15.713mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27602.879mil|Location2.X=27610.034mil|Location1.Y=31056.209mil|Location2.Y=31063.364mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27602.879mil|Location2.X=27610.034mil|Location1.Y=31056.209mil|Location2.Y=31063.364mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R49-2(22.975mm,16.475mm) on Bottom Layer And Track (22.451mm,17.237mm)(25.499mm,17.237mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27758.65mil|Location2.X=27765.805mil|Location1.Y=31093.863mil|Location2.Y=31101.019mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27758.65mil|Location2.X=27765.805mil|Location1.Y=31093.863mil|Location2.Y=31101.019mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R50-1(27.175mm,18.475mm) on Bottom Layer And Track (26.413mm,15.951mm)(26.413mm,18.999mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27759.375mil|Location2.X=27766.531mil|Location1.Y=31125.832mil|Location2.Y=31132.987mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27759.375mil|Location2.X=27766.531mil|Location1.Y=31125.832mil|Location2.Y=31132.987mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.024mm &lt; 0.15mm) Between Pad R50-1(27.175mm,18.475mm) on Bottom Layer And Track (26.413mm,18.999mm)(27.937mm,18.999mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.024mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27809.319mil|Location2.X=27816.475mil|Location1.Y=31093.863mil|Location2.Y=31101.019mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27809.319mil|Location2.X=27816.475mil|Location1.Y=31093.863mil|Location2.Y=31101.019mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R50-1(27.175mm,18.475mm) on Bottom Layer And Track (27.937mm,15.951mm)(27.937mm,18.999mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27758.65mil|Location2.X=27765.805mil|Location1.Y=31015.123mil|Location2.Y=31022.279mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27758.65mil|Location2.X=27765.805mil|Location1.Y=31015.123mil|Location2.Y=31022.279mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R50-2(27.175mm,16.475mm) on Bottom Layer And Track (26.413mm,15.951mm)(26.413mm,18.999mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27808.588mil|Location2.X=27815.743mil|Location1.Y=31014.651mil|Location2.Y=31021.806mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27808.588mil|Location2.X=27815.743mil|Location1.Y=31014.651mil|Location2.Y=31021.806mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.024mm &lt; 0.15mm) Between Pad R50-2(27.175mm,16.475mm) on Bottom Layer And Track (26.413mm,15.951mm)(27.937mm,15.951mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.024mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27809.319mil|Location2.X=27816.475mil|Location1.Y=31015.123mil|Location2.Y=31022.279mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27809.319mil|Location2.X=27816.475mil|Location1.Y=31015.123mil|Location2.Y=31022.279mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.037mm &lt; 0.15mm) Between Pad R50-2(27.175mm,16.475mm) on Bottom Layer And Track (27.937mm,15.951mm)(27.937mm,18.999mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.037mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27565.478mil|Location2.X=27572.633mil|Location1.Y=30610.438mil|Location2.Y=30617.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27565.478mil|Location2.X=27572.633mil|Location1.Y=30610.438mil|Location2.Y=30617.593mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.07mm &lt; 0.15mm) Between Pad VD11-1(20.425mm,7.031mm) on Bottom Layer And Track (18.52mm,5.634mm)(22.33mm,5.634mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.07mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27248.548mil|Location2.X=27255.704mil|Location1.Y=30897.84mil|Location2.Y=30904.995mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27248.548mil|Location2.X=27255.704mil|Location1.Y=30897.84mil|Location2.Y=30904.995mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.07mm &lt; 0.15mm) Between Pad VD12-1(12.375mm,14.331mm) on Top Layer And Track (10.47mm,12.934mm)(14.28mm,12.934mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.07mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26994.611mil|Location2.X=27001.767mil|Location1.Y=30971.324mil|Location2.Y=30978.479mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26994.611mil|Location2.X=27001.767mil|Location1.Y=30971.324mil|Location2.Y=30978.479mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.075mm &lt; 0.15mm) Between Pad VD25-1(6.375mm,15.725mm) on Bottom Layer And Track (1.45mm,14.825mm)(7.275mm,14.825mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26935.556mil|Location2.X=26942.712mil|Location1.Y=31031.855mil|Location2.Y=31039.011mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26935.556mil|Location2.X=26942.712mil|Location1.Y=31031.855mil|Location2.Y=31039.011mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.15mm) Between Pad VD25-1(6.375mm,15.725mm) on Bottom Layer And Track (1.45mm,16.65mm)(7.275mm,16.65mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26995.595mil|Location2.X=27002.751mil|Location1.Y=30972.8mil|Location2.Y=30979.956mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26995.595mil|Location2.X=27002.751mil|Location1.Y=30972.8mil|Location2.Y=30979.956mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.05mm &lt; 0.15mm) Between Pad VD25-1(6.375mm,15.725mm) on Bottom Layer And Track (7.275mm,14.825mm)(7.275mm,16.65mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.05mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26776.6mil|Location2.X=26783.755mil|Location1.Y=30972.8mil|Location2.Y=30979.956mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26776.6mil|Location2.X=26783.755mil|Location1.Y=30972.8mil|Location2.Y=30979.956mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.075mm &lt; 0.15mm) Between Pad VD25-2(2.375mm,15.725mm) on Bottom Layer And Track (1.45mm,14.825mm)(1.45mm,16.65mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26837.131mil|Location2.X=26844.286mil|Location1.Y=30971.324mil|Location2.Y=30978.479mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26837.131mil|Location2.X=26844.286mil|Location1.Y=30971.324mil|Location2.Y=30978.479mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.075mm &lt; 0.15mm) Between Pad VD25-2(2.375mm,15.725mm) on Bottom Layer And Track (1.45mm,14.825mm)(7.275mm,14.825mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.075mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26778.076mil|Location2.X=26785.231mil|Location1.Y=31031.855mil|Location2.Y=31039.011mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26778.076mil|Location2.X=26785.231mil|Location1.Y=31031.855mil|Location2.Y=31039.011mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.15mm) Between Pad VD25-2(2.375mm,15.725mm) on Bottom Layer And Track (1.45mm,16.65mm)(7.275mm,16.65mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26765.281mil|Location2.X=26772.436mil|Location1.Y=30614.533mil|Location2.Y=30621.688mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26765.281mil|Location2.X=26772.436mil|Location1.Y=30614.533mil|Location2.Y=30621.688mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.05mm &lt; 0.15mm) Between Pad VD26-1(2.075mm,6.625mm) on Top Layer And Track (1.175mm,5.725mm)(1.175mm,7.55mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.05mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26825.32mil|Location2.X=26832.475mil|Location1.Y=30613.056mil|Location2.Y=30620.212mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26825.32mil|Location2.X=26832.475mil|Location1.Y=30613.056mil|Location2.Y=30620.212mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.075mm &lt; 0.15mm) Between Pad VD26-1(2.075mm,6.625mm) on Top Layer And Track (1.175mm,5.725mm)(7mm,5.725mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.075mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26766.265mil|Location2.X=26773.42mil|Location1.Y=30673.588mil|Location2.Y=30680.743mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26766.265mil|Location2.X=26773.42mil|Location1.Y=30673.588mil|Location2.Y=30680.743mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.15mm) Between Pad VD26-1(2.075mm,6.625mm) on Top Layer And Track (1.175mm,7.55mm)(7mm,7.55mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26982.8mil|Location2.X=26989.956mil|Location1.Y=30613.056mil|Location2.Y=30620.212mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26982.8mil|Location2.X=26989.956mil|Location1.Y=30613.056mil|Location2.Y=30620.212mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.075mm &lt; 0.15mm) Between Pad VD26-2(6.075mm,6.625mm) on Top Layer And Track (1.175mm,5.725mm)(7mm,5.725mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.075mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26923.745mil|Location2.X=26930.901mil|Location1.Y=30673.588mil|Location2.Y=30680.743mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26923.745mil|Location2.X=26930.901mil|Location1.Y=30673.588mil|Location2.Y=30680.743mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.15mm) Between Pad VD26-2(6.075mm,6.625mm) on Top Layer And Track (1.175mm,7.55mm)(7mm,7.55mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26984.277mil|Location2.X=26991.432mil|Location1.Y=30614.533mil|Location2.Y=30621.688mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26984.277mil|Location2.X=26991.432mil|Location1.Y=30614.533mil|Location2.Y=30621.688mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.075mm &lt; 0.15mm) Between Pad VD26-2(6.075mm,6.625mm) on Top Layer And Track (7mm,5.725mm)(7mm,7.55mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.075mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27032.997mil|Location2.X=27040.152mil|Location1.Y=31118.47mil|Location2.Y=31125.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27032.997mil|Location2.X=27040.152mil|Location1.Y=31118.47mil|Location2.Y=31125.625mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.05mm &lt; 0.15mm) Between Pad VT5-1(7.325mm,19.1mm) on Top Layer And Track (8.225mm,18.275mm)(8.225mm,22.975mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.05mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26835.162mil|Location2.X=26842.318mil|Location1.Y=31154.887mil|Location2.Y=31162.042mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26835.162mil|Location2.X=26842.318mil|Location1.Y=31154.887mil|Location2.Y=31162.042mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0mm &lt; 0.15mm) Between Pad VT5-2(3.825mm,20.625mm) on Top Layer And Track (2.975mm,18.275mm)(2.975mm,22.975mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27032.997mil|Location2.X=27040.152mil|Location1.Y=31178.509mil|Location2.Y=31185.664mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27032.997mil|Location2.X=27040.152mil|Location1.Y=31178.509mil|Location2.Y=31185.664mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.05mm &lt; 0.15mm) Between Pad VT5-2(7.325mm,20.625mm) on Top Layer And Track (8.225mm,18.275mm)(8.225mm,22.975mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.05mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27032.997mil|Location2.X=27040.152mil|Location1.Y=31237.564mil|Location2.Y=31244.719mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27032.997mil|Location2.X=27040.152mil|Location1.Y=31237.564mil|Location2.Y=31244.719mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.05mm &lt; 0.15mm) Between Pad VT5-3(7.325mm,22.125mm) on Top Layer And Track (8.225mm,18.275mm)(8.225mm,22.975mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.05mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27033.981mil|Location2.X=27041.137mil|Location1.Y=31317.288mil|Location2.Y=31324.444mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27033.981mil|Location2.X=27041.137mil|Location1.Y=31317.288mil|Location2.Y=31324.444mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.05mm &lt; 0.15mm) Between Pad VT8-1(7.35mm,24.15mm) on Top Layer And Track (8.25mm,23.325mm)(8.25mm,28.025mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.05mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26836.147mil|Location2.X=26843.302mil|Location1.Y=31353.706mil|Location2.Y=31360.861mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26836.147mil|Location2.X=26843.302mil|Location1.Y=31353.706mil|Location2.Y=31360.861mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0mm &lt; 0.15mm) Between Pad VT8-2(3.85mm,25.675mm) on Top Layer And Track (3mm,23.325mm)(3mm,28.025mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27033.981mil|Location2.X=27041.137mil|Location1.Y=31377.328mil|Location2.Y=31384.483mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27033.981mil|Location2.X=27041.137mil|Location1.Y=31377.328mil|Location2.Y=31384.483mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.05mm &lt; 0.15mm) Between Pad VT8-2(7.35mm,25.675mm) on Top Layer And Track (8.25mm,23.325mm)(8.25mm,28.025mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.05mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27033.981mil|Location2.X=27041.137mil|Location1.Y=31436.383mil|Location2.Y=31443.538mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27033.981mil|Location2.X=27041.137mil|Location1.Y=31436.383mil|Location2.Y=31443.538mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.05mm &lt; 0.15mm) Between Pad VT8-3(7.35mm,27.175mm) on Top Layer And Track (8.25mm,23.325mm)(8.25mm,28.025mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.05mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27415.878mil|Location2.X=27423.033mil|Location1.Y=30429.493mil|Location2.Y=30436.649mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27415.878mil|Location2.X=27423.033mil|Location1.Y=30429.493mil|Location2.Y=30436.649mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1497mm (5.892mil) &lt; 0.15mm (5.9055mil)) Between Pad X1-1(17mm,1.2mm) on Multi-Layer And Track (18mm,0.2mm)(18mm,2.2mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27383.391mil|Location2.X=27390.546mil|Location1.Y=30397.006mil|Location2.Y=30404.161mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27383.391mil|Location2.X=27390.546mil|Location1.Y=30397.006mil|Location2.Y=30404.161mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1497mm (5.8921mil) &lt; 0.15mm (5.9055mil)) Between Pad X1-1(17mm,1.2mm) on Multi-Layer And Track (2mm,0.2mm)(18mm,0.2mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27383.391mil|Location2.X=27390.546mil|Location1.Y=30461.98mil|Location2.Y=30469.136mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27383.391mil|Location2.X=27390.546mil|Location1.Y=30461.98mil|Location2.Y=30469.136mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1497mm (5.8921mil) &lt; 0.15mm (5.9055mil)) Between Pad X1-1(17mm,1.2mm) on Multi-Layer And Track (2mm,2.2mm)(18mm,2.2mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27304.651mil|Location2.X=27311.806mil|Location1.Y=30397.006mil|Location2.Y=30404.161mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27304.651mil|Location2.X=27311.806mil|Location1.Y=30397.006mil|Location2.Y=30404.161mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1497mm (5.8921mil) &lt; 0.15mm (5.9055mil)) Between Pad X1-2(15mm,1.2mm) on Multi-Layer And Track (2mm,0.2mm)(18mm,0.2mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27304.651mil|Location2.X=27311.806mil|Location1.Y=30461.98mil|Location2.Y=30469.136mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27304.651mil|Location2.X=27311.806mil|Location1.Y=30461.98mil|Location2.Y=30469.136mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1497mm (5.8921mil) &lt; 0.15mm (5.9055mil)) Between Pad X1-2(15mm,1.2mm) on Multi-Layer And Track (2mm,2.2mm)(18mm,2.2mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27225.911mil|Location2.X=27233.066mil|Location1.Y=30397.006mil|Location2.Y=30404.161mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27225.911mil|Location2.X=27233.066mil|Location1.Y=30397.006mil|Location2.Y=30404.161mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1497mm (5.8921mil) &lt; 0.15mm (5.9055mil)) Between Pad X1-3(13mm,1.2mm) on Multi-Layer And Track (2mm,0.2mm)(18mm,0.2mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27225.911mil|Location2.X=27233.066mil|Location1.Y=30461.98mil|Location2.Y=30469.136mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27225.911mil|Location2.X=27233.066mil|Location1.Y=30461.98mil|Location2.Y=30469.136mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1497mm (5.8921mil) &lt; 0.15mm (5.9055mil)) Between Pad X1-3(13mm,1.2mm) on Multi-Layer And Track (2mm,2.2mm)(18mm,2.2mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27147.17mil|Location2.X=27154.326mil|Location1.Y=30397.006mil|Location2.Y=30404.161mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27147.17mil|Location2.X=27154.326mil|Location1.Y=30397.006mil|Location2.Y=30404.161mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1497mm (5.8921mil) &lt; 0.15mm (5.9055mil)) Between Pad X1-4(11mm,1.2mm) on Multi-Layer And Track (2mm,0.2mm)(18mm,0.2mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27147.17mil|Location2.X=27154.326mil|Location1.Y=30461.98mil|Location2.Y=30469.136mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27147.17mil|Location2.X=27154.326mil|Location1.Y=30461.98mil|Location2.Y=30469.136mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1497mm (5.8921mil) &lt; 0.15mm (5.9055mil)) Between Pad X1-4(11mm,1.2mm) on Multi-Layer And Track (2mm,2.2mm)(18mm,2.2mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27068.43mil|Location2.X=27075.586mil|Location1.Y=30397.006mil|Location2.Y=30404.161mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27068.43mil|Location2.X=27075.586mil|Location1.Y=30397.006mil|Location2.Y=30404.161mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1497mm (5.8921mil) &lt; 0.15mm (5.9055mil)) Between Pad X1-5(9mm,1.2mm) on Multi-Layer And Track (2mm,0.2mm)(18mm,0.2mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27068.43mil|Location2.X=27075.586mil|Location1.Y=30461.98mil|Location2.Y=30469.136mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27068.43mil|Location2.X=27075.586mil|Location1.Y=30461.98mil|Location2.Y=30469.136mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1497mm (5.8921mil) &lt; 0.15mm (5.9055mil)) Between Pad X1-5(9mm,1.2mm) on Multi-Layer And Track (2mm,2.2mm)(18mm,2.2mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26989.69mil|Location2.X=26996.845mil|Location1.Y=30397.006mil|Location2.Y=30404.161mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26989.69mil|Location2.X=26996.845mil|Location1.Y=30397.006mil|Location2.Y=30404.161mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1497mm (5.8921mil) &lt; 0.15mm (5.9055mil)) Between Pad X1-6(7mm,1.2mm) on Multi-Layer And Track (2mm,0.2mm)(18mm,0.2mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26989.69mil|Location2.X=26996.845mil|Location1.Y=30461.98mil|Location2.Y=30469.136mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26989.69mil|Location2.X=26996.845mil|Location1.Y=30461.98mil|Location2.Y=30469.136mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1497mm (5.8921mil) &lt; 0.15mm (5.9055mil)) Between Pad X1-6(7mm,1.2mm) on Multi-Layer And Track (2mm,2.2mm)(18mm,2.2mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26910.95mil|Location2.X=26918.105mil|Location1.Y=30397.006mil|Location2.Y=30404.161mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26910.95mil|Location2.X=26918.105mil|Location1.Y=30397.006mil|Location2.Y=30404.161mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1497mm (5.8921mil) &lt; 0.15mm (5.9055mil)) Between Pad X1-7(5mm,1.2mm) on Multi-Layer And Track (2mm,0.2mm)(18mm,0.2mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26910.95mil|Location2.X=26918.105mil|Location1.Y=30461.98mil|Location2.Y=30469.136mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26910.95mil|Location2.X=26918.105mil|Location1.Y=30461.98mil|Location2.Y=30469.136mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1497mm (5.8921mil) &lt; 0.15mm (5.9055mil)) Between Pad X1-7(5mm,1.2mm) on Multi-Layer And Track (2mm,2.2mm)(18mm,2.2mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26832.21mil|Location2.X=26839.365mil|Location1.Y=30397.006mil|Location2.Y=30404.161mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26832.21mil|Location2.X=26839.365mil|Location1.Y=30397.006mil|Location2.Y=30404.161mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1497mm (5.8921mil) &lt; 0.15mm (5.9055mil)) Between Pad X1-8(3mm,1.2mm) on Multi-Layer And Track (2mm,0.2mm)(18mm,0.2mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26799.723mil|Location2.X=26806.878mil|Location1.Y=30429.493mil|Location2.Y=30436.649mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26799.723mil|Location2.X=26806.878mil|Location1.Y=30429.493mil|Location2.Y=30436.649mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1497mm (5.892mil) &lt; 0.15mm (5.9055mil)) Between Pad X1-8(3mm,1.2mm) on Multi-Layer And Track (2mm,0.2mm)(2mm,2.2mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26832.21mil|Location2.X=26839.365mil|Location1.Y=30461.98mil|Location2.Y=30469.136mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=26832.21mil|Location2.X=26839.365mil|Location1.Y=30461.98mil|Location2.Y=30469.136mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1497mm (5.8921mil) &lt; 0.15mm (5.9055mil)) Between Pad X1-8(3mm,1.2mm) on Multi-Layer And Track (2mm,2.2mm)(18mm,2.2mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.15mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDVGZOHDYP45ZSN5ZEMOMDBAW0TP1QZGM2BRT3QLC0FRGEDDGYMD1C"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=0.15mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27151.061mil|Location2.X=27158.216mil|Location1.Y=31214.476mil|Location2.Y=31221.631mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27151.061mil|Location2.X=27158.216mil|Location1.Y=31214.476mil|Location2.Y=31221.631mil|Absolute=True">Silk To Silk Clearance Constraint: (0.149mm &lt; 0.15mm) Between Area Fill (9.977mm,20.599mm) (10.485mm,22.186mm) on Bottom Overlay And Text "VD15" (11.3mm,20.125mm) on Bottom Overlay Silk Text to Silk Clearance [0.149mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27502.785mil|Location2.X=27509.94mil|Location1.Y=31227.054mil|Location2.Y=31234.209mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27502.785mil|Location2.X=27509.94mil|Location1.Y=31227.054mil|Location2.Y=31234.209mil|Absolute=True">Silk To Silk Clearance Constraint: (0.111mm &lt; 0.15mm) Between Text "R47" (19.85mm,21.458mm) on Bottom Overlay And Track (20.188mm,19.126mm)(20.188mm,22.174mm) on Bottom Overlay Silk Text to Silk Clearance [0.111mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27084.186mil|Location2.X=27091.341mil|Location1.Y=30564.299mil|Location2.Y=30571.454mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27084.186mil|Location2.X=27091.341mil|Location1.Y=30564.299mil|Location2.Y=30571.454mil|Absolute=True">Silk To Silk Clearance Constraint: (0.148mm &lt; 0.15mm) Between Text "VD13" (8.6mm,4.825mm) on Top Overlay And Track (9.29mm,4.45mm)(10.56mm,4.45mm) on Top Overlay Silk Text to Silk Clearance [0.148mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27152.055mil|Location2.X=27159.21mil|Location1.Y=31221.819mil|Location2.Y=31228.974mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27152.055mil|Location2.X=27159.21mil|Location1.Y=31221.819mil|Location2.Y=31228.974mil|Absolute=True">Silk To Silk Clearance Constraint: (0.098mm &lt; 0.15mm) Between Text "VD15" (11.3mm,20.125mm) on Bottom Overlay And Track (10.975mm,21.14mm)(10.975mm,22.41mm) on Bottom Overlay Silk Text to Silk Clearance [0.098mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27152.055mil|Location2.X=27159.21mil|Location1.Y=31214.533mil|Location2.Y=31221.688mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27152.055mil|Location2.X=27159.21mil|Location1.Y=31214.533mil|Location2.Y=31221.688mil|Absolute=True">Silk To Silk Clearance Constraint: (0.098mm &lt; 0.15mm) Between Text "VD15" (11.3mm,20.125mm) on Bottom Overlay And Track (9.425mm,21.14mm)(10.975mm,21.14mm) on Bottom Overlay Silk Text to Silk Clearance [0.098mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27663.784mil|Location2.X=27670.94mil|Location1.Y=31405.422mil|Location2.Y=31412.578mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27663.784mil|Location2.X=27670.94mil|Location1.Y=31405.422mil|Location2.Y=31412.578mil|Absolute=True">Silk To Silk Clearance Constraint: (0.018mm &lt; 0.15mm) Between Text "VT1" (25.891mm,25.989mm) on Bottom Overlay And Track (24.013mm,25.326mm)(24.013mm,28.374mm) on Bottom Overlay Silk Text to Silk Clearance [0.018mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27725.348mil|Location2.X=27730.285mil|Location1.Y=31406.532mil|Location2.Y=31411.468mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\DRIVER_GATE_BOARD_solar boost converter\DRIVER_GATE_BOARD_solar_boost_converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=27725.348mil|Location2.X=27730.285mil|Location1.Y=31406.532mil|Location2.Y=31411.468mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.15mm) Between Text "VT1" (25.891mm,25.989mm) on Bottom Overlay And Track (25.537mm,25.326mm)(25.537mm,28.374mm) on Bottom Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
