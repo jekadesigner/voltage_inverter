@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=NetVD11_2 Pin=X1-1
+Removed Pin From Net: NetName=NetT1_4 Pin=X1-2
+Removed Pin From Net: NetName=NetC17_2 Pin=X1-3
+Removed Pin From Net: NetName=GND_1 Pin=X1-4
+Removed Pin From Net: NetName=NetR48_1 Pin=X1-5
+Removed Pin From Net: NetName=GATE Pin=X1-7
+Removed Pin From Net: NetName=1/2_VCC Pin=X1-8
+Removed Member From Class: ClassName=DRIVER_GATE_BOARD_solar_boost_converter Member=X1
+Change Footprint: Footprint Not Found SOD-123
+Change Footprint: Footprint Not Found SOD-123
+Change Footprint: Footprint Not Found SOD-123
+Change Footprint: Footprint Not Found DO-214AC, SMA
+Change Footprint: Footprint Not Found DO-214AC, SMA
+Add Component: Footprint Not Found CONN-PLS-8-2.54mm
+Add Pin To Net: Unknown Pin: Pin X?-1
+Add Pin To Net: Unknown Pin: Pin X?-2
+Add Pin To Net: Unknown Pin: Pin X?-3
+Add Pin To Net: Unknown Pin: Pin X?-4
+Add Pin To Net: Unknown Pin: Pin X?-5
+Add Pin To Net: Unknown Pin: Pin X?-7
+Add Pin To Net: Unknown Pin: Pin X?-8
+Add Class Member: Failed to add class member : Component X? CONN-8-PIN

@@ -1,0 +1,14 @@
+Change Footprint: Footprint Not Found SOD-123
+Change Footprint: Footprint Not Found SOD-123
+Change Footprint: Footprint Not Found SOD-123
+Change Footprint: Footprint Not Found DO-214AC, SMA
+Change Footprint: Footprint Not Found DO-214AC, SMA
+Added Component: Designator=X1(CONN-PLS-8-2.54mm)
+Added Pin To Net: NetName=NetVD11_2 Pin=X1-1
+Added Pin To Net: NetName=NetT1_4 Pin=X1-2
+Added Pin To Net: NetName=NetC17_2 Pin=X1-3
+Added Pin To Net: NetName=GND_1 Pin=X1-4
+Added Pin To Net: NetName=NetR48_1 Pin=X1-5
+Added Pin To Net: NetName=GATE Pin=X1-7
+Added Pin To Net: NetName=1/2_VCC Pin=X1-8
+Added Member To Class: ClassName=DRIVER_GATE_BOARD_solar_boost_converter Member=Component X1 CONN-8-PIN
