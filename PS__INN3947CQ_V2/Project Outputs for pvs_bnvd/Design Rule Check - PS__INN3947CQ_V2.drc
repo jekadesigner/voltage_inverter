@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Cor-Energy\Documents\GitHub\voltage_inverter\PS__INN3947CQ_V2\PS__INN3947CQ_V2.PcbDoc
-Date     : 10.10.2025
-Time     : 14:01:32
+Date     : 13.10.2025
+Time     : 11:04:15
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(InNet('GND'))
 Rule Violations :0
