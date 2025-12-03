@@ -1,0 +1,102 @@
+Removed Pin From Net: NetName=NetQ4_1 Pin=R21-1
+Removed Pin From Net: NetName=NetQ4_1 Pin=R24-2
+Removed Pin From Net: NetName=NetQ7_1 Pin=R25-2
+Change Component Footprint: Designator=U4 Old Footprint=TO-252 New Footprint=SOT-223
+Add Component: Footprint Not Found FP-SS8050-G-MFG
+Add Component: Footprint Not Found FP-SS8050-G-MFG
+Add Component: Footprint Not Found FP-SS8050-G-MFG
+Add Component: Footprint Not Found FP-SS8050-G-MFG
+Add Component: Footprint Not Found FP-SS8050-G-MFG
+Add Component: Footprint Not Found FP-SS8050-G-MFG
+Add Component: Footprint Not Found FP-SS8050-G-MFG
+Add Component: Footprint Not Found FP-SS8050-G-MFG
+Add Component: Footprint Not Found FP-SOT-23-IPC_B
+Add Component: Footprint Not Found FP-SOT-23-IPC_B
+Add Component: Footprint Not Found FP-SOT-23-IPC_B
+Add Component: Footprint Not Found FP-SOT-23-IPC_B
+Add Component: Footprint Not Found FP-SOT-23-IPC_B
+Add Component: Footprint Not Found FP-SOT-23-IPC_B
+Add Component: Footprint Not Found FP-SOT-23-IPC_B
+Add Component: Footprint Not Found FP-SOT-23-IPC_B
+Add Pin To Net: Unknown Pin: Pin Q3-1
+Add Pin To Net: Unknown Pin: Pin Q3-2
+Add Pin To Net: Unknown Pin: Pin Q3-2
+Add Pin To Net: Unknown Pin: Pin Q3-3
+Add Pin To Net: Unknown Pin: Pin Q3-3
+Add Pin To Net: Unknown Pin: Pin Q4-1
+Add Pin To Net: Unknown Pin: Pin Q4-2
+Add Pin To Net: Unknown Pin: Pin Q4-2
+Add Pin To Net: Unknown Pin: Pin Q4-2
+Add Pin To Net: Unknown Pin: Pin Q4-3
+Add Pin To Net: Unknown Pin: Pin Q4-3
+Add Pin To Net: Unknown Pin: Pin Q4-3
+Add Pin To Net: Unknown Pin: Pin Q5-1
+Add Pin To Net: Unknown Pin: Pin Q5-2
+Add Pin To Net: Unknown Pin: Pin Q5-2
+Add Pin To Net: Unknown Pin: Pin Q5-3
+Add Pin To Net: Unknown Pin: Pin Q5-3
+Add Pin To Net: Unknown Pin: Pin Q6-1
+Add Pin To Net: Unknown Pin: Pin Q6-1
+Add Pin To Net: Unknown Pin: Pin Q6-2
+Add Pin To Net: Unknown Pin: Pin Q6-2
+Add Pin To Net: Unknown Pin: Pin Q6-3
+Add Pin To Net: Unknown Pin: Pin Q6-3
+Add Pin To Net: Unknown Pin: Pin Q7-1
+Add Pin To Net: Unknown Pin: Pin Q7-1
+Add Pin To Net: Unknown Pin: Pin Q7-2
+Add Pin To Net: Unknown Pin: Pin Q7-2
+Add Pin To Net: Unknown Pin: Pin Q7-2
+Add Pin To Net: Unknown Pin: Pin Q7-3
+Add Pin To Net: Unknown Pin: Pin Q7-3
+Add Pin To Net: Unknown Pin: Pin Q7-3
+Add Pin To Net: Unknown Pin: Pin Q8-1
+Add Pin To Net: Unknown Pin: Pin Q8-1
+Add Pin To Net: Unknown Pin: Pin Q8-2
+Add Pin To Net: Unknown Pin: Pin Q8-2
+Add Pin To Net: Unknown Pin: Pin Q8-3
+Add Pin To Net: Unknown Pin: Pin Q8-3
+Added Pin To Net: NetName=NetQ4_1 Pin=R21-1
+Added Pin To Net: NetName=NetQ4_1 Pin=R24-2
+Added Pin To Net: NetName=NetQ7_1 Pin=R25-2
+Added Pin To Net: NetName=GND_III Pin=U4-1
+Added Pin To Net: NetName=+5 Pin=U4-2
+Added Pin To Net: NetName=+5 Pin=U4-2
+Added Pin To Net: NetName=NetC27_1 Pin=U4-3
+Add Net: Net with name "NetQ3_1" already exists
+Add Net: Net with name "NetQ4_1" already exists
+Add Net: Net with name "NetQ4_1" already exists
+Add Net: Net with name "NetQ4_1" already exists
+Add Net: Net with name "NetQ4_2" already exists
+Add Net: Net with name "NetQ4_3" already exists
+Add Net: Net with name "NetQ5_1" already exists
+Add Net: Net with name "NetQ7_1" already exists
+Add Net: Net with name "NetQ7_3" already exists
+Add Class Member: Failed to add class member : Component Q3 SS8050-G
+Add Class Member: Failed to add class member : Component Q3 SS8050-G
+Add Class Member: Failed to add class member : Component Q4 SS8050-G
+Add Class Member: Failed to add class member : Component Q4 SS8050-G
+Add Class Member: Failed to add class member : Component Q4 SS8050-G
+Add Class Member: Failed to add class member : Component Q4 SS8050-G
+Add Class Member: Failed to add class member : Component Q5 SS8050-G
+Add Class Member: Failed to add class member : Component Q5 SS8050-G
+Add Class Member: Failed to add class member : Component Q6 MMSS8550-H-TP
+Add Class Member: Failed to add class member : Component Q6 MMSS8550-H-TP
+Add Class Member: Failed to add class member : Component Q7 MMSS8550-H-TP
+Add Class Member: Failed to add class member : Component Q7 MMSS8550-H-TP
+Add Class Member: Failed to add class member : Component Q7 MMSS8550-H-TP
+Add Class Member: Failed to add class member : Component Q7 MMSS8550-H-TP
+Add Class Member: Failed to add class member : Component Q8 MMSS8550-H-TP
+Add Class Member: Failed to add class member : Component Q8 MMSS8550-H-TP
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R21 100
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R23 2K
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R24 10K
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R24 2K
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R24 2K
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R25 10K
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R25 10K
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R25 2K
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R25 10K
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R26 10K
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R26 10K
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R26 10K
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component U4

@@ -1,0 +1,322 @@
+Removed Pin From Net: NetName=+24V Pin=C1-1
+Removed Pin From Net: NetName=GND_III Pin=C1-2
+Removed Pin From Net: NetName=GND_III Pin=C2-2
+Removed Pin From Net: NetName=GND_III Pin=C3-2
+Removed Pin From Net: NetName=+5 Pin=C4-2
+Removed Pin From Net: NetName=+5 Pin=C5-2
+Removed Pin From Net: NetName=GND_III Pin=C6-2
+Removed Pin From Net: NetName=GND_III Pin=C7-1
+Removed Pin From Net: NetName=+24V Pin=C7-2
+Removed Pin From Net: NetName=GND_III Pin=C9-2
+Removed Pin From Net: NetName=GND_III Pin=C10-1
+Removed Pin From Net: NetName=+24V Pin=C11-1
+Removed Pin From Net: NetName=GND_III Pin=C11-2
+Removed Pin From Net: NetName=GND_III Pin=C12-2
+Removed Pin From Net: NetName=GND_III Pin=C13-2
+Removed Pin From Net: NetName=+5 Pin=C14-2
+Removed Pin From Net: NetName=+5 Pin=C15-2
+Removed Pin From Net: NetName=GND_III Pin=C16-2
+Removed Pin From Net: NetName=GND_III Pin=C17-1
+Removed Pin From Net: NetName=+24V Pin=C17-2
+Removed Pin From Net: NetName=GND_III Pin=C19-2
+Removed Pin From Net: NetName=GND_III Pin=C20-1
+Removed Pin From Net: NetName=GND_III Pin=C33-2
+Removed Pin From Net: NetName=GND_III Pin=C35-1
+Removed Pin From Net: NetName=GND_III Pin=C37-1
+Removed Pin From Net: NetName=GND_III Pin=C38-1
+Removed Pin From Net: NetName=GND_III Pin=DA2-3
+Removed Pin From Net: NetName=SD_G_1 Pin=DA2-4
+Removed Pin From Net: NetName=GND_III Pin=DA4-3
+Removed Pin From Net: NetName=SD_G_2 Pin=DA4-4
+Removed Pin From Net: NetName=OUT_A1 Pin=DD1-11
+Removed Pin From Net: NetName=GND_III Pin=DD1-12
+Removed Pin From Net: NetName=+24V Pin=DD1-13
+Removed Pin From Net: NetName=OUT_B1 Pin=DD1-14
+Removed Pin From Net: NetName=+24V Pin=DD1-15
+Removed Pin From Net: NetName=+5 Pin=DD2-5
+Removed Pin From Net: NetName=+5 Pin=DD3-5
+Removed Pin From Net: NetName=OUT_A2 Pin=DD4-11
+Removed Pin From Net: NetName=GND_III Pin=DD4-12
+Removed Pin From Net: NetName=+24V Pin=DD4-13
+Removed Pin From Net: NetName=OUT_B2 Pin=DD4-14
+Removed Pin From Net: NetName=+24V Pin=DD4-15
+Removed Pin From Net: NetName=+5 Pin=DD5-5
+Removed Pin From Net: NetName=+5 Pin=DD6-5
+Removed Pin From Net: NetName=+5 Pin=L1-2
+Removed Pin From Net: NetName=+5 Pin=L2-2
+Removed Pin From Net: NetName=NetL3_1 Pin=L3-1
+Removed Pin From Net: NetName=NetC28_1 Pin=L3-2
+Removed Pin From Net: NetName=NetC26_1 Pin=L4-1
+Removed Pin From Net: NetName=NetC27_1 Pin=L4-2
+Removed Pin From Net: NetName=+3V3 Pin=L5-1
+Removed Pin From Net: NetName=+3V3_MCU Pin=L5-2
+Removed Pin From Net: NetName=GND_III Pin=R1-1
+Removed Pin From Net: NetName=GND_III Pin=R2-1
+Removed Pin From Net: NetName=GND_III Pin=R3-1
+Removed Pin From Net: NetName=SD_1 Pin=R5-1
+Removed Pin From Net: NetName=GND_III Pin=R7-2
+Removed Pin From Net: NetName=GND_III Pin=R9-1
+Removed Pin From Net: NetName=GND_III Pin=R12-2
+Removed Pin From Net: NetName=SD_G_1 Pin=R15-2
+Removed Pin From Net: NetName=GND_III Pin=R16-2
+Removed Pin From Net: NetName=GND_III Pin=R18-1
+Removed Pin From Net: NetName=GND_III Pin=R22-1
+Removed Pin From Net: NetName=GND_III Pin=R23-1
+Removed Pin From Net: NetName=GND_III Pin=R24-1
+Removed Pin From Net: NetName=SD_2 Pin=R26-1
+Removed Pin From Net: NetName=GND_III Pin=R28-2
+Removed Pin From Net: NetName=GND_III Pin=R30-1
+Removed Pin From Net: NetName=GND_III Pin=R33-2
+Removed Pin From Net: NetName=SD_G_2 Pin=R36-2
+Removed Pin From Net: NetName=GND_III Pin=R37-2
+Removed Pin From Net: NetName=GND_III Pin=R39-1
+Removed Pin From Net: NetName=OUT_B1 Pin=TP7-1
+Removed Pin From Net: NetName=OUT_A1 Pin=TP10-1
+Removed Pin From Net: NetName=OUT_B2 Pin=TP18-1
+Removed Pin From Net: NetName=OUT_A2 Pin=TP21-1
+Removed Pin From Net: NetName=SD_G_1 Pin=TP52-1
+Removed Pin From Net: NetName=SD_G_2 Pin=TP53-1
+Removed Pin From Net: NetName=GND_III Pin=VD5-1
+Removed Pin From Net: NetName=GND_III Pin=VD6-2
+Removed Pin From Net: NetName=GND_III Pin=VD11-1
+Removed Pin From Net: NetName=GND_III Pin=VD12-2
+Removed Pin From Net: NetName=GND_III Pin=VT1-3
+Removed Pin From Net: NetName=GND_III Pin=VT2-3
+Change Component Footprint: Designator=R23 Old Footprint=3296W New Footprint=RES-0805
+Change Component Footprint: Designator=R27 Old Footprint=3296W New Footprint=RES-0805
+Change Component Footprint: Designator=U4 Old Footprint=TO-252 New Footprint=SOT-223
+Change Component Comment : Designator=R22 Old Comment=1K New Comment=100
+Change Component Comment : Designator=R25 Old Comment=1K New Comment=100
+Change Component Comment : Designator=R26 Old Comment=1K New Comment=100
+Change Component Comment : Designator=R20 Old Comment=10K New Comment=100
+Change Component Comment : Designator=R21 Old Comment=10K New Comment=100
+Change Component Comment : Designator=R24 Old Comment=10K New Comment=100
+Change Component Comment : Designator=R27 Old Comment=3296 New Comment=10K
+Change Component Comment : Designator=R23 Old Comment=3296W New Comment=100
+Added Component: Designator=L7(WE-PD2_7850)
+Add component (AddParameter): Name = "Case/Size Code"; Value = "7850"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Unshielded Power Inductors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/74477530?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/74477530?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance"; Value = "2.78?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance Max"; Value = "3.3?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "4.95mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance"; Value = "1000µH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "74477530"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Match Code"; Value = "WE-PD2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "0.3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Saturation Current"; Value = "0.3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Self Resonant Frequency"; Value = "2.4MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "7mm"; VariantName = "[No Variations]"
+Added Component: Designator=L8(WE-PD2_7850)
+Add component (AddParameter): Name = "Case/Size Code"; Value = "7850"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Unshielded Power Inductors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/74477530?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/74477530?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance"; Value = "2.78?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance Max"; Value = "3.3?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "4.95mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance"; Value = "1000µH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "74477530"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Match Code"; Value = "WE-PD2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "0.3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Saturation Current"; Value = "0.3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Self Resonant Frequency"; Value = "2.4MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "7mm"; VariantName = "[No Variations]"
+Added Component: Designator=L9(WE-PD2_7850)
+Add component (AddParameter): Name = "Case/Size Code"; Value = "7850"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Unshielded Power Inductors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/74477530?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/74477530?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance"; Value = "2.78?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance Max"; Value = "3.3?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "4.95mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance"; Value = "1000µH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "74477530"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Match Code"; Value = "WE-PD2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "0.3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Saturation Current"; Value = "0.3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Self Resonant Frequency"; Value = "2.4MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "7mm"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found FP-SS8050-G-MFG
+Add Component: Footprint Not Found FP-SS8050-G-MFG
+Add Component: Footprint Not Found FP-SS8050-G-MFG
+Add Component: Footprint Not Found FP-SS8050-G-MFG
+Add Component: Footprint Not Found FP-SS8050-G-MFG
+Add Component: Footprint Not Found FP-SS8050-G-MFG
+Add Component: Footprint Not Found FP-SS8050-G-MFG
+Add Component: Footprint Not Found FP-SS8050-G-MFG
+Add Component: Footprint Not Found FP-SOT-23-IPC_B
+Add Component: Footprint Not Found FP-SOT-23-IPC_B
+Add Component: Footprint Not Found FP-SOT-23-IPC_B
+Add Component: Footprint Not Found FP-SOT-23-IPC_B
+Add Component: Footprint Not Found FP-SOT-23-IPC_B
+Add Component: Footprint Not Found FP-SOT-23-IPC_B
+Add Component: Footprint Not Found FP-SOT-23-IPC_B
+Add Component: Footprint Not Found FP-SOT-23-IPC_B
+Added Component: Designator=R21(RES-0805)
+Added Component: Designator=R23(RES-0805)
+Added Component: Designator=R24(RES-0805)
+Added Component: Designator=R24(RES-0805)
+Added Component: Designator=R24(RES-0805)
+Added Component: Designator=R25(RES-0805)
+Added Component: Designator=R25(RES-0805)
+Added Component: Designator=R25(RES-0805)
+Added Component: Designator=R25(RES-0805)
+Added Component: Designator=R26(RES-0805)
+Added Component: Designator=R26(RES-0805)
+Added Component: Designator=R26(RES-0805)
+Added Pin To Net: NetName=+3V3 Pin=L7-1
+Added Pin To Net: NetName=+3V3_MCU Pin=L7-2
+Added Pin To Net: NetName=NetC26_1 Pin=L8-1
+Added Pin To Net: NetName=NetC27_1 Pin=L8-2
+Added Pin To Net: NetName=NetL3_1 Pin=L9-1
+Added Pin To Net: NetName=NetC28_1 Pin=L9-2
+Add Pin To Net: Unknown Pin: Pin Q3-2
+Add Pin To Net: Unknown Pin: Pin Q3-3
+Add Pin To Net: Unknown Pin: Pin Q4-2
+Add Pin To Net: Unknown Pin: Pin Q4-2
+Add Pin To Net: Unknown Pin: Pin Q4-3
+Add Pin To Net: Unknown Pin: Pin Q4-3
+Add Pin To Net: Unknown Pin: Pin Q5-2
+Add Pin To Net: Unknown Pin: Pin Q5-3
+Add Pin To Net: Unknown Pin: Pin Q6-2
+Add Pin To Net: Unknown Pin: Pin Q6-3
+Add Pin To Net: Unknown Pin: Pin Q7-2
+Add Pin To Net: Unknown Pin: Pin Q7-2
+Add Pin To Net: Unknown Pin: Pin Q7-3
+Add Pin To Net: Unknown Pin: Pin Q7-3
+Add Pin To Net: Unknown Pin: Pin Q8-2
+Add Pin To Net: Unknown Pin: Pin Q8-3
+Added Pin To Net: NetName=GND_III Pin=R23-1
+Added Pin To Net: NetName=OUT_A2 Pin=R23-1
+Added Pin To Net: NetName=GND_III Pin=R24-1
+Added Pin To Net: NetName=GND_III Pin=R24-1
+Added Pin To Net: NetName=OUT_B2 Pin=R24-1
+Added Pin To Net: NetName=GND_III Pin=R25-1
+Added Pin To Net: NetName=OUT_B1 Pin=R25-1
+Added Pin To Net: NetName=OUT_A1 Pin=R26-1
+Added Pin To Net: NetName=GND_III Pin=U4-1
+Added Pin To Net: NetName=+5 Pin=U4-2
+Added Pin To Net: NetName=+5 Pin=U4-2
+Added Pin To Net: NetName=NetC27_1 Pin=U4-3
+Change Net Name : Old Net Name=NetL3_1 New Net Name=NetL9_1
+Added Pin To Net: NetName=NetC33_2 Pin=C33-2
+Added Pin To Net: NetName=NetC33_2 Pin=C35-1
+Added Pin To Net: NetName=NetC33_2 Pin=C37-1
+Added Pin To Net: NetName=NetC33_2 Pin=C38-1
+Added Net: Name=NetC33_2
+Added Pin To Net: NetName=NetQ3_1 Pin=R20-1
+Added Pin To Net: NetName=NetQ3_1 Pin=R23-2
+Added Net: Name=NetQ3_1
+Add Net: Net with name "NetQ3_1" already exists
+Added Pin To Net: NetName=NetQ3_2 Pin=R26-2
+Added Net: Name=NetQ3_2
+Added Pin To Net: NetName=NetQ3_3 Pin=R24-1
+Added Net: Name=NetQ3_3
+Added Pin To Net: NetName=NetQ4_1 Pin=R21-1
+Added Pin To Net: NetName=NetQ4_1 Pin=R24-2
+Added Net: Name=NetQ4_1
+Add Net: Net with name "NetQ4_1" already exists
+Add Net: Net with name "NetQ4_1" already exists
+Add Net: Net with name "NetQ4_1" already exists
+Added Pin To Net: NetName=NetQ4_2 Pin=R24-2
+Added Net: Name=NetQ4_2
+Add Net: Net with name "NetQ4_2" already exists
+Added Pin To Net: NetName=NetQ4_3 Pin=R25-1
+Added Net: Name=NetQ4_3
+Add Net: Net with name "NetQ4_3" already exists
+Added Pin To Net: NetName=NetQ5_1 Pin=R22-1
+Added Pin To Net: NetName=NetQ5_1 Pin=R25-2
+Added Net: Name=NetQ5_1
+Add Net: Net with name "NetQ5_1" already exists
+Added Pin To Net: NetName=NetQ5_2 Pin=R23-2
+Added Net: Name=NetQ5_2
+Added Pin To Net: NetName=NetQ5_3 Pin=R26-1
+Added Net: Name=NetQ5_3
+Added Pin To Net: NetName=NetQ6_1 Pin=R24-2
+Added Net: Name=NetQ6_1
+Added Pin To Net: NetName=NetQ6_3 Pin=R20-2
+Added Net: Name=NetQ6_3
+Added Pin To Net: NetName=NetQ7_1 Pin=R25-2
+Added Net: Name=NetQ7_1
+Add Net: Net with name "NetQ7_1" already exists
+Added Pin To Net: NetName=NetQ7_3 Pin=R21-2
+Added Net: Name=NetQ7_3
+Add Net: Net with name "NetQ7_3" already exists
+Added Pin To Net: NetName=NetQ8_1 Pin=R26-2
+Added Net: Name=NetQ8_1
+Added Pin To Net: NetName=NetQ8_3 Pin=R22-2
+Added Net: Name=NetQ8_3
+Added Pin To Net: NetName=PWM_A1 Pin=R25-1
+Added Pin To Net: NetName=PWM_A1 Pin=U7-15
+Added Net: Name=PWM_A1
+Added Pin To Net: NetName=PWM_A2 Pin=R27-1
+Added Pin To Net: NetName=PWM_A2 Pin=U7-13
+Added Net: Name=PWM_A2
+Added Pin To Net: NetName=PWM_B1 Pin=R26-1
+Added Pin To Net: NetName=PWM_B1 Pin=U7-16
+Added Net: Name=PWM_B1
+Added Pin To Net: NetName=PWM_B2 Pin=R26-1
+Added Pin To Net: NetName=PWM_B2 Pin=U7-14
+Added Net: Name=PWM_B2
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component L7 1000µH, 0.3A
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component L8 1000µH, 0.3A
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component L9 1000µH, 0.3A
+Add Class Member: Failed to add class member : Component Q3 SS8050-G
+Add Class Member: Failed to add class member : Component Q3 SS8050-G
+Add Class Member: Failed to add class member : Component Q4 SS8050-G
+Add Class Member: Failed to add class member : Component Q4 SS8050-G
+Add Class Member: Failed to add class member : Component Q4 SS8050-G
+Add Class Member: Failed to add class member : Component Q4 SS8050-G
+Add Class Member: Failed to add class member : Component Q5 SS8050-G
+Add Class Member: Failed to add class member : Component Q5 SS8050-G
+Add Class Member: Failed to add class member : Component Q6 MMSS8550-H-TP
+Add Class Member: Failed to add class member : Component Q6 MMSS8550-H-TP
+Add Class Member: Failed to add class member : Component Q7 MMSS8550-H-TP
+Add Class Member: Failed to add class member : Component Q7 MMSS8550-H-TP
+Add Class Member: Failed to add class member : Component Q7 MMSS8550-H-TP
+Add Class Member: Failed to add class member : Component Q7 MMSS8550-H-TP
+Add Class Member: Failed to add class member : Component Q8 MMSS8550-H-TP
+Add Class Member: Failed to add class member : Component Q8 MMSS8550-H-TP
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R21 100
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R21 100
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R23 2K
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R23 100
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R24 2K
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R24 10K
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R24 100
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R24 2K
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R25 10K
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R25 10K
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R25 10K
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R25 2K
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R25 100
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R26 10K
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R26 10K
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R26 100
+Added Member To Class: ClassName=PWM_CONTROLLER_nverter_540VDC_V3 Member=Component R26 10K

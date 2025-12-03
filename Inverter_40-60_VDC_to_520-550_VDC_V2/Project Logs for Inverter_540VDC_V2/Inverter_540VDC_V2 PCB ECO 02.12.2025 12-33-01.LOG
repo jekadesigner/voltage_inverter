@@ -1,0 +1,167 @@
+Removed Pin From Net: NetName=OUT_A1 Pin=R12-2
+Removed Pin From Net: NetName=NetR13_1 Pin=R15-1
+Removed Pin From Net: NetName=OUT_B1 Pin=R15-2
+Removed Pin From Net: NetName=NetR88_1 Pin=R147-1
+Removed Pin From Net: NetName=OUT_A2 Pin=R147-2
+Removed Pin From Net: NetName=NetR108_1 Pin=R150-1
+Removed Pin From Net: NetName=OUT_B2 Pin=R150-2
+Removed Pin From Net: NetName=NetR30_1 Pin=T1-5
+Removed Pin From Net: NetName=NetR1_1 Pin=T2-5
+Removed Pin From Net: NetName=NetR7_1 Pin=T5-1
+Removed Pin From Net: NetName=NetR103_1 Pin=T9-1
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R12
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R15
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R147
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R150
+Change Footprint: Footprint Not Found RES_SMD_1210_IPC_B
+Change Footprint: Footprint Not Found RES_SMD_1210_IPC_B
+Change Footprint: Footprint Not Found SOT-23-5
+Change Footprint: Footprint Not Found SOT-23-5
+Change Footprint: Footprint Not Found Pin_Test_Point(Pink)
+Change Footprint: Footprint Not Found Pin_Test_Point(Pink)
+Change Component Comment : Designator=R86 Old Comment=10 New Comment=24
+Change Component Comment : Designator=R114 Old Comment=10 New Comment=24
+Change Component Comment : Designator=R17 Old Comment=10 New Comment=100
+Change Component Comment : Designator=R36 Old Comment=10 New Comment=100
+Change Component Comment : Designator=R74 Old Comment=10 New Comment=100
+Change Component Comment : Designator=R117 Old Comment=10 New Comment=100
+Change Component Comment : Designator=C12 Old Comment=100nF New Comment=2uF
+Change Component Comment : Designator=C15 Old Comment=100nF New Comment=2uF
+Change Component Comment : Designator=C27 Old Comment=100nF New Comment=2uF
+Change Component Comment : Designator=C30 Old Comment=100nF New Comment=2uF
+Change Component Comment : Designator=C34 Old Comment=100nF New Comment=2uF
+Change Component Comment : Designator=C37 Old Comment=100nF New Comment=2uF
+Change Component Comment : Designator=C44 Old Comment=100nF New Comment=2uF
+Change Component Comment : Designator=C46 Old Comment=100nF New Comment=2uF
+Change Component Comment : Designator=C1 Old Comment=CAP-POLAR New Comment=470uF 550V
+Change Component Comment : Designator=C2 Old Comment=CAP-POLAR New Comment=470uF 550V
+Change Component Comment : Designator=C3 Old Comment=CAP-POLAR New Comment=470uF 550V
+Change Component Comment : Designator=C4 Old Comment=CAP-POLAR New Comment=470uF 550V
+Change Component Comment : Designator=C17 Old Comment=CAP-POLAR New Comment=470uF 550V
+Change Component Comment : Designator=C18 Old Comment=CAP-POLAR New Comment=470uF 550V
+Change Component Comment : Designator=C19 Old Comment=CAP-POLAR New Comment=470uF 550V
+Change Component Comment : Designator=C20 Old Comment=CAP-POLAR New Comment=470uF 550V
+Change Component Comment : Designator=C5 Old Comment=CAP-POLAR New Comment=22000uF 63V
+Change Component Comment : Designator=C6 Old Comment=CAP-POLAR New Comment=22000uF 63V
+Change Component Comment : Designator=C7 Old Comment=CAP-POLAR New Comment=22000uF 63V
+Change Component Comment : Designator=C8 Old Comment=CAP-POLAR New Comment=22000uF 63V
+Change Component Comment : Designator=C21 Old Comment=CAP-POLAR New Comment=22000uF 63V
+Change Component Comment : Designator=C22 Old Comment=CAP-POLAR New Comment=22000uF 63V
+Change Component Comment : Designator=C23 Old Comment=CAP-POLAR New Comment=22000uF 63V
+Change Component Comment : Designator=C24 Old Comment=CAP-POLAR New Comment=22000uF 63V
+Change Component Comment : Designator=L1 Old Comment=IND-CONST New Comment=220uH
+Change Component Comment : Designator=L2 Old Comment=IND-CONST New Comment=220uH
+Change Component Comment : Designator=R22 Old Comment=RES-CONST New Comment=1 OHM
+Change Component Comment : Designator=R57 Old Comment=RES-CONST New Comment=1 OHM
+Change Component Comment : Designator=R76 Old Comment=RES-CONST New Comment=1 OHM
+Change Component Comment : Designator=R118 Old Comment=RES-CONST New Comment=1 OHM
+Change Component Comment : Designator=R2 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R5 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R20 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R23 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R25 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R31 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R38 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R41 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R46 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R47 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R48 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R49 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R53 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R54 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R55 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R56 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R66 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R78 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R85 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R91 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R93 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R94 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R95 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R96 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R99 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R100 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R101 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R102 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R104 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R109 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R120 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R122 Old Comment=RES-CONST New Comment=2K
+Change Component Comment : Designator=R29 Old Comment=RES-CONST New Comment=20 OHM
+Change Component Comment : Designator=R33 Old Comment=RES-CONST New Comment=20 OHM
+Change Component Comment : Designator=R34 Old Comment=RES-CONST New Comment=20 OHM
+Change Component Comment : Designator=R35 Old Comment=RES-CONST New Comment=20 OHM
+Change Component Comment : Designator=R67 Old Comment=RES-CONST New Comment=20 OHM
+Change Component Comment : Designator=R68 Old Comment=RES-CONST New Comment=20 OHM
+Change Component Comment : Designator=R69 Old Comment=RES-CONST New Comment=20 OHM
+Change Component Comment : Designator=R70 Old Comment=RES-CONST New Comment=20 OHM
+Change Component Comment : Designator=R80 Old Comment=RES-CONST New Comment=20 OHM
+Change Component Comment : Designator=R81 Old Comment=RES-CONST New Comment=20 OHM
+Change Component Comment : Designator=R82 Old Comment=RES-CONST New Comment=20 OHM
+Change Component Comment : Designator=R83 Old Comment=RES-CONST New Comment=20 OHM
+Change Component Comment : Designator=R110 Old Comment=RES-CONST New Comment=20 OHM
+Change Component Comment : Designator=R111 Old Comment=RES-CONST New Comment=20 OHM
+Change Component Comment : Designator=R112 Old Comment=RES-CONST New Comment=20 OHM
+Change Component Comment : Designator=R113 Old Comment=RES-CONST New Comment=20 OHM
+Change Component Comment : Designator=R1 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R3 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R4 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R6 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R7 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R19 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R21 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R24 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R26 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R27 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R28 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R30 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R32 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R37 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R39 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R50 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R60 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R71 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R72 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R77 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R79 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R84 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R90 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R92 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R103 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R105 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R106 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R116 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R119 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R121 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R123 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R124 Old Comment=RES-CONST New Comment=24OHM
+Change Component Comment : Designator=R45 Old Comment=RES-CONST New Comment=200
+Change Component Comment : Designator=R64 Old Comment=RES-CONST New Comment=200
+Change Component Comment : Designator=R89 Old Comment=RES-CONST New Comment=200
+Change Component Comment : Designator=R107 Old Comment=RES-CONST New Comment=200
+Add Component: Footprint Not Found PWM_X2_SG3525
+Add Pin To Net: Unknown Pin: Pin DA2-1
+Add Pin To Net: Unknown Pin: Pin DA2-2
+Add Pin To Net: Unknown Pin: Pin DA2-3
+Add Pin To Net: Unknown Pin: Pin DA2-4
+Add Pin To Net: Unknown Pin: Pin DA2-5
+Add Pin To Net: Unknown Pin: Pin DA2-6
+Add Pin To Net: Unknown Pin: Pin DA2-8
+Add Pin To Net: Unknown Pin: Pin DA2-9
+Add Pin To Net: Unknown Pin: Pin DA2-10
+Add Pin To Net: Unknown Pin: Pin DA2-11
+Add Pin To Net: Unknown Pin: Pin DA2-12
+Add Pin To Net: Unknown Pin: Pin DA2-13
+Add Pin To Net: Unknown Pin: Pin DA2-14
+Add Pin To Net: Unknown Pin: Pin DA2-15
+Add Pin To Net: Unknown Pin: Pin DA2-16
+Added Pin To Net: NetName=NetR103_1 Pin=T1-5
+Added Pin To Net: NetName=NetR7_1 Pin=T2-5
+Added Pin To Net: NetName=NetR1_1 Pin=T5-1
+Added Pin To Net: NetName=NetR30_1 Pin=T9-1
+Added Pin To Net: NetName=NetR14_1 Pin=R14-1
+Added Pin To Net: NetName=NetR14_1 Pin=R44-1
+Added Net: Name=NetR14_1
+Add Differential Pair: Number of nets in differential pair OUT1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair OUT2 is 1 instead of 2
+Add Class Member: Failed to add class member : Component DA2 PWM_X2_SG3525
