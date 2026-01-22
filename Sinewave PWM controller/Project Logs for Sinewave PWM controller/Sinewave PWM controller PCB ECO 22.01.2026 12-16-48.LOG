@@ -1,0 +1,873 @@
+Removed Pin From Net: NetName=BAT_GND Pin=C3-2
+Removed Pin From Net: NetName=BAT_GND Pin=C4-2
+Removed Pin From Net: NetName=BAT_GND Pin=C6-1
+Removed Pin From Net: NetName=NetC13_2 Pin=C17-1
+Removed Pin From Net: NetName=BAT_GND Pin=C20-2
+Removed Pin From Net: NetName=BAT_GND Pin=C21-2
+Removed Pin From Net: NetName=BAT_GND Pin=C23-1
+Removed Pin From Net: NetName=BAT_GND Pin=C32-1
+Removed Pin From Net: NetName=+5V Pin=C35-1
+Removed Pin From Net: NetName=+5V Pin=C36-1
+Removed Pin From Net: NetName=BAT_GND Pin=C40-1
+Removed Pin From Net: NetName=BAT_GND Pin=C42-2
+Removed Pin From Net: NetName=+5V Pin=C43-2
+Removed Pin From Net: NetName=+5V Pin=C44-1
+Removed Pin From Net: NetName=+5V Pin=C45-2
+Removed Pin From Net: NetName=+5V Pin=C46-1
+Removed Pin From Net: NetName=BAT_GND Pin=C48-2
+Removed Pin From Net: NetName=+5V Pin=C55-2
+Removed Pin From Net: NetName=+5V Pin=C56-2
+Removed Pin From Net: NetName=BAT_GND Pin=C60-1
+Removed Pin From Net: NetName=BAT_GND Pin=C61-1
+Removed Pin From Net: NetName=NetR1_2 Pin=R2-1
+Removed Pin From Net: NetName=NetR3_1 Pin=R3-1
+Removed Pin From Net: NetName=NetR1_2 Pin=R3-2
+Removed Pin From Net: NetName=+15V Pin=R14-1
+Removed Pin From Net: NetName=+15V Pin=R14-1
+Removed Pin From Net: NetName=NetR17_2 Pin=R18-2
+Removed Pin From Net: NetName=NetR17_2 Pin=R19-2
+Removed Pin From Net: NetName=NetR17_2 Pin=R20-2
+Removed Pin From Net: NetName=NetR25_2 Pin=R27-2
+Removed Pin From Net: NetName=BAT_GND Pin=R30-1
+Removed Pin From Net: NetName=NetR17_1 Pin=R30-2
+Removed Pin From Net: NetName=BAT_GND Pin=R31-1
+Removed Pin From Net: NetName=NetR19_1 Pin=R32-2
+Removed Pin From Net: NetName=BAT_GND Pin=R33-1
+Removed Pin From Net: NetName=+5V Pin=R34-1
+Removed Pin From Net: NetName=SD_1 Pin=R36-1
+Removed Pin From Net: NetName=BAT_GND Pin=R37-2
+Removed Pin From Net: NetName=BAT_GND Pin=R38-2
+Removed Pin From Net: NetName=BAT_GND Pin=R39-2
+Removed Pin From Net: NetName=BAT_GND Pin=R40-1
+Removed Pin From Net: NetName=+15V Pin=R57-1
+Removed Pin From Net: NetName=+15V Pin=R57-1
+Removed Pin From Net: NetName=NetC13_2 Pin=R60-2
+Removed Pin From Net: NetName=NetC13_2 Pin=R62-2
+Removed Pin From Net: NetName=NetR25_1 Pin=R66-1
+Removed Pin From Net: NetName=+15V Pin=R80-1
+Removed Pin From Net: NetName=+15V Pin=R80-1
+Removed Pin From Net: NetName=BAT_GND Pin=R96-1
+Removed Pin From Net: NetName=BAT_GND Pin=R97-1
+Removed Pin From Net: NetName=BAT_GND Pin=R98-1
+Removed Pin From Net: NetName=BAT_GND Pin=R99-1
+Removed Pin From Net: NetName=+5V Pin=R101-1
+Removed Pin From Net: NetName=BAT_GND Pin=R103-2
+Removed Pin From Net: NetName=BAT_GND Pin=R104-2
+Removed Pin From Net: NetName=BAT_GND Pin=R105-2
+Removed Pin From Net: NetName=BAT_GND Pin=R106-1
+Removed Pin From Net: NetName=+15V Pin=R123-1
+Removed Pin From Net: NetName=+15V Pin=R123-1
+Removed Pin From Net: NetName=BAT_GND Pin=R149-1
+Removed Pin From Net: NetName=BAT_GND Pin=R153-1
+Removed Pin From Net: NetName=BAT_GND Pin=T2-5
+Removed Pin From Net: NetName=NetC13_2 Pin=T3-5
+Removed Pin From Net: NetName=NetC13_2 Pin=T4-5
+Removed Pin From Net: NetName=BAT_GND Pin=T5-5
+Removed Pin From Net: NetName=BAT_GND Pin=T7-5
+Removed Pin From Net: NetName=BAT_GND Pin=T10-5
+Removed Pin From Net: NetName=NetR17_2 Pin=TP5-1
+Removed Pin From Net: NetName=BAT_GND Pin=TP13-1
+Removed Pin From Net: NetName=NetC13_2 Pin=TP20-1
+Removed Pin From Net: NetName=BAT_GND Pin=TP34-1
+Removed Pin From Net: NetName=BAT_GND Pin=TP46-1
+Removed Pin From Net: NetName=BAT_GND Pin=TP55-1
+Removed Pin From Net: NetName=+5V Pin=U1-8
+Removed Pin From Net: NetName=BAT_GND Pin=U2-3
+Removed Pin From Net: NetName=+5V Pin=U2-8
+Removed Pin From Net: NetName=+5V Pin=U3-1
+Removed Pin From Net: NetName=+5V Pin=U4-1
+Removed Pin From Net: NetName=+5V Pin=U5-2
+Removed Pin From Net: NetName=+5V Pin=U6-2
+Removed Pin From Net: NetName=BAT_GND Pin=U6-3
+Removed Pin From Net: NetName=+5V Pin=U8-5
+Removed Pin From Net: NetName=+5V Pin=U9-5
+Removed Pin From Net: NetName=NetR3_1 Pin=VD1-2
+Removed Pin From Net: NetName=NetR9_1 Pin=VD5-2
+Removed Pin From Net: NetName=NetR13_1 Pin=VD8-2
+Removed Pin From Net: NetName=NetR21_1 Pin=VD12-2
+Removed Pin From Net: NetName=NetC10_2 Pin=VD14-1
+Removed Pin From Net: NetName=NetC10_2 Pin=VD16-3
+Removed Pin From Net: NetName=BAT_GND Pin=VD18-2
+Removed Pin From Net: NetName=NetC13_2 Pin=VD31-2
+Removed Pin From Net: NetName=BAT_GND Pin=VD50-2
+Removed Pin From Net: NetName=BAT_GND Pin=VD52-2
+Removed Pin From Net: NetName=NetR1_2 Pin=VT1-1
+Removed Pin From Net: NetName=NetR1_2 Pin=VT2-1
+Removed Pin From Net: NetName=NetR17_2 Pin=VT7-3
+Removed Pin From Net: NetName=NetR25_2 Pin=VT8-1
+Removed Pin From Net: NetName=NetC10_2 Pin=VT8-3
+Removed Pin From Net: NetName=NetR19_1 Pin=VT10-1
+Removed Pin From Net: NetName=BAT_GND Pin=VT10-3
+Removed Pin From Net: NetName=BAT_GND Pin=VT11-3
+Removed Pin From Net: NetName=NetR17_1 Pin=VT12-1
+Removed Pin From Net: NetName=BAT_GND Pin=VT12-3
+Removed Pin From Net: NetName=BAT_GND Pin=VT13-3
+Removed Pin From Net: NetName=BAT_GND Pin=VT14-2
+Removed Pin From Net: NetName=BAT_GND Pin=VT14-2
+Removed Pin From Net: NetName=NetR17_2 Pin=VT14-3
+Removed Pin From Net: NetName=NetR25_2 Pin=VT15-1
+Removed Pin From Net: NetName=NetC10_2 Pin=VT15-3
+Removed Pin From Net: NetName=NetT3_1 Pin=VT19-2
+Removed Pin From Net: NetName=BAT_GND Pin=VT19-3
+Removed Pin From Net: NetName=BAT_GND Pin=VT20-2
+Removed Pin From Net: NetName=BAT_GND Pin=VT20-2
+Removed Pin From Net: NetName=NetT3_1 Pin=VT22-2
+Removed Pin From Net: NetName=BAT_GND Pin=VT22-3
+Removed Pin From Net: NetName=NetT3_1 Pin=VT23-2
+Removed Pin From Net: NetName=BAT_GND Pin=VT23-3
+Removed Pin From Net: NetName=NetT3_1 Pin=VT24-2
+Removed Pin From Net: NetName=BAT_GND Pin=VT24-3
+Removed Pin From Net: NetName=NetC13_2 Pin=VT25-2
+Removed Pin From Net: NetName=NetC13_2 Pin=VT29-2
+Removed Pin From Net: NetName=NetC13_2 Pin=VT31-3
+Removed Pin From Net: NetName=NetC13_2 Pin=VT32-3
+Removed Pin From Net: NetName=BAT_GND Pin=VT42-3
+Removed Pin From Net: NetName=BAT_GND Pin=VT43-3
+Removed Pin From Net: NetName=BAT_GND Pin=VT44-3
+Removed Pin From Net: NetName=BAT_GND Pin=VT45-3
+Removed Pin From Net: NetName=BAT_GND Pin=VT46-2
+Removed Pin From Net: NetName=BAT_GND Pin=VT46-2
+Removed Pin From Net: NetName=BAT_GND Pin=VT51-3
+Removed Pin From Net: NetName=BAT_GND Pin=VT52-2
+Removed Pin From Net: NetName=BAT_GND Pin=VT52-2
+Removed Pin From Net: NetName=BAT_GND Pin=VT54-3
+Removed Pin From Net: NetName=BAT_GND Pin=VT55-3
+Removed Pin From Net: NetName=BAT_GND Pin=VT56-3
+Removed Pin From Net: NetName=BAT_GND Pin=X3-2
+Removed Pin From Net: NetName=+5V Pin=X5-2
+Removed Pin From Net: NetName=+15V Pin=X6-1
+Removed Pin From Net: NetName=BAT_GND Pin=X6-2
+Removed Pin From Net: NetName=BAT_GND Pin=X9-1
+Removed Pin From Net: NetName=BAT_GND Pin=X9-1
+Removed Pin From Net: NetName=BAT_GND Pin=X9-1
+Removed Pin From Net: NetName=BAT_GND Pin=X9-1
+Removed Pin From Net: NetName=BAT_GND Pin=X9-1
+Removed Pin From Net: NetName=BAT_GND Pin=X9-1
+Removed Pin From Net: NetName=BAT_GND Pin=X9-1
+Remove Pin from Net: Unknown Pin: Pin X12-4
+Removed Pin From Net: NetName=+5V Pin=X14-1
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C21
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C22
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C23
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C24
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C25
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C26
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C27
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C28
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C29
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C30
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C31
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C32
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C33
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C34
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C35
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C36
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C37
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C38
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C39
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C40
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C41
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C42
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C43
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C44
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C45
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C46
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C47
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C48
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C53
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C54
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C55
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C56
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C58
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C59
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C60
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C61
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C65
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C66
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=H1
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=H2
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=L1
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=L2
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R33
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R34
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R35
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R36
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R37
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R38
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R39
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R40
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R41
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R42
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R43
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R44
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R45
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R46
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R47
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R48
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R49
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R50
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R51
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R52
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R53
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R54
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R55
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R56
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R57
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R58
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R59
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R60
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R61
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R62
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R63
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R64
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R65
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R66
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R67
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R68
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R69
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R73
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R74
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R75
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R76
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R77
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R78
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R79
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R80
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R81
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R82
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R83
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R84
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R85
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R86
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R87
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R88
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R89
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R90
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R91
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R92
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R93
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R94
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R95
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R96
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R97
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R98
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R99
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R100
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R101
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R102
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R103
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R104
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R105
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R106
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R107
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R108
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R109
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R110
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R111
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R112
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R113
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R114
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R115
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R116
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R117
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R118
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R119
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R120
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R121
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R122
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R123
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R124
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R125
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R126
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R127
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R128
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R129
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R130
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R131
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R132
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R133
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R134
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R135
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R136
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R137
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R138
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R139
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R140
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R142
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R143
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R146
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R147
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R148
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R149
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R150
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R151
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R152
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R153
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R154
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R155
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R158
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R159
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R160
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R161
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R162
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R163
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=T4
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=T5
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=T6
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=T7
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=T8
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=T9
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=T10
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP1
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP2
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP4
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP5
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP6
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP7
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP8
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP9
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP10
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP11
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP12
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP13
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP14
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP15
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP16
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP17
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP18
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP19
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP20
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP21
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP22
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP23
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP24
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP25
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP26
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP27
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP28
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP29
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP30
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP31
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP32
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP33
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP34
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP35
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP37
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP38
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP39
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP40
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP41
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP42
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP46
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP48
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP49
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP50
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP51
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP52
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP53
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP54
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP55
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=U5
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=U6
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=U8
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=U9
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD26
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD27
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD28
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD29
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD30
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD31
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD32
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD33
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD34
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD37
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD38
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD39
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD40
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD41
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD42
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD43
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD44
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD45
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD46
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD47
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD48
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD49
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD50
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD51
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD52
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD53
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD54
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD55
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD56
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD57
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD58
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD59
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD60
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD61
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD62
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD63
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD64
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT9
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT10
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT11
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT12
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT13
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT14
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT15
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT16
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT17
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT18
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT19
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT20
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT21
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT22
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT23
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT24
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT25
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT26
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT27
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT28
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT29
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT30
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT31
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT32
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT33
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT34
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT35
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT36
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT37
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT38
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT39
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT40
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT41
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT42
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT43
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT44
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT45
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT46
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT47
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT48
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT49
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT50
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT51
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT52
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT53
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT54
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT55
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT56
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT57
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT58
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT59
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT60
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT61
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT62
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT63
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT64
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=X3
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=X4
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=X5
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=X6
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=X7
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=X8
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=X9
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=X10
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=X11
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=X12
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=X13
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=X14
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=X15
+Change Component Footprint: Designator=U3 Old Footprint=ACS758-100 New Footprint=HCPL-3120
+Change Component Footprint: Designator=U4 Old Footprint=ACS758-100 New Footprint=HCPL-3120
+Change Component Footprint: Designator=C6 Old Footprint=CAP-0805 New Footprint=CAP-1206
+Change Component Footprint: Designator=C15 Old Footprint=CAP-0805 New Footprint=CAP-1206
+Change Component Footprint: Designator=C10 Old Footprint=CAP-1206 New Footprint=CAP-TAN-C
+Change Component Footprint: Designator=C5 Old Footprint=CAP-FILM-22.5X26.5X10 New Footprint=CAP-1206
+Change Component Footprint: Designator=C9 Old Footprint=CAP-FILM-22.5X26.5X10 New Footprint=CAP-1206
+Change Component Footprint: Designator=C17 Old Footprint=CAP-FILM-22.5X26.5X10 New Footprint=CAP-1206
+Change Component Footprint: Designator=C7 Old Footprint=CAP-FILM-22.5X26.5X10 New Footprint=CAP-TAN-C
+Change Component Footprint: Designator=C13 Old Footprint=CAP-FILM-22.5X26.5X10 New Footprint=CAP-TAN-C
+Change Component Footprint: Designator=C16 Old Footprint=CAP-FILM-22.5X26.5X10 New Footprint=CAP-TAN-C
+Change Component Footprint: Designator=C2 Old Footprint=CAPPOL-65x35 New Footprint=CAP-1206
+Change Component Footprint: Designator=C18 Old Footprint=CAPPOL-65x35 New Footprint=CAP-1206
+Change Component Footprint: Designator=C19 Old Footprint=CAPPOL-65x35 New Footprint=CAP-1206
+Change Component Footprint: Designator=C1 Old Footprint=CAPPOL-65x35 New Footprint=CAP-TAN-C
+Change Component Footprint: Designator=C3 Old Footprint=CAPPOL-100x35 New Footprint=CAP-1206
+Change Component Footprint: Designator=C20 Old Footprint=CAPPOL-100x35 New Footprint=CAP-1206
+Change Component Footprint: Designator=C4 Old Footprint=CAPPOL-100x35 New Footprint=CAP-TAN-C
+Change Component Footprint: Designator=U1 Old Footprint=FP-DWV0008A-MFG New Footprint=HCPL-3120
+Change Component Footprint: Designator=U2 Old Footprint=FP-DWV0008A-MFG New Footprint=HCPL-3120
+Change Component Footprint: Designator=R14 Old Footprint=RES-2512 New Footprint=RES-0805
+Change Component Footprint: Designator=R26 Old Footprint=RES-2512 New Footprint=RES-0805
+Change Component Footprint: Designator=R3 Old Footprint=RES-3921 New Footprint=RES-0805
+Change Component Footprint: Designator=R4 Old Footprint=RES-3921 New Footprint=RES-0805
+Change Component Footprint: Designator=R5 Old Footprint=RES-3921 New Footprint=RES-0805
+Change Component Footprint: Designator=R6 Old Footprint=RES-3921 New Footprint=RES-0805
+Change Component Footprint: Designator=R7 Old Footprint=RES-3921 New Footprint=RES-0805
+Change Component Footprint: Designator=VD7 Old Footprint=SOD-80 New Footprint=DO-214AC, SMA
+Change Component Footprint: Designator=VD9 Old Footprint=SOD-80 New Footprint=DO-214AC, SMA
+Change Component Footprint: Designator=VD15 Old Footprint=SOD-80 New Footprint=DO-214AC, SMA
+Change Component Footprint: Designator=VD11 Old Footprint=SOD-80 New Footprint=SOD-123
+Change Component Footprint: Designator=VD13 Old Footprint=SOD-80 New Footprint=SOD-123
+Change Component Footprint: Designator=VD18 Old Footprint=SOD-80 New Footprint=SOD-123
+Change Component Footprint: Designator=VD20 Old Footprint=SOD-80 New Footprint=SOD-123
+Change Component Footprint: Designator=VD22 Old Footprint=SOD-80 New Footprint=SOD-123
+Change Component Footprint: Designator=VD24 Old Footprint=SOD-80 New Footprint=SOD-123
+Change Component Footprint: Designator=VD1 Old Footprint=SOD-123 New Footprint=DO-214AC, SMA
+Change Component Footprint: Designator=VD8 Old Footprint=SOD-123 New Footprint=DO-214AC, SMA
+Change Component Footprint: Designator=VD14 Old Footprint=SOD-123 New Footprint=DO-214AC, SMA
+Change Component Footprint: Designator=VD16 Old Footprint=SOT23-3 New Footprint=DO-214AC, SMA
+Change Component Footprint: Designator=VD21 Old Footprint=SOT23-3 New Footprint=DO-214AC, SMA
+Change Component Footprint: Designator=VD6 Old Footprint=SOT23-3 New Footprint=SOD-123
+Change Component Footprint: Designator=VD23 Old Footprint=SOT23-3 New Footprint=SOD-123
+Change Component Footprint: Designator=VT7 Old Footprint=SOT-89 New Footprint=SOT23-3
+Change Component Footprint: Designator=VT4 Old Footprint=SOT-89 New Footprint=TO-247-3
+Change Component Footprint: Designator=VT6 Old Footprint=SOT-89 New Footprint=TO-247-3
+Change Component Footprint: Designator=VT8 Old Footprint=SOT-89 New Footprint=TO-247-3
+Change Component Footprint: Designator=VD2 Old Footprint=TO-247-2 New Footprint=DO-214AC, SMA
+Change Component Footprint: Designator=VT1 Old Footprint=TO-247-3 New Footprint=SOT23-3
+Change Component Footprint: Designator=VT5 Old Footprint=TO-247-3 New Footprint=SOT23-3
+Change Footprint: Footprint Not Found TRANS_EE16
+Change Component Comment : Designator=VD1 Old Comment=1N4148 New Comment=RS1J
+Change Component Comment : Designator=VD8 Old Comment=1N4148 New Comment=RS1J
+Change Component Comment : Designator=VD14 Old Comment=1N4148 New Comment=RS1J
+Change Component Comment : Designator=R14 Old Comment=1 OHM New Comment=27
+Change Component Comment : Designator=R31 Old Comment=2K New Comment=3K3
+Change Component Comment : Designator=R22 Old Comment=2K New Comment=27
+Change Component Comment : Designator=R29 Old Comment=2K New Comment=27
+Change Component Comment : Designator=R30 Old Comment=2K New Comment=27
+Change Component Comment : Designator=R8 Old Comment=2K New Comment=220
+Change Component Comment : Designator=R32 Old Comment=2K New Comment=220
+Change Component Comment : Designator=R2 Old Comment=2K New Comment=510
+Change Component Comment : Designator=R12 Old Comment=2K New Comment=510
+Change Component Comment : Designator=VT6 Old Comment=2SA1020 New Comment=YGW40N65F1
+Change Component Comment : Designator=VT7 Old Comment=2SC2655 New Comment=BC847
+Change Component Comment : Designator=VT4 Old Comment=2SC2655 New Comment=YGW40N65F1
+Change Component Comment : Designator=VT8 Old Comment=2SC2655 New Comment=YGW40N65F1
+Change Component Comment : Designator=C10 Old Comment=2uF New Comment=22uF 16V
+Change Component Comment : Designator=C8 Old Comment=2uF New Comment=100nF
+Change Component Comment : Designator=C12 Old Comment=2uF New Comment=100nF
+Change Component Comment : Designator=C14 Old Comment=2uF New Comment=100nF
+Change Component Comment : Designator=R23 Old Comment=10 New Comment=3K3
+Change Component Comment : Designator=R27 Old Comment=10K New Comment=1K
+Change Component Comment : Designator=R16 Old Comment=10K New Comment=220
+Change Component Comment : Designator=R19 Old Comment=20 OHM New Comment=1K
+Change Component Comment : Designator=R17 Old Comment=20 OHM New Comment=100
+Change Component Comment : Designator=R18 Old Comment=20 OHM New Comment=510
+Change Component Comment : Designator=R20 Old Comment=20 OHM New Comment=510
+Change Component Comment : Designator=R11 Old Comment=24OHM New Comment=1K
+Change Component Comment : Designator=R15 Old Comment=24OHM New Comment=3K3
+Change Component Comment : Designator=R13 Old Comment=24OHM New Comment=27
+Change Component Comment : Designator=R21 Old Comment=24OHM New Comment=27
+Change Component Comment : Designator=R1 Old Comment=24OHM New Comment=100
+Change Component Comment : Designator=R9 Old Comment=24OHM New Comment=100
+Change Component Comment : Designator=R28 Old Comment=24OHM New Comment=510
+Change Component Comment : Designator=R24 Old Comment=100 New Comment=220
+Change Component Comment : Designator=R10 Old Comment=100 New Comment=510
+Change Component Comment : Designator=R26 Old Comment=200 New Comment=510
+Change Component Comment : Designator=C1 Old Comment=470uF 550V New Comment=47uF 16V
+Change Component Comment : Designator=C2 Old Comment=470uF 550V New Comment=100nF
+Change Component Comment : Designator=C18 Old Comment=470uF 550V New Comment=100nF
+Change Component Comment : Designator=C19 Old Comment=470uF 550V New Comment=100nF
+Change Component Comment : Designator=C4 Old Comment=22000uF 63V New Comment=22uF 16V
+Change Component Comment : Designator=C3 Old Comment=22000uF 63V New Comment=100nF
+Change Component Comment : Designator=C20 Old Comment=22000uF 63V New Comment=100nF
+Change Component Comment : Designator=U3 Old Comment=ACS758 New Comment=HCPL-3120
+Change Component Comment : Designator=U4 Old Comment=ACS758 New Comment=HCPL-3120
+Change Component Comment : Designator=U1 Old Comment=AMC1311 New Comment=HCPL-3120
+Change Component Comment : Designator=U2 Old Comment=AMC1311 New Comment=HCPL-3120
+Change Component Comment : Designator=VD6 Old Comment=BAT54S New Comment=1N4148
+Change Component Comment : Designator=VD23 Old Comment=BAT54S New Comment=1N4148
+Change Component Comment : Designator=VD16 Old Comment=BAT54S New Comment=RS1J
+Change Component Comment : Designator=VD21 Old Comment=BAT54S New Comment=RS1J
+Change Component Comment : Designator=C16 Old Comment=CAP-NON-POLAR New Comment=22uF 16V
+Change Component Comment : Designator=C7 Old Comment=CAP-NON-POLAR New Comment=47uF 16V
+Change Component Comment : Designator=C13 Old Comment=CAP-NON-POLAR New Comment=47uF 16V
+Change Component Comment : Designator=C5 Old Comment=CAP-NON-POLAR New Comment=100nF
+Change Component Comment : Designator=C9 Old Comment=CAP-NON-POLAR New Comment=100nF
+Change Component Comment : Designator=C17 Old Comment=CAP-NON-POLAR New Comment=100nF
+Change Component Comment : Designator=VD11 Old Comment=J3 16V New Comment=1N4148
+Change Component Comment : Designator=VD13 Old Comment=J3 16V New Comment=1N4148
+Change Component Comment : Designator=VD18 Old Comment=J3 16V New Comment=1N4148
+Change Component Comment : Designator=VD20 Old Comment=J3 16V New Comment=1N4148
+Change Component Comment : Designator=VD22 Old Comment=J3 16V New Comment=1N4148
+Change Component Comment : Designator=VD24 Old Comment=J3 16V New Comment=1N4148
+Change Component Comment : Designator=VD7 Old Comment=J3 16V New Comment=RS1J
+Change Component Comment : Designator=VD9 Old Comment=J3 16V New Comment=RS1J
+Change Component Comment : Designator=VD15 Old Comment=J3 16V New Comment=RS1J
+Change Component Comment : Designator=R3 Old Comment=R008 New Comment=1K
+Change Component Comment : Designator=R7 Old Comment=R008 New Comment=3K3
+Change Component Comment : Designator=R5 Old Comment=R008 New Comment=27
+Change Component Comment : Designator=R6 Old Comment=R008 New Comment=27
+Change Component Comment : Designator=R4 Old Comment=R008 New Comment=510
+Change Component Comment : Designator=VD2 Old Comment=RHRG75120 New Comment=RS1J
+Change Component Comment : Designator=T3 Old Comment=TRANS_EE55 New Comment=TRANS_EE16
+Change Component Comment : Designator=VT1 Old Comment=YGW40N65F1 New Comment=BC847
+Change Component Comment : Designator=VT5 Old Comment=YGW40N65F1 New Comment=BC847
+Change Component Designator: OldDesignator=X2 NewDesignator=X1
+Change Component Designator: OldDesignator=X3 NewDesignator=X2
+Added Component: Designator=VD3(SOD-123)
+Added Component: Designator=VD4(SOD-123)
+Added Component: Designator=VT3(SOT23-3)
+Added Pin To Net: NetName=BAT_GND Pin=C3-1
+Added Pin To Net: NetName=NetC1_2 Pin=C4-1
+Added Pin To Net: NetName=NetC1_2 Pin=C5-2
+Added Pin To Net: NetName=BAT_GND Pin=C9-1
+Added Pin To Net: NetName=NetC10_2 Pin=C11-1
+Added Pin To Net: NetName=NetC10_2 Pin=C12-1
+Added Pin To Net: NetName=NetC13_2 Pin=C14-1
+Added Pin To Net: NetName=NetC13_2 Pin=C16-1
+Added Pin To Net: NetName=NetC13_2 Pin=C17-2
+Added Pin To Net: NetName=BAT_GND Pin=C19-1
+Added Pin To Net: NetName=NetC13_2 Pin=J1-1
+Added Pin To Net: NetName=NetC13_2 Pin=J1-1
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetR3_1 Pin=R4-2
+Added Pin To Net: NetName=NetC1_2 Pin=R7-2
+Added Pin To Net: NetName=BAT_GND Pin=R8-1
+Added Pin To Net: NetName=NetR9_1 Pin=R10-1
+Added Pin To Net: NetName=NetR9_1 Pin=R11-2
+Added Pin To Net: NetName=BAT_GND Pin=R16-1
+Added Pin To Net: NetName=NetR17_1 Pin=R18-1
+Added Pin To Net: NetName=NetR17_1 Pin=R19-2
+Added Pin To Net: NetName=NetR19_1 Pin=R20-2
+Added Pin To Net: NetName=NetC13_2 Pin=R23-2
+Added Pin To Net: NetName=BAT_GND Pin=R24-1
+Added Pin To Net: NetName=NetR25_1 Pin=R26-1
+Added Pin To Net: NetName=NetR25_1 Pin=R27-2
+Added Pin To Net: NetName=NetC13_2 Pin=R31-2
+Added Pin To Net: NetName=NetC1_2 Pin=T1-2
+Added Pin To Net: NetName=NetC1_2 Pin=T1-3
+Added Pin To Net: NetName=NetC13_2 Pin=T3-2
+Added Pin To Net: NetName=NetC13_2 Pin=T3-3
+Added Pin To Net: NetName=BAT_GND Pin=U1-1
+Added Pin To Net: NetName=NetR1_2 Pin=U1-2
+Added Pin To Net: NetName=BAT_GND Pin=U1-4
+Added Pin To Net: NetName=BAT_GND Pin=U2-1
+Added Pin To Net: NetName=NetC10_2 Pin=U2-5
+Added Pin To Net: NetName=NetR13_1 Pin=U2-6
+Added Pin To Net: NetName=NetR13_1 Pin=U2-7
+Added Pin To Net: NetName=BAT_GND Pin=U3-1
+Added Pin To Net: NetName=NetR17_2 Pin=U3-2
+Added Pin To Net: NetName=BAT_GND Pin=U3-4
+Added Pin To Net: NetName=NetR21_1 Pin=U3-6
+Added Pin To Net: NetName=NetR21_1 Pin=U3-7
+Added Pin To Net: NetName=BAT_GND Pin=U4-1
+Added Pin To Net: NetName=NetR25_2 Pin=U4-2
+Added Pin To Net: NetName=BAT_GND Pin=U4-4
+Added Pin To Net: NetName=NetR1_2 Pin=VD4-1
+Added Pin To Net: NetName=BAT_GND Pin=VD6-2
+Added Pin To Net: NetName=NetR13_1 Pin=VD10-2
+Added Pin To Net: NetName=NetR13_1 Pin=VD12-1
+Added Pin To Net: NetName=BAT_GND Pin=VD13-2
+Added Pin To Net: NetName=NetC10_2 Pin=VD14-2
+Added Pin To Net: NetName=NetR21_1 Pin=VD17-2
+Added Pin To Net: NetName=NetR17_2 Pin=VD18-1
+Added Pin To Net: NetName=NetR21_1 Pin=VD19-1
+Added Pin To Net: NetName=NetT3_1 Pin=VD21-1
+Added Pin To Net: NetName=NetR25_2 Pin=VD23-1
+Added Pin To Net: NetName=BAT_GND Pin=VD25-2
+Added Pin To Net: NetName=NetR3_1 Pin=VT1-1
+Added Pin To Net: NetName=NetR1_2 Pin=VT1-2
+Added Pin To Net: NetName=NetC1_2 Pin=VT2-3
+Added Pin To Net: NetName=NetR19_1 Pin=VT5-1
+Added Pin To Net: NetName=NetR17_2 Pin=VT5-2
+Added Pin To Net: NetName=NetC1_2 Pin=VT6-2
+Added Pin To Net: NetName=NetC13_2 Pin=VT6-3
+Added Pin To Net: NetName=NetR25_2 Pin=VT7-2
+Added Pin To Net: NetName=NetC13_2 Pin=VT8-3
+Added Pin To Net: NetName=BAT_GND Pin=X1-4
+Change Net Name : Old Net Name=BAT_GND New Net Name=GND
+Added Pin To Net: NetName=+12 Pin=C3-2
+Added Pin To Net: NetName=+12 Pin=C9-2
+Added Pin To Net: NetName=+12 Pin=C15-2
+Added Pin To Net: NetName=+12 Pin=C19-2
+Added Pin To Net: NetName=+12 Pin=R2-2
+Added Pin To Net: NetName=+12 Pin=R10-2
+Added Pin To Net: NetName=+12 Pin=R18-2
+Added Pin To Net: NetName=+12 Pin=R26-2
+Added Net: Name=+12
+Added Pin To Net: NetName=+15V_2 Pin=X1-3
+Added Net: Name=+15V_2
+Added Pin To Net: NetName=BAT_GND Pin=X2-2
+Added Net: Name=BAT_GND
+Added Pin To Net: NetName=G Pin=T1-6
+Added Pin To Net: NetName=G Pin=T2-6
+Added Net: Name=G
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_1 Pin=C2-2
+Added Pin To Net: NetName=NetC1_1 Pin=C6-2
+Added Pin To Net: NetName=NetC1_1 Pin=U1-8
+Added Pin To Net: NetName=NetC1_1 Pin=VD1-1
+Added Pin To Net: NetName=NetC1_1 Pin=VD3-1
+Added Net: Name=NetC1_1
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Pin To Net: NetName=NetC4_2 Pin=C5-1
+Added Pin To Net: NetName=NetC4_2 Pin=C6-1
+Added Pin To Net: NetName=NetC4_2 Pin=U1-5
+Added Pin To Net: NetName=NetC4_2 Pin=VD7-2
+Added Net: Name=NetC4_2
+Added Pin To Net: NetName=NetC7_1 Pin=C7-1
+Added Pin To Net: NetName=NetC7_1 Pin=C8-2
+Added Pin To Net: NetName=NetC7_1 Pin=C12-2
+Added Pin To Net: NetName=NetC7_1 Pin=U2-8
+Added Pin To Net: NetName=NetC7_1 Pin=VD8-1
+Added Pin To Net: NetName=NetC7_1 Pin=VD10-1
+Added Net: Name=NetC7_1
+Added Pin To Net: NetName=NetC7_2 Pin=C7-2
+Added Pin To Net: NetName=NetC7_2 Pin=C8-1
+Added Pin To Net: NetName=NetC7_2 Pin=C10-1
+Added Pin To Net: NetName=NetC7_2 Pin=C11-2
+Added Pin To Net: NetName=NetC7_2 Pin=R15-2
+Added Pin To Net: NetName=NetC7_2 Pin=T2-2
+Added Pin To Net: NetName=NetC7_2 Pin=T2-3
+Added Pin To Net: NetName=NetC7_2 Pin=VT4-3
+Added Pin To Net: NetName=NetC7_2 Pin=VT8-2
+Added Net: Name=NetC7_2
+Added Pin To Net: NetName=NetC13_1 Pin=C13-1
+Added Pin To Net: NetName=NetC13_1 Pin=C14-2
+Added Pin To Net: NetName=NetC13_1 Pin=C18-2
+Added Pin To Net: NetName=NetC13_1 Pin=C20-2
+Added Pin To Net: NetName=NetC13_1 Pin=U3-8
+Added Pin To Net: NetName=NetC13_1 Pin=U4-8
+Added Pin To Net: NetName=NetC13_1 Pin=VD15-1
+Added Pin To Net: NetName=NetC13_1 Pin=VD17-1
+Added Pin To Net: NetName=NetC13_1 Pin=VD22-1
+Added Net: Name=NetC13_1
+Added Pin To Net: NetName=NetC16_2 Pin=C16-2
+Added Pin To Net: NetName=NetC16_2 Pin=C17-1
+Added Pin To Net: NetName=NetC16_2 Pin=C18-1
+Added Pin To Net: NetName=NetC16_2 Pin=C20-1
+Added Pin To Net: NetName=NetC16_2 Pin=U3-5
+Added Pin To Net: NetName=NetC16_2 Pin=U4-5
+Added Pin To Net: NetName=NetC16_2 Pin=VD21-2
+Added Net: Name=NetC16_2
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-1
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-1
+Added Pin To Net: NetName=NetJ2_1 Pin=VT2-2
+Added Pin To Net: NetName=NetJ2_1 Pin=VT4-2
+Added Net: Name=NetJ2_1
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=R2-1
+Added Pin To Net: NetName=NetR1_1 Pin=R3-2
+Added Net: Name=NetR1_1
+Added Pin To Net: NetName=NetR5_1 Pin=R5-1
+Added Pin To Net: NetName=NetR5_1 Pin=U1-6
+Added Pin To Net: NetName=NetR5_1 Pin=U1-7
+Added Pin To Net: NetName=NetR5_1 Pin=VD3-2
+Added Pin To Net: NetName=NetR5_1 Pin=VD5-1
+Added Net: Name=NetR5_1
+Added Pin To Net: NetName=NetR5_2 Pin=R5-2
+Added Pin To Net: NetName=NetR5_2 Pin=R6-2
+Added Pin To Net: NetName=NetR5_2 Pin=R7-1
+Added Pin To Net: NetName=NetR5_2 Pin=VT2-1
+Added Net: Name=NetR5_2
+Added Pin To Net: NetName=NetR6_1 Pin=R6-1
+Added Pin To Net: NetName=NetR6_1 Pin=VD5-2
+Added Net: Name=NetR6_1
+Added Pin To Net: NetName=NetR8_2 Pin=R8-2
+Added Pin To Net: NetName=NetR8_2 Pin=U1-3
+Added Pin To Net: NetName=NetR8_2 Pin=VD4-2
+Added Pin To Net: NetName=NetR8_2 Pin=VT1-3
+Added Net: Name=NetR8_2
+Added Pin To Net: NetName=NetR9_2 Pin=R9-2
+Added Pin To Net: NetName=NetR9_2 Pin=U2-2
+Added Pin To Net: NetName=NetR9_2 Pin=VD11-1
+Added Pin To Net: NetName=NetR9_2 Pin=VT3-2
+Added Net: Name=NetR9_2
+Added Pin To Net: NetName=NetR11_1 Pin=R11-1
+Added Pin To Net: NetName=NetR11_1 Pin=R12-2
+Added Pin To Net: NetName=NetR11_1 Pin=VT3-1
+Added Net: Name=NetR11_1
+Added Pin To Net: NetName=NetR13_2 Pin=R13-2
+Added Pin To Net: NetName=NetR13_2 Pin=R14-2
+Added Pin To Net: NetName=NetR13_2 Pin=R15-1
+Added Pin To Net: NetName=NetR13_2 Pin=VT4-1
+Added Net: Name=NetR13_2
+Added Pin To Net: NetName=NetR14_1 Pin=R14-1
+Added Pin To Net: NetName=NetR14_1 Pin=VD12-2
+Added Net: Name=NetR14_1
+Added Pin To Net: NetName=NetR16_2 Pin=R16-2
+Added Pin To Net: NetName=NetR16_2 Pin=U2-3
+Added Pin To Net: NetName=NetR16_2 Pin=VD11-2
+Added Pin To Net: NetName=NetR16_2 Pin=VT3-3
+Added Net: Name=NetR16_2
+Added Pin To Net: NetName=NetR21_2 Pin=R21-2
+Added Pin To Net: NetName=NetR21_2 Pin=R22-2
+Added Pin To Net: NetName=NetR21_2 Pin=R23-1
+Added Pin To Net: NetName=NetR21_2 Pin=VT6-1
+Added Net: Name=NetR21_2
+Added Pin To Net: NetName=NetR22_1 Pin=R22-1
+Added Pin To Net: NetName=NetR22_1 Pin=VD19-2
+Added Net: Name=NetR22_1
+Added Pin To Net: NetName=NetR24_2 Pin=R24-2
+Added Pin To Net: NetName=NetR24_2 Pin=U3-3
+Added Pin To Net: NetName=NetR24_2 Pin=VD18-2
+Added Pin To Net: NetName=NetR24_2 Pin=VT5-3
+Added Net: Name=NetR24_2
+Added Pin To Net: NetName=NetR27_1 Pin=R27-1
+Added Pin To Net: NetName=NetR27_1 Pin=R28-2
+Added Pin To Net: NetName=NetR27_1 Pin=VT7-1
+Added Net: Name=NetR27_1
+Added Pin To Net: NetName=NetR29_1 Pin=R29-1
+Added Pin To Net: NetName=NetR29_1 Pin=U4-6
+Added Pin To Net: NetName=NetR29_1 Pin=U4-7
+Added Pin To Net: NetName=NetR29_1 Pin=VD22-2
+Added Pin To Net: NetName=NetR29_1 Pin=VD24-1
+Added Net: Name=NetR29_1
+Added Pin To Net: NetName=NetR29_2 Pin=R29-2
+Added Pin To Net: NetName=NetR29_2 Pin=R30-2
+Added Pin To Net: NetName=NetR29_2 Pin=R31-1
+Added Pin To Net: NetName=NetR29_2 Pin=VT8-1
+Added Net: Name=NetR29_2
+Added Pin To Net: NetName=NetR30_1 Pin=R30-1
+Added Pin To Net: NetName=NetR30_1 Pin=VD24-2
+Added Net: Name=NetR30_1
+Added Pin To Net: NetName=NetR32_2 Pin=R32-2
+Added Pin To Net: NetName=NetR32_2 Pin=U4-3
+Added Pin To Net: NetName=NetR32_2 Pin=VD23-2
+Added Pin To Net: NetName=NetR32_2 Pin=VT7-3
+Added Net: Name=NetR32_2
+Added Pin To Net: NetName=NetT1_1 Pin=T1-1
+Added Pin To Net: NetName=NetT1_1 Pin=VD7-1
+Added Net: Name=NetT1_1
+Added Pin To Net: NetName=NetT1_5 Pin=T1-5
+Added Pin To Net: NetName=NetT1_5 Pin=VD1-2
+Added Net: Name=NetT1_5
+Added Pin To Net: NetName=NetT1_10 Pin=T1-10
+Added Pin To Net: NetName=NetT1_10 Pin=VD2-1
+Added Net: Name=NetT1_10
+Added Pin To Net: NetName=NetT2_1 Pin=T2-1
+Added Pin To Net: NetName=NetT2_1 Pin=VD14-1
+Added Net: Name=NetT2_1
+Added Pin To Net: NetName=NetT2_5 Pin=T2-5
+Added Pin To Net: NetName=NetT2_5 Pin=VD8-2
+Added Net: Name=NetT2_5
+Added Pin To Net: NetName=NetT2_10 Pin=T2-10
+Added Pin To Net: NetName=NetT2_10 Pin=VD9-1
+Added Net: Name=NetT2_10
+Added Pin To Net: NetName=NetT3_5 Pin=T3-5
+Added Pin To Net: NetName=NetT3_5 Pin=VD15-2
+Added Net: Name=NetT3_5
+Added Pin To Net: NetName=NetT3_10 Pin=VD16-1
+Added Net: Name=NetT3_10
+Added Pin To Net: NetName=NetVD2_2 Pin=VD2-2
+Added Pin To Net: NetName=NetVD2_2 Pin=VD9-2
+Added Pin To Net: NetName=NetVD2_2 Pin=VD16-2
+Added Net: Name=NetVD2_2
+Added Pin To Net: NetName=PWM_1 Pin=R4-1
+Added Pin To Net: NetName=PWM_1 Pin=VD6-1
+Added Net: Name=PWM_1
+Added Pin To Net: NetName=PWM_2 Pin=R12-1
+Added Pin To Net: NetName=PWM_2 Pin=VD13-1
+Added Net: Name=PWM_2
+Added Pin To Net: NetName=PWM_3 Pin=R20-1
+Added Pin To Net: NetName=PWM_3 Pin=VD20-1
+Added Net: Name=PWM_3
+Added Pin To Net: NetName=PWM_4 Pin=R28-1
+Added Pin To Net: NetName=PWM_4 Pin=VD25-1
+Added Net: Name=PWM_4
+Change Class Name : Old Net Name=Inverter_540VDC_V2 New Net Name=Sinewave PWM controller
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD3 1N4148
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD4 1N4148
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VT3 BC847

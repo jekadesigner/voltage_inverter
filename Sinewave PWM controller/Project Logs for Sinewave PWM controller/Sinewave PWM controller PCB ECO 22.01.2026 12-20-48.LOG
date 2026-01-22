@@ -1,0 +1,430 @@
+Added Component: Designator=C1(CAP-TAN-C)
+Added Component: Designator=C2(CAP-1206)
+Added Component: Designator=C3(CAP-1206)
+Added Component: Designator=C4(CAP-TAN-C)
+Added Component: Designator=C5(CAP-1206)
+Added Component: Designator=C6(CAP-1206)
+Added Component: Designator=C7(CAP-TAN-C)
+Added Component: Designator=C8(CAP-1206)
+Added Component: Designator=C9(CAP-1206)
+Added Component: Designator=C10(CAP-TAN-C)
+Added Component: Designator=C11(CAP-1206)
+Added Component: Designator=C12(CAP-1206)
+Added Component: Designator=C13(CAP-TAN-C)
+Added Component: Designator=C14(CAP-1206)
+Added Component: Designator=C15(CAP-1206)
+Added Component: Designator=C16(CAP-TAN-C)
+Added Component: Designator=C17(CAP-1206)
+Added Component: Designator=C18(CAP-1206)
+Added Component: Designator=C19(CAP-1206)
+Added Component: Designator=C20(CAP-1206)
+Added Component: Designator=J1(Conn_MEIGAN_MG136HT)
+Added Component: Designator=J2(Conn_MEIGAN_MG136HT)
+Added Component: Designator=R1(RES-0805)
+Added Component: Designator=R2(RES-0805)
+Added Component: Designator=R3(RES-0805)
+Added Component: Designator=R4(RES-0805)
+Added Component: Designator=R5(RES-0805)
+Added Component: Designator=R6(RES-0805)
+Added Component: Designator=R7(RES-0805)
+Added Component: Designator=R8(RES-0805)
+Added Component: Designator=R9(RES-0805)
+Added Component: Designator=R10(RES-0805)
+Added Component: Designator=R11(RES-0805)
+Added Component: Designator=R12(RES-0805)
+Added Component: Designator=R13(RES-0805)
+Added Component: Designator=R14(RES-0805)
+Added Component: Designator=R15(RES-0805)
+Added Component: Designator=R16(RES-0805)
+Added Component: Designator=R17(RES-0805)
+Added Component: Designator=R18(RES-0805)
+Added Component: Designator=R19(RES-0805)
+Added Component: Designator=R20(RES-0805)
+Added Component: Designator=R21(RES-0805)
+Added Component: Designator=R22(RES-0805)
+Added Component: Designator=R23(RES-0805)
+Added Component: Designator=R24(RES-0805)
+Added Component: Designator=R25(RES-0805)
+Added Component: Designator=R26(RES-0805)
+Added Component: Designator=R27(RES-0805)
+Added Component: Designator=R28(RES-0805)
+Added Component: Designator=R29(RES-0805)
+Added Component: Designator=R30(RES-0805)
+Added Component: Designator=R31(RES-0805)
+Added Component: Designator=R32(RES-0805)
+Add Component: Footprint Not Found TRANS_EE16
+Add Component: Footprint Not Found TRANS_EE16
+Add Component: Footprint Not Found TRANS_EE16
+Added Component: Designator=U1(HCPL-3120)
+Added Component: Designator=U2(HCPL-3120)
+Added Component: Designator=U3(HCPL-3120)
+Added Component: Designator=U4(HCPL-3120)
+Added Component: Designator=VD1(DO-214AC, SMA)
+Added Component: Designator=VD2(DO-214AC, SMA)
+Added Component: Designator=VD3(SOD-123)
+Added Component: Designator=VD4(SOD-123)
+Added Component: Designator=VD5(SOD-123)
+Added Component: Designator=VD6(SOD-123)
+Added Component: Designator=VD7(DO-214AC, SMA)
+Added Component: Designator=VD8(DO-214AC, SMA)
+Added Component: Designator=VD9(DO-214AC, SMA)
+Added Component: Designator=VD10(SOD-123)
+Added Component: Designator=VD11(SOD-123)
+Added Component: Designator=VD12(SOD-123)
+Added Component: Designator=VD13(SOD-123)
+Added Component: Designator=VD14(DO-214AC, SMA)
+Added Component: Designator=VD15(DO-214AC, SMA)
+Added Component: Designator=VD16(DO-214AC, SMA)
+Added Component: Designator=VD17(SOD-123)
+Added Component: Designator=VD18(SOD-123)
+Added Component: Designator=VD19(SOD-123)
+Added Component: Designator=VD20(SOD-123)
+Added Component: Designator=VD21(DO-214AC, SMA)
+Added Component: Designator=VD22(SOD-123)
+Added Component: Designator=VD23(SOD-123)
+Added Component: Designator=VD24(SOD-123)
+Added Component: Designator=VD25(SOD-123)
+Added Component: Designator=VT1(SOT23-3)
+Added Component: Designator=VT2(TO-247-3)
+Added Component: Designator=VT3(SOT23-3)
+Added Component: Designator=VT4(TO-247-3)
+Added Component: Designator=VT5(SOT23-3)
+Added Component: Designator=VT6(TO-247-3)
+Added Component: Designator=VT7(SOT23-3)
+Added Component: Designator=VT8(TO-247-3)
+Added Component: Designator=X1(CONN-PLS-4-2.54mm_1)
+Added Component: Designator=X2(XH2-)
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=C2-1
+Added Pin To Net: NetName=NetC1_1 Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=+12 Pin=C3-2
+Added Pin To Net: NetName=NetC1_2 Pin=C4-1
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Pin To Net: NetName=NetC4_2 Pin=C5-1
+Added Pin To Net: NetName=NetC1_2 Pin=C5-2
+Added Pin To Net: NetName=NetC4_2 Pin=C6-1
+Added Pin To Net: NetName=NetC1_1 Pin=C6-2
+Added Pin To Net: NetName=NetC7_1 Pin=C7-1
+Added Pin To Net: NetName=NetC7_2 Pin=C7-2
+Added Pin To Net: NetName=NetC7_2 Pin=C8-1
+Added Pin To Net: NetName=NetC7_1 Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=+12 Pin=C9-2
+Added Pin To Net: NetName=NetC7_2 Pin=C10-1
+Added Pin To Net: NetName=NetC10_2 Pin=C10-2
+Added Pin To Net: NetName=NetC10_2 Pin=C11-1
+Added Pin To Net: NetName=NetC7_2 Pin=C11-2
+Added Pin To Net: NetName=NetC10_2 Pin=C12-1
+Added Pin To Net: NetName=NetC7_1 Pin=C12-2
+Added Pin To Net: NetName=NetC13_1 Pin=C13-1
+Added Pin To Net: NetName=NetC13_2 Pin=C13-2
+Added Pin To Net: NetName=NetC13_2 Pin=C14-1
+Added Pin To Net: NetName=NetC13_1 Pin=C14-2
+Added Pin To Net: NetName=GND Pin=C15-1
+Added Pin To Net: NetName=+12 Pin=C15-2
+Added Pin To Net: NetName=NetC13_2 Pin=C16-1
+Added Pin To Net: NetName=NetC16_2 Pin=C16-2
+Added Pin To Net: NetName=NetC16_2 Pin=C17-1
+Added Pin To Net: NetName=NetC13_2 Pin=C17-2
+Added Pin To Net: NetName=NetC16_2 Pin=C18-1
+Added Pin To Net: NetName=NetC13_1 Pin=C18-2
+Added Pin To Net: NetName=GND Pin=C19-1
+Added Pin To Net: NetName=+12 Pin=C19-2
+Added Pin To Net: NetName=NetC16_2 Pin=C20-1
+Added Pin To Net: NetName=NetC13_1 Pin=C20-2
+Added Pin To Net: NetName=NetC13_2 Pin=J1-1
+Added Pin To Net: NetName=NetC13_2 Pin=J1-1
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-1
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-1
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=NetR1_1 Pin=R2-1
+Added Pin To Net: NetName=+12 Pin=R2-2
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetR1_1 Pin=R3-2
+Added Pin To Net: NetName=PWM_1 Pin=R4-1
+Added Pin To Net: NetName=NetR3_1 Pin=R4-2
+Added Pin To Net: NetName=NetR5_1 Pin=R5-1
+Added Pin To Net: NetName=NetR5_2 Pin=R5-2
+Added Pin To Net: NetName=NetR6_1 Pin=R6-1
+Added Pin To Net: NetName=NetR5_2 Pin=R6-2
+Added Pin To Net: NetName=NetR5_2 Pin=R7-1
+Added Pin To Net: NetName=NetC1_2 Pin=R7-2
+Added Pin To Net: NetName=GND Pin=R8-1
+Added Pin To Net: NetName=NetR8_2 Pin=R8-2
+Added Pin To Net: NetName=NetR9_1 Pin=R9-1
+Added Pin To Net: NetName=NetR9_2 Pin=R9-2
+Added Pin To Net: NetName=NetR9_1 Pin=R10-1
+Added Pin To Net: NetName=+12 Pin=R10-2
+Added Pin To Net: NetName=NetR11_1 Pin=R11-1
+Added Pin To Net: NetName=NetR9_1 Pin=R11-2
+Added Pin To Net: NetName=PWM_2 Pin=R12-1
+Added Pin To Net: NetName=NetR11_1 Pin=R12-2
+Added Pin To Net: NetName=NetR13_1 Pin=R13-1
+Added Pin To Net: NetName=NetR13_2 Pin=R13-2
+Added Pin To Net: NetName=NetR14_1 Pin=R14-1
+Added Pin To Net: NetName=NetR13_2 Pin=R14-2
+Added Pin To Net: NetName=NetR13_2 Pin=R15-1
+Added Pin To Net: NetName=NetC7_2 Pin=R15-2
+Added Pin To Net: NetName=GND Pin=R16-1
+Added Pin To Net: NetName=NetR16_2 Pin=R16-2
+Added Pin To Net: NetName=NetR17_1 Pin=R17-1
+Added Pin To Net: NetName=NetR17_2 Pin=R17-2
+Added Pin To Net: NetName=NetR17_1 Pin=R18-1
+Added Pin To Net: NetName=+12 Pin=R18-2
+Added Pin To Net: NetName=NetR19_1 Pin=R19-1
+Added Pin To Net: NetName=NetR17_1 Pin=R19-2
+Added Pin To Net: NetName=PWM_3 Pin=R20-1
+Added Pin To Net: NetName=NetR19_1 Pin=R20-2
+Added Pin To Net: NetName=NetR21_1 Pin=R21-1
+Added Pin To Net: NetName=NetR21_2 Pin=R21-2
+Added Pin To Net: NetName=NetR22_1 Pin=R22-1
+Added Pin To Net: NetName=NetR21_2 Pin=R22-2
+Added Pin To Net: NetName=NetR21_2 Pin=R23-1
+Added Pin To Net: NetName=NetC13_2 Pin=R23-2
+Added Pin To Net: NetName=GND Pin=R24-1
+Added Pin To Net: NetName=NetR24_2 Pin=R24-2
+Added Pin To Net: NetName=NetR25_1 Pin=R25-1
+Added Pin To Net: NetName=NetR25_2 Pin=R25-2
+Added Pin To Net: NetName=NetR25_1 Pin=R26-1
+Added Pin To Net: NetName=+12 Pin=R26-2
+Added Pin To Net: NetName=NetR27_1 Pin=R27-1
+Added Pin To Net: NetName=NetR25_1 Pin=R27-2
+Added Pin To Net: NetName=PWM_4 Pin=R28-1
+Added Pin To Net: NetName=NetR27_1 Pin=R28-2
+Added Pin To Net: NetName=NetR29_1 Pin=R29-1
+Added Pin To Net: NetName=NetR29_2 Pin=R29-2
+Added Pin To Net: NetName=NetR30_1 Pin=R30-1
+Added Pin To Net: NetName=NetR29_2 Pin=R30-2
+Added Pin To Net: NetName=NetR29_2 Pin=R31-1
+Added Pin To Net: NetName=NetC13_2 Pin=R31-2
+Added Pin To Net: NetName=GND Pin=R32-1
+Added Pin To Net: NetName=NetR32_2 Pin=R32-2
+Add Pin To Net: Unknown Pin: Pin T1-1
+Add Pin To Net: Unknown Pin: Pin T1-2
+Add Pin To Net: Unknown Pin: Pin T1-3
+Add Pin To Net: Unknown Pin: Pin T1-5
+Add Pin To Net: Unknown Pin: Pin T1-6
+Add Pin To Net: Unknown Pin: Pin T1-10
+Add Pin To Net: Unknown Pin: Pin T2-1
+Add Pin To Net: Unknown Pin: Pin T2-2
+Add Pin To Net: Unknown Pin: Pin T2-3
+Add Pin To Net: Unknown Pin: Pin T2-5
+Add Pin To Net: Unknown Pin: Pin T2-6
+Add Pin To Net: Unknown Pin: Pin T2-10
+Add Pin To Net: Unknown Pin: Pin T3-1
+Add Pin To Net: Unknown Pin: Pin T3-2
+Add Pin To Net: Unknown Pin: Pin T3-3
+Add Pin To Net: Unknown Pin: Pin T3-5
+Add Pin To Net: Unknown Pin: Pin T3-6
+Add Pin To Net: Unknown Pin: Pin T3-10
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=NetR1_2 Pin=U1-2
+Added Pin To Net: NetName=NetR8_2 Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=NetC4_2 Pin=U1-5
+Added Pin To Net: NetName=NetR5_1 Pin=U1-6
+Added Pin To Net: NetName=NetR5_1 Pin=U1-7
+Added Pin To Net: NetName=NetC1_1 Pin=U1-8
+Added Pin To Net: NetName=GND Pin=U2-1
+Added Pin To Net: NetName=NetR9_2 Pin=U2-2
+Added Pin To Net: NetName=NetR16_2 Pin=U2-3
+Added Pin To Net: NetName=GND Pin=U2-4
+Added Pin To Net: NetName=NetC10_2 Pin=U2-5
+Added Pin To Net: NetName=NetR13_1 Pin=U2-6
+Added Pin To Net: NetName=NetR13_1 Pin=U2-7
+Added Pin To Net: NetName=NetC7_1 Pin=U2-8
+Added Pin To Net: NetName=GND Pin=U3-1
+Added Pin To Net: NetName=NetR17_2 Pin=U3-2
+Added Pin To Net: NetName=NetR24_2 Pin=U3-3
+Added Pin To Net: NetName=GND Pin=U3-4
+Added Pin To Net: NetName=NetC16_2 Pin=U3-5
+Added Pin To Net: NetName=NetR21_1 Pin=U3-6
+Added Pin To Net: NetName=NetR21_1 Pin=U3-7
+Added Pin To Net: NetName=NetC13_1 Pin=U3-8
+Added Pin To Net: NetName=GND Pin=U4-1
+Added Pin To Net: NetName=NetR25_2 Pin=U4-2
+Added Pin To Net: NetName=NetR32_2 Pin=U4-3
+Added Pin To Net: NetName=GND Pin=U4-4
+Added Pin To Net: NetName=NetC16_2 Pin=U4-5
+Added Pin To Net: NetName=NetR29_1 Pin=U4-6
+Added Pin To Net: NetName=NetR29_1 Pin=U4-7
+Added Pin To Net: NetName=NetC13_1 Pin=U4-8
+Added Pin To Net: NetName=NetC1_1 Pin=VD1-1
+Added Pin To Net: NetName=NetT1_5 Pin=VD1-2
+Added Pin To Net: NetName=NetT1_10 Pin=VD2-1
+Added Pin To Net: NetName=NetVD2_2 Pin=VD2-2
+Added Pin To Net: NetName=NetC1_1 Pin=VD3-1
+Added Pin To Net: NetName=NetR5_1 Pin=VD3-2
+Added Pin To Net: NetName=NetR1_2 Pin=VD4-1
+Added Pin To Net: NetName=NetR8_2 Pin=VD4-2
+Added Pin To Net: NetName=NetR5_1 Pin=VD5-1
+Added Pin To Net: NetName=NetR6_1 Pin=VD5-2
+Added Pin To Net: NetName=PWM_1 Pin=VD6-1
+Added Pin To Net: NetName=GND Pin=VD6-2
+Added Pin To Net: NetName=NetT1_1 Pin=VD7-1
+Added Pin To Net: NetName=NetC4_2 Pin=VD7-2
+Added Pin To Net: NetName=NetC7_1 Pin=VD8-1
+Added Pin To Net: NetName=NetT2_5 Pin=VD8-2
+Added Pin To Net: NetName=NetT2_10 Pin=VD9-1
+Added Pin To Net: NetName=NetVD2_2 Pin=VD9-2
+Added Pin To Net: NetName=NetC7_1 Pin=VD10-1
+Added Pin To Net: NetName=NetR13_1 Pin=VD10-2
+Added Pin To Net: NetName=NetR9_2 Pin=VD11-1
+Added Pin To Net: NetName=NetR16_2 Pin=VD11-2
+Added Pin To Net: NetName=NetR13_1 Pin=VD12-1
+Added Pin To Net: NetName=NetR14_1 Pin=VD12-2
+Added Pin To Net: NetName=PWM_2 Pin=VD13-1
+Added Pin To Net: NetName=GND Pin=VD13-2
+Added Pin To Net: NetName=NetT2_1 Pin=VD14-1
+Added Pin To Net: NetName=NetC10_2 Pin=VD14-2
+Added Pin To Net: NetName=NetC13_1 Pin=VD15-1
+Added Pin To Net: NetName=NetT3_5 Pin=VD15-2
+Added Pin To Net: NetName=NetT3_10 Pin=VD16-1
+Added Pin To Net: NetName=NetVD2_2 Pin=VD16-2
+Added Pin To Net: NetName=NetC13_1 Pin=VD17-1
+Added Pin To Net: NetName=NetR21_1 Pin=VD17-2
+Added Pin To Net: NetName=NetR17_2 Pin=VD18-1
+Added Pin To Net: NetName=NetR24_2 Pin=VD18-2
+Added Pin To Net: NetName=NetR21_1 Pin=VD19-1
+Added Pin To Net: NetName=NetR22_1 Pin=VD19-2
+Added Pin To Net: NetName=PWM_3 Pin=VD20-1
+Added Pin To Net: NetName=GND Pin=VD20-2
+Added Pin To Net: NetName=NetT3_1 Pin=VD21-1
+Added Pin To Net: NetName=NetC16_2 Pin=VD21-2
+Added Pin To Net: NetName=NetC13_1 Pin=VD22-1
+Added Pin To Net: NetName=NetR29_1 Pin=VD22-2
+Added Pin To Net: NetName=NetR25_2 Pin=VD23-1
+Added Pin To Net: NetName=NetR32_2 Pin=VD23-2
+Added Pin To Net: NetName=NetR29_1 Pin=VD24-1
+Added Pin To Net: NetName=NetR30_1 Pin=VD24-2
+Added Pin To Net: NetName=PWM_4 Pin=VD25-1
+Added Pin To Net: NetName=GND Pin=VD25-2
+Added Pin To Net: NetName=NetR3_1 Pin=VT1-1
+Added Pin To Net: NetName=NetR1_2 Pin=VT1-2
+Added Pin To Net: NetName=NetR8_2 Pin=VT1-3
+Added Pin To Net: NetName=NetR5_2 Pin=VT2-1
+Added Pin To Net: NetName=NetJ2_1 Pin=VT2-2
+Added Pin To Net: NetName=NetC1_2 Pin=VT2-3
+Added Pin To Net: NetName=NetR11_1 Pin=VT3-1
+Added Pin To Net: NetName=NetR9_2 Pin=VT3-2
+Added Pin To Net: NetName=NetR16_2 Pin=VT3-3
+Added Pin To Net: NetName=NetR13_2 Pin=VT4-1
+Added Pin To Net: NetName=NetJ2_1 Pin=VT4-2
+Added Pin To Net: NetName=NetC7_2 Pin=VT4-3
+Added Pin To Net: NetName=NetR19_1 Pin=VT5-1
+Added Pin To Net: NetName=NetR17_2 Pin=VT5-2
+Added Pin To Net: NetName=NetR24_2 Pin=VT5-3
+Added Pin To Net: NetName=NetR21_2 Pin=VT6-1
+Added Pin To Net: NetName=NetC1_2 Pin=VT6-2
+Added Pin To Net: NetName=NetC13_2 Pin=VT6-3
+Added Pin To Net: NetName=NetR27_1 Pin=VT7-1
+Added Pin To Net: NetName=NetR25_2 Pin=VT7-2
+Added Pin To Net: NetName=NetR32_2 Pin=VT7-3
+Added Pin To Net: NetName=NetR29_2 Pin=VT8-1
+Added Pin To Net: NetName=NetC7_2 Pin=VT8-2
+Added Pin To Net: NetName=NetC13_2 Pin=VT8-3
+Added Pin To Net: NetName=SD_1 Pin=X1-1
+Added Pin To Net: NetName=+5V Pin=X1-2
+Added Pin To Net: NetName=+15V_2 Pin=X1-3
+Added Pin To Net: NetName=GND Pin=X1-4
+Added Pin To Net: NetName=+15V Pin=X2-1
+Added Pin To Net: NetName=BAT_GND Pin=X2-2
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component C1 47uF 16V
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component C2 100nF
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component C3 100nF
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component C4 22uF 16V
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component C5 100nF
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component C6 100nF
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component C7 47uF 16V
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component C8 100nF
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component C9 100nF
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component C10 22uF 16V
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component C11 100nF
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component C12 100nF
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component C13 47uF 16V
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component C14 100nF
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component C15 100nF
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component C16 22uF 16V
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component C17 100nF
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component C18 100nF
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component C19 100nF
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component C20 100nF
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component J1 MG_136_HT
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component J2 MG_136_HT
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R1 100
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R2 510
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R3 1K
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R4 510
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R5 27
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R6 27
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R7 3K3
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R8 220
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R9 100
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R10 510
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R11 1K
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R12 510
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R13 27
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R14 27
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R15 3K3
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R16 220
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R17 100
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R18 510
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R19 1K
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R20 510
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R21 27
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R22 27
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R23 3K3
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R24 220
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R25 100
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R26 510
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R27 1K
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R28 510
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R29 27
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R30 27
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R31 3K3
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component R32 220
+Add Class Member: Failed to add class member : Component T1 TRANS_EE16
+Add Class Member: Failed to add class member : Component T2 TRANS_EE16
+Add Class Member: Failed to add class member : Component T3 TRANS_EE16
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component U1 HCPL-3120
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component U2 HCPL-3120
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component U3 HCPL-3120
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component U4 HCPL-3120
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD1 RS1J
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD2 RS1J
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD3 1N4148
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD4 1N4148
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD5 1N4148
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD6 1N4148
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD7 RS1J
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD8 RS1J
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD9 RS1J
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD10 1N4148
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD11 1N4148
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD12 1N4148
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD13 1N4148
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD14 RS1J
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD15 RS1J
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD16 RS1J
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD17 1N4148
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD18 1N4148
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD19 1N4148
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD20 1N4148
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD21 RS1J
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD22 1N4148
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD23 1N4148
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD24 1N4148
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VD25 1N4148
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VT1 BC847
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VT2 YGW40N65F1
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VT3 BC847
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VT4 YGW40N65F1
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VT5 BC847
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VT6 YGW40N65F1
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VT7 BC847
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component VT8 YGW40N65F1
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component X1 CONN-4-PIN
+Added Member To Class: ClassName=Sinewave PWM controller Member=Component X2 CONN-2-PIN

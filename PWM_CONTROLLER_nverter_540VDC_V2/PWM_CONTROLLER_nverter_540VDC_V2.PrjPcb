@@ -83,6 +83,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YQEDCYZF
 
+[Document3]
+DocumentPath=..\..\..\..\Desktop\PWM_CONTROLLER_nverter_540VDC_V2.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Inverter_540VDC\Design Rule Check - Inverter_540VDC.html
 DItemRevisionGUID=

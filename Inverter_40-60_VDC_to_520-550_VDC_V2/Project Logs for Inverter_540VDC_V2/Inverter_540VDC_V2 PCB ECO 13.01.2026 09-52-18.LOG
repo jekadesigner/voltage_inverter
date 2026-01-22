@@ -1,0 +1,34 @@
+Change Footprint: Footprint Not Found RES_SMD_1210_IPC_B
+Change Footprint: Footprint Not Found RES_SMD_1210_IPC_B
+Change Footprint: Footprint Not Found SOT-23-5
+Change Footprint: Footprint Not Found SOT-23-5
+Change Footprint: Footprint Not Found Pin_Test_Point(Pink)
+Change Footprint: Footprint Not Found Pin_Test_Point(Pink)
+Add Component: Footprint Not Found PWM_X2_SG3525
+Add Pin To Net: Unknown Pin: Pin DA1-1
+Add Pin To Net: Unknown Pin: Pin DA1-2
+Add Pin To Net: Unknown Pin: Pin DA1-3
+Add Pin To Net: Unknown Pin: Pin DA1-4
+Add Pin To Net: Unknown Pin: Pin DA1-5
+Add Pin To Net: Unknown Pin: Pin DA1-6
+Add Pin To Net: Unknown Pin: Pin DA1-8
+Add Pin To Net: Unknown Pin: Pin DA1-9
+Add Pin To Net: Unknown Pin: Pin DA1-10
+Add Pin To Net: Unknown Pin: Pin DA1-11
+Add Pin To Net: Unknown Pin: Pin DA1-12
+Add Pin To Net: Unknown Pin: Pin DA1-13
+Add Pin To Net: Unknown Pin: Pin DA1-14
+Add Pin To Net: Unknown Pin: Pin DA1-15
+Add Pin To Net: Unknown Pin: Pin DA1-16
+Add Differential Pair: Number of nets in differential pair OUT1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair OUT2 is 1 instead of 2
+Add Class Member: Failed to add class member : Component DA1 PWM_X2_SG3525
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component R3 24OHM
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component R4 R008
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component R5 R008
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component R6 R008
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component R7 24OHM
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component VT2 YGW40N65F1
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component X11 CONN-2-PIN
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component X12 CONN-4-PIN
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component X13 CONN-2-PIN

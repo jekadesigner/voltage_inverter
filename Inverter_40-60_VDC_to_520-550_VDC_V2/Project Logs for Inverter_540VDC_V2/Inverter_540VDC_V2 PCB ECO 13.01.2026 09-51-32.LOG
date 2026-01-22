@@ -1,0 +1,188 @@
+Removed Pin From Net: NetName=+5V Pin=C50-1
+Removed Pin From Net: NetName=GND Pin=C50-2
+Removed Pin From Net: NetName=GND Pin=C52-1
+Removed Pin From Net: NetName=+5V Pin=C52-2
+Removed Pin From Net: NetName=EMITTER_CHRG_1 Pin=C57-1
+Removed Pin From Net: NetName=EMITTER_CHRG_1 Pin=C62-2
+Removed Pin From Net: NetName=GND Pin=C63-1
+Removed Pin From Net: NetName=GND Pin=C64-1
+Removed Pin From Net: NetName=EMITTER_LOAD_1 Pin=C69-1
+Removed Pin From Net: NetName=EMITTER_LOAD_1 Pin=C70-2
+Removed Pin From Net: NetName=+5V Pin=C71-1
+Removed Pin From Net: NetName=GND Pin=C71-2
+Removed Pin From Net: NetName=GND Pin=C74-2
+Removed Pin From Net: NetName=GND Pin=C75-1
+Removed Pin From Net: NetName=+5V Pin=C76-1
+Removed Pin From Net: NetName=GND Pin=C76-2
+Removed Pin From Net: NetName=GND Pin=C78-2
+Removed Pin From Net: NetName=GND Pin=C79-1
+Removed Pin From Net: NetName=PWM_CHRG_1 Pin=D1-2
+Removed Pin From Net: NetName=GND Pin=DD1-5
+Removed Pin From Net: NetName=+5V Pin=DD1-8
+Removed Pin From Net: NetName=GND Pin=DD2-5
+Removed Pin From Net: NetName=+5V Pin=DD2-8
+Removed Pin From Net: NetName=BAT_GND Pin=MOD_1-10
+Removed Pin From Net: NetName=BAT_GND Pin=MOD_1-11
+Removed Pin From Net: NetName=EMITTER_LOAD_1 Pin=R6-2
+Removed Pin From Net: NetName=PWM_CHRG_1 Pin=R67-1
+Removed Pin From Net: NetName=PWM_CHRG_1 Pin=R141-2
+Removed Pin From Net: NetName=PWM_CHRG_1 Pin=R141-2
+Removed Pin From Net: NetName=EMITTER_CHRG_1 Pin=R144-1
+Removed Pin From Net: NetName=PWM_CHRG_1 Pin=R144-2
+Removed Pin From Net: NetName=EMITTER_CHRG_1 Pin=R145-1
+Removed Pin From Net: NetName=EMITTER_CHRG_1 Pin=R145-1
+Removed Pin From Net: NetName=GND Pin=R156-1
+Removed Pin From Net: NetName=GND Pin=R157-1
+Removed Pin From Net: NetName=EMITTER_LOAD_1 Pin=R165-1
+Removed Pin From Net: NetName=EMITTER_LOAD_1 Pin=R166-1
+Removed Pin From Net: NetName=EMITTER_LOAD_1 Pin=R166-1
+Removed Pin From Net: NetName=PWM_CHRG_1 Pin=TP44-1
+Removed Pin From Net: NetName=EMITTER_CHRG_1 Pin=TP47-1
+Removed Pin From Net: NetName=EMITTER_LOAD_1 Pin=TP59-1
+Removed Pin From Net: NetName=+5V Pin=U7-3
+Removed Pin From Net: NetName=GND Pin=U7-4
+Removed Pin From Net: NetName=+5V Pin=U7-8
+Removed Pin From Net: NetName=PWM_CHRG_1 Pin=VD33-1
+Removed Pin From Net: NetName=EMITTER_CHRG_1 Pin=VD65-1
+Removed Pin From Net: NetName=PWM_CHRG_1 Pin=VD65-2
+Removed Pin From Net: NetName=EMITTER_CHRG_1 Pin=VD66-1
+Removed Pin From Net: NetName=EMITTER_LOAD_1 Pin=VD67-1
+Removed Pin From Net: NetName=EMITTER_LOAD_1 Pin=VD68-1
+Removed Pin From Net: NetName=EMITTER_LOAD_1 Pin=VT3-3
+Removed Pin From Net: NetName=BAT_GND Pin=X11-2
+Removed Pin From Net: NetName=GND Pin=X17-2
+Removed Pin From Net: NetName=GND Pin=X18-2
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C49
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C50
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C51
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C52
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C57
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C62
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C63
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C64
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C67
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C68
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C69
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C70
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C71
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C74
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C75
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C76
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C78
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=C79
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=D1
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=D2
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=DD1
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=DD2
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=MOD_1
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R141
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R144
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R145
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R156
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R157
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R164
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R165
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R166
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R168
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R171
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP43
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP44
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP47
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP56
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP57
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP58
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP59
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP60
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP61
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=TP62
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=U7
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD3
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD65
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD66
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD67
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD68
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT3
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=X17
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=X18
+Change Component Footprint: Designator=R4 Old Footprint=RES-0805 New Footprint=RES-3921
+Change Component Footprint: Designator=R5 Old Footprint=RES-0805 New Footprint=RES-3921
+Change Component Footprint: Designator=R6 Old Footprint=RES-0805 New Footprint=RES-3921
+Change Footprint: Footprint Not Found RES_SMD_1210_IPC_B
+Change Footprint: Footprint Not Found RES_SMD_1210_IPC_B
+Change Footprint: Footprint Not Found SOT-23-5
+Change Footprint: Footprint Not Found SOT-23-5
+Change Footprint: Footprint Not Found Pin_Test_Point(Pink)
+Change Footprint: Footprint Not Found Pin_Test_Point(Pink)
+Change Component Comment : Designator=R6 Old Comment=2K New Comment=R008
+Change Component Comment : Designator=R4 Old Comment=24OHM New Comment=R008
+Change Component Comment : Designator=R5 Old Comment=24OHM New Comment=R008
+Add Component: Footprint Not Found PWM_X2_SG3525
+Added Component: Designator=R3(RES-3921)
+Added Component: Designator=R4(RES-3921)
+Added Component: Designator=R5(RES-3921)
+Added Component: Designator=R6(RES-3921)
+Added Component: Designator=R7(RES-3921)
+Added Component: Designator=X11(XH2-)
+Added Component: Designator=X12(XH2-)
+Added Component: Designator=X13(XH2-)
+Added Pin To Net: NetName=VCC_HV Pin=C1-1
+Added Pin To Net: NetName=VCC_HV Pin=C18-1
+Add Pin To Net: Unknown Pin: Pin DA1-1
+Add Pin To Net: Unknown Pin: Pin DA1-2
+Add Pin To Net: Unknown Pin: Pin DA1-3
+Add Pin To Net: Unknown Pin: Pin DA1-4
+Add Pin To Net: Unknown Pin: Pin DA1-5
+Add Pin To Net: Unknown Pin: Pin DA1-6
+Add Pin To Net: Unknown Pin: Pin DA1-8
+Add Pin To Net: Unknown Pin: Pin DA1-9
+Add Pin To Net: Unknown Pin: Pin DA1-10
+Add Pin To Net: Unknown Pin: Pin DA1-11
+Add Pin To Net: Unknown Pin: Pin DA1-12
+Add Pin To Net: Unknown Pin: Pin DA1-13
+Add Pin To Net: Unknown Pin: Pin DA1-14
+Add Pin To Net: Unknown Pin: Pin DA1-15
+Add Pin To Net: Unknown Pin: Pin DA1-16
+Added Pin To Net: NetName=VCC_HV Pin=L1-2
+Added Pin To Net: NetName=VCC_HV Pin=L2-2
+Added Pin To Net: NetName=EMITTER_CHRG_1 Pin=R3-1
+Added Pin To Net: NetName=GND_HV_C1 Pin=R3-2
+Added Pin To Net: NetName=EMITTER_CHRG_1 Pin=R4-1
+Added Pin To Net: NetName=EMITTER_CHRG_1 Pin=R4-1
+Added Pin To Net: NetName=GND_HV_C1 Pin=R4-2
+Added Pin To Net: NetName=GND_HV_C2 Pin=R4-2
+Added Pin To Net: NetName=EMITTER_CHRG_1 Pin=R5-1
+Added Pin To Net: NetName=EMITTER_CHRG_1 Pin=R5-1
+Added Pin To Net: NetName=GND_HV_C1 Pin=R5-2
+Added Pin To Net: NetName=GND_HV_C2 Pin=R5-2
+Added Pin To Net: NetName=EMITTER_CHRG_1 Pin=R6-1
+Added Pin To Net: NetName=EMITTER_CHRG_1 Pin=R6-1
+Added Pin To Net: NetName=GND_HV_C1 Pin=R6-2
+Added Pin To Net: NetName=GND_HV_C2 Pin=R6-2
+Added Pin To Net: NetName=EMITTER_CHRG_1 Pin=R7-1
+Added Pin To Net: NetName=GND_HV_C2 Pin=R7-2
+Added Pin To Net: NetName=VCC_HV Pin=VD2-1
+Added Pin To Net: NetName=VCC_HV Pin=VD34-1
+Added Pin To Net: NetName=EMITTER_CHRG_1 Pin=X11-1
+Added Pin To Net: NetName=EMITTER_CHRG_1 Pin=X11-1
+Added Pin To Net: NetName=GND_HV_C1 Pin=X11-2
+Added Pin To Net: NetName=GND_HV_C2 Pin=X11-2
+Added Pin To Net: NetName=EMITTER_CHRG_1 Pin=X12-1
+Added Pin To Net: NetName=PWM_CHRG_1 Pin=X12-2
+Added Pin To Net: NetName=EMITTER_CHRG_1 Pin=X13-1
+Change Net Name : Old Net Name=EMITTER_LOAD_1 New Net Name=VCC_HV_OUT
+Added Pin To Net: NetName=PWM_CHRG_2 Pin=R67-1
+Added Pin To Net: NetName=PWM_CHRG_2 Pin=VD33-1
+Added Pin To Net: NetName=PWM_CHRG_2 Pin=X13-2
+Added Net: Name=PWM_CHRG_2
+Add Differential Pair: Number of nets in differential pair OUT1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair OUT2 is 1 instead of 2
+Add Class Member: Failed to add class member : Component DA1 PWM_X2_SG3525
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component R3 24OHM
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component R4 R008
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component R5 R008
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component R6 R008
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component R7 24OHM
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component VT2 YGW40N65F1
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component X11 CONN-2-PIN
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component X12 CONN-4-PIN
+Added Member To Class: ClassName=Inverter_540VDC_V2 Member=Component X13 CONN-2-PIN

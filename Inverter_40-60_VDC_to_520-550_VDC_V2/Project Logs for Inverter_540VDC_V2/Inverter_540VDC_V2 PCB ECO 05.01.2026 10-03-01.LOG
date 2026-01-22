@@ -1,0 +1,59 @@
+Removed Pin From Net: NetName=EMITTER_LOAD_1 Pin=L1-1
+Removed Pin From Net: NetName=EMITTER_LOAD_1 Pin=L2-1
+Removed Pin From Net: NetName=PWM_LOAD_1 Pin=R70-1
+Removed Pin From Net: NetName=EMITTER_LOAD_1 Pin=R72-2
+Removed Pin From Net: NetName=EMITTER_LOAD_1 Pin=VD4-1
+Removed Pin From Net: NetName=GND_HV Pin=VD4-3
+Removed Pin From Net: NetName=PWM_LOAD_1 Pin=VD35-1
+Removed Pin From Net: NetName=EMITTER_LOAD_1 Pin=VD36-1
+Removed Pin From Net: NetName=GND_HV Pin=VD36-3
+Removed Pin From Net: NetName=VCC_HV_1 Pin=VT3-2
+Removed Pin From Net: NetName=VCC_HV_2 Pin=VT34-2
+Removed Pin From Net: NetName=EMITTER_LOAD_1 Pin=VT34-3
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R70
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R71
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=R72
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD4
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD35
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VD36
+Removed Member From Class: ClassName=Inverter_540VDC_V2 Member=VT34
+Change Footprint: Footprint Not Found CAP_SMD_Size_E
+Change Footprint: Footprint Not Found CAP_SMD_Size_E
+Change Footprint: Footprint Not Found DO-214AA
+Change Footprint: Footprint Not Found DO-214AA
+Change Footprint: Footprint Not Found US1G_SMA
+Change Footprint: Footprint Not Found US1G_SMA
+Change Footprint: Footprint Not Found RES_SMD_1210_IPC_B
+Change Footprint: Footprint Not Found RES_SMD_1210_IPC_B
+Change Footprint: Footprint Not Found SOT-23-5
+Change Footprint: Footprint Not Found SOT-23-5
+Change Footprint: Footprint Not Found Pin_Test_Point(Pink)
+Change Footprint: Footprint Not Found Pin_Test_Point(Pink)
+Change Component Comment : Designator=L1 Old Comment=220uH New Comment=120uH
+Change Component Comment : Designator=L2 Old Comment=220uH New Comment=120uH
+Add Component: Footprint Not Found PWM_X2_SG3525
+Add Pin To Net: Unknown Pin: Pin DA1-1
+Add Pin To Net: Unknown Pin: Pin DA1-2
+Add Pin To Net: Unknown Pin: Pin DA1-3
+Add Pin To Net: Unknown Pin: Pin DA1-4
+Add Pin To Net: Unknown Pin: Pin DA1-5
+Add Pin To Net: Unknown Pin: Pin DA1-6
+Add Pin To Net: Unknown Pin: Pin DA1-8
+Add Pin To Net: Unknown Pin: Pin DA1-9
+Add Pin To Net: Unknown Pin: Pin DA1-10
+Add Pin To Net: Unknown Pin: Pin DA1-11
+Add Pin To Net: Unknown Pin: Pin DA1-12
+Add Pin To Net: Unknown Pin: Pin DA1-13
+Add Pin To Net: Unknown Pin: Pin DA1-14
+Add Pin To Net: Unknown Pin: Pin DA1-15
+Add Pin To Net: Unknown Pin: Pin DA1-16
+Added Pin To Net: NetName=EMITTER_LOAD_1 Pin=J1-1
+Added Pin To Net: NetName=EMITTER_LOAD_1 Pin=J1-1
+Added Pin To Net: NetName=VCC_HV_1 Pin=L1-1
+Added Pin To Net: NetName=VCC_HV_2 Pin=L2-1
+Added Pin To Net: NetName=EMITTER_LOAD_1 Pin=R133-2
+Added Pin To Net: NetName=EMITTER_LOAD_1 Pin=U3-5
+Added Pin To Net: NetName=VCC_HV_0 Pin=VT3-2
+Add Differential Pair: Number of nets in differential pair OUT1 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair OUT2 is 1 instead of 2
+Add Class Member: Failed to add class member : Component DA1 PWM_X2_SG3525
